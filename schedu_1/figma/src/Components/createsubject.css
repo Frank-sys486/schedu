@@ -1,0 +1,685 @@
+
+.createsubject_createsubject {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.createsubject_createsubject .Rectangle59 {
+	position: absolute;
+	left: 84.87px;
+	top: 1129.1399999999999px;
+	width: 1287.81px;
+	height: 125.46px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 7.38px;
+}
+.createsubject_createsubject .Rectangle71 {
+	position: absolute;
+	left: 81.17999999999999px;
+	top: 1276.74px;
+	width: 369px;
+	height: 125.46px;
+	background: rgba(251,251,251,1.00);
+	border-radius: 7.38px;
+}
+.createsubject_createsubject .Rectangle72 {
+	position: absolute;
+	left: 483.39px;
+	top: 1276.74px;
+	width: 892.98px;
+	height: 125.46px;
+	background: rgba(251,251,251,1.00);
+	border-radius: 7.38px;
+}
+.createsubject_createsubject .ios {
+	position: absolute;
+	left: -18.45px;
+	top: 0px;
+	width: 1476px;
+	height: 3114.36px;
+}
+.createsubject_createsubject .ios .HomeIndicator {
+	position: absolute;
+	left: 0px;
+	top: 2988.9px;
+	width: 1476px;
+	height: 125.46px;
+}
+.createsubject_createsubject .ios .HomeIndicator .HomeIndicator_1 {
+	position: absolute;
+	left: 184.5%;
+	bottom: 29.52px;
+	transform: translate(-50%, 0);
+	width: 531.36px;
+	height: 18.45px;
+	background: rgba(0,0,0,1.00);
+	border-radius: 369px;
+}
+.createsubject_createsubject .ios .StatusbariPhone {
+	position: absolute;
+	left: 18.45px;
+	top: 0px;
+	width: 1439.1px;
+	height: 177.12px;
+}
+.createsubject_createsubject .ios .StatusbariPhone .Time {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 7.38px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.createsubject_createsubject .ios .StatusbariPhone .Time .Time_1 {
+	position: relative;
+	flex: none;
+	margin-right: 36.9px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: SF Pro;
+	font-size: 62.73px;
+	font-weight: 590;
+	line-height: 81.17999999999999px;
+}
+.createsubject_createsubject .ios .StatusbariPhone .Levels {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 3.69px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.createsubject_createsubject .ios .StatusbariPhone .Levels .CellularConnection {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 70.84800281524659px;
+	height: 45.11547369003296px;
+}
+.createsubject_createsubject .ios .StatusbariPhone .Levels .Wifi {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 63.252749061584474px;
+	height: 45.49144987106323px;
+}
+.createsubject_createsubject .ios .StatusbariPhone .Levels .Battery {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 100.84045749664307px;
+	height: 47.97px;
+}
+.createsubject_createsubject .ios .StatusbariPhone .Levels .Battery .Border {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 0px;
+	transform: translate(-50%, 0);
+	width: 92.25px;
+	height: 100%;
+	mix-blend-mode: normal;
+	border-radius: 15.867000703811645px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.createsubject_createsubject .ios .StatusbariPhone .Levels .Battery .Cap {
+	position: absolute;
+	left: 360.03401607225885%;
+	top: 17.642812499999998px;
+	transform: translate(-50%, 0);
+	width: 4.900460135936737px;
+	height: 31.349783677321213%;
+	mix-blend-mode: normal;
+}
+.createsubject_createsubject .ios .StatusbariPhone .Levels .Battery .Capacity {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 7.38px;
+	transform: translate(-50%, 0);
+	width: 77.49px;
+	height: 69.23076923076923%;
+	background: rgba(0,0,0,1.00);
+	border-radius: 9.225px;
+}
+.createsubject_createsubject .Group3 {
+	position: absolute;
+	left: 0px;
+	top: 2712.15px;
+	width: 1439.1px;
+	height: 446.49px;
+}
+.createsubject_createsubject .Group3 .Rectangle10 {
+	position: absolute;
+	left: 0px;
+	top: 3.69px;
+	width: 1439.1px;
+	height: 442.8px;
+	background: rgba(255,255,255,1.00);
+}
+.createsubject_createsubject .Group3 .nav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1439.1px;
+	height: 250.92px;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList {
+	position: absolute;
+	left: 36.9px;
+	top: 29.52px;
+	width: 1361.61px;
+	height: 221.4px;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton .Home {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton .Home .Icon {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton .Label {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 147.6px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_1 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar .Icon_1 {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_1 .Label_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 228.78px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_2 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus .Icon_2 {
+	position: absolute;
+	left: 18.45px;
+	top: 18.45px;
+	width: 58.333333333333336%;
+	height: 58.333333333333336%;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_2 .Label_2 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 169.74px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(44,44,44,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_3 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen .Icon_3 {
+	position: absolute;
+	left: 7.38px;
+	top: 11.07px;
+	width: 83.33333333333334%;
+	height: 75%;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_3 .Label_3 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 177.12px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_4 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark .Icon_4 {
+	position: absolute;
+	left: 18.45px;
+	top: 11.07px;
+	width: 58.333333333333336%;
+	height: 75%;
+}
+.createsubject_createsubject .Group3 .nav .NavigationButtonList .NavigationButton_4 .Label_4 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 136.53px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.createsubject_createsubject .Group3 .nav .Line4 {
+	position: absolute;
+	left: 0px;
+	top: 1.5516294297412968e-7px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.createsubject_createsubject .header {
+	position: absolute;
+	left: 0px;
+	top: 214.02px;
+	width: 1439.1px;
+	height: 199.26px;
+}
+.createsubject_createsubject .header .ford22 {
+	position: absolute;
+	left: 59.04px;
+	top: 0px;
+	width: 143.91px;
+	height: 143.91px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.createsubject_createsubject .header .FORADI {
+	position: absolute;
+	left: 214.02px;
+	top: 33.21px;
+	width: 442.8px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 121.77px;
+	font-weight: 300;
+	line-height: 81.17999999999999px;
+}
+.createsubject_createsubject .header .Line5 {
+	position: absolute;
+	left: 0px;
+	top: 195.57000015516294px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.createsubject_createsubject .User {
+	position: absolute;
+	left: 1273.05px;
+	top: 232.47px;
+	width: 103.32px;
+	height: 110.7px;
+}
+.createsubject_createsubject .User .Icon_5 {
+	position: absolute;
+	left: 17.22030029296875px;
+	top: 13.8375px;
+	width: 66.66666439601353%;
+	height: 75%;
+}
+.createsubject_createsubject .CreateSubject {
+	position: absolute;
+	left: 125.46px;
+	top: 483.39px;
+	width: 453.87px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 62.73px;
+	font-weight: 600;
+	line-height: 81.17999999999999px;
+}
+.createsubject_createsubject .Title {
+	position: absolute;
+	left: 638.37px;
+	top: 1151.28px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 62.73px;
+	font-weight: 600;
+	line-height: 81.17999999999999px;
+}
+.createsubject_createsubject .SubjectCode {
+	position: absolute;
+	left: 121.77px;
+	top: 1298.8799999999999px;
+	width: 284.13px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createsubject_createsubject .AcademicInstitution {
+	position: absolute;
+	left: 719.55px;
+	top: 1298.8799999999999px;
+	width: 428.04px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createsubject_createsubject .Rectangle58 {
+	position: absolute;
+	left: 62.73px;
+	top: 708.48px;
+	width: 1309.95px;
+	height: 391.14px;
+	background: rgba(251,251,251,1.00);
+	border-radius: 7.38px;
+}
+.createsubject_createsubject .Image {
+	position: absolute;
+	left: 630.99px;
+	top: 815.49px;
+	width: 177.12px;
+	height: 177.12px;
+}
+.createsubject_createsubject .Image .Icon_6 {
+	position: absolute;
+	left: 22.14px;
+	top: 22.14px;
+	width: 75%;
+	height: 75%;
+}
+.createsubject_createsubject .Check {
+	position: absolute;
+	left: 1273.05px;
+	top: 483.39px;
+	width: 92.25px;
+	height: 92.25px;
+}
+.createsubject_createsubject .Check .Icon_7 {
+	position: absolute;
+	left: 15.375300292968749px;
+	top: 23.0625px;
+	width: 66.66666412353516%;
+	height: 45.83333206176758%;
+}
+.createsubject_createsubject .Ellipse3 {
+	position: absolute;
+	left: 95.94px;
+	top: 955.71px;
+	width: 118.08px;
+	height: 118.08px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 50%;
+}
+.createsubject_createsubject .Hexagon {
+	position: absolute;
+	left: 125.46px;
+	top: 985.23px;
+	width: 59.04px;
+	height: 59.04px;
+}
+.createsubject_createsubject .Hexagon .Icon_8 {
+	position: absolute;
+	left: 7.38px;
+	top: 4.9242041015625px;
+	width: 75%;
+	height: 83.31624269485474%;
+}
+.createsubject_createsubject .Overview {
+	position: absolute;
+	left: 73.8px;
+	top: 597.78px;
+	width: 199.26px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createsubject_createsubject .icon {
+	position: absolute;
+	left: 17.2193994140625px;
+	top: 35.3631005859375px;
+	width: 1.7094016686463969%;
+	height: 0.5677330550424295%;
+}
+.createsubject_createsubject .arrow_drop_down {
+	position: absolute;
+	left: 36.90015849508345px;
+	top: 494.45973149826284px;
+	width: 85.24821064554155px;
+	height: 59.5849800057197px;
+}
+.createsubject_createsubject .arrow_drop_down .icon_1 {
+	position: absolute;
+	left: 31.935999956373255px;
+	top: 17.424787152611724px;
+	width: 20.926190405148727%;
+	height: 41.47569154166184%;
+}
+.createsubject_createsubject .Line34 {
+	position: absolute;
+	left: 70.11px;
+	top: 1490.76px;
+	width: 1298.8799999999999px;
+	height: 0px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.createsubject_createsubject .UploadCurriculum {
+	position: absolute;
+	left: 70.11px;
+	top: 1535.04px;
+	width: 627.3px;
+	height: 81.17999999999999px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createsubject_createsubject .Rectangle105 {
+	position: absolute;
+	left: 542.43px;
+	top: 1656.81px;
+	width: 191.88px;
+	height: 188.19px;
+	background: rgba(251,251,251,1.00);
+	border-radius: 62.73px;
+}
+.createsubject_createsubject .T {
+	position: absolute;
+	left: 601.47px;
+	top: 1712.16px;
+	width: 70.11px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inknut Antiqua;
+	font-size: 81.17999999999999px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createsubject_createsubject .Rectangle107 {
+	position: absolute;
+	left: 538.74px;
+	top: 2099.61px;
+	width: 191.88px;
+	height: 188.19px;
+	background: rgba(251,251,251,1.00);
+	border-radius: 62.73px;
+}
+.createsubject_createsubject .Rectangle106 {
+	position: absolute;
+	left: 538.74px;
+	top: 1878.21px;
+	width: 191.88px;
+	height: 188.19px;
+	background: rgba(251,251,251,1.00);
+	border-radius: 62.73px;
+}
+.createsubject_createsubject .Image_1 {
+	position: absolute;
+	left: 586.71px;
+	top: 1922.49px;
+	width: 99.63px;
+	height: 99.63px;
+}
+.createsubject_createsubject .Image_1 .Icon_9 {
+	position: absolute;
+	left: 12.45375px;
+	top: 12.45375px;
+	width: 75%;
+	height: 75%;
+}
+.createsubject_createsubject .File {
+	position: absolute;
+	left: 590.4px;
+	top: 2147.58px;
+	width: 92.25px;
+	height: 92.25px;
+}
+.createsubject_createsubject .File .Icon_10 {
+	position: absolute;
+	left: 15.375300292968749px;
+	top: 7.6881005859375px;
+	width: 66.66666412353516%;
+	height: 83.33332824707031%;
+}
+.createsubject_createsubject .Rectangle108 {
+	position: absolute;
+	left: 70.11px;
+	top: 1675.26px;
+	width: 405.9px;
+	height: 594.09px;
+	background: rgba(251,251,251,1.00);
+	border-radius: 25.83px;
+}

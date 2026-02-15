@@ -1,0 +1,832 @@
+
+.plans_plans {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.plans_plans .Rectangle41 {
+	position: absolute;
+	left: 99.63px;
+	top: 2656.8px;
+	width: 1195.56px;
+	height: 59.04px;
+	background: rgba(113,113,113,1.00);
+	border-radius: 22.14px;
+}
+.plans_plans .Grade9Curie {
+	position: absolute;
+	left: 140.22px;
+	top: 2686.32px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.plans_plans .ios {
+	position: absolute;
+	left: -18.45px;
+	top: 0px;
+	width: 1476px;
+	height: 3114.36px;
+}
+.plans_plans .ios .HomeIndicator {
+	position: absolute;
+	left: 0px;
+	top: 2988.9px;
+	width: 1476px;
+	height: 125.46px;
+}
+.plans_plans .ios .HomeIndicator .HomeIndicator_1 {
+	position: absolute;
+	left: 184.5%;
+	bottom: 29.52px;
+	transform: translate(-50%, 0);
+	width: 531.36px;
+	height: 18.45px;
+	background: rgba(0,0,0,1.00);
+	border-radius: 369px;
+}
+.plans_plans .ios .StatusbariPhone {
+	position: absolute;
+	left: 18.45px;
+	top: 0px;
+	width: 1439.1px;
+	height: 177.12px;
+}
+.plans_plans .ios .StatusbariPhone .Time {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 7.38px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.plans_plans .ios .StatusbariPhone .Time .Time_1 {
+	position: relative;
+	flex: none;
+	margin-right: 36.9px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: SF Pro;
+	font-size: 62.73px;
+	font-weight: 590;
+	line-height: 81.17999999999999px;
+}
+.plans_plans .ios .StatusbariPhone .Levels {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 3.69px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.plans_plans .ios .StatusbariPhone .Levels .CellularConnection {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 70.84800281524659px;
+	height: 45.11547369003296px;
+}
+.plans_plans .ios .StatusbariPhone .Levels .Wifi {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 63.252749061584474px;
+	height: 45.49144987106323px;
+}
+.plans_plans .ios .StatusbariPhone .Levels .Battery {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 100.84045749664307px;
+	height: 47.97px;
+}
+.plans_plans .ios .StatusbariPhone .Levels .Battery .Border {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 0px;
+	transform: translate(-50%, 0);
+	width: 92.25px;
+	height: 100%;
+	mix-blend-mode: normal;
+	border-radius: 15.867000703811645px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.plans_plans .ios .StatusbariPhone .Levels .Battery .Cap {
+	position: absolute;
+	left: 360.03401607225885%;
+	top: 17.642362060546876px;
+	transform: translate(-50%, 0);
+	width: 4.900460135936737px;
+	height: 31.349783677321213%;
+	mix-blend-mode: normal;
+}
+.plans_plans .ios .StatusbariPhone .Levels .Battery .Capacity {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 7.38px;
+	transform: translate(-50%, 0);
+	width: 77.49px;
+	height: 69.23076923076923%;
+	background: rgba(0,0,0,1.00);
+	border-radius: 9.225px;
+}
+.plans_plans .nav {
+	position: absolute;
+	left: 0px;
+	top: 2712.15px;
+	width: 1439.1px;
+	height: 250.92px;
+}
+.plans_plans .nav .NavigationButtonList {
+	position: absolute;
+	left: 36.9px;
+	top: 29.52px;
+	width: 1361.61px;
+	height: 221.4px;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton .Home {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton .Home .Icon {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton .Label {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 147.6px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_1 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_1 .Calendar {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_1 .Calendar .Icon_1 {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_1 .Label_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 228.78px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_2 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_2 .Plus {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_2 .Plus .Icon_2 {
+	position: absolute;
+	left: 18.45px;
+	top: 18.45px;
+	width: 58.333333333333336%;
+	height: 58.333333333333336%;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_2 .Label_2 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 169.74px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_3 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_3 .Bookopen {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_3 .Bookopen .Icon_3 {
+	position: absolute;
+	left: 7.38px;
+	top: 11.07px;
+	width: 83.33333333333334%;
+	height: 75%;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_3 .Label_3 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 177.12px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_4 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_4 .Bookmark {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_4 .Bookmark .Icon_4 {
+	position: absolute;
+	left: 18.45px;
+	top: 11.07px;
+	width: 58.333333333333336%;
+	height: 75%;
+}
+.plans_plans .nav .NavigationButtonList .NavigationButton_4 .Label_4 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 136.53px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(44,44,44,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.plans_plans .nav .Line4 {
+	position: absolute;
+	left: 0px;
+	top: 1.551621039652673e-7px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837896px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.plans_plans .header {
+	position: absolute;
+	left: 0px;
+	top: 214.02px;
+	width: 1439.1px;
+	height: 199.26px;
+}
+.plans_plans .header .ford22 {
+	position: absolute;
+	left: 59.04px;
+	top: 0px;
+	width: 143.91px;
+	height: 143.91px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.plans_plans .header .Line5 {
+	position: absolute;
+	left: 0px;
+	top: 195.5700001551621px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837896px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.plans_plans .Plans {
+	position: absolute;
+	left: 99.63px;
+	top: 483.39px;
+	width: 166.05px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 62.73px;
+	font-weight: 600;
+	line-height: 81.17999999999999px;
+}
+.plans_plans .Plans_1 {
+	position: absolute;
+	left: 99.63px;
+	top: 483.39px;
+	width: 166.05px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 62.73px;
+	font-weight: 600;
+	line-height: 81.17999999999999px;
+}
+.plans_plans .Sliders {
+	position: absolute;
+	left: 1247.22px;
+	top: 487.08px;
+	width: 81.17999999999999px;
+	height: 81.17999999999999px;
+}
+.plans_plans .Sliders .Icon_5 {
+	position: absolute;
+	left: 3.382349853515625px;
+	top: 10.147499999999999px;
+	width: 91.66667244651101%;
+	height: 75%;
+}
+.plans_plans .Line26 {
+	position: absolute;
+	left: 317.34px;
+	top: 527.6699374175261px;
+	width: 715.86px;
+	height: 0.0000625824739768177px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.plans_plans .Line27 {
+	position: absolute;
+	left: 317.34px;
+	top: 527.6699374175261px;
+	width: 715.86px;
+	height: 0.0000625824739768177px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.plans_plans .Line28 {
+	position: absolute;
+	left: 317.34px;
+	top: 527.6699374175261px;
+	width: 715.86px;
+	height: 0.0000625824739768177px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.plans_plans .Line29 {
+	position: absolute;
+	left: 317.34px;
+	top: 527.6699374175261px;
+	width: 715.86px;
+	height: 0.0000625824739768177px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.plans_plans .Line30 {
+	position: absolute;
+	left: 317.34px;
+	top: 527.6699374175261px;
+	width: 715.86px;
+	height: 0.0000625824739768177px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.plans_plans .Line31 {
+	position: absolute;
+	left: 435.42px;
+	top: 2188.169947740408px;
+	width: 597.78px;
+	height: 0.000052259591680012814px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.plans_plans .Rectangle33 {
+	position: absolute;
+	left: 99.63px;
+	top: 697.41px;
+	width: 1195.56px;
+	height: 247.23px;
+	background: rgba(254,118,168,1.00);
+	border-radius: 22.14px;
+}
+.plans_plans .Rectangle34 {
+	position: absolute;
+	left: 99.63px;
+	top: 977.85px;
+	width: 1195.56px;
+	height: 247.23px;
+	background: rgba(254,118,168,1.00);
+	border-radius: 22.14px;
+}
+.plans_plans .Rectangle35 {
+	position: absolute;
+	left: 99.63px;
+	top: 1258.29px;
+	width: 1195.56px;
+	height: 247.23px;
+	background: rgba(82,144,217,1.00);
+	border-radius: 22.14px;
+}
+.plans_plans .Rectangle36 {
+	position: absolute;
+	left: 99.63px;
+	top: 1538.73px;
+	width: 1195.56px;
+	height: 247.23px;
+	background: rgba(122,149,180,1.00);
+	border-radius: 22.14px;
+}
+.plans_plans .Rectangle37 {
+	position: absolute;
+	left: 99.63px;
+	top: 1819.17px;
+	width: 1195.56px;
+	height: 247.23px;
+	background: rgba(82,144,217,1.00);
+	border-radius: 22.14px;
+}
+.plans_plans .Rectangle38 {
+	position: absolute;
+	left: 99.63px;
+	top: 1819.17px;
+	width: 1195.56px;
+	height: 247.23px;
+	background: rgba(122,149,180,1.00);
+	border-radius: 22.14px;
+}
+.plans_plans .Current {
+	position: absolute;
+	left: 99.63px;
+	top: 597.78px;
+	width: 173.43px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 47.97px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.plans_plans .arrow_drop_down {
+	position: absolute;
+	left: 287.82px;
+	top: 597.78px;
+	width: 59.04px;
+	height: 84.87px;
+}
+.plans_plans .arrow_drop_down .icon {
+	position: absolute;
+	left: 17.219849853515626px;
+	top: 35.36265014648438px;
+	width: 41.66666567325592%;
+	height: 20.83333264226499%;
+}
+.plans_plans .Current_1 {
+	position: absolute;
+	left: 99.63px;
+	top: 2254.59px;
+	width: 173.43px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 47.97px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.plans_plans .arrow_drop_down_1 {
+	position: absolute;
+	left: 287.82px;
+	top: 2254.59px;
+	width: 59.04px;
+	height: 84.87px;
+}
+.plans_plans .arrow_drop_down_1 .icon_1 {
+	position: absolute;
+	left: 17.219849853515626px;
+	top: 35.36265014648438px;
+	width: 41.66666567325592%;
+	height: 20.83333264226499%;
+}
+.plans_plans .MAT10 {
+	position: absolute;
+	left: 158.67px;
+	top: 752.76px;
+	width: 424.34999999999997px;
+	height: 73.8px;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 82.6559985923767px;
+}
+.plans_plans .Grade10Einstein {
+	position: absolute;
+	left: 158.67px;
+	top: 826.56px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.plans_plans .Rectangle39 {
+	position: absolute;
+	left: 103.32px;
+	top: 2365.29px;
+	width: 1195.56px;
+	height: 114.39px;
+	background: rgba(113,113,113,1.00);
+	border-radius: 22.14px;
+}
+.plans_plans .Grade8Tesla {
+	position: absolute;
+	left: 143.91px;
+	top: 2394.81px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.plans_plans .Rectangle40 {
+	position: absolute;
+	left: 103.32px;
+	top: 2512.89px;
+	width: 1195.56px;
+	height: 114.39px;
+	background: rgba(113,113,113,1.00);
+	border-radius: 22.14px;
+}
+.plans_plans .Grade9Bohr {
+	position: absolute;
+	left: 143.91px;
+	top: 2542.41px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.plans_plans .MAT10_1 {
+	position: absolute;
+	left: 162.35999999999999px;
+	top: 1036.8899999999999px;
+	width: 424.34999999999997px;
+	height: 73.8px;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 82.6559985923767px;
+}
+.plans_plans .Grade10Newton {
+	position: absolute;
+	left: 162.35999999999999px;
+	top: 1110.69px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.plans_plans .SCI8 {
+	position: absolute;
+	left: 162.35999999999999px;
+	top: 1317.33px;
+	width: 424.34999999999997px;
+	height: 73.8px;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 82.6559985923767px;
+}
+.plans_plans .Grade8Tesla_1 {
+	position: absolute;
+	left: 162.35999999999999px;
+	top: 1391.1299999999999px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.plans_plans .SCI9 {
+	position: absolute;
+	left: 158.67px;
+	top: 1597.77px;
+	width: 424.34999999999997px;
+	height: 73.8px;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 82.6559985923767px;
+}
+.plans_plans .Grade9Bohr_1 {
+	position: absolute;
+	left: 158.67px;
+	top: 1671.57px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.plans_plans .SCI9_1 {
+	position: absolute;
+	left: 162.35999999999999px;
+	top: 1878.21px;
+	width: 424.34999999999997px;
+	height: 73.8px;
+	color: rgba(255,255,255,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 82.6559985923767px;
+}
+.plans_plans .Grade9Curie_1 {
+	position: absolute;
+	left: 162.35999999999999px;
+	top: 1952.01px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.plans_plans .Plus_1 {
+	position: absolute;
+	left: 1084.86px;
+	top: 472.32px;
+	width: 107.01px;
+	height: 107.01px;
+}
+.plans_plans .Plus_1 .Icon_6 {
+	position: absolute;
+	left: 22.293599853515623px;
+	top: 22.293599853515623px;
+	width: 58.333331140978586%;
+	height: 58.333331140978586%;
+}
+.plans_plans .Sections {
+	position: absolute;
+	left: 95.94px;
+	top: 2147.58px;
+	width: 265.68px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 62.73px;
+	font-weight: 600;
+	line-height: 81.17999999999999px;
+}
+.plans_plans .Sliders_1 {
+	position: absolute;
+	left: 1258.29px;
+	top: 2151.27px;
+	width: 81.17999999999999px;
+	height: 81.17999999999999px;
+}
+.plans_plans .Sliders_1 .Icon_7 {
+	position: absolute;
+	left: 3.382349853515625px;
+	top: 10.147499999999999px;
+	width: 91.66667244651101%;
+	height: 75%;
+}
+.plans_plans .Plus_2 {
+	position: absolute;
+	left: 1095.93px;
+	top: 2136.5099999999998px;
+	width: 107.01px;
+	height: 107.01px;
+}
+.plans_plans .Plus_2 .Icon_8 {
+	position: absolute;
+	left: 22.293599853515623px;
+	top: 22.293599853515623px;
+	width: 58.333331140978586%;
+	height: 58.333331140978586%;
+}
+.plans_plans .S11 {
+	position: absolute;
+	left: 66.42px;
+	top: 214.02px;
+	width: 132.84px;
+	height: 132.84px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.plans_plans .SCHEDU {
+	position: absolute;
+	left: 221.4px;
+	top: 239.85px;
+	width: 505.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 121.77px;
+	font-weight: 300;
+	line-height: 81.17999999999999px;
+}

@@ -1,0 +1,13 @@
+
+.SizeiPhone16Proand16Max_SizeiPhone16Proand16Max {
+	width: 402px;
+	height: 62px;
+	display: flex;
+	padding-top: 21px;
+	padding-right: 16px;
+	padding-bottom: 19px;
+	padding-left: 16px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,0 +1,121 @@
+
+.createsection_createsection {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.createsection_createsection .Rectangle127 {
+	position: absolute;
+	left: 0px;
+	top: 2106.99px;
+	width: 1439.1px;
+	height: 605.16px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 25.83px;
+}
+.createsection_createsection .CreateSection {
+	position: absolute;
+	left: 95.94px;
+	top: 2162.34px;
+	width: 453.87px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 62.73px;
+	font-weight: 600;
+	line-height: 81.17999999999999px;
+}
+.createsection_createsection .Check {
+	position: absolute;
+	left: 1276.74px;
+	top: 2154.96px;
+	width: 92.25px;
+	height: 92.25px;
+}
+.createsection_createsection .Check .Icon {
+	position: absolute;
+	left: 15.3743994140625px;
+	top: 23.0625px;
+	width: 66.66666412353516%;
+	height: 45.83333206176758%;
+}
+.createsection_createsection .Rectangle116 {
+	position: absolute;
+	left: 84.87px;
+	top: 2439.09px;
+	width: 1280.43px;
+	height: 125.46px;
+	background: rgba(251,251,251,1.00);
+	border-radius: 7.38px;
+}
+.createsection_createsection .Rectangle117 {
+	position: absolute;
+	left: 77.49px;
+	top: 2291.49px;
+	width: 605.16px;
+	height: 125.46px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 7.38px;
+}
+.createsection_createsection .AcademicInstitution {
+	position: absolute;
+	left: 512.91px;
+	top: 2461.23px;
+	width: 428.04px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createsection_createsection .SectionName {
+	position: absolute;
+	left: 221.4px;
+	top: 2313.63px;
+	width: 295.2px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createsection_createsection .Rectangle119 {
+	position: absolute;
+	left: 708.48px;
+	top: 2291.49px;
+	width: 656.8199999999999px;
+	height: 125.46px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 7.38px;
+}
+.createsection_createsection .GradeLevel {
+	position: absolute;
+	left: 926.1899999999999px;
+	top: 2313.63px;
+	width: 250.92px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}

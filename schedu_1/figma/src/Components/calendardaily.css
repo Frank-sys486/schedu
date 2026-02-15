@@ -1,0 +1,1173 @@
+
+.calendardaily_calendardaily {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.calendardaily_calendardaily .Group4 {
+	position: absolute;
+	left: 140.22px;
+	top: 2693.7px;
+	width: 1210.32px;
+	height: 372.69px;
+}
+.calendardaily_calendardaily .Group4 .Rectangle9 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(250,250,250,1.00);
+	border-radius: 29.52px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.calendardaily_calendardaily .Group4 .Line6 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 0%;
+	height: 100%;
+	border: 5px solid rgba(255,242.24999696016312,0,1);
+}
+.calendardaily_calendardaily .Group9 {
+	position: absolute;
+	left: 140.22px;
+	top: 1892.97px;
+	width: 1210.32px;
+	height: 498.15px;
+}
+.calendardaily_calendardaily .Group9 .Rectangle9_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(250,250,250,1.00);
+	border-radius: 29.52px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.calendardaily_calendardaily .Group9 .Line6_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 0%;
+	height: 100%;
+	border: 5px solid rgba(254.00000005960464,118.00000056624413,168.0000051856041,1);
+}
+.calendardaily_calendardaily .Rectangle8 {
+	position: absolute;
+	left: 1025.82px;
+	top: 745.38px;
+	width: 114.39px;
+	height: 118.08px;
+	background: rgba(126,217,87,1.00);
+	border-radius: 47.97px;
+}
+.calendardaily_calendardaily .F {
+	position: absolute;
+	left: 974.16px;
+	top: 701.1px;
+	width: 184.5px;
+	height: 206.64px;
+	border-radius: 18.45px;
+}
+.calendardaily_calendardaily .F .DEFAULTdefaultACTIVEactive {
+	width: 10px;
+	height: 16px;
+}
+.calendardaily_calendardaily .F .DEFAULTdefaultACTIVEactive ._30 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 200%;
+	height: 100%;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto Mono;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.calendardaily_calendardaily .ios {
+	position: absolute;
+	left: -18.45px;
+	top: 0px;
+	width: 1476px;
+	height: 3114.36px;
+}
+.calendardaily_calendardaily .ios .HomeIndicator {
+	position: absolute;
+	left: 0px;
+	top: 2988.9px;
+	width: 1476px;
+	height: 125.46px;
+}
+.calendardaily_calendardaily .ios .HomeIndicator .HomeIndicator_1 {
+	position: absolute;
+	left: 184.5%;
+	bottom: 29.52px;
+	transform: translate(-50%, 0);
+	width: 531.36px;
+	height: 18.45px;
+	background: rgba(0,0,0,1.00);
+	border-radius: 369px;
+}
+.calendardaily_calendardaily .ios .StatusbariPhone {
+	position: absolute;
+	left: 18.45px;
+	top: 0px;
+	width: 1439.1px;
+	height: 177.12px;
+}
+.calendardaily_calendardaily .ios .StatusbariPhone .Time {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 7.38px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.calendardaily_calendardaily .ios .StatusbariPhone .Time .Time_1 {
+	position: relative;
+	flex: none;
+	margin-right: 36.9px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: SF Pro;
+	font-size: 62.73px;
+	font-weight: 590;
+	line-height: 81.17999999999999px;
+}
+.calendardaily_calendardaily .ios .StatusbariPhone .Levels {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 3.69px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.calendardaily_calendardaily .ios .StatusbariPhone .Levels .CellularConnection {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 70.84800281524659px;
+	height: 45.11547369003296px;
+}
+.calendardaily_calendardaily .ios .StatusbariPhone .Levels .Wifi {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 63.252749061584474px;
+	height: 45.49144987106323px;
+}
+.calendardaily_calendardaily .ios .StatusbariPhone .Levels .Battery {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 100.84045749664307px;
+	height: 47.97px;
+}
+.calendardaily_calendardaily .ios .StatusbariPhone .Levels .Battery .Border {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 0px;
+	transform: translate(-50%, 0);
+	width: 92.25px;
+	height: 100%;
+	mix-blend-mode: normal;
+	border-radius: 15.867000703811645px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.calendardaily_calendardaily .ios .StatusbariPhone .Levels .Battery .Cap {
+	position: absolute;
+	left: 360.03401607225885%;
+	top: 17.642362060546876px;
+	transform: translate(-50%, 0);
+	width: 4.900460135936737px;
+	height: 31.349783677321213%;
+	mix-blend-mode: normal;
+}
+.calendardaily_calendardaily .ios .StatusbariPhone .Levels .Battery .Capacity {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 7.38px;
+	transform: translate(-50%, 0);
+	width: 77.49px;
+	height: 69.23076923076923%;
+	background: rgba(0,0,0,1.00);
+	border-radius: 9.225px;
+}
+.calendardaily_calendardaily .MenuHeader {
+	position: absolute;
+	left: 92.25px;
+	top: 476.01px;
+	width: 243.54px;
+	height: 118.08px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 29.52px;
+	padding-right: 59.04px;
+	padding-bottom: 14.76px;
+	padding-left: 59.04px;
+	box-sizing: border-box;
+	border-radius: 29.52px;
+}
+.calendardaily_calendardaily .MenuHeader .TextSmall {
+	position: relative;
+	flex: none;
+	margin-bottom: NaNpx;
+	width: 121.77px;
+	height: 73.8px;
+}
+.calendardaily_calendardaily .MenuHeader .TextSmall .TextSmall_1 {
+	position: relative;
+	flex: none;
+	margin-right: NaNpx;
+	width: 121.77px;
+	height: 73.8px;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 72.32400140762329px;
+}
+.calendardaily_calendardaily .TextStrong {
+	position: absolute;
+	left: 107.01px;
+	top: 579.33px;
+	width: 535.05px;
+	height: 81.17999999999999px;
+	display: flex;
+	box-sizing: border-box;
+}
+.calendardaily_calendardaily .TextStrong .TextStrong_1 {
+	position: relative;
+	flex: none;
+	margin-right: NaNpx;
+	width: 535.05px;
+	height: 81.17999999999999px;
+	color: rgba(30,30,30,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 600;
+	line-height: 82.6559985923767px;
+}
+.calendardaily_calendardaily .Group3 {
+	position: absolute;
+	left: 0px;
+	top: 2712.15px;
+	width: 1439.1px;
+	height: 446.49px;
+}
+.calendardaily_calendardaily .Group3 .Rectangle10 {
+	position: absolute;
+	left: 0px;
+	top: 3.69px;
+	width: 1439.1px;
+	height: 442.8px;
+	background: rgba(255,255,255,1.00);
+}
+.calendardaily_calendardaily .Group3 .nav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1439.1px;
+	height: 250.92px;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList {
+	position: absolute;
+	left: 36.9px;
+	top: 29.52px;
+	width: 1361.61px;
+	height: 221.4px;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton .Home {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton .Home .Icon {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton .Label {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 147.6px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_1 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar .Icon_1 {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_1 .Label_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 228.78px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(44,44,44,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_2 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus .Icon_2 {
+	position: absolute;
+	left: 18.45px;
+	top: 18.45px;
+	width: 58.333333333333336%;
+	height: 58.333333333333336%;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_2 .Label_2 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 169.74px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_3 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen .Icon_3 {
+	position: absolute;
+	left: 7.38px;
+	top: 11.07px;
+	width: 83.33333333333334%;
+	height: 75%;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_3 .Label_3 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 177.12px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_4 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark .Icon_4 {
+	position: absolute;
+	left: 18.45px;
+	top: 11.07px;
+	width: 58.333333333333336%;
+	height: 75%;
+}
+.calendardaily_calendardaily .Group3 .nav .NavigationButtonList .NavigationButton_4 .Label_4 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 136.53px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.calendardaily_calendardaily .Group3 .nav .Line4 {
+	position: absolute;
+	left: 0px;
+	top: 1.5516294297412968e-7px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.calendardaily_calendardaily .arrow_drop_down {
+	position: absolute;
+	left: 84.86993327535689px;
+	top: 512.9097314982629px;
+	width: 85.24821064554155px;
+	height: 59.5849800057197px;
+}
+.calendardaily_calendardaily .arrow_drop_down .icon {
+	position: absolute;
+	left: 31.93645039582638px;
+	top: 17.424787152610048px;
+	width: 20.926190405148727%;
+	height: 41.475691541667466%;
+}
+.calendardaily_calendardaily .S {
+	position: absolute;
+	left: 140.22px;
+	top: 719.55px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily ._7 {
+	position: absolute;
+	left: 59.04px;
+	top: 874.53px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily ._8 {
+	position: absolute;
+	left: 59.04px;
+	top: 1099.62px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily ._9 {
+	position: absolute;
+	left: 59.04px;
+	top: 1324.71px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily ._10 {
+	position: absolute;
+	left: 47.97px;
+	top: 1549.8px;
+	width: 44.28px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily ._11 {
+	position: absolute;
+	left: 51.66px;
+	top: 1774.8899999999999px;
+	width: 44.28px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily ._12 {
+	position: absolute;
+	left: 51.66px;
+	top: 1999.98px;
+	width: 44.28px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily ._1 {
+	position: absolute;
+	left: 59.04px;
+	top: 2221.38px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily ._2 {
+	position: absolute;
+	left: 59.04px;
+	top: 2446.47px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily ._3 {
+	position: absolute;
+	left: 59.04px;
+	top: 2671.56px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily .M {
+	position: absolute;
+	left: 321.03px;
+	top: 719.55px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily .T {
+	position: absolute;
+	left: 501.84px;
+	top: 719.55px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily .W {
+	position: absolute;
+	left: 697.41px;
+	top: 719.55px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily .T_1 {
+	position: absolute;
+	left: 885.6px;
+	top: 719.55px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily .F_1 {
+	position: absolute;
+	left: 1070.1px;
+	top: 686.34px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily .S_1 {
+	position: absolute;
+	left: 1254.6px;
+	top: 719.55px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendardaily_calendardaily ._25 {
+	position: absolute;
+	left: 118.08px;
+	top: 774.9px;
+	width: 73.8px;
+	height: 59.04px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily ._26 {
+	position: absolute;
+	left: 298.89px;
+	top: 774.9px;
+	width: 73.8px;
+	height: 59.04px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily ._27 {
+	position: absolute;
+	left: 487.08px;
+	top: 774.9px;
+	width: 73.8px;
+	height: 59.04px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily ._28 {
+	position: absolute;
+	left: 675.27px;
+	top: 774.9px;
+	width: 73.8px;
+	height: 59.04px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily ._29 {
+	position: absolute;
+	left: 863.46px;
+	top: 774.9px;
+	width: 73.8px;
+	height: 59.04px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily ._31 {
+	position: absolute;
+	left: 1232.46px;
+	top: 774.9px;
+	width: 73.8px;
+	height: 59.04px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily .Group5 {
+	position: absolute;
+	left: 129.15px;
+	top: 881.91px;
+	width: 1210.32px;
+	height: 169.74px;
+}
+.calendardaily_calendardaily .Group5 .Rectangle9_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(250,250,250,1.00);
+	border-radius: 29.52px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.calendardaily_calendardaily .Group5 .Line6_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 0%;
+	height: 100%;
+	border: 5px solid rgba(82.00000271201134,144.00000661611557,217.0000022649765,1);
+}
+.calendardaily_calendardaily .Group6 {
+	position: absolute;
+	left: 129.15px;
+	top: 1055.34px;
+	width: 1210.32px;
+	height: 169.74px;
+}
+.calendardaily_calendardaily .Group6 .Rectangle9_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(250,250,250,1.00);
+	border-radius: 29.52px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.calendardaily_calendardaily .Group6 .Line6_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 0%;
+	height: 100%;
+	border: 5px solid rgba(122.1658918261528,148.82611244916916,180.21634966135025,1);
+}
+.calendardaily_calendardaily .Group8 {
+	position: absolute;
+	left: 129.15px;
+	top: 1402.2px;
+	width: 1210.32px;
+	height: 169.74px;
+}
+.calendardaily_calendardaily .Group8 .Rectangle9_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(250,250,250,1.00);
+	border-radius: 29.52px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.calendardaily_calendardaily .Group8 .Line6_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 0%;
+	height: 100%;
+	border: 5px solid rgba(122.1658918261528,148.82611244916916,180.21634966135025,1);
+}
+.calendardaily_calendardaily .SCIENCE {
+	position: absolute;
+	left: 184.5px;
+	top: 900.36px;
+	width: 424.34999999999997px;
+	height: 73.8px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 82.6559985923767px;
+}
+.calendardaily_calendardaily .Grade8Tesla {
+	position: absolute;
+	left: 184.5px;
+	top: 974.16px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily .SCIENCE_1 {
+	position: absolute;
+	left: 184.5px;
+	top: 1070.1px;
+	width: 424.34999999999997px;
+	height: 73.8px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 82.6559985923767px;
+}
+.calendardaily_calendardaily .Grade9Curie {
+	position: absolute;
+	left: 184.5px;
+	top: 1143.9px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily .SCIENCE_2 {
+	position: absolute;
+	left: 191.88px;
+	top: 1420.65px;
+	width: 424.34999999999997px;
+	height: 73.8px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 82.6559985923767px;
+}
+.calendardaily_calendardaily .Grade9Bohr {
+	position: absolute;
+	left: 191.88px;
+	top: 1494.45px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily .MATHEMATICS {
+	position: absolute;
+	left: 191.88px;
+	top: 2077.47px;
+	width: 531.36px;
+	height: 73.8px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 82.6559985923767px;
+}
+.calendardaily_calendardaily .Grade10Newton {
+	position: absolute;
+	left: 191.88px;
+	top: 2151.27px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily .Group10 {
+	position: absolute;
+	left: 1121.76px;
+	top: 911.43px;
+	width: 158.67px;
+	height: 110.7px;
+	border-radius: 40.589999999999996px;
+}
+.calendardaily_calendardaily .Group10 .L2 {
+	position: absolute;
+	left: 24.0408544921875px;
+	top: 25.83px;
+	width: 110.58817840576172px;
+	height: 59.04px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily .Group10 .Rectangle5 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 158.67px;
+	height: 110.7px;
+	border-radius: 40.589999999999996px;
+	border: 1px solid rgba(142.39298164844513,189.09498363733292,166.52235567569733,1);
+	box-sizing: border-box;
+}
+.calendardaily_calendardaily .Group13 {
+	position: absolute;
+	left: 1121.76px;
+	top: 2084.85px;
+	width: 158.67px;
+	height: 110.7px;
+	border-radius: 40.589999999999996px;
+}
+.calendardaily_calendardaily .Group13 .L3 {
+	position: absolute;
+	left: 24.0408544921875px;
+	top: 25.83px;
+	width: 110.58817840576172px;
+	height: 59.04px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily .Group13 .Rectangle5_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 158.67px;
+	height: 110.7px;
+	border-radius: 40.589999999999996px;
+	border: 1px solid rgba(142.39298164844513,189.09498363733292,166.52235567569733,1);
+	box-sizing: border-box;
+}
+.calendardaily_calendardaily .Group11 {
+	position: absolute;
+	left: 1121.76px;
+	top: 1081.17px;
+	width: 158.67px;
+	height: 110.7px;
+	border-radius: 40.589999999999996px;
+}
+.calendardaily_calendardaily .Group11 .SW2 {
+	position: absolute;
+	left: 24.0408544921875px;
+	top: 25.83px;
+	width: 110.58817840576172px;
+	height: 59.04px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily .Group11 .Rectangle5_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 158.67px;
+	height: 110.7px;
+	border-radius: 40.589999999999996px;
+	border: 1px solid rgba(173.73985558748245,182.23299264907837,230.36104291677475,1);
+	box-sizing: border-box;
+}
+.calendardaily_calendardaily .Group14 {
+	position: absolute;
+	left: 929.88px;
+	top: 2088.54px;
+	width: 158.67px;
+	height: 110.7px;
+	border-radius: 40.589999999999996px;
+}
+.calendardaily_calendardaily .Group14 .SW3 {
+	position: absolute;
+	left: 24.0408544921875px;
+	top: 25.83px;
+	width: 110.58817840576172px;
+	height: 59.04px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily .Group14 .Rectangle5_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 158.67px;
+	height: 110.7px;
+	border-radius: 40.589999999999996px;
+	border: 1px solid rgba(173.73985558748245,182.23299264907837,230.36104291677475,1);
+	box-sizing: border-box;
+}
+.calendardaily_calendardaily .Group12 {
+	position: absolute;
+	left: 1121.76px;
+	top: 1428.03px;
+	width: 158.67px;
+	height: 110.7px;
+	border-radius: 40.589999999999996px;
+}
+.calendardaily_calendardaily .Group12 .Q1 {
+	position: absolute;
+	left: 24.0408544921875px;
+	top: 25.83px;
+	width: 110.58817840576172px;
+	height: 59.04px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendardaily_calendardaily .Group12 .Rectangle5_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 158.67px;
+	height: 110.7px;
+	border-radius: 40.589999999999996px;
+	border: 1px solid rgba(173.73985558748245,182.23299264907837,230.36104291677475,1);
+	box-sizing: border-box;
+}
+.calendardaily_calendardaily .header {
+	position: absolute;
+	left: 0px;
+	top: 225.09px;
+	width: 1439.1px;
+	height: 202.95px;
+}
+.calendardaily_calendardaily .header .ford22 {
+	position: absolute;
+	left: 59.04px;
+	top: 3.69px;
+	width: 143.91px;
+	height: 143.91px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.calendardaily_calendardaily .header .S11 {
+	position: absolute;
+	left: 55.35px;
+	top: 0px;
+	width: 132.84px;
+	height: 132.84px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.calendardaily_calendardaily .header .SCHEDU {
+	position: absolute;
+	left: 214.02px;
+	top: 36.9px;
+	width: 505.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 121.77px;
+	font-weight: 300;
+	line-height: 81.17999999999999px;
+}
+.calendardaily_calendardaily .header .Line5 {
+	position: absolute;
+	left: 0px;
+	top: 199.26000015516294px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.calendardaily_calendardaily .User {
+	position: absolute;
+	left: 1258.29px;
+	top: 247.23px;
+	width: 103.32px;
+	height: 110.7px;
+}
+.calendardaily_calendardaily .User .Icon_5 {
+	position: absolute;
+	left: 17.219849853515626px;
+	top: 13.8375px;
+	width: 66.66666439601353%;
+	height: 75%;
+}

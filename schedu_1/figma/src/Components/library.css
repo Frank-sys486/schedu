@@ -1,0 +1,939 @@
+
+.library_library {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.library_library .HephzibahSchoolInc {
+	position: absolute;
+	left: 217.71px;
+	top: 2678.94px;
+	width: 317.34px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 29.52px;
+	font-weight: 300;
+	line-height: 59.04px;
+}
+.library_library .ios {
+	position: absolute;
+	left: -18.45px;
+	top: 0px;
+	width: 1476px;
+	height: 3114.36px;
+}
+.library_library .ios .HomeIndicator {
+	position: absolute;
+	left: 0px;
+	top: 2988.9px;
+	width: 1476px;
+	height: 125.46px;
+}
+.library_library .ios .HomeIndicator .HomeIndicator_1 {
+	position: absolute;
+	left: 184.5%;
+	bottom: 29.52px;
+	transform: translate(-50%, 0);
+	width: 531.36px;
+	height: 18.45px;
+	background: rgba(0,0,0,1.00);
+	border-radius: 369px;
+}
+.library_library .ios .StatusbariPhone {
+	position: absolute;
+	left: 18.45px;
+	top: 0px;
+	width: 1439.1px;
+	height: 177.12px;
+}
+.library_library .ios .StatusbariPhone .Time {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 7.38px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.library_library .ios .StatusbariPhone .Time .Time_1 {
+	position: relative;
+	flex: none;
+	margin-right: 36.9px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: SF Pro;
+	font-size: 62.73px;
+	font-weight: 590;
+	line-height: 81.17999999999999px;
+}
+.library_library .ios .StatusbariPhone .Levels {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 3.69px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.library_library .ios .StatusbariPhone .Levels .CellularConnection {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 70.84800281524659px;
+	height: 45.11547369003296px;
+}
+.library_library .ios .StatusbariPhone .Levels .Wifi {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 63.252749061584474px;
+	height: 45.49144987106323px;
+}
+.library_library .ios .StatusbariPhone .Levels .Battery {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 100.84045749664307px;
+	height: 47.97px;
+}
+.library_library .ios .StatusbariPhone .Levels .Battery .Border {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 0px;
+	transform: translate(-50%, 0);
+	width: 92.25px;
+	height: 100%;
+	mix-blend-mode: normal;
+	border-radius: 15.867000703811645px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.library_library .ios .StatusbariPhone .Levels .Battery .Cap {
+	position: absolute;
+	left: 360.03401607225885%;
+	top: 17.642812499999998px;
+	transform: translate(-50%, 0);
+	width: 4.900460135936737px;
+	height: 31.349783677321213%;
+	mix-blend-mode: normal;
+}
+.library_library .ios .StatusbariPhone .Levels .Battery .Capacity {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 7.38px;
+	transform: translate(-50%, 0);
+	width: 77.49px;
+	height: 69.23076923076923%;
+	background: rgba(0,0,0,1.00);
+	border-radius: 9.225px;
+}
+.library_library .Group3 {
+	position: absolute;
+	left: 0px;
+	top: 2708.46px;
+	width: 1439.1px;
+	height: 450.18px;
+}
+.library_library .Group3 .Rectangle10 {
+	position: absolute;
+	left: 0px;
+	top: 3.7206298828124997px;
+	width: 1439.1px;
+	height: 446.4595108795166px;
+	background: rgba(255,255,255,1.00);
+}
+.library_library .Group3 .nav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1439.1px;
+	height: 252.99371063232422px;
+}
+.library_library .Group3 .nav .NavigationButtonList {
+	position: absolute;
+	left: 36.9px;
+	top: 29.7632373046875px;
+	width: 1361.61px;
+	height: 223.2297554397583px;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 223.2297554397583px;
+	align-self: stretch;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton .Home {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton .Home .Icon {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton .Label {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 147.6px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_1 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 223.2297554397583px;
+	align-self: stretch;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar .Icon_1 {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_1 .Label_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 228.78px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_2 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 223.2297554397583px;
+	align-self: stretch;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus .Icon_2 {
+	position: absolute;
+	left: 18.45px;
+	top: 18.45px;
+	width: 58.333333333333336%;
+	height: 58.333333333333336%;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_2 .Label_2 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 169.74px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_3 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 223.2297554397583px;
+	align-self: stretch;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen .Icon_3 {
+	position: absolute;
+	left: 7.38px;
+	top: 11.07px;
+	width: 83.33333333333334%;
+	height: 75%;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_3 .Label_3 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 177.12px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(44,44,44,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_4 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 223.2297554397583px;
+	align-self: stretch;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark .Icon_4 {
+	position: absolute;
+	left: 18.45px;
+	top: 11.07px;
+	width: 58.333333333333336%;
+	height: 75%;
+}
+.library_library .Group3 .nav .NavigationButtonList .NavigationButton_4 .Label_4 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 136.53px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.library_library .Group3 .nav .Line4 {
+	position: absolute;
+	left: 0px;
+	top: 0.00013452317058181506px;
+	width: 1439.0999260839903px;
+	height: 3.720495359641918px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.library_library .header {
+	position: absolute;
+	left: 0px;
+	top: 214.02px;
+	width: 1439.1px;
+	height: 199.26px;
+}
+.library_library .header .ford22 {
+	position: absolute;
+	left: 59.04px;
+	top: 0px;
+	width: 143.91px;
+	height: 143.91px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.library_library .header .FORADI {
+	position: absolute;
+	left: 214.02px;
+	top: 33.21px;
+	width: 442.8px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 121.77px;
+	font-weight: 300;
+	line-height: 81.17999999999999px;
+}
+.library_library .header .Line5 {
+	position: absolute;
+	left: 0px;
+	top: 195.57000015516294px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.library_library .Library {
+	position: absolute;
+	left: 95.94px;
+	top: 487.08px;
+	width: 214.02px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 62.73px;
+	font-weight: 600;
+	line-height: 81.17999999999999px;
+}
+.library_library .Sliders {
+	position: absolute;
+	left: 1269.36px;
+	top: 483.39px;
+	width: 81.17999999999999px;
+	height: 81.17999999999999px;
+}
+.library_library .Sliders .Icon_5 {
+	position: absolute;
+	left: 3.3825750732421875px;
+	top: 10.147499999999999px;
+	width: 91.66667244651101%;
+	height: 75%;
+}
+.library_library .User {
+	position: absolute;
+	left: 1273.05px;
+	top: 232.47px;
+	width: 103.32px;
+	height: 110.7px;
+}
+.library_library .User .Icon_6 {
+	position: absolute;
+	left: 17.22007507324219px;
+	top: 13.8375px;
+	width: 66.66666439601353%;
+	height: 75%;
+}
+.library_library .Search {
+	position: absolute;
+	left: 966.78px;
+	top: 483.39px;
+	width: 77.49px;
+	height: 77.49px;
+}
+.library_library .Search .Icon_7 {
+	position: absolute;
+	left: 9.68625px;
+	top: 9.68625px;
+	width: 75%;
+	height: 75%;
+}
+.library_library .Rectangle2 {
+	position: absolute;
+	left: 88.56px;
+	top: 719.55px;
+	width: 597.78px;
+	height: 830.25px;
+	background: rgba(254,118,168,1.00);
+	border-radius: 22.14px;
+}
+.library_library .Rectangle3 {
+	position: absolute;
+	left: 752.76px;
+	top: 719.55px;
+	width: 597.78px;
+	height: 830.25px;
+	background: rgba(82,144,217,1.00);
+	border-radius: 22.14px;
+}
+.library_library .Rectangle4 {
+	position: absolute;
+	left: 88.56px;
+	top: 1774.8899999999999px;
+	width: 597.78px;
+	height: 830.25px;
+	background: rgba(122,149,180,1.00);
+	border-radius: 22.14px;
+}
+.library_library .MAT10Mathematics {
+	position: absolute;
+	left: 154.98px;
+	top: 1579.32px;
+	width: 464.94px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 500;
+	line-height: 59.04px;
+}
+.library_library .SCI9Science {
+	position: absolute;
+	left: 228.78px;
+	top: 2634.66px;
+	width: 306.27px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 500;
+	font-style: italic;
+	line-height: 59.04px;
+}
+.library_library .SCI8Science {
+	position: absolute;
+	left: 900.36px;
+	top: 1579.32px;
+	width: 306.27px;
+	height: 59.04px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 500;
+	font-style: italic;
+	line-height: 59.04px;
+}
+.library_library .image1 {
+	position: absolute;
+	left: 191.88px;
+	top: 937.26px;
+	width: 409.59px;
+	height: 409.59px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.library_library .image2 {
+	position: absolute;
+	left: 822.87px;
+	top: 896.67px;
+	width: 476.01px;
+	height: 476.01px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.library_library .image3 {
+	position: absolute;
+	left: 118.08px;
+	top: 1911.42px;
+	width: 560.88px;
+	height: 560.88px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.library_library .Plus_1 {
+	position: absolute;
+	left: 1103.31px;
+	top: 468.63px;
+	width: 107.01px;
+	height: 107.01px;
+}
+.library_library .Plus_1 .Icon_8 {
+	position: absolute;
+	left: 22.293825073242186px;
+	top: 22.2931494140625px;
+	width: 58.333331140978586%;
+	height: 58.333331140978586%;
+}
+.library_library .Current {
+	position: absolute;
+	left: 92.25px;
+	top: 605.16px;
+	width: 173.43px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 47.97px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.library_library .arrow_drop_down {
+	position: absolute;
+	left: 284.13px;
+	top: 605.16px;
+	width: 59.04px;
+	height: 84.87px;
+}
+.library_library .arrow_drop_down .icon {
+	position: absolute;
+	left: 17.22007507324219px;
+	top: 35.3631005859375px;
+	width: 41.66666567325592%;
+	height: 20.83333264226499%;
+}
+.library_library .Sliders_1 {
+	position: absolute;
+	left: 1269.36px;
+	top: 483.39px;
+	width: 81.17999999999999px;
+	height: 81.17999999999999px;
+}
+.library_library .Sliders_1 .Icon_9 {
+	position: absolute;
+	left: 3.3825750732421875px;
+	top: 10.147499999999999px;
+	width: 91.66667244651101%;
+	height: 75%;
+}
+.library_library .Search_1 {
+	position: absolute;
+	left: 966.78px;
+	top: 483.39px;
+	width: 77.49px;
+	height: 77.49px;
+}
+.library_library .Search_1 .Icon_10 {
+	position: absolute;
+	left: 9.68625px;
+	top: 9.68625px;
+	width: 75%;
+	height: 75%;
+}
+.library_library .Rectangle5 {
+	position: absolute;
+	left: 88.56px;
+	top: 719.55px;
+	width: 597.78px;
+	height: 830.25px;
+	background: rgba(254,118,168,1.00);
+	border-radius: 22.14px;
+}
+.library_library .Rectangle6 {
+	position: absolute;
+	left: 752.76px;
+	top: 719.55px;
+	width: 597.78px;
+	height: 830.25px;
+	background: rgba(82,144,217,1.00);
+	border-radius: 22.14px;
+}
+.library_library .Rectangle7 {
+	position: absolute;
+	left: 88.56px;
+	top: 1774.8899999999999px;
+	width: 597.78px;
+	height: 830.25px;
+	background: rgba(122,149,180,1.00);
+	border-radius: 22.14px;
+}
+.library_library .MAT10Mathematics_1 {
+	position: absolute;
+	left: 154.98px;
+	top: 1579.32px;
+	width: 464.94px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 500;
+	line-height: 59.04px;
+}
+.library_library .HephzibahSchoolInc_1 {
+	position: absolute;
+	left: 239.85px;
+	top: 1634.67px;
+	width: 317.34px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 29.52px;
+	font-weight: 300;
+	line-height: 59.04px;
+}
+.library_library .HephzibahSchoolInc_2 {
+	position: absolute;
+	left: 904.05px;
+	top: 1634.67px;
+	width: 317.34px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 29.52px;
+	font-weight: 300;
+	line-height: 59.04px;
+}
+.library_library .SCI9Science_1 {
+	position: absolute;
+	left: 228.78px;
+	top: 2634.66px;
+	width: 306.27px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 500;
+	font-style: italic;
+	line-height: 59.04px;
+}
+.library_library .SCI8Science_1 {
+	position: absolute;
+	left: 900.36px;
+	top: 1579.32px;
+	width: 306.27px;
+	height: 59.04px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 500;
+	font-style: italic;
+	line-height: 59.04px;
+}
+.library_library .image4 {
+	position: absolute;
+	left: 191.88px;
+	top: 937.26px;
+	width: 409.59px;
+	height: 409.59px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.library_library .image5 {
+	position: absolute;
+	left: 822.87px;
+	top: 896.67px;
+	width: 476.01px;
+	height: 476.01px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.library_library .image6 {
+	position: absolute;
+	left: 118.08px;
+	top: 1911.42px;
+	width: 560.88px;
+	height: 560.88px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.library_library .Plus_2 {
+	position: absolute;
+	left: 1103.31px;
+	top: 468.63px;
+	width: 107.01px;
+	height: 107.01px;
+}
+.library_library .Plus_2 .Icon_11 {
+	position: absolute;
+	left: 22.293825073242186px;
+	top: 22.2931494140625px;
+	width: 58.333331140978586%;
+	height: 58.333331140978586%;
+}
+.library_library .Rectangle58 {
+	position: absolute;
+	left: 0px;
+	top: 2354.22px;
+	width: 1439.1px;
+	height: 383.76px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 62.73px;
+}
+.library_library .Rectangle59 {
+	position: absolute;
+	left: 51.66px;
+	top: 2413.2599999999998px;
+	width: 302.58px;
+	height: 261.99px;
+	background: rgba(142,189,167,1.00);
+	border-radius: 59.04px;
+}
+.library_library .Rectangle60 {
+	position: absolute;
+	left: 391.14px;
+	top: 2413.2599999999998px;
+	width: 302.58px;
+	height: 261.99px;
+	background: rgba(155,216,130,1.00);
+	border-radius: 59.04px;
+}
+.library_library .Rectangle61 {
+	position: absolute;
+	left: 738px;
+	top: 2413.2599999999998px;
+	width: 302.58px;
+	height: 261.99px;
+	background: rgba(126,217,87,1.00);
+	border-radius: 59.04px;
+}
+.library_library .Rectangle62 {
+	position: absolute;
+	left: 1077.48px;
+	top: 2413.2599999999998px;
+	width: 302.58px;
+	height: 261.99px;
+	background: rgba(134,180,114,1.00);
+	border-radius: 59.04px;
+}
+.library_library .Subject {
+	position: absolute;
+	left: 424.34999999999997px;
+	top: 2560.86px;
+	width: 232.47px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(67,85,60,1.00);
+	font-family: Inter;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.library_library .Book {
+	position: absolute;
+	left: 501.84px;
+	top: 2475.99px;
+	width: 73.8px;
+	height: 73.8px;
+}
+.library_library .Book .Icon_12 {
+	position: absolute;
+	left: 12.299924926757813px;
+	top: 6.1493994140625px;
+	width: 66.66666507720947%;
+	height: 83.33333015441895%;
+}
+.library_library .Notes {
+	position: absolute;
+	left: 763.83px;
+	top: 2560.86px;
+	width: 250.92px;
+	height: 84.87px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,0.65);
+	font-family: Inter;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.library_library .Pentool {
+	position: absolute;
+	left: 852.39px;
+	top: 2475.99px;
+	width: 73.8px;
+	height: 73.8px;
+}
+.library_library .Pentool .Icon_13 {
+	position: absolute;
+	left: 6.150075073242188px;
+	top: 6.1493994140625px;
+	width: 83.33333015441895%;
+	height: 83.33333015441895%;
+}
+.library_library .Lessonplan {
+	position: absolute;
+	left: -29.52px;
+	top: 2560.86px;
+	width: 461.25px;
+	height: 84.87px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(63,89,77,1.00);
+	font-family: Inter;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.library_library .Table {
+	position: absolute;
+	left: 166.05px;
+	top: 2475.99px;
+	width: 73.8px;
+	height: 73.8px;
+}
+.library_library .Table .Icon_14 {
+	position: absolute;
+	left: 9.225px;
+	top: 9.225px;
+	width: 75%;
+	height: 75%;
+}
+.library_library .Activities {
+	position: absolute;
+	left: 992.61px;
+	top: 2560.86px;
+	width: 472.32px;
+	height: 84.87px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(58,65,56,1.00);
+	font-family: Inter;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.library_library .Box {
+	position: absolute;
+	left: 1191.87px;
+	top: 2475.99px;
+	width: 73.8px;
+	height: 73.8px;
+}
+.library_library .Box .Icon_15 {
+	position: absolute;
+	left: 9.225px;
+	top: 6.1566064453125px;
+	width: 75%;
+	height: 83.65812301635742%;
+}

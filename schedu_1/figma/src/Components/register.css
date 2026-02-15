@@ -1,0 +1,670 @@
+
+.register_register {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.register_register .ios {
+	position: absolute;
+	left: -18.45px;
+	top: 0px;
+	width: 1476px;
+	height: 3114.36px;
+}
+.register_register .ios .HomeIndicator {
+	position: absolute;
+	left: 0px;
+	top: 2988.9px;
+	width: 1476px;
+	height: 125.46px;
+}
+.register_register .ios .HomeIndicator .HomeIndicator_1 {
+	position: absolute;
+	left: 184.5%;
+	bottom: 29.52px;
+	transform: translate(-50%, 0);
+	width: 531.36px;
+	height: 18.45px;
+	background: rgba(0,0,0,1.00);
+	border-radius: 369px;
+}
+.register_register .ios .StatusbariPhone {
+	position: absolute;
+	left: 18.45px;
+	top: 0px;
+	width: 1439.1px;
+	height: 177.12px;
+}
+.register_register .ios .StatusbariPhone .Time {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 7.38px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.register_register .ios .StatusbariPhone .Time .Time_1 {
+	position: relative;
+	flex: none;
+	margin-right: 36.9px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: SF Pro;
+	font-size: 62.73px;
+	font-weight: 590;
+	line-height: 81.17999999999999px;
+}
+.register_register .ios .StatusbariPhone .Levels {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 3.69px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.register_register .ios .StatusbariPhone .Levels .CellularConnection {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 70.84800281524659px;
+	height: 45.11547369003296px;
+}
+.register_register .ios .StatusbariPhone .Levels .Wifi {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 63.252749061584474px;
+	height: 45.49144987106323px;
+}
+.register_register .ios .StatusbariPhone .Levels .Battery {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 100.84045749664307px;
+	height: 47.97px;
+}
+.register_register .ios .StatusbariPhone .Levels .Battery .Border {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 0px;
+	transform: translate(-50%, 0);
+	width: 92.25px;
+	height: 100%;
+	mix-blend-mode: normal;
+	border-radius: 15.867000703811645px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.register_register .ios .StatusbariPhone .Levels .Battery .Cap {
+	position: absolute;
+	left: 360.03401607225885%;
+	top: 17.642362060546876px;
+	transform: translate(-50%, 0);
+	width: 4.900460135936737px;
+	height: 31.349783677321213%;
+	mix-blend-mode: normal;
+}
+.register_register .ios .StatusbariPhone .Levels .Battery .Capacity {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 7.38px;
+	transform: translate(-50%, 0);
+	width: 77.49px;
+	height: 69.23076923076923%;
+	background: rgba(0,0,0,1.00);
+	border-radius: 9.225px;
+}
+.register_register .logoset {
+	position: absolute;
+	left: 287.82px;
+	top: 557.1899999999999px;
+	width: 863.46px;
+	height: 254.60999999999999px;
+}
+.register_register .logoset .ford22 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 254.60999999999999px;
+	height: 254.60999999999999px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.register_register .logoset .FORADI {
+	position: absolute;
+	left: 254.60999999999999px;
+	top: 62.73px;
+	width: 490.77px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(182,182,182,1.00);
+	font-family: Inter;
+	font-size: 129.15px;
+	font-weight: 700;
+	line-height: 81.17999999999999px;
+}
+.register_register .logoset .SmarterLessonPlanning {
+	position: absolute;
+	left: 254.60999999999999px;
+	top: 151.29px;
+	width: 608.85px;
+	height: 73.8px;
+	color: rgba(166,166,166,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 72.32400140762329px;
+}
+.register_register .continuewith {
+	position: absolute;
+	left: 132.84px;
+	top: 1940.94px;
+	width: 1180.8px;
+	height: 487.08px;
+	border-radius: 29.52px;
+}
+.register_register .continuewith .googleapple {
+	position: absolute;
+	left: 0px;
+	top: 125.46px;
+	width: 1180.8px;
+	height: 361.62px;
+	border-radius: 29.52px;
+}
+.register_register .continuewith .googleapple .google {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1180.8px;
+	height: 158.67px;
+	border-radius: 29.52px;
+}
+.register_register .continuewith .googleapple .google .ContinuewithGoogle {
+	position: absolute;
+	left: 254.60999999999999px;
+	top: 40.589999999999996px;
+	width: 645.75px;
+	height: 73.8px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 72.32400140762329px;
+}
+.register_register .continuewith .googleapple .google .Rectangle1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1180.8px;
+	height: 158.67px;
+	border-radius: 29.52px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+	box-sizing: border-box;
+}
+.register_register .continuewith .googleapple .apple {
+	position: absolute;
+	left: 0px;
+	top: 202.95px;
+	width: 1180.8px;
+	height: 158.67px;
+	border-radius: 29.52px;
+}
+.register_register .continuewith .googleapple .apple .ContinuewithApple {
+	position: absolute;
+	left: 254.60999999999999px;
+	top: 40.589999999999996px;
+	width: 645.75px;
+	height: 73.8px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 72.32400140762329px;
+}
+.register_register .continuewith .googleapple .apple .Rectangle2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1180.8px;
+	height: 158.67px;
+	border-radius: 29.52px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+	box-sizing: border-box;
+}
+.register_register .continuewith .Line1 {
+	position: absolute;
+	left: 18.45px;
+	top: 47.97px;
+	width: 516.6px;
+	height: 0px;
+	border: 1px solid rgba(0,0,0,1);
+}
+.register_register .continuewith .Line2 {
+	position: absolute;
+	left: 18.45px;
+	top: 47.97px;
+	width: 516.6px;
+	height: 0px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.register_register .continuewith .Line3 {
+	position: absolute;
+	left: 638.37px;
+	top: 47.97px;
+	width: 516.6px;
+	height: 0px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.register_register .continuewith .or {
+	position: absolute;
+	left: 564.5699999999999px;
+	top: 0px;
+	width: 47.97px;
+	height: 81.17999999999999px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 200;
+	line-height: 81.17999999999999px;
+}
+.register_register .AlreadyhaveanAccountLogin {
+	position: absolute;
+	left: 332.1px;
+	top: 2479.68px;
+	width: 782.28px;
+	height: 73.8px;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 72.32400140762329px;
+}
+.register_register .Group1 {
+	position: absolute;
+	left: 132.84px;
+	top: 863.46px;
+	width: 1180.8px;
+	height: 1025.82px;
+	border-radius: 29.52px;
+}
+.register_register .Group1 .FormRegister {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1180.8px;
+	height: 1025.82px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 88.56px;
+	padding-right: 88.56px;
+	padding-bottom: 88.56px;
+	padding-left: 88.56px;
+	box-sizing: border-box;
+	background: rgba(255,255,255,1.00);
+	border-radius: 29.52px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+	box-sizing: border-box;
+}
+.register_register .Group1 .FormRegister .InputField {
+	position: relative;
+	flex: none;
+	margin-bottom: 88.56px;
+	height: 147.6px;
+	align-self: stretch;
+}
+.register_register .Group1 .FormRegister .InputField .Label {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	height: 81.17999999999999px;
+	align-self: stretch;
+	color: rgba(30,30,30,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 82.6559985923767px;
+}
+.register_register .Group1 .FormRegister .InputField .Description {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	height: 81.17999999999999px;
+	align-self: stretch;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 82.6559985923767px;
+}
+.register_register .Group1 .FormRegister .InputField .Input {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	height: 147.6px;
+	align-self: stretch;
+	display: flex;
+	padding-top: 44.28px;
+	padding-right: 59.04px;
+	padding-bottom: 44.28px;
+	padding-left: 59.04px;
+	box-sizing: border-box;
+	align-items: center;
+	background: rgba(255,255,255,1.00);
+	border-radius: 29.52px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.register_register .Group1 .FormRegister .InputField .Input .Value {
+	position: relative;
+	flex: none;
+	margin-right: NaNpx;
+	width: 885.6px;
+	height: 59.04px;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.register_register .Group1 .FormRegister .InputField .Error {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	color: rgba(30,30,30,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 82.6559985923767px;
+}
+.register_register .Group1 .FormRegister .InputField_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 88.56px;
+	height: 147.6px;
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+.register_register .Group1 .FormRegister .InputField_1 .Label_1 {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	height: 81.17999999999999px;
+	align-self: stretch;
+	color: rgba(30,30,30,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 82.6559985923767px;
+}
+.register_register .Group1 .FormRegister .InputField_1 .Description_1 {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	height: 81.17999999999999px;
+	align-self: stretch;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 82.6559985923767px;
+}
+.register_register .Group1 .FormRegister .InputField_1 .Input_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	height: 147.6px;
+	align-self: stretch;
+	display: flex;
+	padding-top: 44.28px;
+	padding-right: 59.04px;
+	padding-bottom: 44.28px;
+	padding-left: 59.04px;
+	box-sizing: border-box;
+	align-items: center;
+	background: rgba(255,255,255,1.00);
+	border-radius: 29.52px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.register_register .Group1 .FormRegister .InputField_1 .Input_1 .Value_1 {
+	position: relative;
+	flex: none;
+	margin-right: NaNpx;
+	width: 885.6px;
+	height: 59.04px;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.register_register .Group1 .FormRegister .InputField_1 .Error_1 {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	color: rgba(30,30,30,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 82.6559985923767px;
+}
+.register_register .Group1 .FormRegister .InputField_2 {
+	position: relative;
+	flex: none;
+	margin-bottom: 88.56px;
+	width: 1003.68px;
+	height: 140.22px;
+}
+.register_register .Group1 .FormRegister .InputField_2 .Label_2 {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	height: 81.17999999999999px;
+	align-self: stretch;
+	color: rgba(30,30,30,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 82.6559985923767px;
+}
+.register_register .Group1 .FormRegister .InputField_2 .Description_2 {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	height: 81.17999999999999px;
+	align-self: stretch;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 82.6559985923767px;
+}
+.register_register .Group1 .FormRegister .InputField_2 .Input_2 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	height: 147.6px;
+	align-self: stretch;
+	display: flex;
+	padding-top: 44.28px;
+	padding-right: 59.04px;
+	padding-bottom: 44.28px;
+	padding-left: 59.04px;
+	box-sizing: border-box;
+	align-items: center;
+	background: rgba(255,255,255,1.00);
+	border-radius: 29.52px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.register_register .Group1 .FormRegister .InputField_2 .Input_2 .Value_2 {
+	position: relative;
+	flex: none;
+	margin-right: NaNpx;
+	width: 885.6px;
+	height: 59.04px;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.register_register .Group1 .FormRegister .InputField_2 .Error_2 {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	color: rgba(30,30,30,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 82.6559985923767px;
+}
+.register_register .Group1 .FormRegister .ButtonGroup {
+	position: relative;
+	flex: none;
+	margin-bottom: 88.56px;
+	height: 147.6px;
+	align-self: stretch;
+}
+.register_register .Group1 .FormRegister .ButtonGroup .Button {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-right: 59.04px;
+	width: 413.28px;
+	height: 147.6px;
+	border-radius: 29.52px;
+}
+.register_register .Group1 .FormRegister .ButtonGroup .Button .Star {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-right: 29.52px;
+	width: 59.04px;
+	height: 59.04px;
+}
+.register_register .Group1 .FormRegister .ButtonGroup .Button .Star .Icon {
+	position: absolute;
+	left: 4.919924926757813px;
+	top: 4.920037536621094px;
+	width: 83.33333134651184%;
+	height: 79.25000190734863%;
+}
+.register_register .Group1 .FormRegister .ButtonGroup .Button .Button_1 {
+	position: relative;
+	flex: none;
+	margin-right: 29.52px;
+	width: 188.19px;
+	height: 59.04px;
+	color: rgba(48,48,48,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.register_register .Group1 .FormRegister .ButtonGroup .Button .X {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-right: 29.52px;
+	width: 59.04px;
+	height: 59.04px;
+}
+.register_register .Group1 .FormRegister .ButtonGroup .Button .X .Icon_1 {
+	position: absolute;
+	left: 14.76px;
+	top: 14.76px;
+	width: 50%;
+	height: 50%;
+}
+.register_register .Group1 .FormRegister .ButtonGroup .Button_2 {
+	position: relative;
+	flex: none;
+	margin-right: 59.04px;
+	width: 1003.68px;
+	height: 147.6px;
+	background: rgba(126,217,87,1.00);
+	border-radius: 29.52px;
+	border: 1px solid rgba(140.25000303983688,140.25000303983688,140.25000303983688,1);
+}
+.register_register .Group1 .FormRegister .ButtonGroup .Button_2 .Star_1 {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-right: 29.52px;
+	width: 59.04px;
+	height: 59.04px;
+}
+.register_register .Group1 .FormRegister .ButtonGroup .Button_2 .Star_1 .Icon_2 {
+	position: absolute;
+	left: 4.919924926757813px;
+	top: 4.920037536621094px;
+	width: 83.33333134651184%;
+	height: 79.25000190734863%;
+}
+.register_register .Group1 .FormRegister .ButtonGroup .Button_2 .Button_3 {
+	position: relative;
+	flex: none;
+	margin-right: 29.52px;
+	width: 254.60999999999999px;
+	height: 59.04px;
+	color: rgba(245,245,245,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.register_register .Group1 .FormRegister .ButtonGroup .Button_2 .X_1 {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-right: 29.52px;
+	width: 59.04px;
+	height: 59.04px;
+}
+.register_register .Group1 .FormRegister .ButtonGroup .Button_2 .X_1 .Icon_3 {
+	position: absolute;
+	left: 14.76px;
+	top: 14.76px;
+	width: 50%;
+	height: 50%;
+}

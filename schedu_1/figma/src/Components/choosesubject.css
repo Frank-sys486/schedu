@@ -1,0 +1,848 @@
+
+.choosesubject_choosesubject {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.choosesubject_choosesubject .ios {
+	position: absolute;
+	left: -18.45px;
+	top: 0px;
+	width: 1476px;
+	height: 3114.36px;
+}
+.choosesubject_choosesubject .ios .HomeIndicator {
+	position: absolute;
+	left: 0px;
+	top: 2988.9px;
+	width: 1476px;
+	height: 125.46px;
+}
+.choosesubject_choosesubject .ios .HomeIndicator .HomeIndicator_1 {
+	position: absolute;
+	left: 184.5%;
+	bottom: 29.52px;
+	transform: translate(-50%, 0);
+	width: 531.36px;
+	height: 18.45px;
+	background: rgba(0,0,0,1.00);
+	border-radius: 369px;
+}
+.choosesubject_choosesubject .ios .StatusbariPhone {
+	position: absolute;
+	left: 18.45px;
+	top: 0px;
+	width: 1439.1px;
+	height: 177.12px;
+}
+.choosesubject_choosesubject .ios .StatusbariPhone .Time {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 7.38px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.choosesubject_choosesubject .ios .StatusbariPhone .Time .Time_1 {
+	position: relative;
+	flex: none;
+	margin-right: 36.9px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: SF Pro;
+	font-size: 62.73px;
+	font-weight: 590;
+	line-height: 81.17999999999999px;
+}
+.choosesubject_choosesubject .ios .StatusbariPhone .Levels {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 3.69px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.choosesubject_choosesubject .ios .StatusbariPhone .Levels .CellularConnection {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 70.84800281524659px;
+	height: 45.11547369003296px;
+}
+.choosesubject_choosesubject .ios .StatusbariPhone .Levels .Wifi {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 63.252749061584474px;
+	height: 45.49144987106323px;
+}
+.choosesubject_choosesubject .ios .StatusbariPhone .Levels .Battery {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 100.84045749664307px;
+	height: 47.97px;
+}
+.choosesubject_choosesubject .ios .StatusbariPhone .Levels .Battery .Border {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 0px;
+	transform: translate(-50%, 0);
+	width: 92.25px;
+	height: 100%;
+	mix-blend-mode: normal;
+	border-radius: 15.867000703811645px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.choosesubject_choosesubject .ios .StatusbariPhone .Levels .Battery .Cap {
+	position: absolute;
+	left: 360.03401607225885%;
+	top: 17.642812499999998px;
+	transform: translate(-50%, 0);
+	width: 4.900460135936737px;
+	height: 31.349783677321213%;
+	mix-blend-mode: normal;
+}
+.choosesubject_choosesubject .ios .StatusbariPhone .Levels .Battery .Capacity {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 7.38px;
+	transform: translate(-50%, 0);
+	width: 77.49px;
+	height: 69.23076923076923%;
+	background: rgba(0,0,0,1.00);
+	border-radius: 9.225px;
+}
+.choosesubject_choosesubject .Group3 {
+	position: absolute;
+	left: 0px;
+	top: 2712.15px;
+	width: 1439.1px;
+	height: 446.49px;
+}
+.choosesubject_choosesubject .Group3 .Rectangle10 {
+	position: absolute;
+	left: 0px;
+	top: 3.69px;
+	width: 1439.1px;
+	height: 442.8px;
+	background: rgba(255,255,255,1.00);
+}
+.choosesubject_choosesubject .Group3 .nav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1439.1px;
+	height: 250.92px;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList {
+	position: absolute;
+	left: 36.9px;
+	top: 29.52px;
+	width: 1361.61px;
+	height: 221.4px;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton .Home {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton .Home .Icon {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton .Label {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 147.6px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_1 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar .Icon_1 {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_1 .Label_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 228.78px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_2 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus .Icon_2 {
+	position: absolute;
+	left: 18.45px;
+	top: 18.45px;
+	width: 58.333333333333336%;
+	height: 58.333333333333336%;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_2 .Label_2 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 169.74px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_3 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen .Icon_3 {
+	position: absolute;
+	left: 7.38px;
+	top: 11.07px;
+	width: 83.33333333333334%;
+	height: 75%;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_3 .Label_3 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 177.12px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(44,44,44,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_4 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark .Icon_4 {
+	position: absolute;
+	left: 18.45px;
+	top: 11.07px;
+	width: 58.333333333333336%;
+	height: 75%;
+}
+.choosesubject_choosesubject .Group3 .nav .NavigationButtonList .NavigationButton_4 .Label_4 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 136.53px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.choosesubject_choosesubject .Group3 .nav .Line4 {
+	position: absolute;
+	left: 0px;
+	top: 1.5516294297412968e-7px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.choosesubject_choosesubject .header {
+	position: absolute;
+	left: 0px;
+	top: 214.02px;
+	width: 1439.1px;
+	height: 199.26px;
+}
+.choosesubject_choosesubject .header .ford22 {
+	position: absolute;
+	left: 59.04px;
+	top: 0px;
+	width: 143.91px;
+	height: 143.91px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.choosesubject_choosesubject .header .FORADI {
+	position: absolute;
+	left: 214.02px;
+	top: 33.21px;
+	width: 442.8px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 121.77px;
+	font-weight: 300;
+	line-height: 81.17999999999999px;
+}
+.choosesubject_choosesubject .header .Line5 {
+	position: absolute;
+	left: 0px;
+	top: 195.57000015516294px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.choosesubject_choosesubject .ChooseSubject {
+	position: absolute;
+	left: 121.77px;
+	top: 483.39px;
+	width: 483.39px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 62.73px;
+	font-weight: 600;
+	line-height: 81.17999999999999px;
+}
+.choosesubject_choosesubject .Sliders {
+	position: absolute;
+	left: 1125.45px;
+	top: 483.39px;
+	width: 81.17999999999999px;
+	height: 81.17999999999999px;
+}
+.choosesubject_choosesubject .Sliders .Icon_5 {
+	position: absolute;
+	left: 3.3828002929687497px;
+	top: 10.147499999999999px;
+	width: 91.66667244651101%;
+	height: 75%;
+}
+.choosesubject_choosesubject .User {
+	position: absolute;
+	left: 1273.05px;
+	top: 232.47px;
+	width: 103.32px;
+	height: 110.7px;
+}
+.choosesubject_choosesubject .User .Icon_6 {
+	position: absolute;
+	left: 17.22030029296875px;
+	top: 13.8375px;
+	width: 66.66666439601353%;
+	height: 75%;
+}
+.choosesubject_choosesubject .Search {
+	position: absolute;
+	left: 822.87px;
+	top: 483.39px;
+	width: 77.49px;
+	height: 77.49px;
+}
+.choosesubject_choosesubject .Search .Icon_7 {
+	position: absolute;
+	left: 9.68625px;
+	top: 9.68625px;
+	width: 75%;
+	height: 75%;
+}
+.choosesubject_choosesubject .Rectangle2 {
+	position: absolute;
+	left: 88.56px;
+	top: 719.55px;
+	width: 597.78px;
+	height: 830.25px;
+	background: rgba(254,118,168,1.00);
+	border-radius: 22.14px;
+}
+.choosesubject_choosesubject .Rectangle3 {
+	position: absolute;
+	left: 752.76px;
+	top: 719.55px;
+	width: 597.78px;
+	height: 830.25px;
+	background: rgba(82,144,217,1.00);
+	border-radius: 22.14px;
+}
+.choosesubject_choosesubject .Rectangle4 {
+	position: absolute;
+	left: 92.25px;
+	top: 1726.92px;
+	width: 597.78px;
+	height: 830.25px;
+	background: rgba(122,149,180,1.00);
+	border-radius: 22.14px;
+}
+.choosesubject_choosesubject .SCI9Science {
+	position: absolute;
+	left: 232.47px;
+	top: 2586.69px;
+	width: 306.27px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 500;
+	font-style: italic;
+	line-height: 59.04px;
+}
+.choosesubject_choosesubject .image1 {
+	position: absolute;
+	left: 191.88px;
+	top: 937.26px;
+	width: 409.59px;
+	height: 409.59px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.choosesubject_choosesubject .image2 {
+	position: absolute;
+	left: 822.87px;
+	top: 896.67px;
+	width: 476.01px;
+	height: 476.01px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.choosesubject_choosesubject .image3 {
+	position: absolute;
+	left: 121.77px;
+	top: 1863.45px;
+	width: 560.88px;
+	height: 560.88px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.choosesubject_choosesubject .Plus_1 {
+	position: absolute;
+	left: 959.4px;
+	top: 468.63px;
+	width: 107.01px;
+	height: 107.01px;
+}
+.choosesubject_choosesubject .Plus_1 .Icon_8 {
+	position: absolute;
+	left: 22.29405029296875px;
+	top: 22.2931494140625px;
+	width: 58.333331140978586%;
+	height: 58.333331140978586%;
+}
+.choosesubject_choosesubject .All {
+	position: absolute;
+	left: 99.63px;
+	top: 608.85px;
+	width: 55.35px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 47.97px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.choosesubject_choosesubject .arrow_drop_down {
+	position: absolute;
+	left: 162.35999999999999px;
+	top: 608.85px;
+	width: 59.04px;
+	height: 84.87px;
+}
+.choosesubject_choosesubject .arrow_drop_down .icon {
+	position: absolute;
+	left: 17.22030029296875px;
+	top: 35.3631005859375px;
+	width: 41.66666567325592%;
+	height: 20.83333264226499%;
+}
+.choosesubject_choosesubject .Sliders_1 {
+	position: absolute;
+	left: 1125.45px;
+	top: 483.39px;
+	width: 81.17999999999999px;
+	height: 81.17999999999999px;
+}
+.choosesubject_choosesubject .Sliders_1 .Icon_9 {
+	position: absolute;
+	left: 3.3828002929687497px;
+	top: 10.147499999999999px;
+	width: 91.66667244651101%;
+	height: 75%;
+}
+.choosesubject_choosesubject .Search_1 {
+	position: absolute;
+	left: 822.87px;
+	top: 483.39px;
+	width: 77.49px;
+	height: 77.49px;
+}
+.choosesubject_choosesubject .Search_1 .Icon_10 {
+	position: absolute;
+	left: 9.68625px;
+	top: 9.68625px;
+	width: 75%;
+	height: 75%;
+}
+.choosesubject_choosesubject .Rectangle5 {
+	position: absolute;
+	left: 88.56px;
+	top: 719.55px;
+	width: 597.78px;
+	height: 830.25px;
+	background: rgba(254,118,168,1.00);
+	border-radius: 22.14px;
+}
+.choosesubject_choosesubject .Rectangle6 {
+	position: absolute;
+	left: 752.76px;
+	top: 719.55px;
+	width: 597.78px;
+	height: 830.25px;
+	background: rgba(82,144,217,1.00);
+	border-radius: 22.14px;
+}
+.choosesubject_choosesubject .Rectangle7 {
+	position: absolute;
+	left: 92.25px;
+	top: 1726.92px;
+	width: 597.78px;
+	height: 830.25px;
+	background: rgba(122,149,180,1.00);
+	border-radius: 22.14px;
+}
+.choosesubject_choosesubject .MAT10Mathematics {
+	position: absolute;
+	left: 808.11px;
+	top: 2586.69px;
+	width: 464.94px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 500;
+	line-height: 59.04px;
+}
+.choosesubject_choosesubject .SCI9Science_1 {
+	position: absolute;
+	left: 232.47px;
+	top: 2586.69px;
+	width: 306.27px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 500;
+	font-style: italic;
+	line-height: 59.04px;
+}
+.choosesubject_choosesubject .image4 {
+	position: absolute;
+	left: 191.88px;
+	top: 937.26px;
+	width: 409.59px;
+	height: 409.59px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.choosesubject_choosesubject .image5 {
+	position: absolute;
+	left: 822.87px;
+	top: 896.67px;
+	width: 476.01px;
+	height: 476.01px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.choosesubject_choosesubject .image6 {
+	position: absolute;
+	left: 121.77px;
+	top: 1863.45px;
+	width: 560.88px;
+	height: 560.88px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.choosesubject_choosesubject .Plus_2 {
+	position: absolute;
+	left: 959.4px;
+	top: 468.63px;
+	width: 107.01px;
+	height: 107.01px;
+}
+.choosesubject_choosesubject .Plus_2 .Icon_11 {
+	position: absolute;
+	left: 22.29405029296875px;
+	top: 22.2931494140625px;
+	width: 58.333331140978586%;
+	height: 58.333331140978586%;
+}
+.choosesubject_choosesubject .Maskgroup {
+	position: absolute;
+	left: 749.0699999999999px;
+	top: 1726.92px;
+	width: 597.78px;
+	height: 830.25px;
+}
+.choosesubject_choosesubject .Maskgroup .Rectangle8 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 597.78px;
+	height: 830.25px;
+	background: rgba(254,118,168,1.00);
+	border-radius: 22.14px;
+}
+.choosesubject_choosesubject .Maskgroup .image7 {
+	position: absolute;
+	left: 103.32px;
+	top: 217.71px;
+	width: 409.59px;
+	height: 409.59px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.choosesubject_choosesubject .Maskgroup .Rectangle9 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 597.78px;
+	height: 830.25px;
+	background: rgba(255,242,0,1.00);
+	border-radius: 22.14px;
+}
+.choosesubject_choosesubject .Maskgroup .image9 {
+	position: absolute;
+	left: -413.28px;
+	top: 0px;
+	width: 1527.66px;
+	height: 918.81px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.choosesubject_choosesubject .Check {
+	position: absolute;
+	left: 1258.29px;
+	top: 483.39px;
+	width: 92.25px;
+	height: 92.25px;
+}
+.choosesubject_choosesubject .Check .Icon_12 {
+	position: absolute;
+	left: 15.375300292968749px;
+	top: 23.0625px;
+	width: 66.66666412353516%;
+	height: 45.83333206176758%;
+}
+.choosesubject_choosesubject .MAT10Mathematics_1 {
+	position: absolute;
+	left: 158.67px;
+	top: 1560.87px;
+	width: 464.94px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 500;
+	line-height: 59.04px;
+}
+.choosesubject_choosesubject .HephzibahSchoolInc {
+	position: absolute;
+	left: 232.47px;
+	top: 1608.84px;
+	width: 317.34px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 29.52px;
+	font-weight: 300;
+	line-height: 59.04px;
+}
+.choosesubject_choosesubject .HephzibahSchoolInc_1 {
+	position: absolute;
+	left: 892.98px;
+	top: 1608.84px;
+	width: 317.34px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 29.52px;
+	font-weight: 300;
+	line-height: 59.04px;
+}
+.choosesubject_choosesubject .HephzibahSchoolInc_2 {
+	position: absolute;
+	left: 228.78px;
+	top: 2630.97px;
+	width: 317.34px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 29.52px;
+	font-weight: 300;
+	line-height: 59.04px;
+}
+.choosesubject_choosesubject .AdventistUniversityofthePhilippines {
+	position: absolute;
+	left: 664.2px;
+	top: 2630.97px;
+	width: 667.89px;
+	height: 59.04px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 29.52px;
+	font-weight: 300;
+	line-height: 59.04px;
+}
+.choosesubject_choosesubject .SCI8Science {
+	position: absolute;
+	left: 904.05px;
+	top: 1560.87px;
+	width: 306.27px;
+	height: 59.04px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 500;
+	font-style: italic;
+	line-height: 59.04px;
+}
+.choosesubject_choosesubject .arrow_drop_down_1 {
+	position: absolute;
+	left: 44.28015849508345px;
+	top: 490.76973149826284px;
+	width: 85.24821064554155px;
+	height: 59.5849800057197px;
+}
+.choosesubject_choosesubject .arrow_drop_down_1 .icon_1 {
+	position: absolute;
+	left: 31.935999956373255px;
+	top: 17.424787152611724px;
+	width: 20.926190405148727%;
+	height: 41.47569154166184%;
+}

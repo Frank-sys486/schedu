@@ -1,0 +1,454 @@
+
+.librarylesson_librarylesson {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.librarylesson_librarylesson .ios {
+	position: absolute;
+	left: -18.45px;
+	top: 0px;
+	width: 1476px;
+	height: 3114.36px;
+}
+.librarylesson_librarylesson .ios .HomeIndicator {
+	position: absolute;
+	left: 0px;
+	top: 2988.9px;
+	width: 1476px;
+	height: 125.46px;
+}
+.librarylesson_librarylesson .ios .HomeIndicator .HomeIndicator_1 {
+	position: absolute;
+	left: 184.5%;
+	bottom: 29.52px;
+	transform: translate(-50%, 0);
+	width: 531.36px;
+	height: 18.45px;
+	background: rgba(0,0,0,1.00);
+	border-radius: 369px;
+}
+.librarylesson_librarylesson .ios .StatusbariPhone {
+	position: absolute;
+	left: 18.45px;
+	top: 0px;
+	width: 1439.1px;
+	height: 177.12px;
+}
+.librarylesson_librarylesson .ios .StatusbariPhone .Time {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 7.38px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.librarylesson_librarylesson .ios .StatusbariPhone .Time .Time_1 {
+	position: relative;
+	flex: none;
+	margin-right: 36.9px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: SF Pro;
+	font-size: 62.73px;
+	font-weight: 590;
+	line-height: 81.17999999999999px;
+}
+.librarylesson_librarylesson .ios .StatusbariPhone .Levels {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 3.69px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.librarylesson_librarylesson .ios .StatusbariPhone .Levels .CellularConnection {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 70.84800281524659px;
+	height: 45.11547369003296px;
+}
+.librarylesson_librarylesson .ios .StatusbariPhone .Levels .Wifi {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 63.252749061584474px;
+	height: 45.49144987106323px;
+}
+.librarylesson_librarylesson .ios .StatusbariPhone .Levels .Battery {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 100.84045749664307px;
+	height: 47.97px;
+}
+.librarylesson_librarylesson .ios .StatusbariPhone .Levels .Battery .Border {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 0px;
+	transform: translate(-50%, 0);
+	width: 92.25px;
+	height: 100%;
+	mix-blend-mode: normal;
+	border-radius: 15.867000703811645px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.librarylesson_librarylesson .ios .StatusbariPhone .Levels .Battery .Cap {
+	position: absolute;
+	left: 360.03401607225885%;
+	top: 17.642812499999998px;
+	transform: translate(-50%, 0);
+	width: 4.900460135936737px;
+	height: 31.349783677321213%;
+	mix-blend-mode: normal;
+}
+.librarylesson_librarylesson .ios .StatusbariPhone .Levels .Battery .Capacity {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 7.38px;
+	transform: translate(-50%, 0);
+	width: 77.49px;
+	height: 69.23076923076923%;
+	background: rgba(0,0,0,1.00);
+	border-radius: 9.225px;
+}
+.librarylesson_librarylesson .Group3 {
+	position: absolute;
+	left: 0px;
+	top: 2712.15px;
+	width: 1439.1px;
+	height: 446.49px;
+}
+.librarylesson_librarylesson .Group3 .Rectangle10 {
+	position: absolute;
+	left: 0px;
+	top: 3.69px;
+	width: 1439.1px;
+	height: 442.8px;
+	background: rgba(255,255,255,1.00);
+}
+.librarylesson_librarylesson .Group3 .nav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1439.1px;
+	height: 250.92px;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList {
+	position: absolute;
+	left: 36.9px;
+	top: 29.52px;
+	width: 1361.61px;
+	height: 221.4px;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton .Home {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton .Home .Icon {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton .Label {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 147.6px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_1 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar .Icon_1 {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_1 .Label_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 228.78px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_2 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus .Icon_2 {
+	position: absolute;
+	left: 18.45px;
+	top: 18.45px;
+	width: 58.333333333333336%;
+	height: 58.333333333333336%;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_2 .Label_2 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 169.74px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_3 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen .Icon_3 {
+	position: absolute;
+	left: 7.38px;
+	top: 11.07px;
+	width: 83.33333333333334%;
+	height: 75%;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_3 .Label_3 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 177.12px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(44,44,44,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_4 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark .Icon_4 {
+	position: absolute;
+	left: 18.45px;
+	top: 11.07px;
+	width: 58.333333333333336%;
+	height: 75%;
+}
+.librarylesson_librarylesson .Group3 .nav .NavigationButtonList .NavigationButton_4 .Label_4 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 136.53px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.librarylesson_librarylesson .Group3 .nav .Line4 {
+	position: absolute;
+	left: 0px;
+	top: 1.5516294297412968e-7px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.librarylesson_librarylesson .header {
+	position: absolute;
+	left: 0px;
+	top: 214.02px;
+	width: 1439.1px;
+	height: 199.26px;
+}
+.librarylesson_librarylesson .header .ford22 {
+	position: absolute;
+	left: 59.04px;
+	top: 0px;
+	width: 143.91px;
+	height: 143.91px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.librarylesson_librarylesson .header .FORADI {
+	position: absolute;
+	left: 214.02px;
+	top: 33.21px;
+	width: 442.8px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 121.77px;
+	font-weight: 300;
+	line-height: 81.17999999999999px;
+}
+.librarylesson_librarylesson .header .Line5 {
+	position: absolute;
+	left: 0px;
+	top: 195.57000015516294px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.librarylesson_librarylesson .Lesson1IntroductiontoScience {
+	position: absolute;
+	left: 132.84px;
+	top: 490.77px;
+	width: 988.92px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 62.73px;
+	font-weight: 600;
+	line-height: 81.17999999999999px;
+}
+.librarylesson_librarylesson .User {
+	position: absolute;
+	left: 1273.05px;
+	top: 232.47px;
+	width: 103.32px;
+	height: 110.7px;
+}
+.librarylesson_librarylesson .User .Icon_5 {
+	position: absolute;
+	left: 17.22030029296875px;
+	top: 13.8375px;
+	width: 66.66666439601353%;
+	height: 75%;
+}
+.librarylesson_librarylesson .arrow_drop_down {
+	position: absolute;
+	left: 47.97015849508345px;
+	top: 509.21973149826283px;
+	width: 85.24821064554155px;
+	height: 59.5849800057197px;
+}
+.librarylesson_librarylesson .arrow_drop_down .icon {
+	position: absolute;
+	left: 31.935999956373255px;
+	top: 17.424787152610048px;
+	width: 20.926190405148727%;
+	height: 41.475691541667466%;
+}
+.librarylesson_librarylesson .Morehorizontal {
+	position: absolute;
+	left: 1236.15px;
+	top: 490.77px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.librarylesson_librarylesson .Morehorizontal .Icon_6 {
+	position: absolute;
+	left: 14.76px;
+	top: 40.589999999999996px;
+	width: 66.66666666666666%;
+	height: 8.333333333333332%;
+}
+.librarylesson_librarylesson .Rectangle32 {
+	position: absolute;
+	left: 88.56px;
+	top: 634.68px;
+	width: 1247.22px;
+	height: 2018.43px;
+	background: rgba(251,251,251,1.00);
+}

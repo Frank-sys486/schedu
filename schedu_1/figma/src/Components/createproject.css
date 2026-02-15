@@ -1,0 +1,707 @@
+
+.createproject_createproject {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.createproject_createproject .Rectangle59 {
+	position: absolute;
+	left: 88.56px;
+	top: 701.1px;
+	width: 605.16px;
+	height: 125.46px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 7.38px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.createproject_createproject .Rectangle71 {
+	position: absolute;
+	left: 84.87px;
+	top: 848.6999999999999px;
+	width: 409.59px;
+	height: 125.46px;
+	background: rgba(251,251,251,1.00);
+	border-radius: 7.38px;
+}
+.createproject_createproject .ios {
+	position: absolute;
+	left: -18.45px;
+	top: 0px;
+	width: 1476px;
+	height: 3114.36px;
+}
+.createproject_createproject .ios .HomeIndicator {
+	position: absolute;
+	left: 0px;
+	top: 2988.9px;
+	width: 1476px;
+	height: 125.46px;
+}
+.createproject_createproject .ios .HomeIndicator .HomeIndicator_1 {
+	position: absolute;
+	left: 184.5%;
+	bottom: 29.52px;
+	transform: translate(-50%, 0);
+	width: 531.36px;
+	height: 18.45px;
+	background: rgba(0,0,0,1.00);
+	border-radius: 369px;
+}
+.createproject_createproject .ios .StatusbariPhone {
+	position: absolute;
+	left: 18.45px;
+	top: 0px;
+	width: 1439.1px;
+	height: 177.12px;
+}
+.createproject_createproject .ios .StatusbariPhone .Time {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 7.38px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.createproject_createproject .ios .StatusbariPhone .Time .Time_1 {
+	position: relative;
+	flex: none;
+	margin-right: 36.9px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: SF Pro;
+	font-size: 62.73px;
+	font-weight: 590;
+	line-height: 81.17999999999999px;
+}
+.createproject_createproject .ios .StatusbariPhone .Levels {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 3.69px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.createproject_createproject .ios .StatusbariPhone .Levels .CellularConnection {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 70.84800281524659px;
+	height: 45.11547369003296px;
+}
+.createproject_createproject .ios .StatusbariPhone .Levels .Wifi {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 63.252749061584474px;
+	height: 45.49144987106323px;
+}
+.createproject_createproject .ios .StatusbariPhone .Levels .Battery {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 100.84045749664307px;
+	height: 47.97px;
+}
+.createproject_createproject .ios .StatusbariPhone .Levels .Battery .Border {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 0px;
+	transform: translate(-50%, 0);
+	width: 92.25px;
+	height: 100%;
+	mix-blend-mode: normal;
+	border-radius: 15.867000703811645px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.createproject_createproject .ios .StatusbariPhone .Levels .Battery .Cap {
+	position: absolute;
+	left: 360.03401607225885%;
+	top: 17.642812499999998px;
+	transform: translate(-50%, 0);
+	width: 4.900460135936737px;
+	height: 31.349783677321213%;
+	mix-blend-mode: normal;
+}
+.createproject_createproject .ios .StatusbariPhone .Levels .Battery .Capacity {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 7.38px;
+	transform: translate(-50%, 0);
+	width: 77.49px;
+	height: 69.23076923076923%;
+	background: rgba(0,0,0,1.00);
+	border-radius: 9.225px;
+}
+.createproject_createproject .Group3 {
+	position: absolute;
+	left: 0px;
+	top: 2712.15px;
+	width: 1439.1px;
+	height: 446.49px;
+}
+.createproject_createproject .Group3 .Rectangle10 {
+	position: absolute;
+	left: 0px;
+	top: 3.69px;
+	width: 1439.1px;
+	height: 442.8px;
+	background: rgba(255,255,255,1.00);
+}
+.createproject_createproject .Group3 .nav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1439.1px;
+	height: 250.92px;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList {
+	position: absolute;
+	left: 36.9px;
+	top: 29.52px;
+	width: 1361.61px;
+	height: 221.4px;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton .Home {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton .Home .Icon {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton .Label {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 147.6px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_1 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar .Icon_1 {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_1 .Label_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 228.78px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_2 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus .Icon_2 {
+	position: absolute;
+	left: 18.45px;
+	top: 18.45px;
+	width: 58.333333333333336%;
+	height: 58.333333333333336%;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_2 .Label_2 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 169.74px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(44,44,44,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_3 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen .Icon_3 {
+	position: absolute;
+	left: 7.38px;
+	top: 11.07px;
+	width: 83.33333333333334%;
+	height: 75%;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_3 .Label_3 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 177.12px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_4 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark .Icon_4 {
+	position: absolute;
+	left: 18.45px;
+	top: 11.07px;
+	width: 58.333333333333336%;
+	height: 75%;
+}
+.createproject_createproject .Group3 .nav .NavigationButtonList .NavigationButton_4 .Label_4 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 136.53px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.createproject_createproject .Group3 .nav .Line4 {
+	position: absolute;
+	left: 0px;
+	top: 1.5516294297412968e-7px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.createproject_createproject .header {
+	position: absolute;
+	left: 0px;
+	top: 214.02px;
+	width: 1439.1px;
+	height: 199.26px;
+}
+.createproject_createproject .header .ford22 {
+	position: absolute;
+	left: 59.04px;
+	top: 0px;
+	width: 143.91px;
+	height: 143.91px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.createproject_createproject .header .FORADI {
+	position: absolute;
+	left: 214.02px;
+	top: 33.21px;
+	width: 442.8px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 121.77px;
+	font-weight: 300;
+	line-height: 81.17999999999999px;
+}
+.createproject_createproject .header .Line5 {
+	position: absolute;
+	left: 0px;
+	top: 195.57000015516294px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.createproject_createproject .User {
+	position: absolute;
+	left: 1273.05px;
+	top: 232.47px;
+	width: 103.32px;
+	height: 110.7px;
+}
+.createproject_createproject .User .Icon_5 {
+	position: absolute;
+	left: 17.2193994140625px;
+	top: 13.8375px;
+	width: 66.66666439601353%;
+	height: 75%;
+}
+.createproject_createproject .CreateActivity {
+	position: absolute;
+	left: 125.46px;
+	top: 483.39px;
+	width: 453.87px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 62.73px;
+	font-weight: 600;
+	line-height: 81.17999999999999px;
+}
+.createproject_createproject .Subject {
+	position: absolute;
+	left: 202.95px;
+	top: 870.84px;
+	width: 158.67px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createproject_createproject .Rectangle126 {
+	position: absolute;
+	left: 107.01px;
+	top: 1173.42px;
+	width: 1250.91px;
+	height: 162.35999999999999px;
+	background: rgba(251,251,251,1.00);
+	border-radius: 7.38px;
+}
+.createproject_createproject .Briefdescription {
+	position: absolute;
+	left: 143.91px;
+	top: 1214.01px;
+	width: 346.86px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createproject_createproject .Rectangle109 {
+	position: absolute;
+	left: 516.6px;
+	top: 848.6999999999999px;
+	width: 859.77px;
+	height: 125.46px;
+	background: rgba(251,251,251,1.00);
+	border-radius: 7.38px;
+}
+.createproject_createproject .Scope {
+	position: absolute;
+	left: 885.6px;
+	top: 870.84px;
+	width: 132.84px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createproject_createproject .PerformanceTask {
+	position: absolute;
+	left: 191.88px;
+	top: 723.24px;
+	width: 380.07px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createproject_createproject .Rectangle111 {
+	position: absolute;
+	left: 719.55px;
+	top: 701.1px;
+	width: 656.8199999999999px;
+	height: 125.46px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 7.38px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.createproject_createproject .Project {
+	position: absolute;
+	left: 974.16px;
+	top: 723.24px;
+	width: 147.6px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createproject_createproject .Check {
+	position: absolute;
+	left: 1273.05px;
+	top: 483.39px;
+	width: 92.25px;
+	height: 92.25px;
+}
+.createproject_createproject .Check .Icon_6 {
+	position: absolute;
+	left: 15.3743994140625px;
+	top: 23.0625px;
+	width: 66.66666412353516%;
+	height: 45.83333206176758%;
+}
+.createproject_createproject .Overview {
+	position: absolute;
+	left: 84.87px;
+	top: 601.47px;
+	width: 199.26px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createproject_createproject .icon {
+	position: absolute;
+	left: 17.2193994140625px;
+	top: 35.3631005859375px;
+	width: 1.7094016686463969%;
+	height: 0.5677330550424295%;
+}
+.createproject_createproject .arrow_drop_down {
+	position: absolute;
+	left: 36.90015849508345px;
+	top: 494.45973149826284px;
+	width: 85.24821064554155px;
+	height: 59.5849800057197px;
+}
+.createproject_createproject .arrow_drop_down .icon_1 {
+	position: absolute;
+	left: 31.935999956371578px;
+	top: 17.424787152611724px;
+	width: 20.926190405150695%;
+	height: 41.47569154166184%;
+}
+.createproject_createproject .Line34 {
+	position: absolute;
+	left: 88.56px;
+	top: 1036.8899999999999px;
+	width: 1287.81px;
+	height: 0px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.createproject_createproject .Line35 {
+	position: absolute;
+	left: 95.94px;
+	top: 1391.1299999999999px;
+	width: 1287.81px;
+	height: 0px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.createproject_createproject .Components {
+	position: absolute;
+	left: 95.94px;
+	top: 1435.41px;
+	width: 1014.75px;
+	height: 81.17999999999999px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createproject_createproject .Requirements {
+	position: absolute;
+	left: 92.25px;
+	top: 1077.48px;
+	width: 1014.75px;
+	height: 81.17999999999999px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createproject_createproject .Instructions {
+	position: absolute;
+	left: 166.05px;
+	top: 1560.87px;
+	width: 247.23px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createproject_createproject .Rectangle115 {
+	position: absolute;
+	left: 95.94px;
+	top: 1538.73px;
+	width: 380.07px;
+	height: 125.46px;
+	border-radius: 25.83px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.createproject_createproject .GradingSheet {
+	position: absolute;
+	left: 966.78px;
+	top: 1560.87px;
+	width: 302.58px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createproject_createproject .Rectangle117 {
+	position: absolute;
+	left: 889.29px;
+	top: 1538.73px;
+	width: 431.73px;
+	height: 125.46px;
+	border-radius: 25.83px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.createproject_createproject .Rubrix {
+	position: absolute;
+	left: 623.61px;
+	top: 1560.87px;
+	width: 132.84px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.createproject_createproject .Rectangle114 {
+	position: absolute;
+	left: 527.67px;
+	top: 1538.73px;
+	width: 317.34px;
+	height: 125.46px;
+	border-radius: 25.83px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}

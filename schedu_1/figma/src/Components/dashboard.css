@@ -1,0 +1,986 @@
+
+.dashboard_dashboard {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.dashboard_dashboard .ios {
+	position: absolute;
+	left: -18.45px;
+	top: 0px;
+	width: 1476px;
+	height: 3114.36px;
+}
+.dashboard_dashboard .ios .HomeIndicator {
+	position: absolute;
+	left: 0px;
+	top: 2988.9px;
+	width: 1476px;
+	height: 125.46px;
+}
+.dashboard_dashboard .ios .HomeIndicator .HomeIndicator_1 {
+	position: absolute;
+	left: 184.5%;
+	bottom: 29.52px;
+	transform: translate(-50%, 0);
+	width: 531.36px;
+	height: 18.45px;
+	background: rgba(0,0,0,1.00);
+	border-radius: 369px;
+}
+.dashboard_dashboard .ios .StatusbariPhone {
+	position: absolute;
+	left: 18.45px;
+	top: 0px;
+	width: 1439.1px;
+	height: 177.12px;
+}
+.dashboard_dashboard .ios .StatusbariPhone .Time {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 7.38px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.dashboard_dashboard .ios .StatusbariPhone .Time .Time_1 {
+	position: relative;
+	flex: none;
+	margin-right: 36.9px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: SF Pro;
+	font-size: 62.73px;
+	font-weight: 590;
+	line-height: 81.17999999999999px;
+}
+.dashboard_dashboard .ios .StatusbariPhone .Levels {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 3.69px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.dashboard_dashboard .ios .StatusbariPhone .Levels .CellularConnection {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 70.84800281524659px;
+	height: 45.11547369003296px;
+}
+.dashboard_dashboard .ios .StatusbariPhone .Levels .Wifi {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 63.252749061584474px;
+	height: 45.49144987106323px;
+}
+.dashboard_dashboard .ios .StatusbariPhone .Levels .Battery {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 100.84045749664307px;
+	height: 47.97px;
+}
+.dashboard_dashboard .ios .StatusbariPhone .Levels .Battery .Border {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 0px;
+	transform: translate(-50%, 0);
+	width: 92.25px;
+	height: 100%;
+	mix-blend-mode: normal;
+	border-radius: 15.867000703811645px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.dashboard_dashboard .ios .StatusbariPhone .Levels .Battery .Cap {
+	position: absolute;
+	left: 360.03401607225885%;
+	top: 17.642362060546876px;
+	transform: translate(-50%, 0);
+	width: 4.900460135936737px;
+	height: 31.349783677321213%;
+	mix-blend-mode: normal;
+}
+.dashboard_dashboard .ios .StatusbariPhone .Levels .Battery .Capacity {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 7.38px;
+	transform: translate(-50%, 0);
+	width: 77.49px;
+	height: 69.23076923076923%;
+	background: rgba(0,0,0,1.00);
+	border-radius: 9.225px;
+}
+.dashboard_dashboard .MenuHeader {
+	position: absolute;
+	left: 70.11px;
+	top: 487.08px;
+	width: 944.64px;
+	height: 199.26px;
+	border-radius: 29.52px;
+}
+.dashboard_dashboard .MenuHeader .TextSmall {
+	position: relative;
+	flex: none;
+	margin-bottom: NaNpx;
+	width: 250.92px;
+	height: 73.8px;
+}
+.dashboard_dashboard .MenuHeader .TextSmall .TextSmall_1 {
+	position: relative;
+	flex: none;
+	margin-right: NaNpx;
+	width: 250.92px;
+	height: 73.8px;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 72.32400140762329px;
+}
+.dashboard_dashboard .MenuHeader .TextStrong {
+	position: relative;
+	flex: none;
+	margin-bottom: NaNpx;
+	width: 535.05px;
+	height: 81.17999999999999px;
+}
+.dashboard_dashboard .MenuHeader .TextStrong .TextStrong_1 {
+	position: relative;
+	flex: none;
+	margin-right: NaNpx;
+	width: 535.05px;
+	height: 81.17999999999999px;
+	color: rgba(30,30,30,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 600;
+	line-height: 82.6559985923767px;
+}
+.dashboard_dashboard .MenuHeader_1 {
+	position: absolute;
+	left: 70.11px;
+	top: 1439.1px;
+	width: 944.64px;
+	height: 199.26px;
+	border-radius: 29.52px;
+}
+.dashboard_dashboard .MenuHeader_1 .TextSmall_2 {
+	position: relative;
+	flex: none;
+	margin-bottom: NaNpx;
+	width: 232.47px;
+	height: 73.8px;
+}
+.dashboard_dashboard .MenuHeader_1 .TextSmall_2 .TextSmall_3 {
+	position: relative;
+	flex: none;
+	margin-right: NaNpx;
+	width: 232.47px;
+	height: 73.8px;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 72.32400140762329px;
+}
+.dashboard_dashboard .MenuHeader_1 .TextStrong_2 {
+	position: relative;
+	flex: none;
+	margin-bottom: NaNpx;
+	width: 638.37px;
+	height: 81.17999999999999px;
+}
+.dashboard_dashboard .MenuHeader_1 .TextStrong_2 .TextStrong_3 {
+	position: relative;
+	flex: none;
+	margin-right: NaNpx;
+	width: 638.37px;
+	height: 81.17999999999999px;
+	color: rgba(30,30,30,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 600;
+	line-height: 82.6559985923767px;
+}
+.dashboard_dashboard .nav {
+	position: absolute;
+	left: 0px;
+	top: 2712.15px;
+	width: 1439.1px;
+	height: 250.92px;
+}
+.dashboard_dashboard .nav .NavigationButtonList {
+	position: absolute;
+	left: 36.9px;
+	top: 29.52px;
+	width: 1361.61px;
+	height: 221.4px;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton .Home {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton .Home .Icon {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton .Label {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 147.6px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(44,44,44,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_1 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_1 .Calendar {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_1 .Calendar .Icon_1 {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_1 .Label_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 228.78px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_2 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_2 .Plus {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_2 .Plus .Icon_2 {
+	position: absolute;
+	left: 18.45px;
+	top: 18.45px;
+	width: 58.333333333333336%;
+	height: 58.333333333333336%;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_2 .Label_2 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 169.74px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_3 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_3 .Bookopen {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_3 .Bookopen .Icon_3 {
+	position: absolute;
+	left: 7.38px;
+	top: 11.07px;
+	width: 83.33333333333334%;
+	height: 75%;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_3 .Label_3 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 177.12px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_4 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_4 .Bookmark {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_4 .Bookmark .Icon_4 {
+	position: absolute;
+	left: 18.45px;
+	top: 11.07px;
+	width: 58.333333333333336%;
+	height: 75%;
+}
+.dashboard_dashboard .nav .NavigationButtonList .NavigationButton_4 .Label_4 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 136.53px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.dashboard_dashboard .nav .Line4 {
+	position: absolute;
+	left: 0px;
+	top: 1.551621039652673e-7px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837896px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.dashboard_dashboard .nav_1 {
+	position: absolute;
+	left: 0px;
+	top: 2712.15px;
+	width: 1439.1px;
+	height: 250.92px;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 {
+	position: absolute;
+	left: 36.9px;
+	top: 29.52px;
+	width: 1361.61px;
+	height: 221.4px;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_5 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_5 .Home_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_5 .Home_1 .Icon_5 {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_5 .Label_5 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 147.6px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(44,44,44,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_6 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_6 .Calendar_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_6 .Calendar_1 .Icon_6 {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_6 .Label_6 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 228.78px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_7 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_7 .Plus_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_7 .Plus_1 .Icon_7 {
+	position: absolute;
+	left: 18.45px;
+	top: 18.45px;
+	width: 58.333333333333336%;
+	height: 58.333333333333336%;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_7 .Label_7 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 169.74px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_8 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_8 .Bookopen_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_8 .Bookopen_1 .Icon_8 {
+	position: absolute;
+	left: 7.38px;
+	top: 11.07px;
+	width: 83.33333333333334%;
+	height: 75%;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_8 .Label_8 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 177.12px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_9 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_9 .Bookmark_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_9 .Bookmark_1 .Icon_9 {
+	position: absolute;
+	left: 18.45px;
+	top: 11.07px;
+	width: 58.333333333333336%;
+	height: 75%;
+}
+.dashboard_dashboard .nav_1 .NavigationButtonList_1 .NavigationButton_9 .Label_9 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 136.53px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.dashboard_dashboard .nav_1 .Line4_1 {
+	position: absolute;
+	left: 0px;
+	top: 1.551621039652673e-7px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837896px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.dashboard_dashboard .header {
+	position: absolute;
+	left: 0px;
+	top: 210.32999999999998px;
+	width: 1439.1px;
+	height: 202.95px;
+}
+.dashboard_dashboard .header .ford22 {
+	position: absolute;
+	left: 59.04px;
+	top: 3.69px;
+	width: 143.91px;
+	height: 143.91px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.dashboard_dashboard .header .S11 {
+	position: absolute;
+	left: 55.35px;
+	top: 0px;
+	width: 132.84px;
+	height: 132.84px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.dashboard_dashboard .header .SCHEDU {
+	position: absolute;
+	left: 214.02px;
+	top: 36.9px;
+	width: 505.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 121.77px;
+	font-weight: 300;
+	line-height: 81.17999999999999px;
+}
+.dashboard_dashboard .header .Line5 {
+	position: absolute;
+	left: 0px;
+	top: 199.2600001551621px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837896px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.dashboard_dashboard .Line6 {
+	position: absolute;
+	left: 132.84px;
+	top: 712.17px;
+	width: 0px;
+	height: 258.3px;
+	border: 5px solid rgba(254.00000005960464,118.00000056624413,168.0000051856041,1);
+}
+.dashboard_dashboard .MAT10 {
+	position: absolute;
+	left: 199.26px;
+	top: 738px;
+	width: 424.34999999999997px;
+	height: 73.8px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 82.6559985923767px;
+}
+.dashboard_dashboard .Grade10Newton {
+	position: absolute;
+	left: 199.26px;
+	top: 811.8px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.dashboard_dashboard .Grade10Newton_1 {
+	position: absolute;
+	left: 199.26px;
+	top: 811.8px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.dashboard_dashboard .Lesson3Polynomials {
+	position: absolute;
+	left: 741.6899999999999px;
+	top: 738px;
+	width: 604.223705291748px;
+	height: 59.04px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.dashboard_dashboard ._1130AMto130PM {
+	position: absolute;
+	left: 199.26px;
+	top: 867.15px;
+	width: 682.65px;
+	height: 55.35px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.dashboard_dashboard .Line7 {
+	position: absolute;
+	left: 715.86px;
+	top: 738px;
+	width: 0px;
+	height: 214.02px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.dashboard_dashboard .Rectangle5 {
+	position: absolute;
+	left: 774.9px;
+	top: 712.17px;
+	width: 527.67px;
+	height: 110.7px;
+	border-radius: 11.07px;
+	border: 1px solid rgba(142.39298164844513,189.09498363733292,166.52235567569733,1);
+	box-sizing: border-box;
+}
+.dashboard_dashboard .Lesson4QuadraticFunction {
+	position: absolute;
+	left: 741.6899999999999px;
+	top: 1125.45px;
+	width: 604.223705291748px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.dashboard_dashboard .Rectangle7 {
+	position: absolute;
+	left: 774.9px;
+	top: 1084.86px;
+	width: 527.67px;
+	height: 158.67px;
+	border-radius: 11.07px;
+	border: 1px solid rgba(142.39298164844513,189.09498363733292,166.52235567569733,1);
+	box-sizing: border-box;
+}
+.dashboard_dashboard .SW3Polynomials {
+	position: absolute;
+	left: 741.6899999999999px;
+	top: 867.15px;
+	width: 604.223705291748px;
+	height: 59.04px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.dashboard_dashboard .Rectangle6 {
+	position: absolute;
+	left: 774.9px;
+	top: 841.3199999999999px;
+	width: 527.67px;
+	height: 110.7px;
+	border-radius: 11.07px;
+	border: 1px solid rgba(173.73985558748245,182.23299264907837,230.36104291677475,1);
+	box-sizing: border-box;
+}
+.dashboard_dashboard .Line8 {
+	position: absolute;
+	left: 136.53px;
+	top: 1033.2px;
+	width: 0px;
+	height: 258.3px;
+	border: 5px solid rgba(254.00000005960464,118.00000056624413,168.0000051856041,1);
+}
+.dashboard_dashboard .MAT10_1 {
+	position: absolute;
+	left: 202.95px;
+	top: 1059.03px;
+	width: 424.34999999999997px;
+	height: 73.8px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 82.6559985923767px;
+}
+.dashboard_dashboard .Grade10Einstein {
+	position: absolute;
+	left: 202.95px;
+	top: 1132.83px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.dashboard_dashboard .MAT10_2 {
+	position: absolute;
+	left: 202.95px;
+	top: 1059.03px;
+	width: 424.34999999999997px;
+	height: 73.8px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 82.6559985923767px;
+}
+.dashboard_dashboard .Grade10Einstein_1 {
+	position: absolute;
+	left: 202.95px;
+	top: 1132.83px;
+	width: 601.47px;
+	height: 55.35px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.dashboard_dashboard ._300PMto400PM {
+	position: absolute;
+	left: 202.95px;
+	top: 1188.18px;
+	width: 682.65px;
+	height: 55.35px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.dashboard_dashboard .Line9 {
+	position: absolute;
+	left: 719.55px;
+	top: 1059.03px;
+	width: 0px;
+	height: 214.02px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.dashboard_dashboard .Line10 {
+	position: absolute;
+	left: 47.97px;
+	top: 1409.58px;
+	width: 1328.4px;
+	height: 0px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.dashboard_dashboard .Rectangle11 {
+	position: absolute;
+	left: 140.22px;
+	top: 1656.81px;
+	width: 1147.59px;
+	height: 1022.13px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 14.76px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.dashboard_dashboard .ApolynomialisamathematicalexpressioncomposedofvariablescoefficientsandexponentsinvolvingonlytheoperationsofadditionsubtractionandmultiplicationItconsistsofafinitenumberoftermswhereeachtermisaconstantoraproductofaconstantandoneormorevariablesraisedtoanonnegativeintegerpowerThehighestexponentinapolynomialdeterminesitsdegreeTypesofpolynomialsMonomialApolynomialwithonetermBinomialApolynomialwithtwotermsTrinomialApolynomialwiththreeterms {
+	position: absolute;
+	left: 195.57px;
+	top: 1719.54px;
+	width: 1055.34px;
+	height: 1062.72px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 36.9px;
+	font-weight: 400;
+	line-height: 42.803997888565064px;
+}
+.dashboard_dashboard .Screenshot20251011at10655PM1 {
+	position: absolute;
+	left: 642.06px;
+	top: 2214px;
+	width: 99.63px;
+	height: 107.01px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.dashboard_dashboard .Screenshot20251011at10733PM1 {
+	position: absolute;
+	left: 612.54px;
+	top: 2498.13px;
+	width: 158.67px;
+	height: 70.11px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.dashboard_dashboard .Chevronsright {
+	position: absolute;
+	left: 1258.29px;
+	top: 571.95px;
+	width: 59.04px;
+	height: 59.04px;
+}
+.dashboard_dashboard .Chevronsright .Icon_10 {
+	position: absolute;
+	left: 14.76px;
+	top: 17.219849853515626px;
+	width: 50%;
+	height: 41.66666567325592%;
+}
+.dashboard_dashboard .Chevronsright_1 {
+	position: absolute;
+	left: 1269.36px;
+	top: 1523.97px;
+	width: 59.04px;
+	height: 59.04px;
+}
+.dashboard_dashboard .Chevronsright_1 .Icon_11 {
+	position: absolute;
+	left: 14.76px;
+	top: 17.219849853515626px;
+	width: 50%;
+	height: 41.66666567325592%;
+}
+.dashboard_dashboard .User {
+	position: absolute;
+	left: 1258.29px;
+	top: 232.47px;
+	width: 103.32px;
+	height: 110.7px;
+}
+.dashboard_dashboard .User .Icon_12 {
+	position: absolute;
+	left: 17.219849853515626px;
+	top: 13.8375px;
+	width: 66.66666439601353%;
+	height: 75%;
+}

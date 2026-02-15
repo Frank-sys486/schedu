@@ -1,0 +1,839 @@
+
+.choosesection_choosesection {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.choosesection_choosesection .ios {
+	position: absolute;
+	left: -18.45px;
+	top: 0px;
+	width: 1476px;
+	height: 3114.36px;
+}
+.choosesection_choosesection .ios .HomeIndicator {
+	position: absolute;
+	left: 0px;
+	top: 2988.9px;
+	width: 1476px;
+	height: 125.46px;
+}
+.choosesection_choosesection .ios .HomeIndicator .HomeIndicator_1 {
+	position: absolute;
+	left: 184.5%;
+	bottom: 29.52px;
+	transform: translate(-50%, 0);
+	width: 531.36px;
+	height: 18.45px;
+	background: rgba(0,0,0,1.00);
+	border-radius: 369px;
+}
+.choosesection_choosesection .ios .StatusbariPhone {
+	position: absolute;
+	left: 18.45px;
+	top: 0px;
+	width: 1439.1px;
+	height: 177.12px;
+}
+.choosesection_choosesection .ios .StatusbariPhone .Time {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 7.38px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.choosesection_choosesection .ios .StatusbariPhone .Time .Time_1 {
+	position: relative;
+	flex: none;
+	margin-right: 36.9px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: SF Pro;
+	font-size: 62.73px;
+	font-weight: 590;
+	line-height: 81.17999999999999px;
+}
+.choosesection_choosesection .ios .StatusbariPhone .Levels {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 3.69px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.choosesection_choosesection .ios .StatusbariPhone .Levels .CellularConnection {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 70.84800281524659px;
+	height: 45.11547369003296px;
+}
+.choosesection_choosesection .ios .StatusbariPhone .Levels .Wifi {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 63.252749061584474px;
+	height: 45.49144987106323px;
+}
+.choosesection_choosesection .ios .StatusbariPhone .Levels .Battery {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 100.84045749664307px;
+	height: 47.97px;
+}
+.choosesection_choosesection .ios .StatusbariPhone .Levels .Battery .Border {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 0px;
+	transform: translate(-50%, 0);
+	width: 92.25px;
+	height: 100%;
+	mix-blend-mode: normal;
+	border-radius: 15.867000703811645px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.choosesection_choosesection .ios .StatusbariPhone .Levels .Battery .Cap {
+	position: absolute;
+	left: 360.03401607225885%;
+	top: 17.642812499999998px;
+	transform: translate(-50%, 0);
+	width: 4.900460135936737px;
+	height: 31.349783677321213%;
+	mix-blend-mode: normal;
+}
+.choosesection_choosesection .ios .StatusbariPhone .Levels .Battery .Capacity {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 7.38px;
+	transform: translate(-50%, 0);
+	width: 77.49px;
+	height: 69.23076923076923%;
+	background: rgba(0,0,0,1.00);
+	border-radius: 9.225px;
+}
+.choosesection_choosesection .Group3 {
+	position: absolute;
+	left: 0px;
+	top: 2712.15px;
+	width: 1439.1px;
+	height: 446.49px;
+}
+.choosesection_choosesection .Group3 .Rectangle10 {
+	position: absolute;
+	left: 0px;
+	top: 3.69px;
+	width: 1439.1px;
+	height: 442.8px;
+	background: rgba(255,255,255,1.00);
+}
+.choosesection_choosesection .Group3 .nav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1439.1px;
+	height: 250.92px;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList {
+	position: absolute;
+	left: 36.9px;
+	top: 29.52px;
+	width: 1361.61px;
+	height: 221.4px;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton .Home {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton .Home .Icon {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton .Label {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 147.6px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_1 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar .Icon_1 {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_1 .Label_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 228.78px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_2 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus .Icon_2 {
+	position: absolute;
+	left: 18.45px;
+	top: 18.45px;
+	width: 58.333333333333336%;
+	height: 58.333333333333336%;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_2 .Label_2 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 169.74px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_3 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen .Icon_3 {
+	position: absolute;
+	left: 7.38px;
+	top: 11.07px;
+	width: 83.33333333333334%;
+	height: 75%;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_3 .Label_3 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 177.12px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(44,44,44,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_4 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark .Icon_4 {
+	position: absolute;
+	left: 18.45px;
+	top: 11.07px;
+	width: 58.333333333333336%;
+	height: 75%;
+}
+.choosesection_choosesection .Group3 .nav .NavigationButtonList .NavigationButton_4 .Label_4 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 136.53px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.choosesection_choosesection .Group3 .nav .Line4 {
+	position: absolute;
+	left: 0px;
+	top: 1.5516294297412968e-7px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.choosesection_choosesection .header {
+	position: absolute;
+	left: 0px;
+	top: 214.02px;
+	width: 1439.1px;
+	height: 199.26px;
+}
+.choosesection_choosesection .header .ford22 {
+	position: absolute;
+	left: 59.04px;
+	top: 0px;
+	width: 143.91px;
+	height: 143.91px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.choosesection_choosesection .header .FORADI {
+	position: absolute;
+	left: 214.02px;
+	top: 33.21px;
+	width: 442.8px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 121.77px;
+	font-weight: 300;
+	line-height: 81.17999999999999px;
+}
+.choosesection_choosesection .header .Line5 {
+	position: absolute;
+	left: 0px;
+	top: 195.57000015516294px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.choosesection_choosesection .ChooseSection {
+	position: absolute;
+	left: 99.63px;
+	top: 483.39px;
+	width: 479.7px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 62.73px;
+	font-weight: 600;
+	line-height: 81.17999999999999px;
+}
+.choosesection_choosesection .Sliders {
+	position: absolute;
+	left: 1125.45px;
+	top: 483.39px;
+	width: 81.17999999999999px;
+	height: 81.17999999999999px;
+}
+.choosesection_choosesection .Sliders .Icon_5 {
+	position: absolute;
+	left: 3.3828002929687497px;
+	top: 10.147499999999999px;
+	width: 91.66667244651101%;
+	height: 75%;
+}
+.choosesection_choosesection .User {
+	position: absolute;
+	left: 1273.05px;
+	top: 232.47px;
+	width: 103.32px;
+	height: 110.7px;
+}
+.choosesection_choosesection .User .Icon_6 {
+	position: absolute;
+	left: 17.22030029296875px;
+	top: 13.8375px;
+	width: 66.66666439601353%;
+	height: 75%;
+}
+.choosesection_choosesection .Search {
+	position: absolute;
+	left: 822.87px;
+	top: 483.39px;
+	width: 77.49px;
+	height: 77.49px;
+}
+.choosesection_choosesection .Search .Icon_7 {
+	position: absolute;
+	left: 9.68625px;
+	top: 9.68625px;
+	width: 75%;
+	height: 75%;
+}
+.choosesection_choosesection .Plus_1 {
+	position: absolute;
+	left: 959.4px;
+	top: 468.63px;
+	width: 107.01px;
+	height: 107.01px;
+}
+.choosesection_choosesection .Plus_1 .Icon_8 {
+	position: absolute;
+	left: 22.29405029296875px;
+	top: 22.2931494140625px;
+	width: 58.333331140978586%;
+	height: 58.333331140978586%;
+}
+.choosesection_choosesection .All {
+	position: absolute;
+	left: 99.63px;
+	top: 608.85px;
+	width: 55.35px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 47.97px;
+	font-weight: 400;
+	line-height: 81.17999999999999px;
+}
+.choosesection_choosesection .arrow_drop_down {
+	position: absolute;
+	left: 162.35999999999999px;
+	top: 608.85px;
+	width: 59.04px;
+	height: 84.87px;
+}
+.choosesection_choosesection .arrow_drop_down .icon {
+	position: absolute;
+	left: 17.22030029296875px;
+	top: 35.3631005859375px;
+	width: 41.66666567325592%;
+	height: 20.83333264226499%;
+}
+.choosesection_choosesection .Sliders_1 {
+	position: absolute;
+	left: 1125.45px;
+	top: 483.39px;
+	width: 81.17999999999999px;
+	height: 81.17999999999999px;
+}
+.choosesection_choosesection .Sliders_1 .Icon_9 {
+	position: absolute;
+	left: 3.3828002929687497px;
+	top: 10.147499999999999px;
+	width: 91.66667244651101%;
+	height: 75%;
+}
+.choosesection_choosesection .Search_1 {
+	position: absolute;
+	left: 822.87px;
+	top: 483.39px;
+	width: 77.49px;
+	height: 77.49px;
+}
+.choosesection_choosesection .Search_1 .Icon_10 {
+	position: absolute;
+	left: 9.68625px;
+	top: 9.68625px;
+	width: 75%;
+	height: 75%;
+}
+.choosesection_choosesection .Check {
+	position: absolute;
+	left: 1258.29px;
+	top: 483.39px;
+	width: 92.25px;
+	height: 92.25px;
+}
+.choosesection_choosesection .Check .Icon_11 {
+	position: absolute;
+	left: 15.375300292968749px;
+	top: 23.0625px;
+	width: 66.66666412353516%;
+	height: 45.83333206176758%;
+}
+.choosesection_choosesection .Rectangle39 {
+	position: absolute;
+	left: 95.94px;
+	top: 712.17px;
+	width: 1195.56px;
+	height: 202.95px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 22.14px;
+}
+.choosesection_choosesection .Grade8Tesla {
+	position: absolute;
+	left: 136.53px;
+	top: 763.83px;
+	width: 601.47px;
+	height: 99.63px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.choosesection_choosesection .Rectangle40 {
+	position: absolute;
+	left: 95.94px;
+	top: 974.16px;
+	width: 1195.56px;
+	height: 202.95px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 22.14px;
+}
+.choosesection_choosesection .Grade9Bohr {
+	position: absolute;
+	left: 136.53px;
+	top: 1025.82px;
+	width: 601.47px;
+	height: 99.63px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.choosesection_choosesection .Rectangle41 {
+	position: absolute;
+	left: 99.63px;
+	top: 1236.15px;
+	width: 1195.56px;
+	height: 202.95px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 22.14px;
+}
+.choosesection_choosesection .Grade9Curie {
+	position: absolute;
+	left: 140.22px;
+	top: 1287.81px;
+	width: 601.47px;
+	height: 95.94px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.choosesection_choosesection .Rectangle42 {
+	position: absolute;
+	left: 99.63px;
+	top: 1498.1399999999999px;
+	width: 1195.56px;
+	height: 199.26px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 22.14px;
+}
+.choosesection_choosesection .Grade10Einstein {
+	position: absolute;
+	left: 140.22px;
+	top: 1549.8px;
+	width: 601.47px;
+	height: 95.94px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.choosesection_choosesection .Rectangle43 {
+	position: absolute;
+	left: 95.94px;
+	top: 1756.44px;
+	width: 1195.56px;
+	height: 202.95px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 22.14px;
+}
+.choosesection_choosesection .Grade10Newton {
+	position: absolute;
+	left: 136.53px;
+	top: 1811.79px;
+	width: 601.47px;
+	height: 95.94px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.choosesection_choosesection .Rectangle44 {
+	position: absolute;
+	left: 95.94px;
+	top: 712.17px;
+	width: 1195.56px;
+	height: 202.95px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 22.14px;
+}
+.choosesection_choosesection .Grade8Tesla_1 {
+	position: absolute;
+	left: 136.53px;
+	top: 782.28px;
+	width: 601.47px;
+	height: 99.63px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.choosesection_choosesection .Rectangle45 {
+	position: absolute;
+	left: 95.94px;
+	top: 974.16px;
+	width: 1195.56px;
+	height: 202.95px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 22.14px;
+}
+.choosesection_choosesection .Grade9Bohr_1 {
+	position: absolute;
+	left: 140.22px;
+	top: 1044.27px;
+	width: 601.47px;
+	height: 99.63px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.choosesection_choosesection .Rectangle46 {
+	position: absolute;
+	left: 99.63px;
+	top: 1236.15px;
+	width: 1195.56px;
+	height: 202.95px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 22.14px;
+}
+.choosesection_choosesection .Grade9Curie_1 {
+	position: absolute;
+	left: 143.91px;
+	top: 1309.95px;
+	width: 601.47px;
+	height: 95.94px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.choosesection_choosesection .Rectangle47 {
+	position: absolute;
+	left: 99.63px;
+	top: 1498.1399999999999px;
+	width: 1195.56px;
+	height: 199.26px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 22.14px;
+}
+.choosesection_choosesection .Grade10Einstein_1 {
+	position: absolute;
+	left: 143.91px;
+	top: 1560.87px;
+	width: 601.47px;
+	height: 95.94px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.choosesection_choosesection .Rectangle48 {
+	position: absolute;
+	left: 95.94px;
+	top: 1756.44px;
+	width: 1195.56px;
+	height: 202.95px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 22.14px;
+}
+.choosesection_choosesection .Grade10Newton_1 {
+	position: absolute;
+	left: 143.91px;
+	top: 1822.86px;
+	width: 601.47px;
+	height: 95.94px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.choosesection_choosesection .Rectangle49 {
+	position: absolute;
+	left: 95.94px;
+	top: 2018.43px;
+	width: 1195.56px;
+	height: 202.95px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 22.14px;
+}
+.choosesection_choosesection .Grade10Newton_2 {
+	position: absolute;
+	left: 136.53px;
+	top: 2070.09px;
+	width: 601.47px;
+	height: 99.63px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.choosesection_choosesection .Rectangle50 {
+	position: absolute;
+	left: 95.94px;
+	top: 2018.43px;
+	width: 1195.56px;
+	height: 202.95px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 22.14px;
+}
+.choosesection_choosesection .BSComputerScience201 {
+	position: absolute;
+	left: 147.6px;
+	top: 2095.92px;
+	width: 867.15px;
+	height: 99.63px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.choosesection_choosesection .Rectangle51 {
+	position: absolute;
+	left: 95.94px;
+	top: 2280.42px;
+	width: 1195.56px;
+	height: 202.95px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 22.14px;
+}
+.choosesection_choosesection .Grade10Newton_3 {
+	position: absolute;
+	left: 136.53px;
+	top: 2332.08px;
+	width: 601.47px;
+	height: 99.63px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 44.28px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.choosesection_choosesection .Rectangle52 {
+	position: absolute;
+	left: 95.94px;
+	top: 2280.42px;
+	width: 1195.56px;
+	height: 202.95px;
+	background: rgba(250,250,250,1.00);
+	border-radius: 22.14px;
+}
+.choosesection_choosesection .BSComputerScience202 {
+	position: absolute;
+	left: 154.98px;
+	top: 2350.5299999999997px;
+	width: 867.15px;
+	height: 99.63px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.choosesection_choosesection .arrow_drop_down_1 {
+	position: absolute;
+	left: 14.76015849508345px;
+	top: 494.45973149826284px;
+	width: 85.24821064554155px;
+	height: 59.5849800057197px;
+}
+.choosesection_choosesection .arrow_drop_down_1 .icon_1 {
+	position: absolute;
+	left: 31.935999956373255px;
+	top: 17.424787152611724px;
+	width: 20.926190405148727%;
+	height: 41.47569154166184%;
+}

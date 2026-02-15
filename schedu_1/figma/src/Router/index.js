@@ -1,0 +1,147 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import HomePage from '../Components/index';
+import Createlessonplan from '../Components/createlessonplan';
+import Chooseschedule from '../Components/chooseschedule';
+import Createsubject from '../Components/createsubject';
+import Createlesson from '../Components/createlesson';
+import Createactivity from '../Components/createactivity';
+import Createquiz from '../Components/createquiz';
+import Createproject from '../Components/createproject';
+import Createsection from '../Components/createsection';
+import Loading from '../Components/loading';
+import Login from '../Components/login';
+import Register from '../Components/register';
+import Register_1 from '../Components/register_1';
+import Dashboard from '../Components/dashboard';
+import Create from '../Components/create';
+import Plans from '../Components/plans';
+import Calendardaily from '../Components/calendardaily';
+import Library from '../Components/library';
+import Choosesubject from '../Components/choosesubject';
+import Choosesection from '../Components/choosesection';
+import Chooseinstitution from '../Components/chooseinstitution';
+import Librarysubjectclosed from '../Components/librarysubjectclosed';
+import Librarysubjectopened from '../Components/librarysubjectopened';
+import Librarylesson from '../Components/librarylesson';
+import Calendarmonthly from '../Components/calendarmonthly';
+import Calendarmonthlyzoomed from '../Components/calendarmonthlyzoomed';
+import DeviceiPhoneOrientationPortrait from '../Components/DeviceiPhoneOrientationPortrait';
+import SizeiPhone16Proand16Max from '../Components/SizeiPhone16Proand16Max';
+import DirectionRow from '../Components/DirectionRow';
+import StateDefaultDirectionColumnTypeSmall from '../Components/StateDefaultDirectionColumnTypeSmall';
+import Size24 from '../Components/Size24';
+import Size24_1 from '../Components/Size24_1';
+import StateActiveDirectionColumnTypeSmall from '../Components/StateActiveDirectionColumnTypeSmall';
+import Size24_2 from '../Components/Size24_2';
+import Size24_3 from '../Components/Size24_3';
+import Size24_4 from '../Components/Size24_4';
+import Size16 from '../Components/Size16';
+import Size16_1 from '../Components/Size16_1';
+import Arrow_drop_down from '../Components/arrow_drop_down';
+import Size16_2 from '../Components/Size16_2';
+import Size48 from '../Components/Size48';
+import Size16_3 from '../Components/Size16_3';
+import Size16_4 from '../Components/Size16_4';
+import Size16_5 from '../Components/Size16_5';
+import FormLogIn from '../Components/FormLogIn';
+import StateDefaultValueTypePlaceholder from '../Components/StateDefaultValueTypePlaceholder';
+import AlignJustify from '../Components/AlignJustify';
+import VariantSubtleStateDefaultSizeMedium from '../Components/VariantSubtleStateDefaultSizeMedium';
+import Size16_6 from '../Components/Size16_6';
+import Size16_7 from '../Components/Size16_7';
+import VariantPrimaryStateDefaultSizeMedium from '../Components/VariantPrimaryStateDefaultSizeMedium';
+import TextLink from '../Components/TextLink';
+import MenuHeader from '../Components/MenuHeader';
+import TextSmall from '../Components/TextSmall';
+import TextStrong from '../Components/TextStrong';
+import Size16_8 from '../Components/Size16_8';
+import Size20 from '../Components/Size20';
+import Size20_1 from '../Components/Size20_1';
+import Size20_2 from '../Components/Size20_2';
+import Size20_3 from '../Components/Size20_3';
+import Size16_9 from '../Components/Size16_9';
+import Group2 from '../Components/Group2';
+import DEFAULTdefaultACTIVEactive from '../Components/DEFAULTdefaultACTIVEactive';
+import Size16_10 from '../Components/Size16_10';
+import Size24_5 from '../Components/Size24_5';
+import Size16_11 from '../Components/Size16_11';
+import DEFAULTdefaultACTIVEactive_1 from '../Components/DEFAULTdefaultACTIVEactive_1';
+import DEFAULTdefaultACTIVEactive_2 from '../Components/DEFAULTdefaultACTIVEactive_2';
+const RouterDOM = () => {
+	return (
+		<Router>
+			<Switch>
+				<Route exact path="/"><HomePage /></Route>
+				<Route exact path="/createlessonplan"><Createlessonplan /></Route>
+				<Route exact path="/chooseschedule"><Chooseschedule /></Route>
+				<Route exact path="/createsubject"><Createsubject /></Route>
+				<Route exact path="/createlesson"><Createlesson /></Route>
+				<Route exact path="/createactivity"><Createactivity /></Route>
+				<Route exact path="/createquiz"><Createquiz /></Route>
+				<Route exact path="/createproject"><Createproject /></Route>
+				<Route exact path="/createsection"><Createsection /></Route>
+				<Route exact path="/loading"><Loading /></Route>
+				<Route exact path="/login"><Login /></Route>
+				<Route exact path="/register"><Register /></Route>
+				<Route exact path="/register_1"><Register_1 /></Route>
+				<Route exact path="/dashboard"><Dashboard /></Route>
+				<Route exact path="/create"><Create /></Route>
+				<Route exact path="/plans"><Plans /></Route>
+				<Route exact path="/calendardaily"><Calendardaily /></Route>
+				<Route exact path="/library"><Library /></Route>
+				<Route exact path="/choosesubject"><Choosesubject /></Route>
+				<Route exact path="/choosesection"><Choosesection /></Route>
+				<Route exact path="/chooseinstitution"><Chooseinstitution /></Route>
+				<Route exact path="/librarysubjectclosed"><Librarysubjectclosed /></Route>
+				<Route exact path="/librarysubjectopened"><Librarysubjectopened /></Route>
+				<Route exact path="/librarylesson"><Librarylesson /></Route>
+				<Route exact path="/calendarmonthly"><Calendarmonthly /></Route>
+				<Route exact path="/calendarmonthlyzoomed"><Calendarmonthlyzoomed /></Route>
+				<Route exact path="/deviceiphoneorientationportrait"><DeviceiPhoneOrientationPortrait /></Route>
+				<Route exact path="/sizeiphone16proand16max"><SizeiPhone16Proand16Max /></Route>
+				<Route exact path="/directionrow"><DirectionRow /></Route>
+				<Route exact path="/statedefaultdirectioncolumntypesmall"><StateDefaultDirectionColumnTypeSmall /></Route>
+				<Route exact path="/size24"><Size24 /></Route>
+				<Route exact path="/size24_1"><Size24_1 /></Route>
+				<Route exact path="/stateactivedirectioncolumntypesmall"><StateActiveDirectionColumnTypeSmall /></Route>
+				<Route exact path="/size24_2"><Size24_2 /></Route>
+				<Route exact path="/size24_3"><Size24_3 /></Route>
+				<Route exact path="/size24_4"><Size24_4 /></Route>
+				<Route exact path="/size16"><Size16 /></Route>
+				<Route exact path="/size16_1"><Size16_1 /></Route>
+				<Route exact path="/arrow_drop_down"><Arrow_drop_down /></Route>
+				<Route exact path="/size16_2"><Size16_2 /></Route>
+				<Route exact path="/size48"><Size48 /></Route>
+				<Route exact path="/size16_3"><Size16_3 /></Route>
+				<Route exact path="/size16_4"><Size16_4 /></Route>
+				<Route exact path="/size16_5"><Size16_5 /></Route>
+				<Route exact path="/formlogin"><FormLogIn /></Route>
+				<Route exact path="/statedefaultvaluetypeplaceholder"><StateDefaultValueTypePlaceholder /></Route>
+				<Route exact path="/alignjustify"><AlignJustify /></Route>
+				<Route exact path="/variantsubtlestatedefaultsizemedium"><VariantSubtleStateDefaultSizeMedium /></Route>
+				<Route exact path="/size16_6"><Size16_6 /></Route>
+				<Route exact path="/size16_7"><Size16_7 /></Route>
+				<Route exact path="/variantprimarystatedefaultsizemedium"><VariantPrimaryStateDefaultSizeMedium /></Route>
+				<Route exact path="/textlink"><TextLink /></Route>
+				<Route exact path="/menuheader"><MenuHeader /></Route>
+				<Route exact path="/textsmall"><TextSmall /></Route>
+				<Route exact path="/textstrong"><TextStrong /></Route>
+				<Route exact path="/size16_8"><Size16_8 /></Route>
+				<Route exact path="/size20"><Size20 /></Route>
+				<Route exact path="/size20_1"><Size20_1 /></Route>
+				<Route exact path="/size20_2"><Size20_2 /></Route>
+				<Route exact path="/size20_3"><Size20_3 /></Route>
+				<Route exact path="/size16_9"><Size16_9 /></Route>
+				<Route exact path="/group2"><Group2 /></Route>
+				<Route exact path="/defaultdefaultactiveactive"><DEFAULTdefaultACTIVEactive /></Route>
+				<Route exact path="/size16_10"><Size16_10 /></Route>
+				<Route exact path="/size24_5"><Size24_5 /></Route>
+				<Route exact path="/size16_11"><Size16_11 /></Route>
+				<Route exact path="/defaultdefaultactiveactive_1"><DEFAULTdefaultACTIVEactive_1 /></Route>
+				<Route exact path="/defaultdefaultactiveactive_2"><DEFAULTdefaultACTIVEactive_2 /></Route>
+			</Switch>
+		</Router>
+	);
+}
+export default RouterDOM;

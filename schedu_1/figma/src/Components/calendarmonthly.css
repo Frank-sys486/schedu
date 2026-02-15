@@ -1,0 +1,1269 @@
+
+.calendarmonthly_calendarmonthly {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.calendarmonthly_calendarmonthly .Rectangle8 {
+	position: absolute;
+	left: 1040.58px;
+	top: 2324.7px;
+	width: 114.39px;
+	height: 118.08px;
+	background: rgba(126,217,87,1.00);
+	border-radius: 47.97px;
+}
+.calendarmonthly_calendarmonthly .F {
+	position: absolute;
+	left: 996.3px;
+	top: 2287.8px;
+	width: 184.5px;
+	height: 206.64px;
+	border-radius: 18.45px;
+}
+.calendarmonthly_calendarmonthly .F .DEFAULTdefaultACTIVEactive {
+	width: 10px;
+	height: 16px;
+}
+.calendarmonthly_calendarmonthly .F .DEFAULTdefaultACTIVEactive ._30 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 140%;
+	height: 68.75%;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto Mono;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 11px;
+}
+.calendarmonthly_calendarmonthly .ios {
+	position: absolute;
+	left: -18.45px;
+	top: 0px;
+	width: 1476px;
+	height: 3114.36px;
+}
+.calendarmonthly_calendarmonthly .ios .HomeIndicator {
+	position: absolute;
+	left: 0px;
+	top: 2988.9px;
+	width: 1476px;
+	height: 125.46px;
+}
+.calendarmonthly_calendarmonthly .ios .HomeIndicator .HomeIndicator_1 {
+	position: absolute;
+	left: 184.5%;
+	bottom: 29.52px;
+	transform: translate(-50%, 0);
+	width: 531.36px;
+	height: 18.45px;
+	background: rgba(0,0,0,1.00);
+	border-radius: 369px;
+}
+.calendarmonthly_calendarmonthly .ios .StatusbariPhone {
+	position: absolute;
+	left: 18.45px;
+	top: 0px;
+	width: 1439.1px;
+	height: 177.12px;
+}
+.calendarmonthly_calendarmonthly .ios .StatusbariPhone .Time {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 7.38px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.calendarmonthly_calendarmonthly .ios .StatusbariPhone .Time .Time_1 {
+	position: relative;
+	flex: none;
+	margin-right: 36.9px;
+	width: 136.53px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: SF Pro;
+	font-size: 62.73px;
+	font-weight: 590;
+	line-height: 81.17999999999999px;
+}
+.calendarmonthly_calendarmonthly .ios .StatusbariPhone .Levels {
+	position: relative;
+	flex: none;
+	margin-right: 568.26px;
+	width: 376.38px;
+	height: 81.17999999999999px;
+	display: flex;
+	padding-top: 3.69px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.calendarmonthly_calendarmonthly .ios .StatusbariPhone .Levels .CellularConnection {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 70.84800281524659px;
+	height: 45.11547369003296px;
+}
+.calendarmonthly_calendarmonthly .ios .StatusbariPhone .Levels .Wifi {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 63.252749061584474px;
+	height: 45.49144987106323px;
+}
+.calendarmonthly_calendarmonthly .ios .StatusbariPhone .Levels .Battery {
+	position: relative;
+	flex: none;
+	margin-right: 25.83px;
+	width: 100.84045749664307px;
+	height: 47.97px;
+}
+.calendarmonthly_calendarmonthly .ios .StatusbariPhone .Levels .Battery .Border {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 0px;
+	transform: translate(-50%, 0);
+	width: 92.25px;
+	height: 100%;
+	mix-blend-mode: normal;
+	border-radius: 15.867000703811645px;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.calendarmonthly_calendarmonthly .ios .StatusbariPhone .Levels .Battery .Cap {
+	position: absolute;
+	left: 360.03401607225885%;
+	top: 17.642362060546876px;
+	transform: translate(-50%, 0);
+	width: 4.900460135936737px;
+	height: 31.349783677321213%;
+	mix-blend-mode: normal;
+}
+.calendarmonthly_calendarmonthly .ios .StatusbariPhone .Levels .Battery .Capacity {
+	position: absolute;
+	left: 168.78270311860288%;
+	top: 7.38px;
+	transform: translate(-50%, 0);
+	width: 77.49px;
+	height: 69.23076923076923%;
+	background: rgba(0,0,0,1.00);
+	border-radius: 9.225px;
+}
+.calendarmonthly_calendarmonthly .MenuHeader {
+	position: absolute;
+	left: 47.97px;
+	top: 476.01px;
+	width: 273.06px;
+	height: 118.08px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 29.52px;
+	padding-right: 59.04px;
+	padding-bottom: 14.76px;
+	padding-left: 59.04px;
+	box-sizing: border-box;
+	border-radius: 29.52px;
+}
+.calendarmonthly_calendarmonthly .MenuHeader .TextSmall {
+	position: relative;
+	flex: none;
+	margin-bottom: NaNpx;
+	width: 199.26px;
+	height: 73.8px;
+}
+.calendarmonthly_calendarmonthly .MenuHeader .TextSmall .TextSmall_1 {
+	position: relative;
+	flex: none;
+	margin-right: NaNpx;
+	width: 199.26px;
+	height: 73.8px;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 400;
+	line-height: 72.32400140762329px;
+}
+.calendarmonthly_calendarmonthly .TextStrong {
+	position: absolute;
+	left: 107.01px;
+	top: 579.33px;
+	width: 236.16px;
+	height: 81.17999999999999px;
+	display: flex;
+	box-sizing: border-box;
+}
+.calendarmonthly_calendarmonthly .TextStrong .October {
+	position: relative;
+	flex: none;
+	margin-right: NaNpx;
+	width: 236.16px;
+	height: 81.17999999999999px;
+	color: rgba(30,30,30,1.00);
+	font-family: Inter;
+	font-size: 59.04px;
+	font-weight: 600;
+	line-height: 82.6559985923767px;
+}
+.calendarmonthly_calendarmonthly .Group3 {
+	position: absolute;
+	left: 0px;
+	top: 2712.15px;
+	width: 1439.1px;
+	height: 446.49px;
+}
+.calendarmonthly_calendarmonthly .Group3 .Rectangle10 {
+	position: absolute;
+	left: 0px;
+	top: 3.69px;
+	width: 1439.1px;
+	height: 442.8px;
+	background: rgba(255,255,255,1.00);
+}
+.calendarmonthly_calendarmonthly .Group3 .nav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1439.1px;
+	height: 250.92px;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList {
+	position: absolute;
+	left: 36.9px;
+	top: 29.52px;
+	width: 1361.61px;
+	height: 221.4px;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton .Home {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton .Home .Icon {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton .Label {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 147.6px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_1 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_1 .Calendar .Icon_1 {
+	position: absolute;
+	left: 11.07px;
+	top: 7.38px;
+	width: 75%;
+	height: 83.33333333333334%;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_1 .Label_1 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 228.78px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(44,44,44,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_2 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_2 .Plus .Icon_2 {
+	position: absolute;
+	left: 18.45px;
+	top: 18.45px;
+	width: 58.333333333333336%;
+	height: 58.333333333333336%;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_2 .Label_2 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 169.74px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_3 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_3 .Bookopen .Icon_3 {
+	position: absolute;
+	left: 7.38px;
+	top: 11.07px;
+	width: 83.33333333333334%;
+	height: 75%;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_3 .Label_3 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 177.12px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_4 {
+	position: relative;
+	flex: none;
+	margin-right: 44.28px;
+	height: 221.4px;
+	align-self: stretch;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_4 .Bookmark .Icon_4 {
+	position: absolute;
+	left: 18.45px;
+	top: 11.07px;
+	width: 58.333333333333336%;
+	height: 75%;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .NavigationButtonList .NavigationButton_4 .Label_4 {
+	position: relative;
+	flex: none;
+	margin-bottom: 29.52px;
+	width: 136.53px;
+	height: 51.66px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(117,117,117,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 600;
+	line-height: 51.66px;
+}
+.calendarmonthly_calendarmonthly .Group3 .nav .Line4 {
+	position: absolute;
+	left: 0px;
+	top: 1.5516294297412968e-7px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.calendarmonthly_calendarmonthly .header {
+	position: absolute;
+	left: 0px;
+	top: 214.02px;
+	width: 1439.1px;
+	height: 199.26px;
+}
+.calendarmonthly_calendarmonthly .header .ford22 {
+	position: absolute;
+	left: 59.04px;
+	top: 0px;
+	width: 143.91px;
+	height: 143.91px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.calendarmonthly_calendarmonthly .header .FORADI {
+	position: absolute;
+	left: 214.02px;
+	top: 33.21px;
+	width: 442.8px;
+	height: 81.17999999999999px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(179,179,179,1.00);
+	font-family: Inter;
+	font-size: 121.77px;
+	font-weight: 300;
+	line-height: 81.17999999999999px;
+}
+.calendarmonthly_calendarmonthly .header .Line5 {
+	position: absolute;
+	left: 0px;
+	top: 195.57000015516294px;
+	width: 1439.1000118613167px;
+	height: 3.689999844837057px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+}
+.calendarmonthly_calendarmonthly .S {
+	position: absolute;
+	left: 140.22px;
+	top: 719.55px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly .M {
+	position: absolute;
+	left: 321.03px;
+	top: 719.55px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly .T {
+	position: absolute;
+	left: 501.84px;
+	top: 719.55px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly .W {
+	position: absolute;
+	left: 697.41px;
+	top: 719.55px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly .T_1 {
+	position: absolute;
+	left: 885.6px;
+	top: 719.55px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly .F_1 {
+	position: absolute;
+	left: 1066.41px;
+	top: 719.55px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly .S_1 {
+	position: absolute;
+	left: 1254.6px;
+	top: 719.55px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(217,217,217,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._25 {
+	position: absolute;
+	left: 132.84px;
+	top: 2354.22px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._26 {
+	position: absolute;
+	left: 313.65px;
+	top: 2354.22px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._27 {
+	position: absolute;
+	left: 501.84px;
+	top: 2354.22px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._28 {
+	position: absolute;
+	left: 690.03px;
+	top: 2354.22px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._29 {
+	position: absolute;
+	left: 878.22px;
+	top: 2354.22px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._31 {
+	position: absolute;
+	left: 1247.22px;
+	top: 2354.22px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._18 {
+	position: absolute;
+	left: 132.84px;
+	top: 1970.46px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._19 {
+	position: absolute;
+	left: 313.65px;
+	top: 1970.46px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._20 {
+	position: absolute;
+	left: 501.84px;
+	top: 1970.46px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._21 {
+	position: absolute;
+	left: 690.03px;
+	top: 1970.46px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._22 {
+	position: absolute;
+	left: 878.22px;
+	top: 1970.46px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._23 {
+	position: absolute;
+	left: 1062.72px;
+	top: 1970.46px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._24 {
+	position: absolute;
+	left: 1247.22px;
+	top: 1970.46px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._11 {
+	position: absolute;
+	left: 132.84px;
+	top: 1616.22px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._12 {
+	position: absolute;
+	left: 313.65px;
+	top: 1616.22px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._13 {
+	position: absolute;
+	left: 501.84px;
+	top: 1616.22px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._14 {
+	position: absolute;
+	left: 690.03px;
+	top: 1616.22px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._15 {
+	position: absolute;
+	left: 878.22px;
+	top: 1616.22px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._16 {
+	position: absolute;
+	left: 1062.72px;
+	top: 1616.22px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._17 {
+	position: absolute;
+	left: 1247.22px;
+	top: 1616.22px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._4 {
+	position: absolute;
+	left: 143.91px;
+	top: 1247.22px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._5 {
+	position: absolute;
+	left: 324.71999999999997px;
+	top: 1247.22px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._6 {
+	position: absolute;
+	left: 509.21999999999997px;
+	top: 1247.22px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._7 {
+	position: absolute;
+	left: 701.1px;
+	top: 1247.22px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._8 {
+	position: absolute;
+	left: 889.29px;
+	top: 1247.22px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._9 {
+	position: absolute;
+	left: 1073.79px;
+	top: 1247.22px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._10 {
+	position: absolute;
+	left: 1247.22px;
+	top: 1247.22px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._1 {
+	position: absolute;
+	left: 136.53px;
+	top: 2667.87px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._2 {
+	position: absolute;
+	left: 317.34px;
+	top: 2667.87px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._3 {
+	position: absolute;
+	left: 501.84px;
+	top: 2667.87px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._4_1 {
+	position: absolute;
+	left: 693.72px;
+	top: 2667.87px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._5_1 {
+	position: absolute;
+	left: 881.91px;
+	top: 2667.87px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._6_1 {
+	position: absolute;
+	left: 1066.41px;
+	top: 2667.87px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._7_1 {
+	position: absolute;
+	left: 1273.05px;
+	top: 2671.56px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._27_1 {
+	position: absolute;
+	left: 147.6px;
+	top: 885.6px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._28_1 {
+	position: absolute;
+	left: 328.40999999999997px;
+	top: 885.6px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._29_1 {
+	position: absolute;
+	left: 512.91px;
+	top: 885.6px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._30_1 {
+	position: absolute;
+	left: 704.79px;
+	top: 885.6px;
+	width: 51.66px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._1_1 {
+	position: absolute;
+	left: 892.98px;
+	top: 885.6px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._2_1 {
+	position: absolute;
+	left: 1077.48px;
+	top: 885.6px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly ._3_1 {
+	position: absolute;
+	left: 1250.91px;
+	top: 885.6px;
+	width: 25.83px;
+	height: 40.589999999999996px;
+	color: rgba(179,179,179,1.00);
+	font-family: Roboto Mono;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 40.589999999999996px;
+}
+.calendarmonthly_calendarmonthly .Line8 {
+	position: absolute;
+	left: 811.8px;
+	top: 2468.61px;
+	width: 376.38px;
+	height: 0px;
+	border: 8px solid rgba(142.39298164844513,189.09498363733292,166.52235567569733,1);
+}
+.calendarmonthly_calendarmonthly .Line11 {
+	position: absolute;
+	left: 232.47px;
+	top: 2468.61px;
+	width: 560.88px;
+	height: 0px;
+	border: 8px solid rgba(142.39298164844513,189.09498363733292,166.52235567569733,1);
+}
+.calendarmonthly_calendarmonthly .Line15 {
+	position: absolute;
+	left: 826.56px;
+	top: 2062.71px;
+	width: 361.62px;
+	height: 0px;
+}
+.calendarmonthly_calendarmonthly .Line19 {
+	position: absolute;
+	left: 435.42px;
+	top: 1690.02px;
+	width: 184.5px;
+	height: 0px;
+	border: 8px solid rgba(142.39298164844513,189.09498363733292,166.52235567569733,1);
+}
+.calendarmonthly_calendarmonthly .Line22 {
+	position: absolute;
+	left: 232.47px;
+	top: 1690.02px;
+	width: 184.5px;
+	height: 0px;
+	border: 8px solid rgba(142.39298164844513,189.09498363733292,166.52235567569733,1);
+}
+.calendarmonthly_calendarmonthly .Line23 {
+	position: absolute;
+	left: 1003.68px;
+	top: 1690.02px;
+	width: 184.5px;
+	height: 0px;
+	border: 8px solid rgba(142.39298164844513,189.09498363733292,166.52235567569733,1);
+}
+.calendarmonthly_calendarmonthly .Line20 {
+	position: absolute;
+	left: 826.56px;
+	top: 1690.02px;
+	width: 354.24px;
+	height: 0px;
+	border: 8px solid rgba(142.39298164844513,189.09498363733292,166.52235567569733,1);
+}
+.calendarmonthly_calendarmonthly .Line24 {
+	position: absolute;
+	left: 232.47px;
+	top: 1332.09px;
+	width: 387.45px;
+	height: 9.205605238093995e-9px;
+	border: 8px solid rgba(142.39298164844513,189.09498363733292,166.52235567569733,1);
+}
+.calendarmonthly_calendarmonthly .Line25 {
+	position: absolute;
+	left: 630.99px;
+	top: 1446.48px;
+	width: 557.1899999999999px;
+	height: 9.205605238093995e-9px;
+	border: 8px solid rgba(211.09046816825867,118.39745923876762,118.39745923876762,1);
+}
+.calendarmonthly_calendarmonthly .Line16 {
+	position: absolute;
+	left: 232.47px;
+	top: 2047.95px;
+	width: 387.45px;
+	height: 0px;
+	border: 8px solid rgba(142.39298164844513,189.09498363733292,166.52235567569733,1);
+}
+.calendarmonthly_calendarmonthly .Line12 {
+	position: absolute;
+	left: 1018.4399999999999px;
+	top: 2103.3px;
+	width: 169.74px;
+	height: 0px;
+	border: 8px solid rgba(147.9001933336258,161.9760212302208,241.739501953125,1);
+}
+.calendarmonthly_calendarmonthly .Line17 {
+	position: absolute;
+	left: 627.3px;
+	top: 2103.3px;
+	width: 184.5px;
+	height: 0px;
+	border: 8px solid rgba(147.9001933336258,161.9760212302208,241.739501953125,1);
+}
+.calendarmonthly_calendarmonthly .Line21 {
+	position: absolute;
+	left: 435.42px;
+	top: 1745.37px;
+	width: 184.5px;
+	height: 0px;
+	border: 8px solid rgba(147.9001933336258,161.9760212302208,241.739501953125,1);
+}
+.calendarmonthly_calendarmonthly .Line13 {
+	position: absolute;
+	left: 232.46997387020332px;
+	top: 2571.93px;
+	width: 560.8800261297966px;
+	height: 3.690000116920919px;
+	border: 8px solid rgba(211.09046816825867,118.39745923876762,118.39745923876762,1);
+}
+.calendarmonthly_calendarmonthly .Line14 {
+	position: absolute;
+	left: 232.47px;
+	top: 2154.96px;
+	width: 955.71px;
+	height: 0px;
+	border: 8px solid rgba(211.09046816825867,118.39745923876762,118.39745923876762,1);
+}
+.calendarmonthly_calendarmonthly .Line10 {
+	position: absolute;
+	left: 999.99px;
+	top: 2520.27px;
+	width: 188.19px;
+	height: 0px;
+	border: 8px solid rgba(147.9001933336258,161.9760212302208,241.739501953125,1);
+}
+.calendarmonthly_calendarmonthly .Group23 {
+	position: absolute;
+	left: 505.53px;
+	top: 505.53px;
+	width: 649.4399999999999px;
+	height: 154.98px;
+}
+.calendarmonthly_calendarmonthly .Group23 .Rectangle12 {
+	position: absolute;
+	left: 77.49px;
+	top: 0px;
+	width: 571.95px;
+	height: 154.98px;
+	background: rgba(251,251,251,1.00);
+	border-radius: 25.83px;
+}
+.calendarmonthly_calendarmonthly .Group23 .SCIENCE {
+	position: absolute;
+	left: 70.11px;
+	top: 25.83px;
+	width: 531.36px;
+	height: 73.8px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 51.66px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 72.32400140762329px;
+}
+.calendarmonthly_calendarmonthly .Group23 .Grade8Tesla {
+	position: absolute;
+	left: 0px;
+	top: 81.17999999999999px;
+	width: 601.47px;
+	height: 55.35px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 40.589999999999996px;
+	font-weight: 400;
+	line-height: 59.04px;
+}
+.calendarmonthly_calendarmonthly .Group23 .arrow_drop_down {
+	position: absolute;
+	left: 99.63px;
+	top: 33.21px;
+	width: 59.04px;
+	height: 84.87px;
+}
+.calendarmonthly_calendarmonthly .Group23 .arrow_drop_down .icon {
+	position: absolute;
+	left: 17.219849853515626px;
+	top: 35.36219970703125px;
+	width: 41.66666567325592%;
+	height: 20.83333264226499%;
+}
+.calendarmonthly_calendarmonthly .User {
+	position: absolute;
+	left: 1250.91px;
+	top: 221.4px;
+	width: 103.32px;
+	height: 110.7px;
+}
+.calendarmonthly_calendarmonthly .User .Icon_5 {
+	position: absolute;
+	left: 17.219849853515626px;
+	top: 13.8375px;
+	width: 66.66666439601353%;
+	height: 75%;
+}
+.calendarmonthly_calendarmonthly .Morehorizontal {
+	position: absolute;
+	left: 1225.08px;
+	top: 542.43px;
+	width: 88.56px;
+	height: 88.56px;
+}
+.calendarmonthly_calendarmonthly .Morehorizontal .Icon_6 {
+	position: absolute;
+	left: 14.76px;
+	top: 40.589999999999996px;
+	width: 66.66666666666666%;
+	height: 8.333333333333332%;
+}
