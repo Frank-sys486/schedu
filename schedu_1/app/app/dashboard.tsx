@@ -1,7 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
-import { Stack, Link } from 'expo-router';
+import { Stack } from 'expo-router';
 import React from 'react';
-import { Dimensions, ScrollView, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { Dimensions, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 const { width } = Dimensions.get('window');
 
@@ -23,12 +23,6 @@ export default function DashboardScreen() {
 
       <ScrollView contentContainerStyle={styles.scrollContent}>
         
-        <Link href="/choose-subject" asChild>
-          <TouchableOpacity style={styles.button}>
-            <Text style={styles.buttonText}>Go to Choose Subject</Text>
-          </TouchableOpacity>
-        </Link>
-
         {/* Schedule Item 1: MAT10 Newton */}
         <View style={styles.scheduleContainer}>
             {/* The Pink Vertical Line (Line6) */}
@@ -150,18 +144,6 @@ const styles = StyleSheet.create({
   scrollContent: {
     padding: 20,
     paddingBottom: 100,
-  },
-   button: {
-    backgroundColor: '#007BFF',
-    padding: 15,
-    borderRadius: 5,
-    alignItems: 'center',
-    marginBottom: 20,
-  },
-  buttonText: {
-    color: '#fff',
-    fontSize: 16,
-_mod_fontWeight: 'bold',
   },
   scheduleContainer: {
     flexDirection: 'row',

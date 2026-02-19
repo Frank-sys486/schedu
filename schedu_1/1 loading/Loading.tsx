@@ -25,7 +25,7 @@ const Loading: FunctionComponent = () => {
         				</div>
       			</div>
       			<img className={styles.ford21Icon} alt="" />
-      			<div className={styles.foradi}>FORADI</div>
+      			<div className={styles.foradi}>SCHEDU</div>
     		</div>);
 };
 

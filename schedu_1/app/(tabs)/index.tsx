@@ -1,205 +1,208 @@
-import { Image } from 'expo-image';
-import { ActivityIndicator, Button, Modal, Platform, StyleSheet, View } from 'react-native';
+import React from 'react';
+import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { HelloWave } from '@/components/hello-wave';
-import ParallaxScrollView from '@/components/parallax-scroll-view';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import TextRecognition from '@react-native-ml-kit/text-recognition';
-import { CameraView, useCameraPermissions } from 'expo-camera';
-import { Link, router } from 'expo-router';
-import { useRef, useState } from 'react';
+import ChevronRightIcon from '@/assets/dashboard/icons/Chevrons right.svg';
+import UserIcon from '@/assets/dashboard/icons/User.svg';
+
+const ford22 = require('@/assets/dashboard/images/ford-2 2.png');
+const s11 = require('@/assets/dashboard/images/S (1) 1.png');
+//const screenshot1 = require('@/assets/dashboard/images/Screenshot 2025-10-11 at 1.06.55 PM 1.png');
+//const screenshot2 = require('@/assets/dashboard/images/Screenshot 2025-10-11 at 1.07.33 PM 1.png');
 
 export default function HomeScreen() {
-  const [permission, requestPermission] = useCameraPermissions();
-  const [cameraVisible, setCameraVisible] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [extractedText, setExtractedText] = useState<string | null>(null);
-  const cameraRef = useRef<CameraView>(null);
-
-  const handleScanPress = async () => {
-    if (!permission?.granted) {
-      const { granted } = await requestPermission();
-      if (!granted) {
-        alert('Camera permission is required to scan text.');
-        return;
-      }
-    }
-    setCameraVisible(true);
-  };
-
-  const handleCapture = async () => {
-    if (cameraRef.current) {
-      setLoading(true);
-      try {
-        // 1. Capture the image
-        const photo = await cameraRef.current.takePictureAsync({
-          quality: 1, // High quality for better OCR
-          base64: false,
-          exif: false,
-        });
-
-        if (photo?.uri) {
-          // 2. Process with ML Kit
-          // This runs natively on Android to extract text even from complex backgrounds
-          const result = await TextRecognition.recognize(photo.uri);
-          
-          // 3. Save the raw text
-          setExtractedText(result.text);
-          setCameraVisible(false);
-        }
-      } catch (e: any) {
-        console.error("OCR Failed:", e);
-        if (e.message?.includes("doesn't seem to be linked")) {
-          alert("Setup Error: You are running in Expo Go.\n\nPlease open the custom development build (app named 'schedu_1') created by 'npx expo run:android'.");
-        } else {
-          alert("Failed to extract text.");
-        }
-      } finally {
-        setLoading(false);
-      }
-    }
-  };
-
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
-      headerImage={
-        <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
-        />
-      }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12',
-            })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <Link href="/modal">
-          <Link.Trigger>
-            <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-          </Link.Trigger>
-          <Link.Preview />
-          <Link.Menu>
-            <Link.MenuAction title="Action" icon="cube" onPress={() => alert('Action pressed')} />
-            <Link.MenuAction
-              title="Share"
-              icon="square.and.arrow.up"
-              onPress={() => alert('Share pressed')}
-            />
-            <Link.Menu title="More" icon="ellipsis">
-              <Link.MenuAction
-                title="Delete"
-                icon="trash"
-                destructive
-                onPress={() => alert('Delete pressed')}
-              />
-            </Link.Menu>
-          </Link.Menu>
-        </Link>
+    <SafeAreaView style={styles.container}>
+      <ScrollView>
+        <View style={styles.header}>
+          <Image source={s11} style={styles.logo} />
+          <Text style={styles.headerTitle}>SCHEDU</Text>
+          <View style={styles.userIconContainer}>
+            <UserIcon width={28} height={30} color="#B3B3B3" />
+          </View>
+        </View>
 
-        <ThemedText>
-          {`Tap the Explore tab to learn more about what's included in this starter app.`}
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          {`When you're ready, run `}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
-      </ThemedView>
+        <View style={styles.body}>
+          <View style={styles.menuHeader}>
+            <Text style={styles.menuHeaderTextSmall}>Upcoming</Text>
+            <Text style={styles.menuHeaderTextStrong}>Friday, October 30</Text>
+          </View>
 
-      {/* Navigation Demo */}
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Figma Conversion Demo</ThemedText>
-        <Button title="View Loading Screen" onPress={() => router.push('/loading-screen')} />
-        <Button title="conversion from figact" onPress={() => router.push('/dashboard')} />
-        <Button title="manual conversion" onPress={() => router.push('/manual-dashboard')} />
-      </ThemedView>
-
-      {/* OCR Section */}
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Camera OCR Demo</ThemedText>
-        <Button title="Scan Table of Contents" onPress={handleScanPress} />
-        
-        {extractedText && (
-          <ThemedView style={{ marginTop: 10, padding: 10, backgroundColor: '#f0f0f0', borderRadius: 8 }}>
-            <ThemedText type="defaultSemiBold">Raw Extracted Text:</ThemedText>
-            <ThemedText style={{ fontSize: 12, fontFamily: 'monospace' }}>{extractedText}</ThemedText>
-          </ThemedView>
-        )}
-      </ThemedView>
-
-      {/* Camera Modal */}
-      <Modal visible={cameraVisible} animationType="slide" onRequestClose={() => setCameraVisible(false)}>
-        <View style={{ flex: 1 }}>
-          <CameraView 
-            style={{ flex: 1 }} 
-            ref={cameraRef}
-            facing="back"
-          >
-            <View style={styles.cameraOverlay}>
-              <View style={styles.buttonContainer}>
-                <Button title="Cancel" color="red" onPress={() => setCameraVisible(false)} />
-                {loading ? (
-                  <ActivityIndicator size="large" color="#fff" />
-                ) : (
-                  <Button title="Capture & Read" onPress={handleCapture} />
-                )}
+          <View style={styles.scheduleItem}>
+            <View style={styles.scheduleIndicator} />
+            <View style={styles.scheduleDetails}>
+              <Text style={styles.subject}>MAT10</Text>
+              <Text style={styles.grade}>Grade 10 - Newton</Text>
+              <Text style={styles.time}>11:30 AM to 1:30 PM</Text>
+            </View>
+            <View style={styles.lessonDetails}>
+              <View style={styles.lessonBox}>
+                <Text style={styles.lessonText}>Lesson 3: Polynomials</Text>
+              </View>
+              <View style={[styles.lessonBox, { borderColor: '#aeb6e6' }]}>
+                <Text style={styles.lessonText}>SW 3: Polynomials</Text>
               </View>
             </View>
-          </CameraView>
+          </View>
+
+          <View style={styles.scheduleItem}>
+            <View style={styles.scheduleIndicator} />
+            <View style={styles.scheduleDetails}>
+              <Text style={styles.subject}>MAT10</Text>
+              <Text style={styles.grade}>Grade 10 - Einstein</Text>
+              <Text style={styles.time}>3:00 PM to 4:00 PM</Text>
+            </View>
+             <View style={styles.lessonDetails}>
+                <View style={[styles.lessonBox, {height: 43}]}>
+                    <Text style={styles.lessonText}>Lesson 4: Quadratic Function</Text>
+                </View>
+            </View>
+          </View>
+
+          <View style={styles.divider} />
+
+          <View style={styles.menuHeader}>
+            <Text style={styles.menuHeaderTextSmall}>Overview</Text>
+            <Text style={styles.menuHeaderTextStrong}>Lesson 3: Polynomials</Text>
+            <ChevronRightIcon style={styles.chevron} width={16} height={16} color="black" />
+          </View>
+
+          <View style={styles.contentBox}>
+            <Text>
+              <Text style={{ fontWeight: 'bold' }}>A polynomial</Text> is a mathematical expression composed of variables, coefficients, and exponents...
+            </Text>
+            <Text style={{ marginTop: 10, fontWeight: 'bold' }}>Types of polynomials:</Text>
+            <Text>• Monomial: A polynomial with one term</Text>
+            <Text>• Binomial: A polynomial with two terms</Text>
+            <Text>• Trinomial: A polynomial with three terms</Text>
+            <View style={styles.screenshotsContainer}>
+                {/*<Image source={screenshot1} style={styles.screenshot} /> */}
+                {/*<Image source={screenshot2} style={styles.screenshot} /> */}
+            </View>
+          </View>
         </View>
-      </Modal>
-    </ParallaxScrollView>
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-  },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
-  },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
-  },
-  cameraOverlay: {
-    flex: 1,
-    justifyContent: 'flex-end',
-    backgroundColor: 'transparent',
-  },
-  buttonContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    padding: 20,
-    backgroundColor: 'rgba(0,0,0,0.5)',
-  },
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+    },
+    header: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingHorizontal: 15,
+        paddingTop: 10,
+        paddingBottom: 10,
+        borderBottomWidth: 1,
+        borderBottomColor: '#d9d9d9',
+    },
+    logo: {
+        width: 36,
+        height: 36,
+    },
+    headerTitle: {
+        fontSize: 33,
+        fontWeight: '300',
+        color: '#b3b3b3',
+        marginLeft: 10,
+    },
+    userIconContainer: {
+        marginLeft: 'auto',
+    },
+    body: {
+        padding: 20,
+    },
+    menuHeader: {
+        marginBottom: 20,
+    },
+    menuHeaderTextSmall: {
+        fontSize: 14,
+        color: '#757575',
+    },
+    menuHeaderTextStrong: {
+        fontSize: 16,
+        fontWeight: '600',
+        color: '#1e1e1e',
+    },
+    scheduleItem: {
+        flexDirection: 'row',
+        marginBottom: 20,
+    },
+    scheduleIndicator: {
+        width: 5,
+        height: 75,
+        backgroundColor: '#fe76a8',
+        marginRight: 10,
+    },
+    scheduleDetails: {
+        flex: 1,
+    },
+    subject: {
+        fontSize: 16,
+        fontWeight: 'bold',
+        fontStyle: 'italic',
+    },
+    grade: {
+        fontSize: 12,
+        color: '#000',
+    },
+    time: {
+        fontSize: 12,
+        color: '#000',
+    },
+    lessonDetails: {
+        flex: 1,
+        marginLeft: 20
+    },
+    lessonBox: {
+        borderWidth: 1,
+        borderColor: '#8ebda7',
+        borderRadius: 3,
+        padding: 5,
+        marginBottom: 5,
+        width: 143,
+        height: 30,
+        justifyContent: 'center'
+    },
+    lessonText: {
+        fontSize: 12,
+        color: 'rgba(0,0,0,0.56)',
+        textAlign: 'center'
+    },
+    divider: {
+        height: 1,
+        backgroundColor: 'rgba(217, 217, 217, 0.17)',
+        marginVertical: 20,
+    },
+    chevron: {
+        position: 'absolute',
+        right: 0,
+        top: '50%',
+    },
+    contentBox: {
+        borderWidth: 1,
+        borderColor: 'rgba(0, 0, 0, 0.03)',
+        borderRadius: 4,
+        padding: 15,
+        backgroundColor: '#fff',
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 1 },
+        shadowOpacity: 0.1,
+        shadowRadius: 2,
+        elevation: 3,
+    },
+    screenshotsContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        marginTop: 20,
+    },
+    screenshot: {
+        width: 40,
+        height: 40,
+        resizeMode: 'contain',
+    }
 });

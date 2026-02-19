@@ -1,0 +1,251 @@
+create.tsx
+import { FunctionComponent, useCallback } from 'react';
+import styles from './Create.module.css';
+
+
+const Create: FunctionComponent = () => {
+  	
+  	const onRectangleClick = useCallback(() => {
+    		// Add your code here
+  	}, []);
+  	
+  	return (
+    		<div className={styles.create}>
+      			<div className={styles.createChild} />
+      			<div className={styles.createItem} onClick={onRectangleClick} />
+      			<div className={styles.createInner} onClick={onRectangleClick} />
+      			<div className={styles.rectangleDiv} onClick={onRectangleClick} />
+      			<div className={styles.createChild2} onClick={onRectangleClick} />
+      			<div className={styles.subject}>Subject</div>
+      			<div className={styles.book}>
+        				<img className={styles.icon} alt="" />
+      			</div>
+      			<div className={styles.notes}>Notes</div>
+      			<div className={styles.penTool}>
+        				<img className={styles.icon2} alt="" />
+      			</div>
+      			<div className={styles.lessonplan}>Lessonplan</div>
+      			<div className={styles.table}>
+        				<img className={styles.icon3} alt="" />
+      			</div>
+      			<div className={styles.activities}>Activities</div>
+      			<div className={styles.box}>
+        				<img className={styles.icon4} alt="" />
+      			</div>
+    		</div>);
+};
+
+export default Create ;
+
+
+create.module.css
+.create {
+  	width: 100%;
+  	height: 844px;
+  	position: relative;
+  	background-color: #fff;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 11px;
+  	color: #43553c;
+  	font-family: Inter;
+}
+.createChild {
+  	position: absolute;
+  	top: 631px;
+  	left: 1px;
+  	box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.07);
+  	border-radius: 17px;
+  	background-color: #fff;
+  	width: 390px;
+  	height: 104px;
+  	flex-shrink: 0;
+}
+.createItem {
+  	position: absolute;
+  	top: 647px;
+  	left: 15px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #8ebda7;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.createInner {
+  	position: absolute;
+  	top: 647px;
+  	left: 107px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #9bd882;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.rectangleDiv {
+  	position: absolute;
+  	top: 647px;
+  	left: 201px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #7ed957;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.createChild2 {
+  	position: absolute;
+  	top: 647px;
+  	left: 293px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #86b472;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.subject {
+  	position: absolute;
+  	top: 687px;
+  	left: 116px;
+  	line-height: 22px;
+  	display: inline-block;
+  	width: 63px;
+  	height: 22px;
+  	flex-shrink: 0;
+}
+.book {
+  	position: absolute;
+  	top: 664px;
+  	left: 137px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon {
+  	position: absolute;
+  	height: 83.5%;
+  	width: 66.5%;
+  	top: 8.33%;
+  	right: 16.83%;
+  	bottom: 8.17%;
+  	left: 16.67%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.notes {
+  	position: absolute;
+  	top: 687px;
+  	left: 208px;
+  	line-height: 22px;
+  	color: rgba(0, 0, 0, 0.65);
+  	display: inline-block;
+  	width: 68px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.penTool {
+  	position: absolute;
+  	top: 664px;
+  	left: 232px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon2 {
+  	position: absolute;
+  	height: 83.5%;
+  	width: 83.5%;
+  	top: 8.33%;
+  	right: 8.17%;
+  	bottom: 8.17%;
+  	left: 8.33%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.lessonplan {
+  	position: absolute;
+  	top: 687px;
+  	left: -7px;
+  	line-height: 22px;
+  	color: #3f594d;
+  	display: inline-block;
+  	width: 125px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.table {
+  	position: absolute;
+  	top: 664px;
+  	left: 46px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon3 {
+  	position: absolute;
+  	height: 75%;
+  	width: 75%;
+  	top: 12.5%;
+  	right: 12.5%;
+  	bottom: 12.5%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.activities {
+  	position: absolute;
+  	top: 687px;
+  	left: 270px;
+  	line-height: 22px;
+  	color: #3a4138;
+  	display: inline-block;
+  	width: 128px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.box {
+  	position: absolute;
+  	top: 664px;
+  	left: 324px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon4 {
+  	position: absolute;
+  	height: 83.5%;
+  	width: 75%;
+  	top: 8.34%;
+  	right: 12.5%;
+  	bottom: 8.16%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+
+global.css
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400&display=swap');
+
+body {
+  	margin: 0; line-height: normal;
+}
+
+
