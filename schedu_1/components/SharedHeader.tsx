@@ -1,5 +1,5 @@
+import ChevronsRight from '@/assets/dashboard/icons/Chevrons right.svg';
 import UserIcon from '@/assets/dashboard/icons/User.svg';
-import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import React from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -33,7 +33,9 @@ export const SharedHeader: React.FC<SharedHeaderProps> = ({
     <View style={styles.header}>
       {showBackButton && (
         <TouchableOpacity onPress={handleBack} style={styles.backButton}>
-          <Ionicons name="chevron-back" size={24} color="#b3b3b3" />
+          <View style={{ transform: [{ rotate: '180deg' }] }}>
+            <ChevronsRight width={24} height={24} color="#b3b3b3" />
+          </View>
         </TouchableOpacity>
       )}
       <Image source={logoSource} style={styles.logo} />

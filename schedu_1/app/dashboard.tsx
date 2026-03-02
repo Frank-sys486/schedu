@@ -1,4 +1,8 @@
-import { Ionicons } from '@expo/vector-icons';
+import BookOpenIcon from '@/assets/icons/Book open.svg';
+import BookmarkIcon from '@/assets/icons/Bookmark.svg';
+import CalendarIcon from '@/assets/icons/Calendar.svg';
+import HomeIcon from '@/assets/icons/Home.svg';
+import PlusIcon from '@/assets/icons/Plus.svg';
 import { Stack, Link } from 'expo-router';
 import React from 'react';
 import { Dimensions, ScrollView, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
@@ -95,19 +99,19 @@ export default function DashboardScreen() {
       {/* Bottom Nav (Visual Only) */}
       <View style={styles.bottomNav}>
         <View style={styles.navItem}>
-             <Ionicons name="home" size={24} color="#333" />
+             <HomeIcon width={24} height={24} color="#333" />
         </View>
         <View style={styles.navItem}>
-             <Ionicons name="calendar-outline" size={24} color="#999" />
+             <CalendarIcon width={24} height={24} color="#999" />
         </View>
         <View style={styles.navItem}>
-             <Ionicons name="add-circle-outline" size={40} color="#999" style={{ marginTop: -10 }} />
+             <PlusIcon width={40} height={40} color="#999" style={{ marginTop: -10 }} />
         </View>
         <View style={styles.navItem}>
-             <Ionicons name="book-outline" size={24} color="#999" />
+             <BookOpenIcon width={24} height={24} color="#999" />
         </View>
         <View style={styles.navItem}>
-             <Ionicons name="bookmark-outline" size={24} color="#999" />
+             <BookmarkIcon width={24} height={24} color="#999" />
         </View>
       </View>
     </View>

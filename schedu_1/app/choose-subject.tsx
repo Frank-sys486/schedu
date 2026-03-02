@@ -1,4 +1,12 @@
-import { Ionicons } from '@expo/vector-icons';
+import ArrowDropDownIcon from '@/assets/icons/arrow_drop_down.svg';
+import BookOpenIcon from '@/assets/icons/Book open.svg';
+import BookmarkIcon from '@/assets/icons/Bookmark.svg';
+import CalendarIcon from '@/assets/icons/Calendar.svg';
+import HomeIcon from '@/assets/icons/Home.svg';
+import PlusIcon from '@/assets/icons/Plus.svg';
+import SearchIcon from '@/assets/icons/Search.svg';
+import SlidersIcon from '@/assets/icons/Sliders.svg';
+import UserIcon from '@/assets/icons/User.svg';
 import { Stack } from 'expo-router';
 import React from 'react';
 import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -18,7 +26,7 @@ export default function ChooseSubject() {
         <Image source={require('../assets/images/ford-2 2.png')} style={styles.logo} />
         <Text style={styles.headerText}>FORADI</Text>
         <View style={styles.user}>
-            <Ionicons name="person-circle-outline" size={28} color="black" />
+            <UserIcon width={28} height={28} color="black" />
         </View>
       </View>
       <View style={styles.divider} />
@@ -28,10 +36,10 @@ export default function ChooseSubject() {
         <View style={styles.titleRow}>
           <Text style={styles.pageTitle}>Choose Subject</Text>
           <View style={styles.actions}>
-             <Ionicons name="search-outline" size={24} color="black" style={styles.icon} />
-             <Ionicons name="options-outline" size={24} color="black" style={styles.icon} />
+             <SearchIcon width={24} height={24} color="black" style={styles.icon} />
+             <SlidersIcon width={24} height={24} color="black" style={styles.icon} />
              <TouchableOpacity onPress={onPlusContainerClick}>
-                <Ionicons name="add-circle-outline" size={32} color="black" />
+                <PlusIcon width={32} height={32} color="black" style={styles.icon} />
              </TouchableOpacity>
           </View>
         </View>
@@ -40,7 +48,7 @@ export default function ChooseSubject() {
         <View style={styles.filterBar}>
           <View style={styles.filterLeft}>
             <Text style={styles.filterText}>All</Text>
-            <Ionicons name="chevron-down" size={20} color="black" />
+            <ArrowDropDownIcon width={20} height={20} color="black" />
           </View>
         </View>
 
@@ -73,23 +81,23 @@ export default function ChooseSubject() {
       <View style={styles.nav}>
         <View style={styles.navigationButtonList}>
             <TouchableOpacity style={styles.navigationButton}>
-                <Ionicons name="home-outline" size={24} color="#757575" />
+                <HomeIcon width={24} height={24} color="#757575" />
                 <Text style={styles.label}>Home</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.navigationButton}>
-                <Ionicons name="calendar-outline" size={24} color="#757575" />
+                <CalendarIcon width={24} height={24} color="#757575" />
                 <Text style={styles.label}>Calendar</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.navigationButton}>
-                <Ionicons name="add-circle-outline" size={24} color="#757575" />
+                <PlusIcon width={24} height={24} color="#757575" />
                 <Text style={styles.label}>Create</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.navigationButton}>
-                <Ionicons name="library-outline" size={24} color="#2c2c2c" />
+                <BookOpenIcon width={24} height={24} color="#2c2c2c" />
                 <Text style={[styles.label, {color: '#2c2c2c'}]}>Library</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.navigationButton}>
-                <Ionicons name="document-text-outline" size={24} color="#757575" />
+                <BookmarkIcon width={24} height={24} color="#757575" />
                 <Text style={styles.label}>Plans</Text>
             </TouchableOpacity>
         </View>

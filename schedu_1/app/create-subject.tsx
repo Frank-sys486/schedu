@@ -1,9 +1,10 @@
+import CheckIcon from '@/assets/icons/Check.svg';
+import ImageIcon from '@/assets/images/Image.svg';
+import HexagonIcon from '@/assets/icons/Icon-1.svg'; // Using a placeholder since no hexagon SVG
 import { SharedHeader } from '@/components/SharedHeader';
-import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
 import {
-    Image,
     ScrollView,
     StyleSheet,
     Text,
@@ -31,7 +32,7 @@ export default function CreateSubjectScreen() {
         showBackButton={true} 
         rightElement={
           <TouchableOpacity onPress={handleSave} style={styles.saveButton}>
-            <Ionicons name="checkmark" size={28} color="#7ed957" />
+            <CheckIcon width={28} height={28} color="#7ed957" />
           </TouchableOpacity>
         }
       />
@@ -47,9 +48,9 @@ export default function CreateSubjectScreen() {
         <View style={styles.formContainer}>
             {/* Title Image Placeholder Box */}
             <View style={styles.imagePlaceholder}>
-                <Ionicons name="image-outline" size={48} color="#b3b3b3" />
+                <ImageIcon width={48} height={48} color="#b3b3b3" />
                 <View style={styles.hexagonIcon}>
-                    <Ionicons name="hexagon-outline" size={16} color="#000" />
+                    <HexagonIcon width={16} height={16} color="#000" />
                 </View>
             </View>
 
@@ -100,10 +101,10 @@ export default function CreateSubjectScreen() {
                         <Text style={styles.uploadButtonText}>T</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.uploadButton}>
-                        <Ionicons name="image-outline" size={24} color="#757575" />
+                        <ImageIcon width={24} height={24} color="#757575" />
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.uploadButton}>
-                        <Ionicons name="document-outline" size={24} color="#757575" />
+                        <HexagonIcon width={24} height={24} color="#757575" />
                     </TouchableOpacity>
                 </View>
 
