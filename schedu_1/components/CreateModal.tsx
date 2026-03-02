@@ -9,36 +9,36 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 export default function CreateModal({ onClose }: { onClose?: () => void }) {
   const router = useRouter();
 
-  const handlePressSubject = () => {
+  const handlePress = (path: string) => {
     onClose?.();
-    router.push('/create-subject');
+    router.push(path as any);
   };
 
   return (
     <View style={styles.container}>
       <View style={styles.content}>
-        <TouchableOpacity style={styles.item}>
+        <TouchableOpacity style={styles.item} onPress={() => handlePress('/create-lessonplan')}>
              <View style={[styles.iconBox, { backgroundColor: 'rgba(142, 189, 167, 0.3)' }]}>
                 <LessonPlanIcon width={24} height={24} color="#43553c" />
              </View>
              <Text style={styles.label}>Lessonplan</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.item} onPress={handlePressSubject}>
-             <View style={[styles.iconBox, { backgroundColor: 'rgba(155, 216, 130, 0.3)' }]}>
+        <TouchableOpacity style={styles.item} onPress={() => handlePress('/create-subject')}>
+             <View style={[styles.iconBox, { backgroundColor: 'rgba(142, 189, 167, 0.3)' }]}>
                 <SubjectIcon width={24} height={24} color="#43553c" />
              </View>
              <Text style={styles.label}>Subject</Text>
         </TouchableOpacity>
         
-        <TouchableOpacity style={styles.item}>
-             <View style={[styles.iconBox, { backgroundColor: 'rgba(126, 217, 87, 0.3)' }]}>
+        <TouchableOpacity style={styles.item} onPress={() => handlePress('/create-notes')}>
+             <View style={[styles.iconBox, { backgroundColor: 'rgba(155, 216, 130, 0.3)' }]}>
                 <NotesIcon width={24} height={24} color="#43553c" />
              </View>
              <Text style={styles.label}>Notes</Text>
         </TouchableOpacity>
         
-        <TouchableOpacity style={styles.item}>
+        <TouchableOpacity style={styles.item} onPress={() => handlePress('/create-activity')}>
              <View style={[styles.iconBox, { backgroundColor: 'rgba(134, 180, 114, 0.3)' }]}>
                 <ActivitiesIcon width={24} height={24} color="#43553c" />
              </View>
