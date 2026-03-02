@@ -1,6 +1,8 @@
+import ArrowDropDownIcon from '@/assets/icons/arrow_drop_down.svg';
+import PlusIcon from '@/assets/icons/Plus.svg';
+import SlidersIcon from '@/assets/icons/Sliders.svg';
 import { SharedHeader } from '@/components/SharedHeader';
 import { PLANS_DATA, SECTIONS_DATA } from '@/constants/mockData';
-import { Ionicons } from '@expo/vector-icons';
 import React from 'react';
 import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -13,13 +15,13 @@ export default function PlansScreen() {
         <View style={styles.titleRow}>
             <Text style={styles.pageTitle}>Plans</Text>
             <TouchableOpacity>
-                <Ionicons name="options-outline" size={24} color="#000" />
+                <SlidersIcon width={24} height={24} color="#000" />
             </TouchableOpacity>
         </View>
 
         <View style={styles.sectionHeader}>
             <Text style={styles.sectionHeaderText}>Current</Text>
-            <Ionicons name="chevron-down" size={16} color="#000" />
+            <ArrowDropDownIcon width={16} height={16} color="#000" />
         </View>
 
         <View style={styles.plansList}>
@@ -35,10 +37,10 @@ export default function PlansScreen() {
             <Text style={styles.sectionHeaderText}>Sections</Text>
             <View style={styles.sectionActions}>
                  <TouchableOpacity>
-                    <Ionicons name="options-outline" size={20} color="#000" />
+                    <SlidersIcon width={20} height={20} color="#000" />
                  </TouchableOpacity>
                  <TouchableOpacity>
-                    <Ionicons name="add" size={20} color="#000" />
+                    <PlusIcon width={20} height={20} color="#000" />
                  </TouchableOpacity>
             </View>
         </View>

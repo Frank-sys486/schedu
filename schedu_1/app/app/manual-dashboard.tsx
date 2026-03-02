@@ -1,5 +1,9 @@
+import BookOpenIcon from '@/assets/icons/Book open.svg';
+import BookmarkIcon from '@/assets/icons/Bookmark.svg';
+import CalendarIcon from '@/assets/icons/Calendar.svg';
+import HomeIcon from '@/assets/icons/Home.svg';
+import PlusIcon from '@/assets/icons/Plus.svg';
 import CreateModal from '@/components/CreateModal';
-import { Ionicons } from '@expo/vector-icons';
 import { Stack } from 'expo-router';
 import React, { useState } from 'react';
 import { Modal, Pressable, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -73,23 +77,23 @@ export default function ManualDashboard() {
       {/* Bottom Nav */}
       <View style={styles.bottomNav}>
         <TouchableOpacity style={styles.navItem}>
-            <Ionicons name="home-outline" size={24} color="#757575" />
+            <HomeIcon width={24} height={24} color="#757575" />
             <Text style={styles.navLabel}>Home</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.navItem}>
-            <Ionicons name="calendar-outline" size={24} color="#757575" />
+            <CalendarIcon width={24} height={24} color="#757575" />
             <Text style={styles.navLabel}>Calendar</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.navItem} onPress={() => setCreateVisible(true)}>
-            <Ionicons name="add-circle-outline" size={24} color="#757575" />
+            <PlusIcon width={24} height={24} color="#757575" />
             <Text style={styles.navLabel}>Create</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.navItem}>
-            <Ionicons name="library-outline" size={24} color="#757575" />
+            <BookOpenIcon width={24} height={24} color="#757575" />
             <Text style={styles.navLabel}>Library</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.navItem}>
-            <Ionicons name="albums-outline" size={24} color="#757575" />
+            <BookmarkIcon width={24} height={24} color="#757575" />
             <Text style={styles.navLabel}>Plans</Text>
         </TouchableOpacity>
       </View>

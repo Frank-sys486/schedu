@@ -1,7 +1,9 @@
+import ArrowDropDownIcon from '@/assets/icons/arrow_drop_down.svg';
+import SearchIcon from '@/assets/icons/Search.svg';
+import SlidersIcon from '@/assets/icons/Sliders.svg';
 import { SharedHeader } from '@/components/SharedHeader';
 import { SubjectCard } from '@/components/SubjectCard';
 import { SUBJECTS_DATA } from '@/constants/mockData';
-import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import React from 'react';
 import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
@@ -24,14 +26,14 @@ export default function LibraryScreen() {
         <View style={styles.titleRow}>
             <Text style={styles.pageTitle}>Library</Text>
             <View style={styles.actions}>
-                <Ionicons name="search-outline" size={24} color="#000" />
-                <Ionicons name="options-outline" size={24} color="#000" />
+                <SearchIcon width={24} height={24} color="#000" />
+                <SlidersIcon width={24} height={24} color="#000" />
             </View>
         </View>
 
         <View style={styles.filterRow}>
             <Text style={styles.filterText}>Current</Text>
-            <Ionicons name="chevron-down" size={16} color="#000" />
+            <ArrowDropDownIcon width={16} height={16} color="#000" />
         </View>
 
         <View style={styles.grid}>

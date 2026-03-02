@@ -1,6 +1,7 @@
+import ArrowDropDownIcon from '@/assets/icons/arrow_drop_down.svg';
+import PlusIcon from '@/assets/icons/Plus.svg';
 import { SharedHeader } from '@/components/SharedHeader';
 import { SUBJECTS_DATA } from '@/constants/mockData';
-import { Ionicons } from '@expo/vector-icons';
 import { useLocalSearchParams } from 'expo-router';
 import React from 'react';
 import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -32,7 +33,7 @@ export default function SubjectDetailsScreen() {
             <View style={styles.sectionHeaderRow}>
                 <Text style={styles.sectionTitle}>Notes</Text>
                 <TouchableOpacity style={styles.addButton}>
-                    <Ionicons name="add" size={16} color="#757575" />
+                    <PlusIcon width={16} height={16} color="#757575" />
                 </TouchableOpacity>
             </View>
             
@@ -44,8 +45,10 @@ export default function SubjectDetailsScreen() {
                           <Text style={styles.chapterSubtitle}> - {chapter.subtitle}</Text>
                       </View>
                       <View style={styles.chapterActions}>
-                          <Ionicons name="chevron-down" size={20} color="#757575" />
-                          <Ionicons name="ellipsis-horizontal" size={20} color="#757575" />
+                          <ArrowDropDownIcon width={20} height={20} color="#757575" />
+                          <View style={{ width: 20, height: 20, justifyContent: 'center', alignItems: 'center' }}>
+                            <Text style={{ color: '#757575', fontWeight: 'bold' }}>...</Text>
+                          </View>
                       </View>
                   </TouchableOpacity>
                 ))}
@@ -57,7 +60,7 @@ export default function SubjectDetailsScreen() {
                 <View style={styles.columnHeader}>
                     <Text style={styles.columnTitle}>Written Work</Text>
                     <TouchableOpacity style={styles.addButtonSmall}>
-                       <Ionicons name="add" size={14} color="#757575" /> 
+                       <PlusIcon width={14} height={14} color="#757575" /> 
                     </TouchableOpacity>
                 </View>
                 
@@ -74,7 +77,7 @@ export default function SubjectDetailsScreen() {
                 <View style={styles.columnHeader}>
                     <Text style={styles.columnTitle}>Performance Task</Text>
                     <TouchableOpacity style={styles.addButtonSmall}>
-                       <Ionicons name="add" size={14} color="#757575" /> 
+                       <PlusIcon width={14} height={14} color="#757575" /> 
                     </TouchableOpacity>
                 </View>
                 

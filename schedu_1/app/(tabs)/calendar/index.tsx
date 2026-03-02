@@ -1,6 +1,6 @@
+import ArrowDropDownIcon from '@/assets/icons/arrow_drop_down.svg';
 import { SharedHeader } from '@/components/SharedHeader';
 import { CALENDAR_EVENTS } from '@/constants/mockData';
-import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -60,7 +60,7 @@ export default function CalendarScreen() {
                     <Text style={styles.classSubject}>SCIENCE</Text>
                     <Text style={styles.classGrade}>Grade 8 - Tesla</Text>
                 </View>
-                <Ionicons name="chevron-down" size={16} color="#000" />
+                <ArrowDropDownIcon width={16} height={16} color="#000" />
             </View>
         </View>
 
