@@ -18,58 +18,76 @@ export default function TabLayout() {
   
   return (
     <>
-    <Tabs
-      screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
-        headerShown: false,
-        tabBarButton: HapticTab,
-      }}>
-      <Tabs.Screen
-        name="index"
-        options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <HomeIcon color={color} width={28} height={28} />,
-        }}
-      />
-      <Tabs.Screen
-        name="calendar"
-        options={{
-          title: 'Calendar',
-          tabBarIcon: ({ color }) => <CalendarIcon color={color} width={28} height={28} />,
-        }}
-      />
-      <Tabs.Screen
-        name="create"
-        options={{
-          title: 'Create',
-          tabBarIcon: ({ color }) => <PlusIcon color={color} width={28} height={28} />,
-        }}
-        listeners={{
-          tabPress: (e) => {
-            // Prevent default action (navigation to the screen)
-            e.preventDefault();
-            // Open the modal instead
-            setCreateModalVisible(true);
-          },
-        }}
-      />
-      <Tabs.Screen
-        name="library"
-        options={{
-          title: 'Library',
-          tabBarIcon: ({ color }) => <LibraryIcon color={color} width={28} height={28} />,
-        }}
-      />
-      <Tabs.Screen
-        name="plans"
-        options={{
-          title: 'Plans',
-          tabBarIcon: ({ color }) => <PlansIcon color={color} width={28} height={28} />,
-        }}
-      />
-    </Tabs>
+      <Tabs
+        screenOptions={{
+          tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
+          headerShown: false,
+          tabBarButton: HapticTab,
+          tabBarStyle: {
+            borderTopWidth: 1,
+            borderTopColor: '#d9d9d9',
+            height: 60,
+            paddingBottom: 10,
+          }
+        }}>
+        <Tabs.Screen
+          name="index"
+          options={{
+            title: 'Home',
+            tabBarIcon: ({ color }) => <HomeIcon color={color} width={28} height={28} />,
+          }}
+        />
+        <Tabs.Screen
+          name="calendar/index"
+          options={{
+            title: 'Calendar',
+            tabBarIcon: ({ color }) => <CalendarIcon color={color} width={28} height={28} />,
+          }}
+        />
+        <Tabs.Screen
+          name="create"
+          options={{
+            title: 'Create',
+            tabBarIcon: ({ color }) => <PlusIcon color={color} width={28} height={28} />,
+          }}
+          listeners={{
+            tabPress: (e) => {
+              e.preventDefault();
+              setCreateModalVisible(true);
+            },
+          }}
+        />
+        <Tabs.Screen
+          name="library/index"
+          options={{
+            title: 'Library',
+            tabBarIcon: ({ color }) => <LibraryIcon color={color} width={28} height={28} />,
+          }}
+        />
+        <Tabs.Screen
+          name="plans"
+          options={{
+            title: 'Plans',
+            tabBarIcon: ({ color }) => <PlansIcon color={color} width={28} height={28} />,
+          }}
+        />
 
-    <Modal
+        {/* Hide detail routes from the Tab Bar */}
+        <Tabs.Screen
+          name="calendar/[date]"
+          options={{
+            href: null,
+          }}
+        />
+        <Tabs.Screen
+          name="library/[id]"
+          options={{
+            href: null,
+          }}
+        />
+      </Tabs>
+
+      <Modal
         animationType="fade"
         transparent={true}
         visible={isCreateModalVisible}
@@ -92,9 +110,9 @@ export default function TabLayout() {
 const styles = StyleSheet.create({
     modalOverlay: {
         flex: 1,
-        backgroundColor: 'rgba(113, 113, 113, 0.3)', // Overlay color from reference
+        backgroundColor: 'rgba(0, 0, 0, 0.3)',
         justifyContent: 'flex-end',
-        paddingBottom: 90, // Position above tab bar
+        paddingBottom: 80, 
     },
     modalContent: {
         alignItems: 'center',

@@ -1,35 +1,46 @@
-import { Ionicons } from '@expo/vector-icons';
+import SubjectIcon from '@/assets/dashboard/icons/Book open.svg';
+import NotesIcon from '@/assets/dashboard/icons/Bookmark.svg';
+import LessonPlanIcon from '@/assets/dashboard/icons/Calendar.svg';
+import ActivitiesIcon from '@/assets/dashboard/icons/Plus.svg';
+import { useRouter } from 'expo-router';
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export default function CreateModal({ onClose }: { onClose?: () => void }) {
+  const router = useRouter();
+
+  const handlePressSubject = () => {
+    onClose?.();
+    router.push('/create-subject');
+  };
+
   return (
     <View style={styles.container}>
       <View style={styles.content}>
-        <TouchableOpacity style={styles.item}>
+        <TouchableOpacity style={styles.item} onPress={handlePressSubject}>
              <View style={[styles.iconBox, { backgroundColor: 'rgba(142, 189, 167, 0.3)' }]}>
-                <Ionicons name="book-outline" size={24} color="#43553c" />
+                <SubjectIcon width={24} height={24} color="#43553c" />
              </View>
              <Text style={styles.label}>Subject</Text>
         </TouchableOpacity>
         
         <TouchableOpacity style={styles.item}>
              <View style={[styles.iconBox, { backgroundColor: 'rgba(155, 216, 130, 0.3)' }]}>
-                <Ionicons name="create-outline" size={24} color="#43553c" />
+                <NotesIcon width={24} height={24} color="#43553c" />
              </View>
              <Text style={styles.label}>Notes</Text>
         </TouchableOpacity>
         
         <TouchableOpacity style={styles.item}>
              <View style={[styles.iconBox, { backgroundColor: 'rgba(126, 217, 87, 0.3)' }]}>
-                <Ionicons name="grid-outline" size={24} color="#43553c" />
+                <LessonPlanIcon width={24} height={24} color="#43553c" />
              </View>
              <Text style={styles.label}>Lessonplan</Text>
         </TouchableOpacity>
         
         <TouchableOpacity style={styles.item}>
              <View style={[styles.iconBox, { backgroundColor: 'rgba(134, 180, 114, 0.3)' }]}>
-                <Ionicons name="cube-outline" size={24} color="#43553c" />
+                <ActivitiesIcon width={24} height={24} color="#43553c" />
              </View>
              <Text style={styles.label}>Activities</Text>
         </TouchableOpacity>

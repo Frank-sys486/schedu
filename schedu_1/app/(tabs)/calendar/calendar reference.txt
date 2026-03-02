@@ -1,0 +1,1075 @@
+import * as React from "react";
+import {StyleSheet, View, Text, Pressable, Image} from "react-native";
+
+const CalendarMonthlyZoomed = () => {
+  	
+  	return (
+    		<View style={styles.calendarMonthlyZoomed}>
+      			<View style={styles.calendarMonthlyZoomedChild} />
+      			<View style={styles.f}>
+        				<View style={styles.defaultdefaultActiveactive}>
+          					<Text style={styles.text}>30</Text>
+        				</View>
+      			</View>
+      			<View style={[styles.ios, styles.iosLayout]}>
+        				<View style={[styles.homeIndicator, styles.iosLayout]}>
+          					<View style={[styles.homeIndicator2, styles.capacityPosition]} />
+        				</View>
+        				<View style={[styles.statusBarIphone, styles.menuHeaderSpaceBlock]}>
+          					<View style={[styles.time, styles.timeFlexBox]}>
+            						<Text style={styles.time2}>9:41</Text>
+          					</View>
+          					<View style={[styles.levels, styles.timeFlexBox]}>
+            						<Image style={styles.cellularConnectionIcon} resizeMode="cover" />
+            						<Image style={styles.wifiIcon} resizeMode="cover" />
+            						<View style={styles.battery}>
+              							<View style={styles.border} />
+              							<Image style={[styles.capIcon, styles.capIconLayout]} resizeMode="cover" />
+              							<View style={[styles.capacity, styles.capacityPosition]} />
+            						</View>
+          					</View>
+        				</View>
+      			</View>
+      			<View style={[styles.menuHeader, styles.menuHeaderSpaceBlock]}>
+        				<View style={styles.textSmall}>
+          					<Text style={[styles.textSmall2, styles.scienceLayout]}>Monthly</Text>
+        				</View>
+      			</View>
+      			<View style={styles.textStrong}>
+        				<Text style={styles.october}>{`October `}</Text>
+      			</View>
+      			<View style={[styles.rectangleParent, styles.navLayout]}>
+        				<View style={[styles.groupChild, styles.navLayout]} />
+        				<View style={[styles.nav, styles.navLayout]}>
+          					<View style={styles.navigationButtonList}>
+            						<Pressable style={styles.navigationButton} onPress={()=>{}}>
+              							<View style={styles.homeLayout}>
+                								<Image style={[styles.icon, styles.iconLayout]} resizeMode="cover" />
+              							</View>
+              							<Text style={[styles.label, styles.labelTypo]}>Home</Text>
+            						</Pressable>
+            						<View style={styles.navigationButton}>
+              							<View style={styles.homeLayout}>
+                								<Image style={[styles.icon, styles.iconLayout]} resizeMode="cover" />
+              							</View>
+              							<Text style={[styles.label2, styles.labelTypo]}>Calendar</Text>
+            						</View>
+            						<Pressable style={styles.navigationButton} onPress={()=>{}}>
+              							<View style={styles.homeLayout}>
+                								<Image style={[styles.icon3, styles.iconPosition2]} resizeMode="cover" />
+              							</View>
+              							<Text style={[styles.label, styles.labelTypo]}>Create</Text>
+            						</Pressable>
+            						<Pressable style={styles.navigationButton} onPress={()=>{}}>
+              							<View style={styles.homeLayout}>
+                								<Image style={[styles.icon4, styles.iconPosition1]} resizeMode="cover" />
+              							</View>
+              							<Text style={[styles.label, styles.labelTypo]}>Library</Text>
+            						</Pressable>
+            						<Pressable style={styles.navigationButton} onPress={()=>{}}>
+              							<View style={styles.homeLayout}>
+                								<Image style={[styles.icon5, styles.iconPosition1]} resizeMode="cover" />
+              							</View>
+              							<Text style={[styles.label, styles.labelTypo]}>Plans</Text>
+            						</Pressable>
+          					</View>
+          					<View style={[styles.navChild, styles.childLayout]} />
+        				</View>
+      			</View>
+      			<Text style={[styles.s, styles.sTypo]}>S</Text>
+      			<Text style={[styles.text2, styles.sTypo]}>1</Text>
+      			<Text style={[styles.m, styles.sTypo]}>M</Text>
+      			<Text style={[styles.t, styles.sTypo]}>T</Text>
+      			<Text style={[styles.w, styles.sTypo]}>W</Text>
+      			<Text style={[styles.t2, styles.sTypo]}>T</Text>
+      			<Text style={[styles.f2, styles.sTypo]}>F</Text>
+      			<Text style={[styles.s2, styles.sTypo]}>S</Text>
+      			<Text style={[styles.text3, styles.textLayout4]}>25</Text>
+      			<Text style={[styles.text4, styles.textLayout4]}>26</Text>
+      			<Text style={[styles.text5, styles.textLayout4]}>27</Text>
+      			<Text style={[styles.text6, styles.textLayout4]}>28</Text>
+      			<Text style={[styles.text7, styles.textLayout4]}>29</Text>
+      			<Text style={[styles.text8, styles.textLayout4]}>31</Text>
+      			<Text style={[styles.text9, styles.textLayout3]}>18</Text>
+      			<Text style={[styles.text10, styles.textLayout3]}>19</Text>
+      			<Text style={[styles.text11, styles.textLayout3]}>20</Text>
+      			<Text style={[styles.text12, styles.textLayout3]}>21</Text>
+      			<Text style={[styles.text13, styles.textLayout3]}>22</Text>
+      			<Text style={[styles.text14, styles.textLayout3]}>23</Text>
+      			<Text style={[styles.text15, styles.textLayout3]}>24</Text>
+      			<Text style={[styles.text16, styles.textLayout2]}>11</Text>
+      			<Text style={[styles.text17, styles.textLayout2]}>12</Text>
+      			<Text style={[styles.text18, styles.textLayout2]}>13</Text>
+      			<Text style={[styles.text19, styles.textLayout2]}>14</Text>
+      			<Text style={[styles.text20, styles.textLayout2]}>15</Text>
+      			<Text style={[styles.text21, styles.textLayout2]}>16</Text>
+      			<Text style={[styles.text22, styles.textLayout2]}>17</Text>
+      			<Text style={[styles.text23, styles.textTypo]}>1</Text>
+      			<Text style={[styles.text24, styles.textTypo]}>2</Text>
+      			<Text style={[styles.text25, styles.textTypo]}>3</Text>
+      			<Text style={[styles.text26, styles.textTypo]}>4</Text>
+      			<Text style={[styles.text27, styles.textTypo]}>5</Text>
+      			<Text style={[styles.text28, styles.textTypo]}>6</Text>
+      			<Text style={[styles.text29, styles.userPosition]}>7</Text>
+      			<Pressable style={[styles.calendarMonthlyZoomedItem, styles.calendarBorder]} onPress={()=>{}} />
+      			<Image style={[styles.calendarMonthlyZoomedInner, styles.capIconLayout]} resizeMode="cover" />
+      			<View style={[styles.lineView, styles.calendarChildPosition1]} />
+      			<View style={[styles.calendarMonthlyZoomedChild2, styles.calendarChildPosition1]} />
+      			<View style={[styles.calendarMonthlyZoomedChild3, styles.calendarChildPosition1]} />
+      			<View style={[styles.calendarMonthlyZoomedChild4, styles.calendarBorder]} />
+      			<Pressable style={[styles.linePressable, styles.calendarChildBorder1]} onPress={()=>{}} />
+      			<Pressable style={[styles.calendarMonthlyZoomedChild5, styles.calendarChildBorder1]} onPress={()=>{}} />
+      			<Pressable style={[styles.calendarMonthlyZoomedChild6, styles.calendarChildPosition]} onPress={()=>{}} />
+      			<Pressable style={[styles.calendarMonthlyZoomedChild7, styles.calendarChildPosition]} onPress={()=>{}} />
+      			<Pressable style={[styles.calendarMonthlyZoomedChild8, styles.calendarChildBorder]} onPress={()=>{}} />
+      			<Pressable style={[styles.calendarMonthlyZoomedChild9, styles.calendarChildBorder]} onPress={()=>{}} />
+      			<Pressable style={[styles.calendarMonthlyZoomedChild10, styles.calendarChildBorder1]} onPress={()=>{}} />
+      			<View style={[styles.rectangleGroup, styles.groupLayout]}>
+        				<View style={[styles.groupItem, styles.groupLayout]} />
+        				<Text style={[styles.science, styles.grade8FlexBox]}>SCIENCE</Text>
+        				<Text style={[styles.grade8, styles.grade8FlexBox]}>Grade 8 - Tesla</Text>
+        				<Image style={styles.arrowDropDownIcon} resizeMode="cover" />
+      			</View>
+      			<Pressable style={styles.lesson1IntroductionContainer} onPress={()=>{}}>
+        				<Text style={[styles.text30, styles.textLayout1]}>
+          					<Text style={styles.scienceTypo}>Lesson 1</Text>
+          					<Text style={styles.introductionToScience}>: Introduction to Science</Text>
+        				</Text>
+      			</Pressable>
+      			<Pressable style={[styles.lesson2TheContainer, styles.containerPosition1]} onPress={()=>{}}>
+        				<Text style={[styles.text31, styles.textLayout1]}>
+          					<Text style={styles.scienceTypo}>Lesson 2</Text>
+          					<Text style={styles.introductionToScience}>: The Human Body</Text>
+        				</Text>
+      			</Pressable>
+      			<Pressable style={styles.lesson3DigestiveContainer} onPress={()=>{}}>
+        				<Text style={styles.text32}>
+          					<Text style={styles.scienceTypo}>Lesson 3</Text>
+          					<Text style={styles.introductionToScience}>: {'\n'}Digestive System</Text>
+        				</Text>
+      			</Pressable>
+      			<Pressable style={[styles.lesson4SkeletalContainer, styles.containerPosition]} onPress={()=>{}}>
+        				<Text style={[styles.text33, styles.textLayout]}>
+          					<Text style={styles.scienceTypo}>Lesson 4</Text>
+          					<Text style={styles.introductionToScience}>: {'\n'}Skeletal System</Text>
+        				</Text>
+      			</Pressable>
+      			<Pressable style={styles.performanceTaskBodySystemContainer} onPress={()=>{}}>
+        				<Text style={[styles.text33, styles.textLayout]}>
+          					<Text style={styles.scienceTypo}>Performance Task:{'\n'}</Text>
+          					<Text style={styles.introductionToScience}>Body system diagram</Text>
+        				</Text>
+      			</Pressable>
+      			<Pressable style={styles.performanceTaskBodySystemContainer2} onPress={()=>{}}>
+        				<Text style={[styles.text33, styles.textLayout]}>
+          					<Text style={styles.scienceTypo}>Performance Task:{'\n'}</Text>
+          					<Text style={styles.introductionToScience}>Body system diagram</Text>
+        				</Text>
+      			</Pressable>
+      			<Pressable style={[styles.lesson5MuscularContainer, styles.containerPosition]} onPress={()=>{}}>
+        				<Text style={[styles.text33, styles.textLayout]}>
+          					<Text style={styles.scienceTypo}>Lesson 5</Text>
+          					<Text style={styles.introductionToScience}>: {'\n'}Muscular System</Text>
+        				</Text>
+      			</Pressable>
+      			<Pressable style={styles.reviewLesson15Container} onPress={()=>{}}>
+        				<Text style={[styles.text37, styles.textLayout]}>
+          					<Text style={styles.scienceTypo}>Review:{'\n'}</Text>
+          					<Text style={styles.introductionToScience}>Lesson 1-5</Text>
+        				</Text>
+      			</Pressable>
+      			<Pressable style={[styles.seatwork1LessonContainer, styles.containerPosition1]} onPress={()=>{}}>
+        				<Text style={[styles.text38, styles.textLayout1]}>
+          					<Text style={styles.scienceTypo}>Seatwork 1: {'\n'}</Text>
+          					<Text style={styles.introductionToScience}>{`Lesson 1 & 2`}</Text>
+        				</Text>
+      			</Pressable>
+      			<Pressable style={[styles.quiz1LessonContainer, styles.lessonContainerPosition1]} onPress={()=>{}}>
+        				<Text style={[styles.text38, styles.textLayout1]}>
+          					<Text style={styles.scienceTypo}>Quiz 1: {'\n'}</Text>
+          					<Text style={styles.introductionToScience}>{`Lesson 1 & 2`}</Text>
+        				</Text>
+      			</Pressable>
+      			<Pressable style={[styles.seatwork2LessonContainer, styles.lessonContainerPosition1]} onPress={()=>{}}>
+        				<Text style={[styles.text38, styles.textLayout1]}>
+          					<Text style={styles.scienceTypo}>Seatwork 2: {'\n'}</Text>
+          					<Text style={styles.introductionToScience}>{`Lesson 3 & 4`}</Text>
+        				</Text>
+      			</Pressable>
+      			<Pressable style={[styles.seatwork3LessonContainer, styles.lessonContainerPosition]} onPress={()=>{}}>
+        				<Text style={[styles.text38, styles.textLayout1]}>
+          					<Text style={styles.scienceTypo}>Seatwork 3: {'\n'}</Text>
+          					<Text style={styles.introductionToScience}>Lesson 5</Text>
+        				</Text>
+      			</Pressable>
+      			<Pressable style={[styles.quiz2LessonContainer, styles.lessonContainerPosition]} onPress={()=>{}}>
+        				<Text style={[styles.text38, styles.textLayout1]}>
+          					<Text style={styles.scienceTypo}>Quiz 2: {'\n'}</Text>
+          					<Text style={styles.introductionToScience}>Lesson 1-5</Text>
+        				</Text>
+      			</Pressable>
+      			<View style={[styles.moreHorizontal, styles.homeLayout]}>
+        				<Image style={[styles.icon6, styles.iconPosition]} resizeMode="cover" />
+      			</View>
+      			<View style={[styles.header, styles.navLayout]}>
+        				<Image style={styles.ford22Icon} resizeMode="cover" />
+        				<Image style={styles.s11} resizeMode="cover" />
+        				<Text style={styles.schedu}>SCHEDU</Text>
+        				<View style={[styles.headerChild, styles.childLayout]} />
+      			</View>
+      			<View style={[styles.user, styles.userPosition]}>
+        				<Image style={[styles.icon7, styles.iconPosition]} resizeMode="cover" />
+      			</View>
+    		</View>);
+};
+
+const styles = StyleSheet.create({
+  	iosLayout: {
+    		width: 400,
+    		position: "absolute"
+  	},
+  	capacityPosition: {
+    		backgroundColor: "#000",
+    		left: "50%",
+    		position: "absolute"
+  	},
+  	menuHeaderSpaceBlock: {
+    		paddingHorizontal: 16,
+    		position: "absolute"
+  	},
+  	timeFlexBox: {
+    		flex: 1,
+    		height: 22,
+    		justifyContent: "center",
+    		alignItems: "center",
+    		flexDirection: "row"
+  	},
+  	capIconLayout: {
+    		maxHeight: "100%",
+    		position: "absolute"
+  	},
+  	scienceLayout: {
+    		lineHeight: 20,
+    		fontSize: 14
+  	},
+  	navLayout: {
+    		width: 390,
+    		position: "absolute"
+  	},
+  	iconLayout: {
+    		maxWidth: "100%",
+    		maxHeight: "100%",
+    		position: "absolute",
+    		overflow: "hidden"
+  	},
+  	labelTypo: {
+    		lineHeight: 14,
+    		fontFamily: "Inter-SemiBold",
+    		fontSize: 14,
+    		textAlign: "center",
+    		fontWeight: "600"
+  	},
+  	iconPosition2: {
+    		left: "20.83%",
+    		right: "20.83%",
+    		width: "58.33%",
+    		maxWidth: "100%",
+    		maxHeight: "100%",
+    		position: "absolute",
+    		overflow: "hidden"
+  	},
+  	iconPosition1: {
+    		bottom: "12.5%",
+    		top: "12.5%",
+    		height: "75%"
+  	},
+  	childLayout: {
+    		transform: [
+      			{
+        				rotate: "-0.2deg"
+      			}
+    		],
+    		height: 1,
+    		width: 391,
+    		borderTopWidth: 1,
+    		borderColor: "#d9d9d9",
+    		borderStyle: "solid",
+    		left: 0,
+    		position: "absolute"
+  	},
+  	sTypo: {
+    		color: "#d9d9d9",
+    		textAlign: "left",
+    		fontFamily: "RobotoMono-Regular",
+    		lineHeight: 11,
+    		fontSize: 11,
+    		position: "absolute"
+  	},
+  	textLayout4: {
+    		width: 14,
+    		top: 590,
+    		height: 20,
+    		color: "#b3b3b3",
+    		textAlign: "left",
+    		fontFamily: "RobotoMono-Regular",
+    		lineHeight: 11,
+    		fontSize: 11,
+    		position: "absolute"
+  	},
+  	textLayout3: {
+    		top: 404,
+    		height: 20,
+    		width: 14,
+    		color: "#b3b3b3",
+    		textAlign: "left",
+    		fontFamily: "RobotoMono-Regular",
+    		lineHeight: 11,
+    		fontSize: 11,
+    		position: "absolute"
+  	},
+  	textLayout2: {
+    		top: 232,
+    		height: 20,
+    		width: 14,
+    		color: "#b3b3b3",
+    		textAlign: "left",
+    		fontFamily: "RobotoMono-Regular",
+    		lineHeight: 11,
+    		fontSize: 11,
+    		position: "absolute"
+  	},
+  	textTypo: {
+    		opacity: 0,
+    		color: "#b3b3b3",
+    		textAlign: "left",
+    		fontFamily: "RobotoMono-Regular",
+    		lineHeight: 11,
+    		fontSize: 11
+  	},
+  	userPosition: {
+    		left: 345,
+    		position: "absolute"
+  	},
+  	calendarBorder: {
+    		height: 31,
+    		borderTopWidth: 31,
+    		borderColor: "#8ebda7",
+    		borderStyle: "solid",
+    		position: "absolute"
+  	},
+  	calendarChildPosition1: {
+    		top: 240,
+    		height: 31,
+    		borderTopWidth: 31,
+    		borderColor: "#8ebda7",
+    		borderStyle: "solid",
+    		position: "absolute"
+  	},
+  	calendarChildBorder1: {
+    		borderColor: "#94a2f2",
+    		height: 31,
+    		borderTopWidth: 31,
+    		borderStyle: "solid",
+    		position: "absolute"
+  	},
+  	calendarChildPosition: {
+    		top: 276,
+    		borderColor: "#94a2f2",
+    		height: 31,
+    		width: 81,
+    		borderTopWidth: 31,
+    		borderStyle: "solid",
+    		position: "absolute"
+  	},
+  	calendarChildBorder: {
+    		borderColor: "#d37676",
+    		height: 31,
+    		borderTopWidth: 31,
+    		borderStyle: "solid",
+    		position: "absolute"
+  	},
+  	groupLayout: {
+    		height: 42,
+    		position: "absolute"
+  	},
+  	grade8FlexBox: {
+    		textAlign: "right",
+    		color: "#000",
+    		position: "absolute"
+  	},
+  	textLayout1: {
+    		width: 43,
+    		lineHeight: 7,
+    		fontSize: 7,
+    		textAlign: "left",
+    		color: "#fff"
+  	},
+  	containerPosition1: {
+    		left: 121,
+    		position: "absolute"
+  	},
+  	containerPosition: {
+    		top: 440,
+    		position: "absolute"
+  	},
+  	textLayout: {
+    		height: 17,
+    		lineHeight: 7,
+    		fontSize: 7,
+    		textAlign: "left",
+    		color: "#fff"
+  	},
+  	lessonContainerPosition1: {
+    		left: 174,
+    		position: "absolute"
+  	},
+  	lessonContainerPosition: {
+    		top: 662,
+    		position: "absolute"
+  	},
+  	homeLayout: {
+    		height: 24,
+    		width: 24,
+    		overflow: "hidden"
+  	},
+  	iconPosition: {
+    		left: "16.67%",
+    		maxWidth: "100%",
+    		maxHeight: "100%",
+    		position: "absolute",
+    		overflow: "hidden"
+  	},
+  	calendarMonthlyZoomed: {
+    		width: "100%",
+    		overflow: "hidden",
+    		backgroundColor: "#fff",
+    		height: 844
+  	},
+  	calendarMonthlyZoomedChild: {
+    		top: 579,
+    		left: 281,
+    		borderRadius: 13,
+    		backgroundColor: "#7ed957",
+    		width: 31,
+    		height: 30,
+    		position: "absolute"
+  	},
+  	f: {
+    		top: 567,
+    		left: 270,
+    		borderRadius: 5,
+    		width: 50,
+    		height: 32,
+    		position: "absolute",
+    		overflow: "hidden"
+  	},
+  	defaultdefaultActiveactive: {
+    		top: 20,
+    		width: 10,
+    		height: 16,
+    		left: 20,
+    		position: "absolute"
+  	},
+  	text: {
+    		left: "0%",
+    		textAlign: "left",
+    		color: "#fff",
+    		fontFamily: "RobotoMono-Regular",
+    		lineHeight: 11,
+    		top: "0%",
+    		fontSize: 11,
+    		position: "absolute"
+  	},
+  	ios: {
+    		left: -5,
+    		top: 0,
+    		height: 844
+  	},
+  	homeIndicator: {
+    		top: 810,
+    		height: 34,
+    		left: 0
+  	},
+  	homeIndicator2: {
+    		marginLeft: 72,
+    		bottom: 8,
+    		borderRadius: 100,
+    		height: 5,
+    		transform: [
+      			{
+        				rotate: "180deg"
+      			}
+    		],
+    		width: 144
+  	},
+  	statusBarIphone: {
+    		left: 5,
+    		height: 48,
+    		paddingTop: 21,
+    		paddingBottom: 19,
+    		gap: 154,
+    		justifyContent: "center",
+    		paddingHorizontal: 16,
+    		alignItems: "center",
+    		flexDirection: "row",
+    		width: 390,
+    		top: 0
+  	},
+  	time: {
+    		paddingTop: 2
+  	},
+  	time2: {
+    		fontSize: 17,
+    		fontFamily: "SF Pro",
+    		textAlign: "center",
+    		color: "#000",
+    		fontWeight: "600",
+    		lineHeight: 22
+  	},
+  	levels: {
+    		paddingTop: 1,
+    		gap: 7
+  	},
+  	cellularConnectionIcon: {
+    		width: 19,
+    		height: 12
+  	},
+  	wifiIcon: {
+    		width: 17,
+    		height: 12
+  	},
+  	battery: {
+    		height: 13,
+    		width: 27
+  	},
+  	border: {
+    		height: "100%",
+    		marginLeft: -14,
+    		bottom: "0%",
+    		borderRadius: 4,
+    		borderColor: "#000",
+    		borderWidth: 1,
+    		width: 25,
+    		opacity: 0,
+    		borderStyle: "solid",
+    		left: "50%",
+    		top: "0%",
+    		position: "absolute"
+  	},
+  	capIcon: {
+    		height: "31.54%",
+    		marginLeft: 12,
+    		top: "36.78%",
+    		bottom: "31.68%",
+    		width: 1,
+    		opacity: 0,
+    		left: "50%",
+    		maxHeight: "100%"
+  	},
+  	capacity: {
+    		height: "69.23%",
+    		marginLeft: -12,
+    		top: "15.38%",
+    		bottom: "15.38%",
+    		borderRadius: 3,
+    		width: 21
+  	},
+  	menuHeader: {
+    		top: 129,
+    		left: 13,
+    		borderRadius: 8,
+    		width: 74,
+    		paddingTop: 8,
+    		paddingBottom: 4,
+    		overflow: "hidden"
+  	},
+  	textSmall: {
+    		flexDirection: "row"
+  	},
+  	textSmall2: {
+    		color: "#757575",
+    		fontFamily: "Inter-Regular",
+    		textAlign: "left"
+  	},
+  	textStrong: {
+    		top: 157,
+    		left: 29,
+    		flexDirection: "row",
+    		position: "absolute"
+  	},
+  	october: {
+    		fontSize: 16,
+    		lineHeight: 22,
+    		color: "#1e1e1e",
+    		fontFamily: "Inter-SemiBold",
+    		fontWeight: "600",
+    		textAlign: "left"
+  	},
+  	rectangleParent: {
+    		top: 735,
+    		height: 121,
+    		left: 0
+  	},
+  	groupChild: {
+    		height: 120,
+    		top: 1,
+    		left: 0,
+    		backgroundColor: "#fff"
+  	},
+  	nav: {
+    		height: 68,
+    		left: 0,
+    		top: 0
+  	},
+  	navigationButtonList: {
+    		left: 10,
+    		width: 369,
+    		height: 60,
+    		flexWrap: "wrap",
+    		alignContent: "flex-start",
+    		gap: 12,
+    		top: 8,
+    		flexDirection: "row",
+    		position: "absolute"
+  	},
+  	navigationButton: {
+    		alignSelf: "stretch",
+    		padding: 8,
+    		gap: 8,
+    		alignItems: "center"
+  	},
+  	icon: {
+    		height: "83.33%",
+    		width: "75%",
+    		top: "8.33%",
+    		right: "12.5%",
+    		bottom: "8.33%",
+    		left: "12.5%"
+  	},
+  	label: {
+    		color: "#757575"
+  	},
+  	label2: {
+    		color: "#2c2c2c"
+  	},
+  	icon3: {
+    		height: "58.33%",
+    		top: "20.83%",
+    		bottom: "20.83%"
+  	},
+  	icon4: {
+    		width: "83.33%",
+    		right: "8.33%",
+    		left: "8.33%",
+    		maxWidth: "100%",
+    		maxHeight: "100%",
+    		position: "absolute",
+    		overflow: "hidden"
+  	},
+  	icon5: {
+    		left: "20.83%",
+    		right: "20.83%",
+    		width: "58.33%",
+    		maxWidth: "100%",
+    		maxHeight: "100%",
+    		position: "absolute",
+    		overflow: "hidden"
+  	},
+  	navChild: {
+    		top: 1
+  	},
+  	s: {
+    		left: 38,
+    		top: 195,
+    		color: "#d9d9d9"
+  	},
+  	text2: {
+    		top: 745,
+    		left: 26,
+    		letterSpacing: -2.2
+  	},
+  	m: {
+    		left: 87,
+    		top: 195,
+    		color: "#d9d9d9"
+  	},
+  	t: {
+    		left: 136,
+    		top: 195,
+    		color: "#d9d9d9"
+  	},
+  	w: {
+    		left: 189,
+    		top: 195,
+    		color: "#d9d9d9"
+  	},
+  	t2: {
+    		left: 240,
+    		top: 195,
+    		color: "#d9d9d9"
+  	},
+  	f2: {
+    		left: 289,
+    		top: 195,
+    		color: "#d9d9d9"
+  	},
+  	s2: {
+    		left: 340,
+    		top: 195,
+    		color: "#d9d9d9"
+  	},
+  	text3: {
+    		height: 20,
+    		left: 36
+  	},
+  	text4: {
+    		left: 85,
+    		height: 20
+  	},
+  	text5: {
+    		height: 20,
+    		left: 136
+  	},
+  	text6: {
+    		left: 187,
+    		height: 20
+  	},
+  	text7: {
+    		left: 238,
+    		height: 20
+  	},
+  	text8: {
+    		left: 338,
+    		height: 20
+  	},
+  	text9: {
+    		left: 36
+  	},
+  	text10: {
+    		left: 85
+  	},
+  	text11: {
+    		left: 136
+  	},
+  	text12: {
+    		left: 187
+  	},
+  	text13: {
+    		left: 238
+  	},
+  	text14: {
+    		left: 288
+  	},
+  	text15: {
+    		left: 338
+  	},
+  	text16: {
+    		left: 36
+  	},
+  	text17: {
+    		left: 85
+  	},
+  	text18: {
+    		left: 136
+  	},
+  	text19: {
+    		left: 187
+  	},
+  	text20: {
+    		left: 238
+  	},
+  	text21: {
+    		left: 288
+  	},
+  	text22: {
+    		left: 338
+  	},
+  	text23: {
+    		left: 37,
+    		top: 723,
+    		opacity: 0,
+    		position: "absolute"
+  	},
+  	text24: {
+    		left: 86,
+    		top: 723,
+    		opacity: 0,
+    		position: "absolute"
+  	},
+  	text25: {
+    		top: 723,
+    		opacity: 0,
+    		position: "absolute",
+    		left: 136
+  	},
+  	text26: {
+    		left: 188,
+    		top: 723,
+    		opacity: 0,
+    		position: "absolute"
+  	},
+  	text27: {
+    		left: 239,
+    		top: 723,
+    		opacity: 0,
+    		position: "absolute"
+  	},
+  	text28: {
+    		top: 723,
+    		opacity: 0,
+    		position: "absolute",
+    		left: 289
+  	},
+  	text29: {
+    		top: 724,
+    		opacity: 0,
+    		color: "#b3b3b3",
+    		textAlign: "left",
+    		fontFamily: "RobotoMono-Regular",
+    		lineHeight: 11,
+    		fontSize: 11
+  	},
+  	calendarMonthlyZoomedItem: {
+    		top: 603,
+    		left: 204,
+    		width: 81
+  	},
+  	calendarMonthlyZoomedInner: {
+    		top: 446,
+    		left: 224,
+    		width: 98
+  	},
+  	lineView: {
+    		left: 102,
+    		width: 81
+  	},
+  	calendarMonthlyZoomedChild2: {
+    		left: 47,
+    		width: 82
+  	},
+  	calendarMonthlyZoomedChild3: {
+    		left: 209,
+    		width: 127
+  	},
+  	calendarMonthlyZoomedChild4: {
+    		top: 416,
+    		width: 136,
+    		left: 48
+  	},
+  	linePressable: {
+    		width: 84,
+    		top: 638,
+    		borderColor: "#94a2f2",
+    		left: 48
+  	},
+  	calendarMonthlyZoomedChild5: {
+    		top: 450,
+    		left: 156,
+    		width: 81
+  	},
+  	calendarMonthlyZoomedChild6: {
+    		left: 102
+  	},
+  	calendarMonthlyZoomedChild7: {
+    		left: 156
+  	},
+  	calendarMonthlyZoomedChild8: {
+    		top: 672,
+    		left: 200,
+    		width: 183
+  	},
+  	calendarMonthlyZoomedChild9: {
+    		top: 485,
+    		left: 49,
+    		width: 290
+  	},
+  	calendarMonthlyZoomedChild10: {
+    		left: 254,
+    		top: 638,
+    		borderColor: "#94a2f2",
+    		width: 82
+  	},
+  	rectangleGroup: {
+    		top: 133,
+    		left: 150,
+    		width: 176
+  	},
+  	groupItem: {
+    		left: 21,
+    		boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.05)",
+    		elevation: 4,
+    		borderRadius: 7,
+    		backgroundColor: "#fbfbfb",
+    		width: 155,
+    		top: 0
+  	},
+  	science: {
+    		fontStyle: "italic",
+    		fontFamily: "Inter-Bold",
+    		fontWeight: "700",
+    		height: 20,
+    		top: 8,
+    		lineHeight: 20,
+    		fontSize: 14,
+    		width: 144,
+    		left: 20
+  	},
+  	grade8: {
+    		top: 21,
+    		letterSpacing: 0.4,
+    		lineHeight: 16,
+    		fontFamily: "Roboto-Regular",
+    		width: 163,
+    		height: 15,
+    		left: 0,
+    		fontSize: 11,
+    		textAlign: "right"
+  	},
+  	arrowDropDownIcon: {
+    		top: 9,
+    		left: 27,
+    		width: 16,
+    		height: 23,
+    		position: "absolute"
+  	},
+  	lesson1IntroductionContainer: {
+    		left: 66,
+    		top: 260,
+    		position: "absolute"
+  	},
+  	text30: {
+    		height: 27
+  	},
+  	scienceTypo: {
+    		fontFamily: "Inter-Bold",
+    		fontWeight: "700"
+  	},
+  	introductionToScience: {
+    		fontFamily: "Inter-Regular"
+  	},
+  	lesson2TheContainer: {
+    		top: 260
+  	},
+  	text31: {
+    		height: 22,
+    		width: 43
+  	},
+  	lesson3DigestiveContainer: {
+    		left: 229,
+    		top: 263,
+    		position: "absolute"
+  	},
+  	text32: {
+    		height: 10,
+    		width: 88,
+    		lineHeight: 7,
+    		fontSize: 7,
+    		textAlign: "left",
+    		color: "#fff"
+  	},
+  	lesson4SkeletalContainer: {
+    		left: 69
+  	},
+  	text33: {
+    		width: 88
+  	},
+  	performanceTaskBodySystemContainer: {
+    		top: 508,
+    		left: 69,
+    		position: "absolute"
+  	},
+  	performanceTaskBodySystemContainer2: {
+    		left: 68,
+    		top: 697,
+    		position: "absolute"
+  	},
+  	lesson5MuscularContainer: {
+    		left: 232
+  	},
+  	reviewLesson15Container: {
+    		left: 225,
+    		top: 627,
+    		position: "absolute"
+  	},
+  	text37: {
+    		width: 49
+  	},
+  	seatwork1LessonContainer: {
+    		top: 299
+  	},
+  	text38: {
+    		height: 18
+  	},
+  	quiz1LessonContainer: {
+    		top: 299
+  	},
+  	seatwork2LessonContainer: {
+    		top: 474
+  	},
+  	seatwork3LessonContainer: {
+    		left: 69
+  	},
+  	quiz2LessonContainer: {
+    		left: 275
+  	},
+  	moreHorizontal: {
+    		top: 145,
+    		left: 339,
+    		position: "absolute"
+  	},
+  	icon6: {
+    		height: "8.33%",
+    		width: "66.67%",
+    		top: "45.83%",
+    		right: "16.67%",
+    		bottom: "45.83%"
+  	},
+  	header: {
+    		top: 58,
+    		left: 4,
+    		height: 55
+  	},
+  	ford22Icon: {
+    		left: 16,
+    		width: 39,
+    		height: 39,
+    		top: 1,
+    		position: "absolute"
+  	},
+  	s11: {
+    		left: 15,
+    		width: 36,
+    		height: 36,
+    		top: 0,
+    		position: "absolute"
+  	},
+  	schedu: {
+    		top: 10,
+    		left: 58,
+    		fontSize: 33,
+    		fontWeight: "300",
+    		fontFamily: "Inter-Light",
+    		color: "#b3b3b3",
+    		textAlign: "center",
+    		lineHeight: 22,
+    		position: "absolute"
+  	},
+  	headerChild: {
+    		top: 55
+  	},
+  	user: {
+    		top: 64,
+    		width: 28,
+    		height: 30,
+    		overflow: "hidden"
+  	},
+  	icon7: {
+    		width: "66.79%",
+    		right: "16.55%",
+    		bottom: "12.5%",
+    		top: "12.5%",
+    		height: "75%"
+  	}
+});
+
+export default CalendarMonthlyZoomed;

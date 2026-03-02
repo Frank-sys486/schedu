@@ -1,0 +1,751 @@
+ChooseSubject.tsx
+import { FunctionComponent, useCallback } from 'react';
+import styles from './ChooseSubject.module.css';
+
+
+const ChooseSubject: FunctionComponent = () => {
+  	
+  	const onPlusContainerClick = useCallback(() => {
+    		// Add your code here
+  	}, []);
+  	
+  	return (
+    		<div className={styles.chooseSubject}>
+      			<div className={styles.ios}>
+        				<div className={styles.homeIndicator}>
+          					<div className={styles.homeIndicator2} />
+        				</div>
+        				<div className={styles.statusBarIphone}>
+          					<div className={styles.time}>
+            						<div className={styles.time2}>9:41</div>
+          					</div>
+          					<div className={styles.levels}>
+            						<img className={styles.cellularConnectionIcon} alt="" />
+            						<img className={styles.wifiIcon} alt="" />
+            						<div className={styles.battery}>
+              							<div className={styles.border} />
+              							<img className={styles.capIcon} alt="" />
+              							<div className={styles.capacity} />
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div className={styles.rectangleParent}>
+        				<div className={styles.groupChild} />
+        				<div className={styles.nav}>
+          					<div className={styles.navigationButtonList}>
+            						<div className={styles.navigationButton}>
+              							<div className={styles.home}>
+                								<img className={styles.icon} alt="" />
+              							</div>
+              							<div className={styles.label}>Home</div>
+            						</div>
+            						<div className={styles.navigationButton}>
+              							<div className={styles.home}>
+                								<img className={styles.icon} alt="" />
+              							</div>
+              							<div className={styles.label}>Calendar</div>
+            						</div>
+            						<div className={styles.navigationButton}>
+              							<div className={styles.home}>
+                								<img className={styles.icon3} alt="" />
+              							</div>
+              							<div className={styles.label}>Create</div>
+            						</div>
+            						<div className={styles.navigationButton4}>
+              							<div className={styles.home}>
+                								<img className={styles.icon4} alt="" />
+              							</div>
+              							<div className={styles.label}>Library</div>
+            						</div>
+            						<div className={styles.navigationButton}>
+              							<div className={styles.home}>
+                								<img className={styles.icon5} alt="" />
+              							</div>
+              							<div className={styles.label}>Plans</div>
+            						</div>
+          					</div>
+          					<div className={styles.navChild} />
+        				</div>
+      			</div>
+      			<div className={styles.header}>
+        				<img className={styles.ford22Icon} alt="" />
+        				<div className={styles.foradi}>SCHEDU</div>
+        				<div className={styles.headerChild} />
+      			</div>
+      			<div className={styles.chooseSubject2}>Choose Subject</div>
+      			<div className={styles.sliders}>
+        				<img className={styles.icon6} alt="" />
+      			</div>
+      			<div className={styles.user}>
+        				<img className={styles.icon7} alt="" />
+      			</div>
+      			<div className={styles.search}>
+        				<img className={styles.icon8} alt="" />
+      			</div>
+      			<div className={styles.chooseSubjectChild} />
+      			<div className={styles.chooseSubjectItem} />
+      			<div className={styles.chooseSubjectInner} />
+      			<div className={styles.sci9ScienceContainer}>
+        				<i className={styles.science}>SCI9</i>
+        				<span className={styles.science}> - Science</span>
+      			</div>
+      			<img className={styles.image1Icon} alt="" />
+      			<img className={styles.image2Icon} alt="" />
+      			<img className={styles.image3Icon} alt="" />
+      			<div className={styles.plus2}>
+        				<img className={styles.icon9} alt="" />
+      			</div>
+      			<div className={styles.all}>All</div>
+      			<img className={styles.arrowDropDownIcon} alt="" />
+      			<div className={styles.sliders}>
+        				<img className={styles.icon6} alt="" />
+      			</div>
+      			<div className={styles.search}>
+        				<img className={styles.icon8} alt="" />
+      			</div>
+      			<div className={styles.chooseSubjectChild} />
+      			<div className={styles.chooseSubjectItem} />
+      			<div className={styles.chooseSubjectInner} />
+      			<div className={styles.mat10MathematicsContainer}>
+        				<i className={styles.science}>MAT10</i>
+        				<span className={styles.science}> - Mathematics</span>
+      			</div>
+      			<div className={styles.sci9ScienceContainer}>
+        				<i className={styles.science}>SCI9</i>
+        				<span className={styles.science}> - Science</span>
+      			</div>
+      			<img className={styles.image1Icon} alt="" />
+      			<img className={styles.image2Icon} alt="" />
+      			<img className={styles.image3Icon} alt="" />
+      			<div className={styles.plus3} onClick={onPlusContainerClick}>
+        				<img className={styles.icon9} alt="" />
+      			</div>
+      			<img className={styles.maskGroupIcon} alt="" />
+      			<div className={styles.check}>
+        				<img className={styles.icon13} alt="" />
+      			</div>
+      			<div className={styles.mat10MathematicsContainer2}>
+        				<i className={styles.science}>MAT10</i>
+        				<span className={styles.science}> - Mathematics</span>
+      			</div>
+      			<div className={styles.hephzibahSchoolInc}>Hephzibah School Inc.</div>
+      			<div className={styles.hephzibahSchoolInc2}>Hephzibah School Inc.</div>
+      			<div className={styles.hephzibahSchoolInc3}>Hephzibah School Inc.</div>
+      			<div className={styles.adventistUniversityOf}>Adventist University of the Philippines</div>
+      			<div className={styles.sci8ScienceContainer}>
+        				<i className={styles.science}>{`SCI8 `}</i>
+        				<span className={styles.science}>- Science</span>
+      			</div>
+      			<img className={styles.arrowDropDownIcon2} alt="" />
+    		</div>);
+};
+
+export default ChooseSubject ;
+
+ChooseSubject.module.css
+.chooseSubject {
+  	width: 100%;
+  	height: 844px;
+  	position: relative;
+  	background-color: #fff;
+  	overflow: hidden;
+  	text-align: right;
+  	font-size: 12px;
+  	color: #000;
+  	font-family: Roboto;
+}
+.ios {
+  	position: absolute;
+  	top: 0px;
+  	left: -5px;
+  	width: 400px;
+  	height: 844px;
+  	flex-shrink: 0;
+  	text-align: center;
+  	font-size: 17px;
+  	font-family: 'SF Pro';
+}
+.homeIndicator {
+  	position: absolute;
+  	top: 810px;
+  	left: 0px;
+  	width: 400px;
+  	height: 34px;
+}
+.homeIndicator2 {
+  	position: absolute;
+  	bottom: 8px;
+  	left: calc(50% + 72px);
+  	border-radius: 100px;
+  	background-color: #000;
+  	width: 144px;
+  	height: 5px;
+  	transform:  rotate(180deg);
+  	transform-origin: 0 0;
+}
+.statusBarIphone {
+  	position: absolute;
+  	top: 0px;
+  	left: 5px;
+  	width: 390px;
+  	height: 48px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 21px 16px 19px;
+  	box-sizing: border-box;
+  	gap: 154px;
+}
+.time {
+  	height: 22px;
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 2px 0px 0px;
+  	box-sizing: border-box;
+  	flex-shrink: 0;
+}
+.time2 {
+  	position: relative;
+  	line-height: 22px;
+  	font-weight: 600;
+}
+.levels {
+  	height: 22px;
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 1px 0px 0px;
+  	box-sizing: border-box;
+  	gap: 7px;
+  	flex-shrink: 0;
+}
+.cellularConnectionIcon {
+  	height: 12.2px;
+  	width: 19.2px;
+  	position: relative;
+}
+.wifiIcon {
+  	height: 12.3px;
+  	width: 17.1px;
+  	position: relative;
+}
+.battery {
+  	height: 13px;
+  	width: 27.3px;
+  	position: relative;
+}
+.border {
+  	position: absolute;
+  	height: 100%;
+  	top: 0%;
+  	bottom: 0%;
+  	left: calc(50% - 13.65px);
+  	border-radius: 4.3px;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	width: 25px;
+  	opacity: 0.35;
+  	mix-blend-mode: normal;
+}
+.capIcon {
+  	position: absolute;
+  	height: 31.54%;
+  	top: 36.78%;
+  	bottom: 31.68%;
+  	left: calc(50% + 12.35px);
+  	max-height: 100%;
+  	width: 1.3px;
+  	opacity: 0.4;
+  	mix-blend-mode: normal;
+}
+.capacity {
+  	position: absolute;
+  	height: 69.23%;
+  	top: 15.38%;
+  	bottom: 15.38%;
+  	left: calc(50% - 11.65px);
+  	border-radius: 2.5px;
+  	background-color: #000;
+  	width: 21px;
+}
+.rectangleParent {
+  	position: absolute;
+  	top: 735px;
+  	left: 0px;
+  	width: 390px;
+  	height: 121px;
+  	flex-shrink: 0;
+  	text-align: center;
+  	font-size: 14px;
+  	color: #757575;
+  	font-family: Inter;
+}
+.groupChild {
+  	position: absolute;
+  	top: 1px;
+  	left: 0px;
+  	background-color: #fff;
+  	width: 390px;
+  	height: 120px;
+}
+.nav {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 390px;
+  	height: 68px;
+}
+.navigationButtonList {
+  	position: absolute;
+  	top: 8px;
+  	left: 10px;
+  	width: 369px;
+  	height: 60px;
+  	display: flex;
+  	align-items: flex-start;
+  	flex-wrap: wrap;
+  	align-content: flex-start;
+  	gap: 12px;
+}
+.navigationButton {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 8px;
+  	gap: 8px;
+}
+.home {
+  	width: 24px;
+  	height: 24px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon {
+  	position: absolute;
+  	height: 83.33%;
+  	width: 75%;
+  	top: 8.33%;
+  	right: 12.5%;
+  	bottom: 8.33%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.label {
+  	position: relative;
+  	line-height: 100%;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.icon3 {
+  	position: absolute;
+  	height: 58.33%;
+  	width: 58.33%;
+  	top: 20.83%;
+  	right: 20.83%;
+  	bottom: 20.83%;
+  	left: 20.83%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.navigationButton4 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 8px;
+  	gap: 8px;
+  	color: #2c2c2c;
+}
+.icon4 {
+  	position: absolute;
+  	height: 75%;
+  	width: 83.33%;
+  	top: 12.5%;
+  	right: 8.33%;
+  	bottom: 12.5%;
+  	left: 8.33%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.icon5 {
+  	position: absolute;
+  	height: 75%;
+  	width: 58.33%;
+  	top: 12.5%;
+  	right: 20.83%;
+  	bottom: 12.5%;
+  	left: 20.83%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.navChild {
+  	position: absolute;
+  	top: 0.5px;
+  	left: -0.5px;
+  	border-top: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	width: 391px;
+  	height: 1px;
+  	transform:  rotate(-0.2deg);
+  	transform-origin: 0 0;
+}
+.header {
+  	position: absolute;
+  	top: 58px;
+  	left: 0px;
+  	width: 390px;
+  	height: 54px;
+  	flex-shrink: 0;
+  	text-align: center;
+  	font-size: 33px;
+  	color: #b3b3b3;
+  	font-family: Inter;
+}
+.ford22Icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 16px;
+  	width: 39px;
+  	height: 39px;
+  	object-fit: cover;
+}
+.foradi {
+  	position: absolute;
+  	top: 9px;
+  	left: 58px;
+  	line-height: 22px;
+  	font-weight: 300;
+}
+.headerChild {
+  	position: absolute;
+  	top: 53.5px;
+  	left: -0.5px;
+  	border-top: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	width: 391px;
+  	height: 1px;
+  	transform:  rotate(-0.2deg);
+  	transform-origin: 0 0;
+}
+.chooseSubject2 {
+  	position: absolute;
+  	top: 131px;
+  	left: 33px;
+  	font-size: 17px;
+  	line-height: 22px;
+  	font-weight: 600;
+  	font-family: Inter;
+  	text-align: center;
+  	flex-shrink: 0;
+}
+.sliders {
+  	position: absolute;
+  	top: 131px;
+  	left: 305px;
+  	width: 22px;
+  	height: 22px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon6 {
+  	position: absolute;
+  	height: 75%;
+  	width: 91.82%;
+  	top: 12.5%;
+  	right: 4.02%;
+  	bottom: 12.5%;
+  	left: 4.17%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.user {
+  	position: absolute;
+  	top: 63px;
+  	left: 345px;
+  	width: 28px;
+  	height: 30px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon7 {
+  	position: absolute;
+  	height: 75%;
+  	width: 66.79%;
+  	top: 12.5%;
+  	right: 16.55%;
+  	bottom: 12.5%;
+  	left: 16.67%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.search {
+  	position: absolute;
+  	top: 131px;
+  	left: 223px;
+  	width: 21px;
+  	height: 21px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon8 {
+  	position: absolute;
+  	height: 75.24%;
+  	width: 75.24%;
+  	top: 12.5%;
+  	right: 12.26%;
+  	bottom: 12.26%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.chooseSubjectChild {
+  	position: absolute;
+  	top: 195px;
+  	left: 24px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07) inset;
+  	border-radius: 6px;
+  	background-color: #fe76a8;
+  	width: 162px;
+  	height: 225px;
+  	flex-shrink: 0;
+}
+.chooseSubjectItem {
+  	position: absolute;
+  	top: 195px;
+  	left: 204px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07) inset;
+  	border-radius: 6px;
+  	background-color: #5290d9;
+  	width: 162px;
+  	height: 225px;
+  	flex-shrink: 0;
+}
+.chooseSubjectInner {
+  	position: absolute;
+  	top: 468px;
+  	left: 25px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07) inset;
+  	border-radius: 6px;
+  	background-color: #7a95b4;
+  	width: 162px;
+  	height: 225px;
+  	flex-shrink: 0;
+}
+.sci9ScienceContainer {
+  	position: absolute;
+  	top: 701px;
+  	left: 63px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	flex-shrink: 0;
+}
+.science {
+  	font-weight: 500;
+}
+.image1Icon {
+  	position: absolute;
+  	top: 254px;
+  	left: 52px;
+  	width: 111px;
+  	height: 111px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.image2Icon {
+  	position: absolute;
+  	top: 243px;
+  	left: 223px;
+  	width: 129px;
+  	height: 129px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.image3Icon {
+  	position: absolute;
+  	top: 505px;
+  	left: 33px;
+  	width: 152px;
+  	height: 152px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.plus2 {
+  	position: absolute;
+  	top: 127px;
+  	left: 260px;
+  	width: 29px;
+  	height: 29px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon9 {
+  	position: absolute;
+  	height: 58.28%;
+  	width: 58.28%;
+  	top: 20.83%;
+  	right: 20.89%;
+  	bottom: 20.89%;
+  	left: 20.83%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.all {
+  	position: absolute;
+  	top: 165px;
+  	left: 27px;
+  	font-size: 13px;
+  	line-height: 22px;
+  	font-family: Inter;
+  	text-align: center;
+  	flex-shrink: 0;
+}
+.arrowDropDownIcon {
+  	position: absolute;
+  	top: 165px;
+  	left: 44px;
+  	width: 16px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.mat10MathematicsContainer {
+  	position: absolute;
+  	top: 701px;
+  	left: 219px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	flex-shrink: 0;
+}
+.plus3 {
+  	position: absolute;
+  	top: 127px;
+  	left: 260px;
+  	width: 29px;
+  	height: 29px;
+  	overflow: hidden;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.maskGroupIcon {
+  	position: absolute;
+  	top: 468px;
+  	left: 203px;
+  	width: 162px;
+  	height: 225px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.check {
+  	position: absolute;
+  	top: 131px;
+  	left: 341px;
+  	width: 25px;
+  	height: 25px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon13 {
+  	position: absolute;
+  	height: 46%;
+  	width: 66.8%;
+  	top: 25%;
+  	right: 16.53%;
+  	bottom: 29%;
+  	left: 16.67%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.mat10MathematicsContainer2 {
+  	position: absolute;
+  	top: 423px;
+  	left: 43px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	flex-shrink: 0;
+}
+.hephzibahSchoolInc {
+  	position: absolute;
+  	top: 436px;
+  	left: 63px;
+  	font-size: 8px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-weight: 300;
+  	flex-shrink: 0;
+}
+.hephzibahSchoolInc2 {
+  	position: absolute;
+  	top: 436px;
+  	left: 242px;
+  	font-size: 8px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-weight: 300;
+  	flex-shrink: 0;
+}
+.hephzibahSchoolInc3 {
+  	position: absolute;
+  	top: 713px;
+  	left: 62px;
+  	font-size: 8px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-weight: 300;
+  	flex-shrink: 0;
+}
+.adventistUniversityOf {
+  	position: absolute;
+  	top: 713px;
+  	left: 180px;
+  	font-size: 8px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-weight: 300;
+  	display: inline-block;
+  	width: 181px;
+  	flex-shrink: 0;
+}
+.sci8ScienceContainer {
+  	position: absolute;
+  	top: 423px;
+  	left: 245px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	text-align: center;
+  	flex-shrink: 0;
+}
+.arrowDropDownIcon2 {
+  	position: absolute;
+  	top: 133px;
+  	left: 12px;
+  	width: 23.1px;
+  	height: 16.1px;
+  	object-fit: contain;
+  	flex-shrink: 0;
+}
+
+
+global.css
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro:ital,wght@0,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,500&display=swap');
+
+body {
+  	margin: 0; line-height: normal;
+}
+

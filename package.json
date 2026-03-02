@@ -1,0 +1,12 @@
+{
+  "name": "schedu-integration",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node schedu_1/test-routing.js"
+  },
+  "dependencies": {
+    "@types/react": "~19.1.10",
+    "expo": "^54.0.33",
+    "typescript": "~5.9.2"
+  }
+}

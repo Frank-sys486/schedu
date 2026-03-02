@@ -1,0 +1,1796 @@
+CalendarMonthlyZoomed.tsx
+import { FunctionComponent, useState, useCallback } from 'react';
+import Create from "../components/Create";
+import PortalPopup from "../components/PortalPopup";
+import styles from './CalendarMonthlyZoomed.module.css';
+
+
+const CalendarMonthlyZoomed: FunctionComponent = () => {
+  	const [isCreateOpen, setCreateOpen] = useState(false);
+  	
+  	const openCreate = useCallback(() => {
+    		setCreateOpen(true);
+  	}, []);
+  	
+  	const closeCreate = useCallback(() => {
+    		setCreateOpen(false);
+  	}, []);
+  	
+  	
+  	const onNavigationButtonContainerClick = useCallback(() => {
+    		// Add your code here
+  	}, []);
+  	
+  	return (<>
+    		<div className={styles.calendarMonthlyZoomed}>
+      			<div className={styles.calendarMonthlyZoomedChild} />
+      			<div className={styles.f}>
+        				<div className={styles.defaultdefaultActiveactive}>
+          					<div className={styles.div}>30</div>
+        				</div>
+      			</div>
+      			<div className={styles.ios}>
+        				<div className={styles.homeIndicator}>
+          					<div className={styles.homeIndicator2} />
+        				</div>
+        				<div className={styles.statusBarIphone}>
+          					<div className={styles.time}>
+            						<div className={styles.time2}>9:41</div>
+          					</div>
+          					<div className={styles.levels}>
+            						<img className={styles.cellularConnectionIcon} alt="" />
+            						<img className={styles.wifiIcon} alt="" />
+            						<div className={styles.battery}>
+              							<div className={styles.border} />
+              							<img className={styles.capIcon} alt="" />
+              							<div className={styles.capacity} />
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div className={styles.menuHeader}>
+        				<div className={styles.textSmall}>
+          					<div className={styles.textSmall2}>Monthly</div>
+        				</div>
+      			</div>
+      			<div className={styles.textStrong}>
+        				<div className={styles.october}>{`October `}</div>
+      			</div>
+      			<div className={styles.rectangleParent}>
+        				<div className={styles.groupChild} />
+        				<div className={styles.nav}>
+          					<div className={styles.navigationButtonList}>
+            						<div className={styles.navigationButton} onClick={onNavigationButtonContainerClick}>
+              							<div className={styles.home}>
+                								<img className={styles.icon} alt="" />
+              							</div>
+              							<div className={styles.label}>Home</div>
+            						</div>
+            						<div className={styles.navigationButton2}>
+              							<div className={styles.home}>
+                								<img className={styles.icon} alt="" />
+              							</div>
+              							<div className={styles.label}>Calendar</div>
+            						</div>
+            						<div className={styles.navigationButton} onClick={openCreate}>
+              							<div className={styles.home}>
+                								<img className={styles.icon3} alt="" />
+              							</div>
+              							<div className={styles.label}>Create</div>
+            						</div>
+            						<div className={styles.navigationButton} onClick={onNavigationButtonContainerClick}>
+              							<div className={styles.home}>
+                								<img className={styles.icon4} alt="" />
+              							</div>
+              							<div className={styles.label}>Library</div>
+            						</div>
+            						<div className={styles.navigationButton} onClick={onNavigationButtonContainerClick}>
+              							<div className={styles.home}>
+                								<img className={styles.icon5} alt="" />
+              							</div>
+              							<div className={styles.label}>Plans</div>
+            						</div>
+          					</div>
+          					<div className={styles.navChild} />
+        				</div>
+      			</div>
+      			<div className={styles.s}>S</div>
+      			<div className={styles.div2}>1</div>
+      			<div className={styles.m}>M</div>
+      			<div className={styles.t}>T</div>
+      			<div className={styles.w}>W</div>
+      			<div className={styles.t2}>T</div>
+      			<div className={styles.f2}>F</div>
+      			<div className={styles.s2}>S</div>
+      			<div className={styles.div3}>25</div>
+      			<div className={styles.div4}>26</div>
+      			<div className={styles.div5}>27</div>
+      			<div className={styles.div6}>28</div>
+      			<div className={styles.div7}>29</div>
+      			<div className={styles.div8}>31</div>
+      			<div className={styles.div9}>18</div>
+      			<div className={styles.div10}>19</div>
+      			<div className={styles.div11}>20</div>
+      			<div className={styles.div12}>21</div>
+      			<div className={styles.div13}>22</div>
+      			<div className={styles.div14}>23</div>
+      			<div className={styles.div15}>24</div>
+      			<div className={styles.div16}>11</div>
+      			<div className={styles.div17}>12</div>
+      			<div className={styles.div18}>13</div>
+      			<div className={styles.div19}>14</div>
+      			<div className={styles.div20}>15</div>
+      			<div className={styles.div21}>16</div>
+      			<div className={styles.div22}>17</div>
+      			<div className={styles.div23}>1</div>
+      			<div className={styles.div24}>2</div>
+      			<div className={styles.div25}>3</div>
+      			<div className={styles.div26}>4</div>
+      			<div className={styles.div27}>5</div>
+      			<div className={styles.div28}>6</div>
+      			<div className={styles.div29}>7</div>
+      			<div className={styles.calendarMonthlyZoomedItem} onClick={onNavigationButtonContainerClick} />
+      			<img className={styles.calendarMonthlyZoomedInner} alt="" />
+      			<div className={styles.lineDiv} />
+      			<div className={styles.calendarMonthlyZoomedChild2} />
+      			<div className={styles.calendarMonthlyZoomedChild3} />
+      			<div className={styles.calendarMonthlyZoomedChild4} />
+      			<div className={styles.calendarMonthlyZoomedChild5} onClick={onNavigationButtonContainerClick} />
+      			<div className={styles.calendarMonthlyZoomedChild6} onClick={onNavigationButtonContainerClick} />
+      			<div className={styles.calendarMonthlyZoomedChild7} onClick={onNavigationButtonContainerClick} />
+      			<div className={styles.calendarMonthlyZoomedChild8} onClick={onNavigationButtonContainerClick} />
+      			<div className={styles.calendarMonthlyZoomedChild9} onClick={onNavigationButtonContainerClick} />
+      			<div className={styles.calendarMonthlyZoomedChild10} onClick={onNavigationButtonContainerClick} />
+      			<div className={styles.calendarMonthlyZoomedChild11} onClick={onNavigationButtonContainerClick} />
+      			<div className={styles.rectangleGroup}>
+        				<div className={styles.groupItem} />
+        				<i className={styles.science}>SCIENCE</i>
+        				<div className={styles.grade8}>Grade 8 - Tesla</div>
+        				<img className={styles.arrowDropDownIcon} alt="" />
+      			</div>
+      			<div className={styles.lesson1IntroductionContainer} onClick={onNavigationButtonContainerClick}>
+        				<b>Lesson 1</b>
+        				<span>: Introduction to Science</span>
+      			</div>
+      			<div className={styles.lesson2TheContainer} onClick={onNavigationButtonContainerClick}>
+        				<b>Lesson 2</b>
+        				<span>: The Human Body</span>
+      			</div>
+      			<div className={styles.lesson3DigestiveContainer} onClick={onNavigationButtonContainerClick}>
+        				<b>Lesson 3</b>
+        				<span>: <br/>Digestive System</span>
+          					</div>
+          					<div className={styles.lesson4SkeletalContainer} onClick={onNavigationButtonContainerClick}>
+            						<b>Lesson 4</b>
+            						<span>: <br/>Skeletal System</span>
+              							</div>
+              							<div className={styles.performanceTaskBodySystemContainer} onClick={onNavigationButtonContainerClick}>
+                								<b>Performance Task:<br/></b>
+                  									<span>Body system diagram</span>
+                  									</div>
+                  									<div className={styles.performanceTaskBodySystemContainer2} onClick={onNavigationButtonContainerClick}>
+                    										<b>Performance Task:<br/></b>
+                      											<span>Body system diagram</span>
+                      											</div>
+                      											<div className={styles.lesson5MuscularContainer} onClick={onNavigationButtonContainerClick}>
+                        												<b>Lesson 5</b>
+                        												<span>: <br/>Muscular System</span>
+                          													</div>
+                          													<div className={styles.reviewLesson15Container} onClick={onNavigationButtonContainerClick}>
+                            														<b>Review:<br/></b>
+                              															<span>Lesson 1-5</span>
+                              															</div>
+                              															<div className={styles.seatwork1LessonContainer} onClick={onNavigationButtonContainerClick}>
+                                																<b>Seatwork 1: <br/></b>
+                                  																	<span>{`Lesson 1 & 2`}</span>
+                                  																	</div>
+                                  																	<div className={styles.quiz1LessonContainer} onClick={onNavigationButtonContainerClick}>
+                                    																		<b>Quiz 1: <br/></b>
+                                      																			<span>{`Lesson 1 & 2`}</span>
+                                      																			</div>
+                                      																			<div className={styles.seatwork2LessonContainer} onClick={onNavigationButtonContainerClick}>
+                                        																				<b>Seatwork 2: <br/></b>
+                                          																					<span>{`Lesson 3 & 4`}</span>
+                                          																					</div>
+                                          																					<div className={styles.seatwork3LessonContainer} onClick={onNavigationButtonContainerClick}>
+                                            																						<b>Seatwork 3: <br/></b>
+                                              																							<span>Lesson 5</span>
+                                              																							</div>
+                                              																							<div className={styles.quiz2LessonContainer} onClick={onNavigationButtonContainerClick}>
+                                                																								<b>Quiz 2: <br/></b>
+                                                  																									<span>Lesson 1-5</span>
+                                                  																									</div>
+                                                  																									<div className={styles.moreHorizontal}>
+                                                    																										<img className={styles.icon6} alt="" />
+                                                  																									</div>
+                                                  																									<div className={styles.header}>
+                                                    																										<img className={styles.ford22Icon} alt="" />
+                                                    																										<img className={styles.s11} alt="" />
+                                                    																										<div className={styles.schedu}>SCHEDU</div>
+                                                    																										<div className={styles.headerChild} />
+                                                  																									</div>
+                                                  																									<div className={styles.user}>
+                                                    																										<img className={styles.icon7} alt="" />
+                                                  																									</div>
+                                                  																									</div>
+                                                  																									{isCreateOpen && (
+                                                    																										<PortalPopup
+                                                      																											overlayColor="rgba(113, 113, 113, 0.3)"
+                                                      																											placement="Centered"
+                                                      																											
+                                                      																											
+                                                      																											
+                                                      																											
+                                                      																											
+                                                      																											onOutsideClick={closeCreate}
+                                                      																											>
+                                                      																											<Create onClose={closeCreate}/>
+                                                        																												</PortalPopup>
+                                                        																												)}</>);
+                                                        																												};
+                                                        																												
+                                                        																												export default CalendarMonthlyZoomed ;
+                                                        																												
+
+CalendarMonthlyZoomed.module.css
+.calendarMonthlyZoomed {
+  	width: 100%;
+  	height: 844px;
+  	position: relative;
+  	background-color: #fff;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 11px;
+  	color: #b3b3b3;
+  	font-family: 'Roboto Mono';
+}
+.calendarMonthlyZoomedChild {
+  	position: absolute;
+  	top: 579px;
+  	left: 281px;
+  	border-radius: 13px;
+  	background-color: #7ed957;
+  	width: 31px;
+  	height: 30px;
+  	flex-shrink: 0;
+}
+.f {
+  	position: absolute;
+  	top: 567px;
+  	left: 270px;
+  	border-radius: 5px;
+  	width: 50px;
+  	height: 32px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	color: #fff;
+}
+.defaultdefaultActiveactive {
+  	position: absolute;
+  	top: 20px;
+  	left: 20px;
+  	width: 10px;
+  	height: 16px;
+  	flex-shrink: 0;
+}
+.div {
+  	position: absolute;
+  	top: 0%;
+  	left: 0%;
+  	line-height: 100%;
+  	flex-shrink: 0;
+}
+.ios {
+  	position: absolute;
+  	top: 0px;
+  	left: -5px;
+  	width: 400px;
+  	height: 844px;
+  	flex-shrink: 0;
+  	text-align: center;
+  	font-size: 17px;
+  	color: #000;
+  	font-family: 'SF Pro';
+}
+.homeIndicator {
+  	position: absolute;
+  	top: 810px;
+  	left: 0px;
+  	width: 400px;
+  	height: 34px;
+}
+.homeIndicator2 {
+  	position: absolute;
+  	bottom: 8px;
+  	left: calc(50% + 72px);
+  	border-radius: 100px;
+  	background-color: #000;
+  	width: 144px;
+  	height: 5px;
+  	transform:  rotate(180deg);
+  	transform-origin: 0 0;
+}
+.statusBarIphone {
+  	position: absolute;
+  	top: 0px;
+  	left: 5px;
+  	width: 390px;
+  	height: 48px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 21px 16px 19px;
+  	box-sizing: border-box;
+  	gap: 154px;
+}
+.time {
+  	height: 22px;
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 2px 0px 0px;
+  	box-sizing: border-box;
+  	flex-shrink: 0;
+}
+.time2 {
+  	position: relative;
+  	line-height: 22px;
+  	font-weight: 600;
+}
+.levels {
+  	height: 22px;
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 1px 0px 0px;
+  	box-sizing: border-box;
+  	gap: 7px;
+  	flex-shrink: 0;
+}
+.cellularConnectionIcon {
+  	height: 12.2px;
+  	width: 19.2px;
+  	position: relative;
+}
+.wifiIcon {
+  	height: 12.3px;
+  	width: 17.1px;
+  	position: relative;
+}
+.battery {
+  	height: 13px;
+  	width: 27.3px;
+  	position: relative;
+}
+.border {
+  	position: absolute;
+  	height: 100%;
+  	top: 0%;
+  	bottom: 0%;
+  	left: calc(50% - 13.65px);
+  	border-radius: 4.3px;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	width: 25px;
+  	opacity: 0.35;
+  	mix-blend-mode: normal;
+}
+.capIcon {
+  	position: absolute;
+  	height: 31.54%;
+  	top: 36.78%;
+  	bottom: 31.68%;
+  	left: calc(50% + 12.35px);
+  	max-height: 100%;
+  	width: 1.3px;
+  	opacity: 0.4;
+  	mix-blend-mode: normal;
+}
+.capacity {
+  	position: absolute;
+  	height: 69.23%;
+  	top: 15.38%;
+  	bottom: 15.38%;
+  	left: calc(50% - 11.65px);
+  	border-radius: 2.5px;
+  	background-color: #000;
+  	width: 21px;
+}
+.menuHeader {
+  	position: absolute;
+  	top: 129px;
+  	left: 13px;
+  	border-radius: 8px;
+  	width: 74px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 8px 16px 4px;
+  	box-sizing: border-box;
+  	flex-shrink: 0;
+  	font-size: 14px;
+  	color: #757575;
+  	font-family: Inter;
+}
+.textSmall {
+  	display: flex;
+  	align-items: flex-start;
+  	flex-shrink: 0;
+}
+.textSmall2 {
+  	position: relative;
+  	line-height: 140%;
+}
+.textStrong {
+  	position: absolute;
+  	top: 157px;
+  	left: 29px;
+  	display: flex;
+  	align-items: flex-start;
+  	flex-shrink: 0;
+  	font-size: 16px;
+  	color: #1e1e1e;
+  	font-family: Inter;
+}
+.october {
+  	position: relative;
+  	line-height: 140%;
+  	font-weight: 600;
+}
+.rectangleParent {
+  	position: absolute;
+  	top: 735px;
+  	left: 0px;
+  	width: 390px;
+  	height: 121px;
+  	flex-shrink: 0;
+  	text-align: center;
+  	font-size: 14px;
+  	color: #757575;
+  	font-family: Inter;
+}
+.groupChild {
+  	position: absolute;
+  	top: 1px;
+  	left: 0px;
+  	background-color: #fff;
+  	width: 390px;
+  	height: 120px;
+}
+.nav {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 390px;
+  	height: 68px;
+}
+.navigationButtonList {
+  	position: absolute;
+  	top: 8px;
+  	left: 10px;
+  	width: 369px;
+  	height: 60px;
+  	display: flex;
+  	align-items: flex-start;
+  	flex-wrap: wrap;
+  	align-content: flex-start;
+  	gap: 12px;
+}
+.navigationButton {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 8px;
+  	gap: 8px;
+  	cursor: pointer;
+}
+.home {
+  	width: 24px;
+  	height: 24px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon {
+  	position: absolute;
+  	height: 83.33%;
+  	width: 75%;
+  	top: 8.33%;
+  	right: 12.5%;
+  	bottom: 8.33%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.label {
+  	position: relative;
+  	line-height: 100%;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.navigationButton2 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 8px;
+  	gap: 8px;
+  	color: #2c2c2c;
+}
+.icon3 {
+  	position: absolute;
+  	height: 58.33%;
+  	width: 58.33%;
+  	top: 20.83%;
+  	right: 20.83%;
+  	bottom: 20.83%;
+  	left: 20.83%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.icon4 {
+  	position: absolute;
+  	height: 75%;
+  	width: 83.33%;
+  	top: 12.5%;
+  	right: 8.33%;
+  	bottom: 12.5%;
+  	left: 8.33%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.icon5 {
+  	position: absolute;
+  	height: 75%;
+  	width: 58.33%;
+  	top: 12.5%;
+  	right: 20.83%;
+  	bottom: 12.5%;
+  	left: 20.83%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.navChild {
+  	position: absolute;
+  	top: 0.5px;
+  	left: -0.5px;
+  	border-top: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	width: 391px;
+  	height: 1px;
+  	transform:  rotate(-0.2deg);
+  	transform-origin: 0 0;
+}
+.s {
+  	position: absolute;
+  	top: 195px;
+  	left: 38px;
+  	line-height: 100%;
+  	color: #d9d9d9;
+  	flex-shrink: 0;
+}
+.div2 {
+  	position: absolute;
+  	top: 745px;
+  	left: 26px;
+  	letter-spacing: -0.2em;
+  	line-height: 100%;
+  	color: #d9d9d9;
+  	flex-shrink: 0;
+}
+.m {
+  	position: absolute;
+  	top: 195px;
+  	left: 87px;
+  	line-height: 100%;
+  	color: #d9d9d9;
+  	flex-shrink: 0;
+}
+.t {
+  	position: absolute;
+  	top: 195px;
+  	left: 136px;
+  	line-height: 100%;
+  	color: #d9d9d9;
+  	flex-shrink: 0;
+}
+.w {
+  	position: absolute;
+  	top: 195px;
+  	left: 189px;
+  	line-height: 100%;
+  	color: #d9d9d9;
+  	flex-shrink: 0;
+}
+.t2 {
+  	position: absolute;
+  	top: 195px;
+  	left: 240px;
+  	line-height: 100%;
+  	color: #d9d9d9;
+  	flex-shrink: 0;
+}
+.f2 {
+  	position: absolute;
+  	top: 195px;
+  	left: 289px;
+  	line-height: 100%;
+  	color: #d9d9d9;
+  	flex-shrink: 0;
+}
+.s2 {
+  	position: absolute;
+  	top: 195px;
+  	left: 340px;
+  	line-height: 100%;
+  	color: #d9d9d9;
+  	flex-shrink: 0;
+}
+.div3 {
+  	position: absolute;
+  	top: 590px;
+  	left: 36px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div4 {
+  	position: absolute;
+  	top: 590px;
+  	left: 85px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div5 {
+  	position: absolute;
+  	top: 590px;
+  	left: 136px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div6 {
+  	position: absolute;
+  	top: 590px;
+  	left: 187px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div7 {
+  	position: absolute;
+  	top: 590px;
+  	left: 238px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div8 {
+  	position: absolute;
+  	top: 590px;
+  	left: 338px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div9 {
+  	position: absolute;
+  	top: 404px;
+  	left: 36px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div10 {
+  	position: absolute;
+  	top: 404px;
+  	left: 85px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div11 {
+  	position: absolute;
+  	top: 404px;
+  	left: 136px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div12 {
+  	position: absolute;
+  	top: 404px;
+  	left: 187px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div13 {
+  	position: absolute;
+  	top: 404px;
+  	left: 238px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div14 {
+  	position: absolute;
+  	top: 404px;
+  	left: 288px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div15 {
+  	position: absolute;
+  	top: 404px;
+  	left: 338px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div16 {
+  	position: absolute;
+  	top: 232px;
+  	left: 36px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div17 {
+  	position: absolute;
+  	top: 232px;
+  	left: 85px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div18 {
+  	position: absolute;
+  	top: 232px;
+  	left: 136px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div19 {
+  	position: absolute;
+  	top: 232px;
+  	left: 187px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div20 {
+  	position: absolute;
+  	top: 232px;
+  	left: 238px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div21 {
+  	position: absolute;
+  	top: 232px;
+  	left: 288px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div22 {
+  	position: absolute;
+  	top: 232px;
+  	left: 338px;
+  	line-height: 100%;
+  	display: inline-block;
+  	width: 14px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.div23 {
+  	position: absolute;
+  	top: 723px;
+  	left: 37px;
+  	line-height: 100%;
+  	opacity: 0.38;
+  	flex-shrink: 0;
+}
+.div24 {
+  	position: absolute;
+  	top: 723px;
+  	left: 86px;
+  	line-height: 100%;
+  	opacity: 0.38;
+  	flex-shrink: 0;
+}
+.div25 {
+  	position: absolute;
+  	top: 723px;
+  	left: 136px;
+  	line-height: 100%;
+  	opacity: 0.38;
+  	flex-shrink: 0;
+}
+.div26 {
+  	position: absolute;
+  	top: 723px;
+  	left: 188px;
+  	line-height: 100%;
+  	opacity: 0.38;
+  	flex-shrink: 0;
+}
+.div27 {
+  	position: absolute;
+  	top: 723px;
+  	left: 239px;
+  	line-height: 100%;
+  	opacity: 0.38;
+  	flex-shrink: 0;
+}
+.div28 {
+  	position: absolute;
+  	top: 723px;
+  	left: 289px;
+  	line-height: 100%;
+  	opacity: 0.38;
+  	flex-shrink: 0;
+}
+.div29 {
+  	position: absolute;
+  	top: 724px;
+  	left: 345px;
+  	line-height: 100%;
+  	opacity: 0.38;
+  	flex-shrink: 0;
+}
+.calendarMonthlyZoomedItem {
+  	position: absolute;
+  	top: 602.5px;
+  	left: 203.5px;
+  	border-top: 31px solid #8ebda7;
+  	box-sizing: border-box;
+  	width: 81px;
+  	height: 31px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.calendarMonthlyZoomedInner {
+  	position: absolute;
+  	top: 446px;
+  	left: 224px;
+  	max-height: 100%;
+  	width: 98px;
+  	object-fit: contain;
+  	flex-shrink: 0;
+}
+.lineDiv {
+  	position: absolute;
+  	top: 239.5px;
+  	left: 101.5px;
+  	border-top: 31px solid #8ebda7;
+  	box-sizing: border-box;
+  	width: 81px;
+  	height: 31px;
+  	flex-shrink: 0;
+}
+.calendarMonthlyZoomedChild2 {
+  	position: absolute;
+  	top: 239.5px;
+  	left: 46.5px;
+  	border-top: 31px solid #8ebda7;
+  	box-sizing: border-box;
+  	width: 82px;
+  	height: 31px;
+  	flex-shrink: 0;
+}
+.calendarMonthlyZoomedChild3 {
+  	position: absolute;
+  	top: 239.5px;
+  	left: 208.5px;
+  	border-top: 31px solid #8ebda7;
+  	box-sizing: border-box;
+  	width: 127px;
+  	height: 31px;
+  	flex-shrink: 0;
+}
+.calendarMonthlyZoomedChild4 {
+  	position: absolute;
+  	top: 415.5px;
+  	left: 47.5px;
+  	border-top: 31px solid #8ebda7;
+  	box-sizing: border-box;
+  	width: 136px;
+  	height: 31px;
+  	flex-shrink: 0;
+}
+.calendarMonthlyZoomedChild5 {
+  	position: absolute;
+  	top: 637.5px;
+  	left: 47.5px;
+  	border-top: 31px solid #94a2f2;
+  	box-sizing: border-box;
+  	width: 84px;
+  	height: 31px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.calendarMonthlyZoomedChild6 {
+  	position: absolute;
+  	top: 449.5px;
+  	left: 155.5px;
+  	border-top: 31px solid #94a2f2;
+  	box-sizing: border-box;
+  	width: 81px;
+  	height: 31px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.calendarMonthlyZoomedChild7 {
+  	position: absolute;
+  	top: 275.5px;
+  	left: 101.5px;
+  	border-top: 31px solid #94a2f2;
+  	box-sizing: border-box;
+  	width: 81px;
+  	height: 31px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.calendarMonthlyZoomedChild8 {
+  	position: absolute;
+  	top: 275.5px;
+  	left: 155.5px;
+  	border-top: 31px solid #94a2f2;
+  	box-sizing: border-box;
+  	width: 81px;
+  	height: 31px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.calendarMonthlyZoomedChild9 {
+  	position: absolute;
+  	top: 672.22px;
+  	left: 199.51px;
+  	border-top: 31px solid #d37676;
+  	box-sizing: border-box;
+  	width: 183px;
+  	height: 31px;
+  	transform:  rotate(179.9deg);
+  	transform-origin: 0 0;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.calendarMonthlyZoomedChild10 {
+  	position: absolute;
+  	top: 484.5px;
+  	left: 48.5px;
+  	border-top: 31px solid #d37676;
+  	box-sizing: border-box;
+  	width: 290px;
+  	height: 31px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.calendarMonthlyZoomedChild11 {
+  	position: absolute;
+  	top: 637.5px;
+  	left: 253.5px;
+  	border-top: 31px solid #94a2f2;
+  	box-sizing: border-box;
+  	width: 82px;
+  	height: 31px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.rectangleGroup {
+  	position: absolute;
+  	top: 133px;
+  	left: 150px;
+  	width: 176px;
+  	height: 42px;
+  	flex-shrink: 0;
+  	text-align: right;
+  	font-size: 14px;
+  	color: #000;
+  	font-family: Inter;
+}
+.groupItem {
+  	position: absolute;
+  	top: 0px;
+  	left: 21px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  	border-radius: 7px;
+  	background-color: #fbfbfb;
+  	width: 155px;
+  	height: 42px;
+}
+.science {
+  	position: absolute;
+  	top: 8px;
+  	left: 20px;
+  	line-height: 140%;
+  	display: inline-block;
+  	font-weight: 700;
+  	width: 144px;
+  	height: 20px;
+}
+.grade8 {
+  	position: absolute;
+  	top: 21px;
+  	left: 0px;
+  	font-size: 11px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-family: Roboto;
+  	display: inline-block;
+  	width: 163px;
+  	height: 15px;
+}
+.arrowDropDownIcon {
+  	position: absolute;
+  	top: 9px;
+  	left: 27px;
+  	width: 16px;
+  	height: 23px;
+}
+.lesson1IntroductionContainer {
+  	position: absolute;
+  	top: 260px;
+  	left: 66px;
+  	font-size: 7px;
+  	line-height: 7px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 43px;
+  	height: 27px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: Inter;
+}
+.lesson2TheContainer {
+  	position: absolute;
+  	top: 260px;
+  	left: 121px;
+  	font-size: 7px;
+  	line-height: 7px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 43px;
+  	height: 22px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: Inter;
+}
+.lesson3DigestiveContainer {
+  	position: absolute;
+  	top: 263px;
+  	left: 229px;
+  	font-size: 7px;
+  	line-height: 7px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 88px;
+  	height: 10px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: Inter;
+}
+.lesson4SkeletalContainer {
+  	position: absolute;
+  	top: 440px;
+  	left: 69px;
+  	font-size: 7px;
+  	line-height: 7px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 88px;
+  	height: 17px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: Inter;
+}
+.performanceTaskBodySystemContainer {
+  	position: absolute;
+  	top: 508px;
+  	left: 69px;
+  	font-size: 7px;
+  	line-height: 7px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 88px;
+  	height: 17px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: Inter;
+}
+.performanceTaskBodySystemContainer2 {
+  	position: absolute;
+  	top: 697px;
+  	left: 68px;
+  	font-size: 7px;
+  	line-height: 7px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 88px;
+  	height: 17px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: Inter;
+}
+.lesson5MuscularContainer {
+  	position: absolute;
+  	top: 440px;
+  	left: 232px;
+  	font-size: 7px;
+  	line-height: 7px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 88px;
+  	height: 17px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: Inter;
+}
+.reviewLesson15Container {
+  	position: absolute;
+  	top: 627px;
+  	left: 225px;
+  	font-size: 7px;
+  	line-height: 7px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 49px;
+  	height: 17px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: Inter;
+}
+.seatwork1LessonContainer {
+  	position: absolute;
+  	top: 299px;
+  	left: 121px;
+  	font-size: 7px;
+  	line-height: 7px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 43px;
+  	height: 18px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: Inter;
+}
+.quiz1LessonContainer {
+  	position: absolute;
+  	top: 299px;
+  	left: 174px;
+  	font-size: 7px;
+  	line-height: 7px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 43px;
+  	height: 18px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: Inter;
+}
+.seatwork2LessonContainer {
+  	position: absolute;
+  	top: 474px;
+  	left: 174px;
+  	font-size: 7px;
+  	line-height: 7px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 43px;
+  	height: 18px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: Inter;
+}
+.seatwork3LessonContainer {
+  	position: absolute;
+  	top: 662px;
+  	left: 69px;
+  	font-size: 7px;
+  	line-height: 7px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 43px;
+  	height: 18px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: Inter;
+}
+.quiz2LessonContainer {
+  	position: absolute;
+  	top: 662px;
+  	left: 275px;
+  	font-size: 7px;
+  	line-height: 7px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 43px;
+  	height: 18px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: Inter;
+}
+.moreHorizontal {
+  	position: absolute;
+  	top: 145px;
+  	left: 339px;
+  	width: 24px;
+  	height: 24px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon6 {
+  	position: absolute;
+  	height: 8.33%;
+  	width: 66.67%;
+  	top: 45.83%;
+  	right: 16.67%;
+  	bottom: 45.83%;
+  	left: 16.67%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.header {
+  	position: absolute;
+  	top: 58px;
+  	left: 4px;
+  	width: 390px;
+  	height: 55px;
+  	flex-shrink: 0;
+  	text-align: center;
+  	font-size: 33px;
+  	font-family: Inter;
+}
+.ford22Icon {
+  	position: absolute;
+  	top: 1px;
+  	left: 16px;
+  	width: 39px;
+  	height: 39px;
+  	object-fit: cover;
+}
+.s11 {
+  	position: absolute;
+  	top: 0px;
+  	left: 15px;
+  	width: 36px;
+  	height: 36px;
+  	object-fit: cover;
+}
+.schedu {
+  	position: absolute;
+  	top: 10px;
+  	left: 58px;
+  	line-height: 22px;
+  	font-weight: 300;
+}
+.headerChild {
+  	position: absolute;
+  	top: 54.5px;
+  	left: -0.5px;
+  	border-top: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	width: 391px;
+  	height: 1px;
+  	transform:  rotate(-0.2deg);
+  	transform-origin: 0 0;
+}
+.user {
+  	position: absolute;
+  	top: 64px;
+  	left: 345px;
+  	width: 28px;
+  	height: 30px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon7 {
+  	position: absolute;
+  	height: 75%;
+  	width: 66.79%;
+  	top: 12.5%;
+  	right: 16.55%;
+  	bottom: 12.5%;
+  	left: 16.67%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+
+global.css
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro:ital,wght@0,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400&display=swap');
+
+body {
+  	margin: 0; line-height: normal;
+}
+
+PortalPopup.tsx
+import { CSSProperties, RefObject, FunctionComponent, ReactNode, useMemo, useCallback, useState, useRef, useEffect} from "react";
+
+import { createPortal } from "react-dom";
+import styles from './PortalPopup.module.css';
+
+type PopupProps = {
+  	overlayColor?: string;
+  	placement?:
+  	| "Centered"
+  	| "Top left"
+  	| "Top center"
+  	| "Top right"
+  	| "Bottom left"
+  	| "Bottom center"
+  	| "Bottom right";
+  	onOutsideClick?: () => void;
+  	zIndex?: number;
+  	children: ReactNode;
+  	left?: number;
+  	right?: number;
+  	top?: number;
+  	bottom?: number;
+  	relativeLayerRef?: RefObject<HTMLElement>;
+    		};
+    		
+    		const PortalPopup: FunctionComponent<PopupProps> = ({
+      			children,
+      			overlayColor,
+      			placement = "Centered",
+      			onOutsideClick,
+      			zIndex = 100,
+      			left = 0,
+      			right = 0,
+      			top = 0,
+      			bottom = 0,
+      			relativeLayerRef
+    		}) => {
+      			const relContainerRef = useRef<HTMLDivElement>(null);
+        				const [relativeStyle, setRelativeStyle] = useState<CSSProperties>({
+          					opacity: 0,
+        				});
+        				const popupStyle = useMemo(() => {
+          					const style: CSSProperties = {};
+          					style.zIndex = zIndex;
+          					
+          					if (overlayColor) {
+            						style.backgroundColor = overlayColor;
+          					}
+          					if(!relativeLayerRef?.current) {
+            						switch (placement) {
+              							case "Centered":
+                								style.alignItems = "center";
+                								style.justifyContent = "center";
+                								break;
+              							case "Top left":
+                								style.alignItems = "flex-start";
+                								break;
+              							case "Top center":
+                								style.alignItems = "center";
+                								break;
+              							case "Top right":
+                								style.alignItems = "flex-end";
+                								break;
+              							case "Bottom left":
+                								style.alignItems = "flex-start";
+                								style.justifyContent = "flex-end";
+                								break;
+              							case "Bottom center":
+                								style.alignItems = "center";
+                								style.justifyContent = "flex-end";
+                								break;
+              							case "Bottom right":
+                								style.alignItems = "flex-end";
+                								style.justifyContent = "flex-end";
+                								break;
+            						}
+          					}
+          					style.opacity = 1;
+          					return style;
+          					}, [placement, overlayColor, zIndex, relativeLayerRef?.current]);
+            						
+            						const setPosition = useCallback(()=>{
+              							const relativeItem = relativeLayerRef?.current?.getBoundingClientRect();
+              							const containerItem = relContainerRef?.current?.getBoundingClientRect();
+              							const style: CSSProperties = { opacity: 1 };
+              							if(relativeItem && containerItem) {
+                								const {x: relativeX, y: relativeY, width: relativeW, height: relativeH} = relativeItem;
+                								const {width: containerW, height: containerH} = containerItem;
+                								style.position = "absolute";
+                								switch (placement) {
+                  									case "Top left":
+                    										style.top = relativeY-containerH-top;
+                    										style.left = relativeX+left;
+                    										break;
+                  									case "Top right":
+                    										style.top = relativeY-containerH-top;
+                    										style.left = relativeX+relativeW-containerW-right;
+                    										break;
+                  									case "Bottom left":
+                    										style.top = relativeY+relativeH+bottom;
+                    										style.left = relativeX+left;
+                    										break;
+                  									case "Bottom right":
+                    										style.top = relativeY+relativeH+bottom;
+                    										style.left = relativeX+relativeW-containerW-right;
+                    										break;
+                								}
+                								
+                								setRelativeStyle(style)
+              							} else {
+                								style.maxWidth = "90%";
+                								style.maxHeight = "90%";
+                								setRelativeStyle(style)
+              							}
+            						},[left, right, top, bottom, placement, relativeLayerRef?.current, relContainerRef?.current])
+              							
+              							useEffect(() => {
+                								setPosition();
+                								
+                								window.addEventListener('resize', setPosition)
+                								window.addEventListener('scroll', setPosition, true)
+                								
+                								return () => {
+                  									window.removeEventListener('resize', setPosition)
+                  									window.removeEventListener('scroll', setPosition, true)
+                								}
+              							}, [setPosition]);
+            						
+            						
+            						const onOverlayClick = useCallback(
+              							(e: React.MouseEvent<HTMLDivElement>) => {
+                								if (onOutsideClick && (e.target as HTMLElement).classList.contains(styles.portalPopupOverlay)) {
+                  									onOutsideClick();
+                								}
+                								e.stopPropagation();
+              							},
+              							[onOutsideClick]
+              							);
+              							
+              							
+              							return (
+                								<Portal>
+                  									<div
+                    										className={styles.portalPopupOverlay}
+                    										style={popupStyle}
+                    										onClick={onOverlayClick}>
+                    										<div ref={relContainerRef} style={relativeStyle}>
+                      											{children}
+                    										</div>
+                  									</div>
+                								</Portal>
+              							);
+              							};
+              							
+              							type PortalProps = {
+                								children: ReactNode;
+                								containerId?: string;
+              							};
+              							
+              							export const Portal: FunctionComponent<PortalProps> = ({
+                								children,
+                								containerId = "portals",
+              							}) => {
+                								
+                								let portalsDiv = document.getElementById(containerId);
+                								if (!portalsDiv) {
+                  									portalsDiv = document.createElement("div");
+                  									portalsDiv.setAttribute("id", containerId);
+                  									document.body.appendChild(portalsDiv);
+                								}
+                								
+                								return createPortal(children, portalsDiv);
+              							};
+              							
+              							export default PortalPopup;
+              							
+PortalPopup.module.css
+.portalPopupOverlay {
+  	display: flex;
+  	flex-direction: column;
+  	position: fixed;
+  	inset: 0;
+}
+
+Create.tsx
+import { FunctionComponent, useCallback } from 'react';
+import styles from './Create.module.css';
+
+export type CreateType = {
+  	className?: string;
+}
+
+
+
+const Create: FunctionComponent<CreateType> = ({ className="" }) => {
+  	
+  	const onRectangleClick = useCallback(() => {
+    		// Add your code here
+  	}, []);
+  	
+  	return (
+    		<div className={[styles.create, className].join(' ')}>
+      			<div className={styles.createChild} />
+      			<div className={styles.createItem} onClick={onRectangleClick} />
+      			<div className={styles.createInner} onClick={onRectangleClick} />
+      			<div className={styles.rectangleDiv} onClick={onRectangleClick} />
+      			<div className={styles.createChild2} onClick={onRectangleClick} />
+      			<div className={styles.subject}>Subject</div>
+      			<div className={styles.book}>
+        				<img className={styles.icon} alt="" />
+      			</div>
+      			<div className={styles.notes}>Notes</div>
+      			<div className={styles.penTool}>
+        				<img className={styles.icon2} alt="" />
+      			</div>
+      			<div className={styles.lessonplan}>Lessonplan</div>
+      			<div className={styles.table}>
+        				<img className={styles.icon3} alt="" />
+      			</div>
+      			<div className={styles.activities}>Activities</div>
+      			<div className={styles.box}>
+        				<img className={styles.icon4} alt="" />
+      			</div>
+    		</div>);
+};
+
+export default Create ;
+
+Create.module.css
+.create {
+  	width: 390px;
+  	height: 844px;
+  	position: relative;
+  	background-color: #fff;
+  	overflow: hidden;
+  	max-width: 100%;
+  	max-height: 100%;
+  	text-align: center;
+  	font-size: 11px;
+  	color: #43553c;
+  	font-family: Inter;
+}
+.createChild {
+  	position: absolute;
+  	top: 631px;
+  	left: 1px;
+  	box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.07);
+  	border-radius: 17px;
+  	background-color: #fff;
+  	width: 390px;
+  	height: 104px;
+  	flex-shrink: 0;
+}
+.createItem {
+  	position: absolute;
+  	top: 647px;
+  	left: 15px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #8ebda7;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.createInner {
+  	position: absolute;
+  	top: 647px;
+  	left: 107px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #9bd882;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.rectangleDiv {
+  	position: absolute;
+  	top: 647px;
+  	left: 201px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #7ed957;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.createChild2 {
+  	position: absolute;
+  	top: 647px;
+  	left: 293px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #86b472;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.subject {
+  	position: absolute;
+  	top: 687px;
+  	left: 116px;
+  	line-height: 22px;
+  	display: inline-block;
+  	width: 63px;
+  	height: 22px;
+  	flex-shrink: 0;
+}
+.book {
+  	position: absolute;
+  	top: 664px;
+  	left: 137px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon {
+  	position: absolute;
+  	height: 83.5%;
+  	width: 66.5%;
+  	top: 8.33%;
+  	right: 16.83%;
+  	bottom: 8.17%;
+  	left: 16.67%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.notes {
+  	position: absolute;
+  	top: 687px;
+  	left: 208px;
+  	line-height: 22px;
+  	color: rgba(0, 0, 0, 0.65);
+  	display: inline-block;
+  	width: 68px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.penTool {
+  	position: absolute;
+  	top: 664px;
+  	left: 232px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon2 {
+  	position: absolute;
+  	height: 83.5%;
+  	width: 83.5%;
+  	top: 8.33%;
+  	right: 8.17%;
+  	bottom: 8.17%;
+  	left: 8.33%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.lessonplan {
+  	position: absolute;
+  	top: 687px;
+  	left: -7px;
+  	line-height: 22px;
+  	color: #3f594d;
+  	display: inline-block;
+  	width: 125px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.table {
+  	position: absolute;
+  	top: 664px;
+  	left: 46px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon3 {
+  	position: absolute;
+  	height: 75%;
+  	width: 75%;
+  	top: 12.5%;
+  	right: 12.5%;
+  	bottom: 12.5%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.activities {
+  	position: absolute;
+  	top: 687px;
+  	left: 270px;
+  	line-height: 22px;
+  	color: #3a4138;
+  	display: inline-block;
+  	width: 128px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.box {
+  	position: absolute;
+  	top: 664px;
+  	left: 324px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon4 {
+  	position: absolute;
+  	height: 83.5%;
+  	width: 75%;
+  	top: 8.34%;
+  	right: 12.5%;
+  	bottom: 8.16%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+

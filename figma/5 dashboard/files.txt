@@ -1,0 +1,1249 @@
+Plans.tsx
+import { FunctionComponent, useState, useCallback } from 'react';
+import Create from "../components/Create";
+import PortalPopup from "../components/PortalPopup";
+import ChooseSection from "../components/ChooseSection";
+import styles from './Plans.module.css';
+
+
+const Plans: FunctionComponent = () => {
+  	const [isCreateOpen, setCreateOpen] = useState(false);
+  	const [isChooseSectionOpen, setChooseSectionOpen] = useState(false);
+  	
+  	const openCreate = useCallback(() => {
+    		setCreateOpen(true);
+  	}, []);
+  	
+  	const closeCreate = useCallback(() => {
+    		setCreateOpen(false);
+  	}, []);
+  	
+  	
+  	const openChooseSection = useCallback(() => {
+    		setChooseSectionOpen(true);
+  	}, []);
+  	
+  	const closeChooseSection = useCallback(() => {
+    		setChooseSectionOpen(false);
+  	}, []);
+  	
+  	
+  	const onNavigationButtonContainerClick = useCallback(() => {
+    		// Add your code here
+  	}, []);
+  	
+  	return (<>
+    		<div className={styles.plans}>
+      			<div className={styles.plansChild} />
+      			<div className={styles.grade9}>Grade 9 - Curie</div>
+      			<div className={styles.ios}>
+        				<div className={styles.homeIndicator}>
+          					<div className={styles.homeIndicator2} />
+        				</div>
+        				<div className={styles.statusBarIphone}>
+          					<div className={styles.time}>
+            						<div className={styles.time2}>9:41</div>
+          					</div>
+          					<div className={styles.levels}>
+            						<img className={styles.cellularConnectionIcon} alt="" />
+            						<img className={styles.wifiIcon} alt="" />
+            						<div className={styles.battery}>
+              							<div className={styles.border} />
+              							<img className={styles.capIcon} alt="" />
+              							<div className={styles.capacity} />
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div className={styles.nav}>
+        				<div className={styles.navigationButtonList}>
+          					<div className={styles.navigationButton} onClick={onNavigationButtonContainerClick}>
+            						<div className={styles.home}>
+              							<img className={styles.icon} alt="" />
+            						</div>
+            						<div className={styles.label}>Home</div>
+          					</div>
+          					<div className={styles.navigationButton2}>
+            						<div className={styles.calendar} onClick={onNavigationButtonContainerClick}>
+              							<img className={styles.icon} alt="" />
+            						</div>
+            						<div className={styles.label}>Calendar</div>
+          					</div>
+          					<div className={styles.navigationButton} onClick={openCreate}>
+            						<div className={styles.home}>
+              							<img className={styles.icon3} alt="" />
+            						</div>
+            						<div className={styles.label}>Create</div>
+          					</div>
+          					<div className={styles.navigationButton} onClick={onNavigationButtonContainerClick}>
+            						<div className={styles.home}>
+              							<img className={styles.icon4} alt="" />
+            						</div>
+            						<div className={styles.label}>Library</div>
+          					</div>
+          					<div className={styles.navigationButton5}>
+            						<div className={styles.home}>
+              							<img className={styles.icon5} alt="" />
+            						</div>
+            						<div className={styles.label}>Plans</div>
+          					</div>
+        				</div>
+        				<div className={styles.navChild} />
+      			</div>
+      			<div className={styles.header}>
+        				<img className={styles.ford22Icon} alt="" />
+        				<div className={styles.headerChild} />
+      			</div>
+      			<div className={styles.plans2}>Plans</div>
+      			<div className={styles.plans2}>Plans</div>
+      			<div className={styles.sliders}>
+        				<img className={styles.icon6} alt="" />
+      			</div>
+      			<div className={styles.plansItem} />
+      			<div className={styles.plansItem} />
+      			<div className={styles.plansItem} />
+      			<div className={styles.plansItem} />
+      			<div className={styles.plansItem} />
+      			<div className={styles.plansChild4} />
+      			<div className={styles.rectangleDiv} />
+      			<div className={styles.plansChild5} />
+      			<div className={styles.plansChild6} />
+      			<div className={styles.plansChild7} />
+      			<div className={styles.plansChild8} />
+      			<div className={styles.plansChild9} />
+      			<div className={styles.current}>Current</div>
+      			<img className={styles.arrowDropDownIcon} alt="" />
+      			<div className={styles.current2}>Current</div>
+      			<img className={styles.arrowDropDownIcon2} alt="" />
+      			<i className={styles.mat10}>MAT10</i>
+      			<div className={styles.grade10}>Grade 10 - Einstein</div>
+      			<div className={styles.plansChild10} />
+      			<div className={styles.grade8}>Grade 8 - Tesla</div>
+      			<div className={styles.plansChild11} />
+      			<div className={styles.grade92}>Grade 9 - Bohr</div>
+      			<i className={styles.mat102}>MAT10</i>
+      			<div className={styles.grade102}>Grade 10 - Newton</div>
+      			<i className={styles.sci8}>{`SCI8 `}</i>
+      			<div className={styles.grade82}>Grade 8 - Tesla</div>
+      			<i className={styles.sci9}>SCI9</i>
+      			<div className={styles.grade93}>Grade 9 - Bohr</div>
+      			<i className={styles.sci92}>SCI9</i>
+      			<div className={styles.grade94}>Grade 9 - Curie</div>
+      			<div className={styles.plus2} onClick={onNavigationButtonContainerClick}>
+        				<img className={styles.icon7} alt="" />
+      			</div>
+      			<div className={styles.sections}>Sections</div>
+      			<div className={styles.sliders2}>
+        				<img className={styles.icon6} alt="" />
+      			</div>
+      			<div className={styles.plus3} onClick={openChooseSection}>
+        				<img className={styles.icon7} alt="" />
+      			</div>
+      			<img className={styles.s11} alt="" />
+      			<div className={styles.schedu}>SCHEDU</div>
+    		</div>
+    		{isCreateOpen && (
+      			<PortalPopup
+        				overlayColor="rgba(113, 113, 113, 0.3)"
+        				placement="Centered"
+        				
+        				
+        				
+        				
+        				
+        				onOutsideClick={closeCreate}
+        				>
+        				<Create onClose={closeCreate}/>
+          					</PortalPopup>
+          					)}
+          					{isChooseSectionOpen && (
+            						<PortalPopup
+              							overlayColor="rgba(113, 113, 113, 0.3)"
+              							placement="Centered"
+              							
+              							
+              							
+              							
+              							
+              							onOutsideClick={closeChooseSection}
+              							>
+              							<ChooseSection onClose={closeChooseSection}/>
+                								</PortalPopup>
+                								)}</>);
+                								};
+                								
+                								export default Plans ;
+                								
+Plans.module.css
+.plans {
+  	width: 100%;
+  	height: 844px;
+  	position: relative;
+  	background-color: #fff;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 12px;
+  	color: #fff;
+  	font-family: Inter;
+}
+.plansChild {
+  	position: absolute;
+  	top: 720px;
+  	left: 27px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+  	border-radius: 6px;
+  	background-color: #717171;
+  	width: 324px;
+  	height: 16px;
+  	flex-shrink: 0;
+}
+.grade9 {
+  	position: absolute;
+  	top: 728px;
+  	left: 38px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-family: Roboto;
+  	display: inline-block;
+  	width: 163px;
+  	height: 15px;
+  	flex-shrink: 0;
+}
+.ios {
+  	position: absolute;
+  	top: 0px;
+  	left: -5px;
+  	width: 400px;
+  	height: 844px;
+  	flex-shrink: 0;
+  	text-align: center;
+  	font-size: 17px;
+  	color: #000;
+  	font-family: 'SF Pro';
+}
+.homeIndicator {
+  	position: absolute;
+  	top: 810px;
+  	left: 0px;
+  	width: 400px;
+  	height: 34px;
+}
+.homeIndicator2 {
+  	position: absolute;
+  	bottom: 8px;
+  	left: calc(50% + 72px);
+  	border-radius: 100px;
+  	background-color: #000;
+  	width: 144px;
+  	height: 5px;
+  	transform:  rotate(180deg);
+  	transform-origin: 0 0;
+}
+.statusBarIphone {
+  	position: absolute;
+  	top: 0px;
+  	left: 5px;
+  	width: 390px;
+  	height: 48px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 21px 16px 19px;
+  	box-sizing: border-box;
+  	gap: 154px;
+}
+.time {
+  	height: 22px;
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 2px 0px 0px;
+  	box-sizing: border-box;
+  	flex-shrink: 0;
+}
+.time2 {
+  	position: relative;
+  	line-height: 22px;
+  	font-weight: 600;
+}
+.levels {
+  	height: 22px;
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 1px 0px 0px;
+  	box-sizing: border-box;
+  	gap: 7px;
+  	flex-shrink: 0;
+}
+.cellularConnectionIcon {
+  	height: 12.2px;
+  	width: 19.2px;
+  	position: relative;
+}
+.wifiIcon {
+  	height: 12.3px;
+  	width: 17.1px;
+  	position: relative;
+}
+.battery {
+  	height: 13px;
+  	width: 27.3px;
+  	position: relative;
+}
+.border {
+  	position: absolute;
+  	height: 100%;
+  	top: 0%;
+  	bottom: 0%;
+  	left: calc(50% - 13.65px);
+  	border-radius: 4.3px;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	width: 25px;
+  	opacity: 0.35;
+  	mix-blend-mode: normal;
+}
+.capIcon {
+  	position: absolute;
+  	height: 31.54%;
+  	top: 36.78%;
+  	bottom: 31.68%;
+  	left: calc(50% + 12.35px);
+  	max-height: 100%;
+  	width: 1.3px;
+  	opacity: 0.4;
+  	mix-blend-mode: normal;
+}
+.capacity {
+  	position: absolute;
+  	height: 69.23%;
+  	top: 15.38%;
+  	bottom: 15.38%;
+  	left: calc(50% - 11.65px);
+  	border-radius: 2.5px;
+  	background-color: #000;
+  	width: 21px;
+}
+.nav {
+  	position: absolute;
+  	top: 735px;
+  	left: 0px;
+  	width: 390px;
+  	height: 68px;
+  	flex-shrink: 0;
+  	text-align: center;
+  	font-size: 14px;
+  	color: #757575;
+}
+.navigationButtonList {
+  	position: absolute;
+  	top: 8px;
+  	left: 10px;
+  	width: 369px;
+  	height: 60px;
+  	display: flex;
+  	align-items: flex-start;
+  	flex-wrap: wrap;
+  	align-content: flex-start;
+  	gap: 12px;
+}
+.navigationButton {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 8px;
+  	gap: 8px;
+  	cursor: pointer;
+}
+.home {
+  	width: 24px;
+  	height: 24px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon {
+  	position: absolute;
+  	height: 83.33%;
+  	width: 75%;
+  	top: 8.33%;
+  	right: 12.5%;
+  	bottom: 8.33%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.label {
+  	position: relative;
+  	line-height: 100%;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.navigationButton2 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 8px;
+  	gap: 8px;
+}
+.calendar {
+  	width: 24px;
+  	height: 24px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	cursor: pointer;
+}
+.icon3 {
+  	position: absolute;
+  	height: 58.33%;
+  	width: 58.33%;
+  	top: 20.83%;
+  	right: 20.83%;
+  	bottom: 20.83%;
+  	left: 20.83%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.icon4 {
+  	position: absolute;
+  	height: 75%;
+  	width: 83.33%;
+  	top: 12.5%;
+  	right: 8.33%;
+  	bottom: 12.5%;
+  	left: 8.33%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.navigationButton5 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 8px;
+  	gap: 8px;
+  	color: #2c2c2c;
+}
+.icon5 {
+  	position: absolute;
+  	height: 75%;
+  	width: 58.33%;
+  	top: 12.5%;
+  	right: 20.83%;
+  	bottom: 12.5%;
+  	left: 20.83%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.navChild {
+  	position: absolute;
+  	top: 0.5px;
+  	left: -0.5px;
+  	border-top: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	width: 391px;
+  	height: 1px;
+  	transform:  rotate(-0.2deg);
+  	transform-origin: 0 0;
+}
+.header {
+  	position: absolute;
+  	top: 58px;
+  	left: 0px;
+  	width: 390px;
+  	height: 54px;
+  	flex-shrink: 0;
+}
+.ford22Icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 16px;
+  	width: 39px;
+  	height: 39px;
+  	object-fit: cover;
+}
+.headerChild {
+  	position: absolute;
+  	top: 53.5px;
+  	left: -0.5px;
+  	border-top: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	width: 391px;
+  	height: 1px;
+  	transform:  rotate(-0.2deg);
+  	transform-origin: 0 0;
+}
+.plans2 {
+  	position: absolute;
+  	top: 131px;
+  	left: 27px;
+  	font-size: 17px;
+  	line-height: 22px;
+  	font-weight: 600;
+  	color: #000;
+  	text-align: center;
+  	flex-shrink: 0;
+}
+.sliders {
+  	position: absolute;
+  	top: 132px;
+  	left: 338px;
+  	width: 22px;
+  	height: 22px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon6 {
+  	position: absolute;
+  	height: 75%;
+  	width: 91.82%;
+  	top: 12.5%;
+  	right: 4.02%;
+  	bottom: 12.5%;
+  	left: 4.17%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.plansItem {
+  	position: absolute;
+  	top: 142.5px;
+  	left: 85.5px;
+  	border-top: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	width: 195px;
+  	height: 1px;
+  	flex-shrink: 0;
+}
+.plansChild4 {
+  	position: absolute;
+  	top: 592.5px;
+  	left: 117.5px;
+  	border-top: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	width: 163px;
+  	height: 1px;
+  	flex-shrink: 0;
+}
+.rectangleDiv {
+  	position: absolute;
+  	top: 189px;
+  	left: 27px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+  	border-radius: 6px;
+  	background-color: #fe76a8;
+  	width: 324px;
+  	height: 67px;
+  	flex-shrink: 0;
+}
+.plansChild5 {
+  	position: absolute;
+  	top: 265px;
+  	left: 27px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+  	border-radius: 6px;
+  	background-color: #fe76a8;
+  	width: 324px;
+  	height: 67px;
+  	flex-shrink: 0;
+}
+.plansChild6 {
+  	position: absolute;
+  	top: 341px;
+  	left: 27px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+  	border-radius: 6px;
+  	background-color: #5290d9;
+  	width: 324px;
+  	height: 67px;
+  	flex-shrink: 0;
+}
+.plansChild7 {
+  	position: absolute;
+  	top: 417px;
+  	left: 27px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+  	border-radius: 6px;
+  	background-color: #7a95b4;
+  	width: 324px;
+  	height: 67px;
+  	flex-shrink: 0;
+}
+.plansChild8 {
+  	position: absolute;
+  	top: 493px;
+  	left: 27px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+  	border-radius: 6px;
+  	background-color: #5290d9;
+  	width: 324px;
+  	height: 67px;
+  	flex-shrink: 0;
+}
+.plansChild9 {
+  	position: absolute;
+  	top: 493px;
+  	left: 27px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+  	border-radius: 6px;
+  	background-color: #7a95b4;
+  	width: 324px;
+  	height: 67px;
+  	flex-shrink: 0;
+}
+.current {
+  	position: absolute;
+  	top: 162px;
+  	left: 27px;
+  	font-size: 13px;
+  	line-height: 22px;
+  	color: #000;
+  	text-align: center;
+  	flex-shrink: 0;
+}
+.arrowDropDownIcon {
+  	position: absolute;
+  	top: 162px;
+  	left: 78px;
+  	width: 16px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.current2 {
+  	position: absolute;
+  	top: 611px;
+  	left: 27px;
+  	font-size: 13px;
+  	line-height: 22px;
+  	color: #000;
+  	text-align: center;
+  	flex-shrink: 0;
+}
+.arrowDropDownIcon2 {
+  	position: absolute;
+  	top: 611px;
+  	left: 78px;
+  	width: 16px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.mat10 {
+  	position: absolute;
+  	top: 204px;
+  	left: 43px;
+  	font-size: 16px;
+  	line-height: 140%;
+  	display: inline-block;
+  	font-weight: 700;
+  	width: 115px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.grade10 {
+  	position: absolute;
+  	top: 224px;
+  	left: 43px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-family: Roboto;
+  	display: inline-block;
+  	width: 163px;
+  	height: 15px;
+  	flex-shrink: 0;
+}
+.plansChild10 {
+  	position: absolute;
+  	top: 641px;
+  	left: 28px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+  	border-radius: 6px;
+  	background-color: #717171;
+  	width: 324px;
+  	height: 31px;
+  	flex-shrink: 0;
+}
+.grade8 {
+  	position: absolute;
+  	top: 649px;
+  	left: 39px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-family: Roboto;
+  	display: inline-block;
+  	width: 163px;
+  	height: 15px;
+  	flex-shrink: 0;
+}
+.plansChild11 {
+  	position: absolute;
+  	top: 681px;
+  	left: 28px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+  	border-radius: 6px;
+  	background-color: #717171;
+  	width: 324px;
+  	height: 31px;
+  	flex-shrink: 0;
+}
+.grade92 {
+  	position: absolute;
+  	top: 689px;
+  	left: 39px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-family: Roboto;
+  	display: inline-block;
+  	width: 163px;
+  	height: 15px;
+  	flex-shrink: 0;
+}
+.mat102 {
+  	position: absolute;
+  	top: 281px;
+  	left: 44px;
+  	font-size: 16px;
+  	line-height: 140%;
+  	display: inline-block;
+  	font-weight: 700;
+  	width: 115px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.grade102 {
+  	position: absolute;
+  	top: 301px;
+  	left: 44px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-family: Roboto;
+  	display: inline-block;
+  	width: 163px;
+  	height: 15px;
+  	flex-shrink: 0;
+}
+.sci8 {
+  	position: absolute;
+  	top: 357px;
+  	left: 44px;
+  	font-size: 16px;
+  	line-height: 140%;
+  	display: inline-block;
+  	font-weight: 700;
+  	width: 115px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.grade82 {
+  	position: absolute;
+  	top: 377px;
+  	left: 44px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-family: Roboto;
+  	display: inline-block;
+  	width: 163px;
+  	height: 15px;
+  	flex-shrink: 0;
+}
+.sci9 {
+  	position: absolute;
+  	top: 433px;
+  	left: 43px;
+  	font-size: 16px;
+  	line-height: 140%;
+  	display: inline-block;
+  	font-weight: 700;
+  	width: 115px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.grade93 {
+  	position: absolute;
+  	top: 453px;
+  	left: 43px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-family: Roboto;
+  	display: inline-block;
+  	width: 163px;
+  	height: 15px;
+  	flex-shrink: 0;
+}
+.sci92 {
+  	position: absolute;
+  	top: 509px;
+  	left: 44px;
+  	font-size: 16px;
+  	line-height: 140%;
+  	display: inline-block;
+  	font-weight: 700;
+  	width: 115px;
+  	height: 20px;
+  	flex-shrink: 0;
+}
+.grade94 {
+  	position: absolute;
+  	top: 529px;
+  	left: 44px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-family: Roboto;
+  	display: inline-block;
+  	width: 163px;
+  	height: 15px;
+  	flex-shrink: 0;
+}
+.plus2 {
+  	position: absolute;
+  	top: 128px;
+  	left: 294px;
+  	width: 29px;
+  	height: 29px;
+  	overflow: hidden;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.icon7 {
+  	position: absolute;
+  	height: 58.28%;
+  	width: 58.28%;
+  	top: 20.83%;
+  	right: 20.89%;
+  	bottom: 20.89%;
+  	left: 20.83%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.sections {
+  	position: absolute;
+  	top: 582px;
+  	left: 26px;
+  	font-size: 17px;
+  	line-height: 22px;
+  	font-weight: 600;
+  	color: #000;
+  	text-align: center;
+  	flex-shrink: 0;
+}
+.sliders2 {
+  	position: absolute;
+  	top: 583px;
+  	left: 341px;
+  	width: 22px;
+  	height: 22px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.plus3 {
+  	position: absolute;
+  	top: 579px;
+  	left: 297px;
+  	width: 29px;
+  	height: 29px;
+  	overflow: hidden;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.s11 {
+  	position: absolute;
+  	top: 58px;
+  	left: 18px;
+  	width: 36px;
+  	height: 36px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.schedu {
+  	position: absolute;
+  	top: 65px;
+  	left: 60px;
+  	font-size: 33px;
+  	line-height: 22px;
+  	font-weight: 300;
+  	color: #b3b3b3;
+  	text-align: center;
+  	flex-shrink: 0;
+}
+
+
+global.css
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro:ital,wght@0,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,600;1,700&display=swap');
+
+body {
+  	margin: 0; line-height: normal;
+}
+
+
+PortalPopup.tsx
+import { CSSProperties, RefObject, FunctionComponent, ReactNode, useMemo, useCallback, useState, useRef, useEffect} from "react";
+
+import { createPortal } from "react-dom";
+import styles from './PortalPopup.module.css';
+
+type PopupProps = {
+  	overlayColor?: string;
+  	placement?:
+  	| "Centered"
+  	| "Top left"
+  	| "Top center"
+  	| "Top right"
+  	| "Bottom left"
+  	| "Bottom center"
+  	| "Bottom right";
+  	onOutsideClick?: () => void;
+  	zIndex?: number;
+  	children: ReactNode;
+  	left?: number;
+  	right?: number;
+  	top?: number;
+  	bottom?: number;
+  	relativeLayerRef?: RefObject<HTMLElement>;
+    		};
+    		
+    		const PortalPopup: FunctionComponent<PopupProps> = ({
+      			children,
+      			overlayColor,
+      			placement = "Centered",
+      			onOutsideClick,
+      			zIndex = 100,
+      			left = 0,
+      			right = 0,
+      			top = 0,
+      			bottom = 0,
+      			relativeLayerRef
+    		}) => {
+      			const relContainerRef = useRef<HTMLDivElement>(null);
+        				const [relativeStyle, setRelativeStyle] = useState<CSSProperties>({
+          					opacity: 0,
+        				});
+        				const popupStyle = useMemo(() => {
+          					const style: CSSProperties = {};
+          					style.zIndex = zIndex;
+          					
+          					if (overlayColor) {
+            						style.backgroundColor = overlayColor;
+          					}
+          					if(!relativeLayerRef?.current) {
+            						switch (placement) {
+              							case "Centered":
+                								style.alignItems = "center";
+                								style.justifyContent = "center";
+                								break;
+              							case "Top left":
+                								style.alignItems = "flex-start";
+                								break;
+              							case "Top center":
+                								style.alignItems = "center";
+                								break;
+              							case "Top right":
+                								style.alignItems = "flex-end";
+                								break;
+              							case "Bottom left":
+                								style.alignItems = "flex-start";
+                								style.justifyContent = "flex-end";
+                								break;
+              							case "Bottom center":
+                								style.alignItems = "center";
+                								style.justifyContent = "flex-end";
+                								break;
+              							case "Bottom right":
+                								style.alignItems = "flex-end";
+                								style.justifyContent = "flex-end";
+                								break;
+            						}
+          					}
+          					style.opacity = 1;
+          					return style;
+          					}, [placement, overlayColor, zIndex, relativeLayerRef?.current]);
+            						
+            						const setPosition = useCallback(()=>{
+              							const relativeItem = relativeLayerRef?.current?.getBoundingClientRect();
+              							const containerItem = relContainerRef?.current?.getBoundingClientRect();
+              							const style: CSSProperties = { opacity: 1 };
+              							if(relativeItem && containerItem) {
+                								const {x: relativeX, y: relativeY, width: relativeW, height: relativeH} = relativeItem;
+                								const {width: containerW, height: containerH} = containerItem;
+                								style.position = "absolute";
+                								switch (placement) {
+                  									case "Top left":
+                    										style.top = relativeY-containerH-top;
+                    										style.left = relativeX+left;
+                    										break;
+                  									case "Top right":
+                    										style.top = relativeY-containerH-top;
+                    										style.left = relativeX+relativeW-containerW-right;
+                    										break;
+                  									case "Bottom left":
+                    										style.top = relativeY+relativeH+bottom;
+                    										style.left = relativeX+left;
+                    										break;
+                  									case "Bottom right":
+                    										style.top = relativeY+relativeH+bottom;
+                    										style.left = relativeX+relativeW-containerW-right;
+                    										break;
+                								}
+                								
+                								setRelativeStyle(style)
+              							} else {
+                								style.maxWidth = "90%";
+                								style.maxHeight = "90%";
+                								setRelativeStyle(style)
+              							}
+            						},[left, right, top, bottom, placement, relativeLayerRef?.current, relContainerRef?.current])
+              							
+              							useEffect(() => {
+                								setPosition();
+                								
+                								window.addEventListener('resize', setPosition)
+                								window.addEventListener('scroll', setPosition, true)
+                								
+                								return () => {
+                  									window.removeEventListener('resize', setPosition)
+                  									window.removeEventListener('scroll', setPosition, true)
+                								}
+              							}, [setPosition]);
+            						
+            						
+            						const onOverlayClick = useCallback(
+              							(e: React.MouseEvent<HTMLDivElement>) => {
+                								if (onOutsideClick && (e.target as HTMLElement).classList.contains(styles.portalPopupOverlay)) {
+                  									onOutsideClick();
+                								}
+                								e.stopPropagation();
+              							},
+              							[onOutsideClick]
+              							);
+              							
+              							
+              							return (
+                								<Portal>
+                  									<div
+                    										className={styles.portalPopupOverlay}
+                    										style={popupStyle}
+                    										onClick={onOverlayClick}>
+                    										<div ref={relContainerRef} style={relativeStyle}>
+                      											{children}
+                    										</div>
+                  									</div>
+                								</Portal>
+              							);
+              							};
+              							
+              							type PortalProps = {
+                								children: ReactNode;
+                								containerId?: string;
+              							};
+              							
+              							export const Portal: FunctionComponent<PortalProps> = ({
+                								children,
+                								containerId = "portals",
+              							}) => {
+                								
+                								let portalsDiv = document.getElementById(containerId);
+                								if (!portalsDiv) {
+                  									portalsDiv = document.createElement("div");
+                  									portalsDiv.setAttribute("id", containerId);
+                  									document.body.appendChild(portalsDiv);
+                								}
+                								
+                								return createPortal(children, portalsDiv);
+              							};
+              							
+              							export default PortalPopup;
+              							
+									import { CSSProperties, RefObject, FunctionComponent, ReactNode, useMemo, useCallback, useState, useRef, useEffect} from "react";
+
+import { createPortal } from "react-dom";
+import styles from './PortalPopup.module.css';
+
+type PopupProps = {
+  	overlayColor?: string;
+  	placement?:
+  	| "Centered"
+  	| "Top left"
+  	| "Top center"
+  	| "Top right"
+  	| "Bottom left"
+  	| "Bottom center"
+  	| "Bottom right";
+  	onOutsideClick?: () => void;
+  	zIndex?: number;
+  	children: ReactNode;
+  	left?: number;
+  	right?: number;
+  	top?: number;
+  	bottom?: number;
+  	relativeLayerRef?: RefObject<HTMLElement>;
+    		};
+    		
+    		const PortalPopup: FunctionComponent<PopupProps> = ({
+      			children,
+      			overlayColor,
+      			placement = "Centered",
+      			onOutsideClick,
+      			zIndex = 100,
+      			left = 0,
+      			right = 0,
+      			top = 0,
+      			bottom = 0,
+      			relativeLayerRef
+    		}) => {
+      			const relContainerRef = useRef<HTMLDivElement>(null);
+        				const [relativeStyle, setRelativeStyle] = useState<CSSProperties>({
+          					opacity: 0,
+        				});
+        				const popupStyle = useMemo(() => {
+          					const style: CSSProperties = {};
+          					style.zIndex = zIndex;
+          					
+          					if (overlayColor) {
+            						style.backgroundColor = overlayColor;
+          					}
+          					if(!relativeLayerRef?.current) {
+            						switch (placement) {
+              							case "Centered":
+                								style.alignItems = "center";
+                								style.justifyContent = "center";
+                								break;
+              							case "Top left":
+                								style.alignItems = "flex-start";
+                								break;
+              							case "Top center":
+                								style.alignItems = "center";
+                								break;
+              							case "Top right":
+                								style.alignItems = "flex-end";
+                								break;
+              							case "Bottom left":
+                								style.alignItems = "flex-start";
+                								style.justifyContent = "flex-end";
+                								break;
+              							case "Bottom center":
+                								style.alignItems = "center";
+                								style.justifyContent = "flex-end";
+                								break;
+              							case "Bottom right":
+                								style.alignItems = "flex-end";
+                								style.justifyContent = "flex-end";
+                								break;
+            						}
+          					}
+          					style.opacity = 1;
+          					return style;
+          					}, [placement, overlayColor, zIndex, relativeLayerRef?.current]);
+            						
+            						const setPosition = useCallback(()=>{
+              							const relativeItem = relativeLayerRef?.current?.getBoundingClientRect();
+              							const containerItem = relContainerRef?.current?.getBoundingClientRect();
+              							const style: CSSProperties = { opacity: 1 };
+              							if(relativeItem && containerItem) {
+                								const {x: relativeX, y: relativeY, width: relativeW, height: relativeH} = relativeItem;
+                								const {width: containerW, height: containerH} = containerItem;
+                								style.position = "absolute";
+                								switch (placement) {
+                  									case "Top left":
+                    										style.top = relativeY-containerH-top;
+                    										style.left = relativeX+left;
+                    										break;
+                  									case "Top right":
+                    										style.top = relativeY-containerH-top;
+                    										style.left = relativeX+relativeW-containerW-right;
+                    										break;
+                  									case "Bottom left":
+                    										style.top = relativeY+relativeH+bottom;
+                    										style.left = relativeX+left;
+                    										break;
+                  									case "Bottom right":
+                    										style.top = relativeY+relativeH+bottom;
+                    										style.left = relativeX+relativeW-containerW-right;
+                    										break;
+                								}
+                								
+                								setRelativeStyle(style)
+              							} else {
+                								style.maxWidth = "90%";
+                								style.maxHeight = "90%";
+                								setRelativeStyle(style)
+              							}
+            						},[left, right, top, bottom, placement, relativeLayerRef?.current, relContainerRef?.current])
+              							
+              							useEffect(() => {
+                								setPosition();
+                								
+                								window.addEventListener('resize', setPosition)
+                								window.addEventListener('scroll', setPosition, true)
+                								
+                								return () => {
+                  									window.removeEventListener('resize', setPosition)
+                  									window.removeEventListener('scroll', setPosition, true)
+                								}
+              							}, [setPosition]);
+            						
+            						
+            						const onOverlayClick = useCallback(
+              							(e: React.MouseEvent<HTMLDivElement>) => {
+                								if (onOutsideClick && (e.target as HTMLElement).classList.contains(styles.portalPopupOverlay)) {
+                  									onOutsideClick();
+                								}
+                								e.stopPropagation();
+              							},
+              							[onOutsideClick]
+              							);
+              							
+              							
+              							return (
+                								<Portal>
+                  									<div
+                    										className={styles.portalPopupOverlay}
+                    										style={popupStyle}
+                    										onClick={onOverlayClick}>
+                    										<div ref={relContainerRef} style={relativeStyle}>
+                      											{children}
+                    										</div>
+                  									</div>
+                								</Portal>
+              							);
+              							};
+              							
+              							type PortalProps = {
+                								children: ReactNode;
+                								containerId?: string;
+              							};
+              							
+              							export const Portal: FunctionComponent<PortalProps> = ({
+                								children,
+                								containerId = "portals",
+              							}) => {
+                								
+                								let portalsDiv = document.getElementById(containerId);
+                								if (!portalsDiv) {
+                  									portalsDiv = document.createElement("div");
+                  									portalsDiv.setAttribute("id", containerId);
+                  									document.body.appendChild(portalsDiv);
+                								}
+                								
+                								return createPortal(children, portalsDiv);
+              							};
+              							
+              							export default PortalPopup;
+
+portalPopup.module.css
+.portalPopupOverlay {
+  	display: flex;
+  	flex-direction: column;
+  	position: fixed;
+  	inset: 0;
+}

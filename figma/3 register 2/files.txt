@@ -1,0 +1,372 @@
+Register.tsx
+import { FunctionComponent, useCallback } from 'react';
+import styles from './Register.module.css';
+
+
+const Register: FunctionComponent = () => {
+  	
+  	const onButtonGroupContainerClick = useCallback(() => {
+    		// Add your code here
+  	}, []);
+  	
+  	return (
+    		<div className={styles.register}>
+      			<div className={styles.ios}>
+        				<div className={styles.homeIndicator}>
+          					<div className={styles.homeIndicator2} />
+        				</div>
+        				<div className={styles.statusBarIphone}>
+          					<div className={styles.time}>
+            						<div className={styles.time2}>9:41</div>
+          					</div>
+          					<div className={styles.levels}>
+            						<img className={styles.cellularConnectionIcon} alt="" />
+            						<img className={styles.wifiIcon} alt="" />
+            						<div className={styles.battery}>
+              							<div className={styles.border} />
+              							<img className={styles.capIcon} alt="" />
+              							<div className={styles.capacity} />
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div className={styles.formRegisterWrapper}>
+        				<div className={styles.formRegister}>
+          					<div className={styles.inputField}>
+            						<div className={styles.input}>
+              							<div className={styles.value}>Username</div>
+            						</div>
+          					</div>
+          					<div className={styles.inputField2}>
+            						<div className={styles.label}>ssword</div>
+            						<div className={styles.description}>Description</div>
+            						<div className={styles.input2}>
+              							<div className={styles.value}>First Name</div>
+            						</div>
+            						<div className={styles.error}>Error</div>
+          					</div>
+          					<div className={styles.inputField3}>
+            						<div className={styles.input3}>
+              							<div className={styles.value}>Last Name</div>
+            						</div>
+          					</div>
+          					<div className={styles.buttonGroup} onClick={onButtonGroupContainerClick}>
+            						<div className={styles.button}>
+              							<div className={styles.button2}>Register</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div className={styles.registerChild} />
+      			<div className={styles.image}>
+        				<img className={styles.icon} alt="" />
+      			</div>
+    		</div>);
+};
+
+export default Register ;
+
+
+Register.module.css
+.register {
+  	width: 100%;
+  	height: 844px;
+  	position: relative;
+  	background-color: #fff;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 17px;
+  	color: #000;
+  	font-family: 'SF Pro';
+}
+.ios {
+  	position: absolute;
+  	top: 0px;
+  	left: -5px;
+  	width: 400px;
+  	height: 844px;
+  	flex-shrink: 0;
+}
+.homeIndicator {
+  	position: absolute;
+  	top: 810px;
+  	left: 0px;
+  	width: 400px;
+  	height: 34px;
+}
+.homeIndicator2 {
+  	position: absolute;
+  	bottom: 8px;
+  	left: calc(50% + 72px);
+  	border-radius: 100px;
+  	background-color: #000;
+  	width: 144px;
+  	height: 5px;
+  	transform:  rotate(180deg);
+  	transform-origin: 0 0;
+}
+.statusBarIphone {
+  	position: absolute;
+  	top: 0px;
+  	left: 5px;
+  	width: 390px;
+  	height: 48px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 21px 16px 19px;
+  	box-sizing: border-box;
+  	gap: 154px;
+}
+.time {
+  	height: 22px;
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 2px 0px 0px;
+  	box-sizing: border-box;
+  	flex-shrink: 0;
+}
+.time2 {
+  	position: relative;
+  	line-height: 22px;
+  	font-weight: 600;
+}
+.levels {
+  	height: 22px;
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 1px 0px 0px;
+  	box-sizing: border-box;
+  	gap: 7px;
+  	flex-shrink: 0;
+}
+.cellularConnectionIcon {
+  	height: 12.2px;
+  	width: 19.2px;
+  	position: relative;
+}
+.wifiIcon {
+  	height: 12.3px;
+  	width: 17.1px;
+  	position: relative;
+}
+.battery {
+  	height: 13px;
+  	width: 27.3px;
+  	position: relative;
+}
+.border {
+  	position: absolute;
+  	height: 100%;
+  	top: 0%;
+  	bottom: 0%;
+  	left: calc(50% - 13.65px);
+  	border-radius: 4.3px;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	width: 25px;
+  	opacity: 0.35;
+  	mix-blend-mode: normal;
+}
+.capIcon {
+  	position: absolute;
+  	height: 31.54%;
+  	top: 36.78%;
+  	bottom: 31.68%;
+  	left: calc(50% + 12.35px);
+  	max-height: 100%;
+  	width: 1.3px;
+  	opacity: 0.4;
+  	mix-blend-mode: normal;
+}
+.capacity {
+  	position: absolute;
+  	height: 69.23%;
+  	top: 15.38%;
+  	bottom: 15.38%;
+  	left: calc(50% - 11.65px);
+  	border-radius: 2.5px;
+  	background-color: #000;
+  	width: 21px;
+}
+.formRegisterWrapper {
+  	position: absolute;
+  	top: 363px;
+  	left: 35px;
+  	width: 320px;
+  	height: 278px;
+  	flex-shrink: 0;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #b3b3b3;
+  	font-family: Inter;
+}
+.formRegister {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	height: 278px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 24px;
+  	gap: 24px;
+  	min-width: 320px;
+}
+.inputField {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.input {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 12px 16px;
+  	min-width: 240px;
+}
+.value {
+  	flex: 1;
+  	position: relative;
+  	line-height: 100%;
+}
+.inputField2 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+  	color: #1e1e1e;
+}
+.label {
+  	width: 240px;
+  	position: relative;
+  	line-height: 140%;
+  	display: none;
+  	flex-shrink: 0;
+}
+.description {
+  	width: 240px;
+  	position: relative;
+  	line-height: 140%;
+  	color: #757575;
+  	display: none;
+  	flex-shrink: 0;
+}
+.input2 {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 12px 16px;
+  	min-width: 240px;
+  	flex-shrink: 0;
+  	color: #b3b3b3;
+}
+.error {
+  	position: relative;
+  	line-height: 140%;
+  	display: none;
+  	flex-shrink: 0;
+}
+.inputField3 {
+  	width: 272px;
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.input3 {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 12px 16px;
+  	min-width: 240px;
+  	flex-shrink: 0;
+}
+.buttonGroup {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	cursor: pointer;
+  	color: #f5f5f5;
+}
+.button {
+  	flex: 1;
+  	border-radius: 8px;
+  	background-color: #7ed957;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px;
+}
+.button2 {
+  	position: relative;
+  	line-height: 100%;
+}
+.registerChild {
+  	position: absolute;
+  	top: 132px;
+  	left: 97px;
+  	border-radius: 50%;
+  	background-color: #eaeaea;
+  	border: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	width: 195px;
+  	height: 195px;
+  	flex-shrink: 0;
+}
+.image {
+  	position: absolute;
+  	top: 194px;
+  	left: 171px;
+  	width: 48px;
+  	height: 48px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon {
+  	position: absolute;
+  	height: 75%;
+  	width: 75%;
+  	top: 12.5%;
+  	right: 12.5%;
+  	bottom: 12.5%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+
+global.css
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro:ital,wght@0,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400&display=swap');
+
+body {
+  	margin: 0; line-height: normal;
+}
+

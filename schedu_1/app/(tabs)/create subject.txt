@@ -1,0 +1,671 @@
+
+import * as React from "react";
+import {StyleSheet, View, Pressable, Text, Image} from "react-native";
+import { StackNavigationProp } from '@react-navigation/stack';
+import {useNavigation, ParamListBase} from "@react-navigation/native";
+
+const CreateSubject = () => {
+  	const navigation = useNavigation<StackNavigationProp<ParamListBase>>();
+    		
+    		return (
+      			<View style={styles.createSubject}>
+        				<View style={styles.createSubjectChild} />
+        				<View style={[styles.createSubjectItem, styles.createPosition]} />
+        				<Pressable style={[styles.createSubjectInner, styles.createPosition]} onPress={()=>{}} />
+        				<View style={styles.ios}>
+          					<View style={styles.homeIndicator}>
+            						<View style={[styles.homeIndicator2, styles.capacityPosition]} />
+          					</View>
+          					<View style={styles.statusBarIphone}>
+            						<View style={[styles.time, styles.timeFlexBox]}>
+              							<Text style={[styles.time2, styles.tFlexBox]}>9:41</Text>
+            						</View>
+            						<View style={[styles.levels, styles.timeFlexBox]}>
+              							<Image style={styles.cellularConnectionIcon} resizeMode="cover" />
+              							<Image style={styles.wifiIcon} resizeMode="cover" />
+              							<View style={styles.battery}>
+                								<View style={styles.border} />
+                								<Image style={styles.capIcon} resizeMode="cover" />
+                								<View style={[styles.capacity, styles.capacityPosition]} />
+              							</View>
+            						</View>
+          					</View>
+        				</View>
+        				<View style={[styles.rectangleParent, styles.navPosition]}>
+          					<View style={[styles.groupChild, styles.navPosition]} />
+          					<View style={[styles.nav, styles.navPosition]}>
+            						<View style={styles.navigationButtonList}>
+              							<View style={styles.navigationButton}>
+                								<View style={styles.home}>
+                  									<Image style={[styles.icon, styles.iconLayout]} resizeMode="cover" />
+                								</View>
+                								<Text style={[styles.label, styles.labelTypo]}>Home</Text>
+              							</View>
+              							<View style={styles.navigationButton}>
+                								<View style={styles.home}>
+                  									<Image style={[styles.icon, styles.iconLayout]} resizeMode="cover" />
+                								</View>
+                								<Text style={[styles.label, styles.labelTypo]}>Calendar</Text>
+              							</View>
+              							<View style={styles.navigationButton}>
+                								<View style={styles.home}>
+                  									<Image style={[styles.icon3, styles.iconPosition2]} resizeMode="cover" />
+                								</View>
+                								<Text style={[styles.label3, styles.labelTypo]}>Create</Text>
+              							</View>
+              							<View style={styles.navigationButton}>
+                								<View style={styles.home}>
+                  									<Image style={[styles.icon4, styles.iconPosition1]} resizeMode="cover" />
+                								</View>
+                								<Text style={[styles.label, styles.labelTypo]}>Library</Text>
+              							</View>
+              							<View style={styles.navigationButton}>
+                								<View style={styles.home}>
+                  									<Image style={[styles.icon5, styles.iconPosition1]} resizeMode="cover" />
+                								</View>
+                								<Text style={[styles.label, styles.labelTypo]}>Plans</Text>
+              							</View>
+            						</View>
+            						<View style={[styles.navChild, styles.childBorder]} />
+          					</View>
+        				</View>
+        				<View style={[styles.header, styles.navPosition]}>
+          					<Image style={styles.ford22Icon} resizeMode="cover" />
+          					<Text style={[styles.foradi, styles.titleClr]}>FORADI</Text>
+          					<View style={[styles.headerChild, styles.childBorder]} />
+        				</View>
+        				<View style={styles.user}>
+          					<Image style={styles.icon6} resizeMode="cover" />
+        				</View>
+        				<Text style={[styles.createSubject2, styles.labelTypo]}>Create Subject</Text>
+        				<Text style={[styles.title, styles.titleClr]}>Title</Text>
+        				<Text style={[styles.subjectCode, styles.overviewTypo]}>Subject Code</Text>
+        				<Text style={[styles.academicInstitution, styles.overviewTypo]}>Academic Institution</Text>
+        				<View style={styles.rectangleView} />
+        				<View style={styles.image}>
+          					<Image style={[styles.icon7, styles.iconPosition1]} resizeMode="cover" />
+        				</View>
+        				<Pressable style={[styles.check, styles.fileLayout]} onPress={()=>{}}>
+          					<Image style={[styles.icon8, styles.iconPosition]} resizeMode="cover" />
+        				</Pressable>
+        				<Image style={styles.ellipseIcon} resizeMode="cover" />
+        				<View style={[styles.hexagon, styles.hexagonLayout]}>
+          					<Image style={[styles.icon9, styles.iconLayout]} resizeMode="cover" />
+        				</View>
+        				<Text style={[styles.overview, styles.overviewTypo]}>Overview</Text>
+        				<Image style={[styles.icon10, styles.iconLayout]} resizeMode="cover" />
+        				<Pressable style={[styles.arrowDropDown, styles.hexagonLayout]} onPress={() => navigation.goBack()}>
+          					<Image style={styles.icon11} resizeMode="cover" />
+        				</Pressable>
+        				<View style={[styles.lineView, styles.lineViewPosition]} />
+        				<Text style={[styles.uploadCurriculum, styles.lineViewPosition]}>Upload Curriculum</Text>
+        				<View style={styles.createSubjectChild2} />
+        				<Text style={[styles.t, styles.tFlexBox]}>T</Text>
+        				<View style={[styles.createSubjectChild3, styles.createChildLayout]} />
+        				<View style={[styles.createSubjectChild4, styles.createChildLayout]} />
+        				<View style={styles.image2}>
+          					<Image style={styles.icon12} resizeMode="cover" />
+        				</View>
+        				<View style={[styles.file, styles.fileLayout]}>
+          					<Image style={[styles.icon13, styles.iconPosition]} resizeMode="cover" />
+        				</View>
+        				<View style={[styles.createSubjectChild5, styles.lineViewPosition]} />
+      			</View>);
+    		};
+    		
+    		const styles = StyleSheet.create({
+      			createPosition: {
+        				top: 346,
+        				backgroundColor: "#fbfbfb",
+        				height: 34,
+        				borderRadius: 2,
+        				position: "absolute"
+      			},
+      			capacityPosition: {
+        				backgroundColor: "#000",
+        				left: "50%",
+        				position: "absolute"
+      			},
+      			timeFlexBox: {
+        				flex: 1,
+        				height: 22,
+        				justifyContent: "center",
+        				alignItems: "center",
+        				flexDirection: "row"
+      			},
+      			tFlexBox: {
+        				textAlign: "center",
+        				color: "#000"
+      			},
+      			navPosition: {
+        				width: 390,
+        				left: 0,
+        				position: "absolute"
+      			},
+      			iconLayout: {
+        				maxWidth: "100%",
+        				maxHeight: "100%",
+        				position: "absolute",
+        				overflow: "hidden"
+      			},
+      			labelTypo: {
+        				fontFamily: "Inter-SemiBold",
+        				fontWeight: "600"
+      			},
+      			iconPosition2: {
+        				left: "20.83%",
+        				right: "20.83%",
+        				width: "58.33%"
+      			},
+      			iconPosition1: {
+        				bottom: "12.5%",
+        				height: "75%",
+        				top: "12.5%",
+        				maxWidth: "100%",
+        				maxHeight: "100%",
+        				position: "absolute",
+        				overflow: "hidden"
+      			},
+      			childBorder: {
+        				height: 1,
+        				borderTopWidth: 1,
+        				borderColor: "#d9d9d9",
+        				borderStyle: "solid"
+      			},
+      			titleClr: {
+        				color: "#b3b3b3",
+        				textAlign: "center",
+        				lineHeight: 22,
+        				position: "absolute"
+      			},
+      			overviewTypo: {
+        				fontFamily: "Inter-Regular",
+        				fontSize: 12,
+        				lineHeight: 22
+      			},
+      			fileLayout: {
+        				height: 25,
+        				width: 25,
+        				position: "absolute",
+        				overflow: "hidden"
+      			},
+      			iconPosition: {
+        				right: "16.53%",
+        				width: "66.8%",
+        				left: "16.67%",
+        				maxWidth: "100%",
+        				maxHeight: "100%",
+        				position: "absolute",
+        				overflow: "hidden"
+      			},
+      			hexagonLayout: {
+        				height: 16,
+        				position: "absolute"
+      			},
+      			lineViewPosition: {
+        				left: 19,
+        				position: "absolute"
+      			},
+      			createChildLayout: {
+        				left: 146,
+        				height: 51,
+        				width: 52,
+        				borderRadius: 17,
+        				backgroundColor: "#fbfbfb",
+        				position: "absolute"
+      			},
+      			createSubject: {
+        				overflow: "hidden",
+        				backgroundColor: "#fff",
+        				height: 844,
+        				width: "100%"
+      			},
+      			createSubjectChild: {
+        				top: 306,
+        				left: 23,
+        				backgroundColor: "#fafafa",
+        				width: 349,
+        				height: 34,
+        				borderRadius: 2,
+        				position: "absolute"
+      			},
+      			createSubjectItem: {
+        				left: 22,
+        				width: 100,
+        				backgroundColor: "#fbfbfb"
+      			},
+      			createSubjectInner: {
+        				left: 131,
+        				width: 242,
+        				backgroundColor: "#fbfbfb"
+      			},
+      			ios: {
+        				left: -5,
+        				width: 400,
+        				top: 0,
+        				position: "absolute",
+        				height: 844
+      			},
+      			homeIndicator: {
+        				top: 810,
+        				left: 0,
+        				width: 400,
+        				height: 34,
+        				position: "absolute"
+      			},
+      			homeIndicator2: {
+        				marginLeft: 72,
+        				bottom: 8,
+        				borderRadius: 100,
+        				width: 144,
+        				height: 5,
+        				transform: [
+          					{
+            						rotate: "180deg"
+          					}
+        				]
+      			},
+      			statusBarIphone: {
+        				left: 5,
+        				paddingHorizontal: 16,
+        				paddingTop: 21,
+        				paddingBottom: 19,
+        				gap: 154,
+        				justifyContent: "center",
+        				alignItems: "center",
+        				flexDirection: "row",
+        				height: 48,
+        				width: 390,
+        				top: 0,
+        				position: "absolute"
+      			},
+      			time: {
+        				paddingTop: 2
+      			},
+      			time2: {
+        				fontFamily: "SF Pro",
+        				fontWeight: "600",
+        				textAlign: "center",
+        				lineHeight: 22,
+        				fontSize: 17
+      			},
+      			levels: {
+        				paddingTop: 1,
+        				gap: 7
+      			},
+      			cellularConnectionIcon: {
+        				width: 19,
+        				height: 12
+      			},
+      			wifiIcon: {
+        				width: 17,
+        				height: 12
+      			},
+      			battery: {
+        				height: 13,
+        				width: 27
+      			},
+      			border: {
+        				marginLeft: -14,
+        				top: "0%",
+        				bottom: "0%",
+        				borderRadius: 4,
+        				borderColor: "#000",
+        				borderWidth: 1,
+        				opacity: 0,
+        				width: 25,
+        				borderStyle: "solid",
+        				height: "100%",
+        				left: "50%",
+        				position: "absolute"
+      			},
+      			capIcon: {
+        				height: "31.54%",
+        				marginLeft: 12,
+        				top: "36.78%",
+        				bottom: "31.68%",
+        				width: 1,
+        				opacity: 0,
+        				maxHeight: "100%",
+        				left: "50%",
+        				position: "absolute"
+      			},
+      			capacity: {
+        				height: "69.23%",
+        				marginLeft: -12,
+        				top: "15.38%",
+        				bottom: "15.38%",
+        				borderRadius: 3,
+        				width: 21
+      			},
+      			rectangleParent: {
+        				top: 735,
+        				height: 121
+      			},
+      			groupChild: {
+        				height: 120,
+        				top: 1,
+        				backgroundColor: "#fff"
+      			},
+      			nav: {
+        				height: 68,
+        				top: 0
+      			},
+      			navigationButtonList: {
+        				top: 8,
+        				width: 369,
+        				height: 60,
+        				flexWrap: "wrap",
+        				alignContent: "flex-start",
+        				gap: 12,
+        				left: 10,
+        				flexDirection: "row",
+        				position: "absolute"
+      			},
+      			navigationButton: {
+        				alignSelf: "stretch",
+        				padding: 8,
+        				gap: 8,
+        				alignItems: "center"
+      			},
+      			home: {
+        				width: 24,
+        				height: 24,
+        				overflow: "hidden"
+      			},
+      			icon: {
+        				height: "83.33%",
+        				bottom: "8.33%",
+        				left: "12.5%",
+        				right: "12.5%",
+        				width: "75%",
+        				top: "8.33%"
+      			},
+      			label: {
+        				color: "#757575",
+        				lineHeight: 14,
+        				fontSize: 14,
+        				fontFamily: "Inter-SemiBold",
+        				textAlign: "center"
+      			},
+      			icon3: {
+        				height: "58.33%",
+        				top: "20.83%",
+        				bottom: "20.83%",
+        				maxWidth: "100%",
+        				maxHeight: "100%",
+        				position: "absolute",
+        				overflow: "hidden"
+      			},
+      			label3: {
+        				color: "#2c2c2c",
+        				lineHeight: 14,
+        				fontSize: 14,
+        				fontFamily: "Inter-SemiBold",
+        				textAlign: "center"
+      			},
+      			icon4: {
+        				width: "83.33%",
+        				right: "8.33%",
+        				left: "8.33%"
+      			},
+      			icon5: {
+        				left: "20.83%",
+        				right: "20.83%",
+        				width: "58.33%"
+      			},
+      			navChild: {
+        				width: 391,
+        				height: 1,
+        				borderTopWidth: 1,
+        				borderColor: "#d9d9d9",
+        				left: 0,
+        				position: "absolute",
+        				top: 1
+      			},
+      			header: {
+        				top: 58,
+        				height: 54
+      			},
+      			ford22Icon: {
+        				left: 16,
+        				width: 39,
+        				height: 39,
+        				top: 0,
+        				position: "absolute"
+      			},
+      			foradi: {
+        				top: 9,
+        				left: 58,
+        				fontSize: 33,
+        				fontWeight: "300",
+        				fontFamily: "Inter-Light"
+      			},
+      			headerChild: {
+        				top: 54,
+        				width: 391,
+        				height: 1,
+        				borderTopWidth: 1,
+        				borderColor: "#d9d9d9",
+        				left: 0,
+        				position: "absolute"
+      			},
+      			user: {
+        				top: 63,
+        				width: 28,
+        				height: 30,
+        				left: 345,
+        				position: "absolute",
+        				overflow: "hidden"
+      			},
+      			icon6: {
+        				width: "66.79%",
+        				right: "16.55%",
+        				left: "16.67%",
+        				bottom: "12.5%",
+        				top: "12.5%",
+        				height: "75%",
+        				maxWidth: "100%",
+        				maxHeight: "100%",
+        				position: "absolute",
+        				overflow: "hidden"
+      			},
+      			createSubject2: {
+        				left: 34,
+        				top: 131,
+        				textAlign: "center",
+        				color: "#000",
+        				lineHeight: 22,
+        				position: "absolute",
+        				fontSize: 17,
+        				fontFamily: "Inter-SemiBold"
+      			},
+      			title: {
+        				top: 312,
+        				left: 173,
+        				fontFamily: "Inter-SemiBold",
+        				fontWeight: "600",
+        				fontSize: 17
+      			},
+      			subjectCode: {
+        				left: 33,
+        				top: 352,
+        				fontSize: 12,
+        				color: "#b3b3b3",
+        				textAlign: "center",
+        				position: "absolute"
+      			},
+      			academicInstitution: {
+        				left: 195,
+        				top: 352,
+        				fontSize: 12,
+        				color: "#b3b3b3",
+        				textAlign: "center",
+        				position: "absolute"
+      			},
+      			rectangleView: {
+        				top: 192,
+        				left: 17,
+        				width: 355,
+        				height: 106,
+        				backgroundColor: "#fbfbfb",
+        				borderRadius: 2,
+        				position: "absolute"
+      			},
+      			image: {
+        				top: 221,
+        				left: 171,
+        				width: 48,
+        				height: 48,
+        				position: "absolute",
+        				overflow: "hidden"
+      			},
+      			icon7: {
+        				left: "12.5%",
+        				right: "12.5%",
+        				width: "75%"
+      			},
+      			check: {
+        				top: 131,
+        				left: 345
+      			},
+      			icon8: {
+        				height: "46%",
+        				top: "25%",
+        				bottom: "29%"
+      			},
+      			ellipseIcon: {
+        				top: 259,
+        				left: 26,
+        				width: 32,
+        				height: 32,
+        				position: "absolute"
+      			},
+      			hexagon: {
+        				top: 267,
+        				left: 50,
+        				width: 16,
+        				transform: [
+          					{
+            						rotate: "180deg"
+          					}
+        				],
+        				overflow: "hidden"
+      			},
+      			icon9: {
+        				height: "83.13%",
+        				top: "8.34%",
+        				bottom: "8.53%",
+        				left: "12.5%",
+        				right: "12.5%",
+        				width: "75%"
+      			},
+      			overview: {
+        				top: 162,
+        				left: 20,
+        				textAlign: "center",
+        				color: "#000",
+        				position: "absolute"
+      			},
+      			icon10: {
+        				height: "0.57%",
+        				width: "1.72%",
+        				top: "1.14%",
+        				right: "97.09%",
+        				bottom: "98.3%",
+        				left: "1.2%"
+      			},
+      			arrowDropDown: {
+        				top: 134,
+        				width: 23,
+        				left: 10
+      			},
+      			icon11: {
+        				nodeWidth: 23,
+        				nodeHeight: 16,
+        				height: "100%",
+        				width: "100%"
+      			},
+      			lineView: {
+        				top: 404,
+        				width: 353,
+        				height: 1,
+        				borderTopWidth: 1,
+        				borderColor: "#d9d9d9",
+        				borderStyle: "solid",
+        				left: 19
+      			},
+      			uploadCurriculum: {
+        				top: 416,
+        				textAlign: "left",
+        				width: 170,
+        				fontFamily: "Inter-Regular",
+        				fontSize: 12,
+        				lineHeight: 22,
+        				color: "#000",
+        				left: 19
+      			},
+      			createSubjectChild2: {
+        				top: 449,
+        				left: 147,
+        				height: 51,
+        				width: 52,
+        				borderRadius: 17,
+        				backgroundColor: "#fbfbfb",
+        				position: "absolute"
+      			},
+      			t: {
+        				top: 464,
+        				left: 163,
+        				fontSize: 22,
+        				fontFamily: "InknutAntiqua-Regular",
+        				lineHeight: 22,
+        				textAlign: "center",
+        				position: "absolute"
+      			},
+      			createSubjectChild3: {
+        				top: 569
+      			},
+      			createSubjectChild4: {
+        				top: 509
+      			},
+      			image2: {
+        				top: 521,
+        				left: 159,
+        				height: 27,
+        				width: 27,
+        				position: "absolute",
+        				overflow: "hidden"
+      			},
+      			icon12: {
+        				height: "75.19%",
+        				width: "75.19%",
+        				right: "12.31%",
+        				bottom: "12.31%",
+        				top: "12.5%",
+        				maxWidth: "100%",
+        				left: "12.5%",
+        				maxHeight: "100%",
+        				position: "absolute",
+        				overflow: "hidden"
+      			},
+      			file: {
+        				top: 582,
+        				left: 160
+      			},
+      			icon13: {
+        				height: "83.2%",
+        				bottom: "8.47%",
+        				top: "8.33%"
+      			},
+      			createSubjectChild5: {
+        				top: 454,
+        				borderRadius: 7,
+        				width: 110,
+        				height: 161,
+        				backgroundColor: "#fbfbfb"
+      			}
+    		});
+    		
+    		export default CreateSubject;
+    		

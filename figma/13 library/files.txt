@@ -1,0 +1,1375 @@
+Library.tsx
+import { FunctionComponent, useState, useCallback } from 'react';
+import Create from "../components/Create";
+import PortalPopup from "../components/PortalPopup";
+import styles from './Library.module.css';
+
+
+const Library: FunctionComponent = () => {
+  	const [isCreateOpen, setCreateOpen] = useState(false);
+  	
+  	const openCreate = useCallback(() => {
+    		setCreateOpen(true);
+  	}, []);
+  	
+  	const closeCreate = useCallback(() => {
+    		setCreateOpen(false);
+  	}, []);
+  	
+  	
+  	const onNavigationButtonContainerClick = useCallback(() => {
+    		// Add your code here
+  	}, []);
+  	
+  	return (<>
+    		<div className={styles.library}>
+      			<div className={styles.hephzibahSchoolInc}>Hephzibah School Inc.</div>
+      			<div className={styles.ios}>
+        				<div className={styles.homeIndicator}>
+          					<div className={styles.homeIndicator2} />
+        				</div>
+        				<div className={styles.statusBarIphone}>
+          					<div className={styles.time}>
+            						<div className={styles.time2}>9:41</div>
+          					</div>
+          					<div className={styles.levels}>
+            						<img className={styles.cellularConnectionIcon} alt="" />
+            						<img className={styles.wifiIcon} alt="" />
+            						<div className={styles.battery}>
+              							<div className={styles.border} />
+              							<img className={styles.capIcon} alt="" />
+              							<div className={styles.capacity} />
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div className={styles.rectangleParent}>
+        				<div className={styles.groupChild} />
+        				<div className={styles.nav}>
+          					<div className={styles.navigationButtonList}>
+            						<div className={styles.navigationButton} onClick={onNavigationButtonContainerClick}>
+              							<div className={styles.home}>
+                								<img className={styles.icon} alt="" />
+              							</div>
+              							<div className={styles.label}>Home</div>
+            						</div>
+            						<div className={styles.navigationButton} onClick={onNavigationButtonContainerClick}>
+              							<div className={styles.home}>
+                								<img className={styles.icon} alt="" />
+              							</div>
+              							<div className={styles.label}>Calendar</div>
+            						</div>
+            						<div className={styles.navigationButton} onClick={openCreate}>
+              							<div className={styles.home}>
+                								<img className={styles.icon3} alt="" />
+              							</div>
+              							<div className={styles.label}>Create</div>
+            						</div>
+            						<div className={styles.navigationButton4}>
+              							<div className={styles.home}>
+                								<img className={styles.icon4} alt="" />
+              							</div>
+              							<div className={styles.label}>Library</div>
+            						</div>
+            						<div className={styles.navigationButton} onClick={onNavigationButtonContainerClick}>
+              							<div className={styles.home}>
+                								<img className={styles.icon5} alt="" />
+              							</div>
+              							<div className={styles.label}>Plans</div>
+            						</div>
+          					</div>
+          					<div className={styles.navChild} />
+        				</div>
+      			</div>
+      			<div className={styles.header}>
+        				<img className={styles.ford22Icon} alt="" />
+        				<div className={styles.foradi}>SCHEDU</div>
+        				<div className={styles.headerChild} />
+      			</div>
+      			<div className={styles.library2}>Library</div>
+      			<div className={styles.sliders}>
+        				<img className={styles.icon6} alt="" />
+      			</div>
+      			<div className={styles.user}>
+        				<img className={styles.icon7} alt="" />
+      			</div>
+      			<div className={styles.search}>
+        				<img className={styles.icon8} alt="" />
+      			</div>
+      			<div className={styles.libraryChild} />
+      			<div className={styles.libraryItem} onClick={onNavigationButtonContainerClick} />
+      			<div className={styles.libraryInner} />
+      			<div className={styles.mat10MathematicsContainer}>
+        				<i className={styles.mathematics}>MAT10</i>
+        				<span className={styles.mathematics}> - Mathematics</span>
+      			</div>
+      			<div className={styles.sci9ScienceContainer}>
+        				<i className={styles.mathematics}>SCI9</i>
+        				<span className={styles.mathematics}> - Science</span>
+      			</div>
+      			<div className={styles.sci8ScienceContainer} onClick={onNavigationButtonContainerClick}>
+        				<i className={styles.mathematics}>{`SCI8 `}</i>
+        				<span className={styles.mathematics}>- Science</span>
+      			</div>
+      			<img className={styles.image1Icon} alt="" />
+      			<img className={styles.image2Icon} alt="" onClick={onNavigationButtonContainerClick} />
+      			<img className={styles.image3Icon} alt="" />
+      			<div className={styles.plus2}>
+        				<img className={styles.icon9} alt="" />
+      			</div>
+      			<div className={styles.current}>Current</div>
+      			<img className={styles.arrowDropDownIcon} alt="" />
+      			<div className={styles.sliders}>
+        				<img className={styles.icon6} alt="" />
+      			</div>
+      			<div className={styles.search}>
+        				<img className={styles.icon8} alt="" />
+      			</div>
+      			<div className={styles.libraryChild} />
+      			<div className={styles.libraryItem} onClick={onNavigationButtonContainerClick} />
+      			<div className={styles.libraryInner} />
+      			<div className={styles.mat10MathematicsContainer}>
+        				<i className={styles.mathematics}>MAT10</i>
+        				<span className={styles.mathematics}> - Mathematics</span>
+      			</div>
+      			<div className={styles.hephzibahSchoolInc2}>Hephzibah School Inc.</div>
+      			<div className={styles.hephzibahSchoolInc3} onClick={onNavigationButtonContainerClick}>Hephzibah School Inc.</div>
+      			<div className={styles.sci9ScienceContainer}>
+        				<i className={styles.mathematics}>SCI9</i>
+        				<span className={styles.mathematics}> - Science</span>
+      			</div>
+      			<div className={styles.sci8ScienceContainer} onClick={onNavigationButtonContainerClick}>
+        				<i className={styles.mathematics}>{`SCI8 `}</i>
+        				<span className={styles.mathematics}>- Science</span>
+      			</div>
+      			<img className={styles.image1Icon} alt="" />
+      			<img className={styles.image2Icon} alt="" onClick={onNavigationButtonContainerClick} />
+      			<img className={styles.image3Icon} alt="" />
+      			<div className={styles.plus3} onClick={onNavigationButtonContainerClick}>
+        				<img className={styles.icon9} alt="" />
+      			</div>
+      			<div className={styles.libraryChild4} />
+      			<div className={styles.libraryChild5} onClick={onNavigationButtonContainerClick} />
+      			<div className={styles.libraryChild6} onClick={onNavigationButtonContainerClick} />
+      			<div className={styles.libraryChild7} onClick={onNavigationButtonContainerClick} />
+      			<div className={styles.libraryChild8} onClick={onNavigationButtonContainerClick} />
+      			<div className={styles.subject}>Subject</div>
+      			<div className={styles.book}>
+        				<img className={styles.icon13} alt="" />
+      			</div>
+      			<div className={styles.notes}>Notes</div>
+      			<div className={styles.penTool}>
+        				<img className={styles.icon14} alt="" />
+      			</div>
+      			<div className={styles.lessonplan}>Lessonplan</div>
+      			<div className={styles.table}>
+        				<img className={styles.icon15} alt="" />
+      			</div>
+      			<div className={styles.activities}>Activities</div>
+      			<div className={styles.box}>
+        				<img className={styles.icon16} alt="" />
+      			</div>
+    		</div>
+    		{isCreateOpen && (
+      			<PortalPopup
+        				overlayColor="rgba(113, 113, 113, 0.3)"
+        				placement="Centered"
+        				
+        				
+        				
+        				
+        				
+        				onOutsideClick={closeCreate}
+        				>
+        				<Create onClose={closeCreate}/>
+          					</PortalPopup>
+          					)}</>);
+          					};
+          					
+          					export default Library ;
+          					
+
+Library.module.css
+.library {
+  	width: 100%;
+  	height: 844px;
+  	position: relative;
+  	background-color: #fff;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 12px;
+  	color: #000;
+  	font-family: Roboto;
+}
+.hephzibahSchoolInc {
+  	position: absolute;
+  	top: 726px;
+  	left: 59px;
+  	font-size: 8px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-weight: 300;
+  	text-align: right;
+  	flex-shrink: 0;
+}
+.ios {
+  	position: absolute;
+  	top: 0px;
+  	left: -5px;
+  	width: 400px;
+  	height: 844px;
+  	flex-shrink: 0;
+  	font-size: 17px;
+  	font-family: 'SF Pro';
+}
+.homeIndicator {
+  	position: absolute;
+  	top: 810px;
+  	left: 0px;
+  	width: 400px;
+  	height: 34px;
+}
+.homeIndicator2 {
+  	position: absolute;
+  	bottom: 8px;
+  	left: calc(50% + 72px);
+  	border-radius: 100px;
+  	background-color: #000;
+  	width: 144px;
+  	height: 5px;
+  	transform:  rotate(180deg);
+  	transform-origin: 0 0;
+}
+.statusBarIphone {
+  	position: absolute;
+  	top: 0px;
+  	left: 5px;
+  	width: 390px;
+  	height: 48px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 21px 16px 19px;
+  	box-sizing: border-box;
+  	gap: 154px;
+}
+.time {
+  	height: 22px;
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 2px 0px 0px;
+  	box-sizing: border-box;
+  	flex-shrink: 0;
+}
+.time2 {
+  	position: relative;
+  	line-height: 22px;
+  	font-weight: 600;
+}
+.levels {
+  	height: 22px;
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 1px 0px 0px;
+  	box-sizing: border-box;
+  	gap: 7px;
+  	flex-shrink: 0;
+}
+.cellularConnectionIcon {
+  	height: 12.2px;
+  	width: 19.2px;
+  	position: relative;
+}
+.wifiIcon {
+  	height: 12.3px;
+  	width: 17.1px;
+  	position: relative;
+}
+.battery {
+  	height: 13px;
+  	width: 27.3px;
+  	position: relative;
+}
+.border {
+  	position: absolute;
+  	height: 100%;
+  	top: 0%;
+  	bottom: 0%;
+  	left: calc(50% - 13.65px);
+  	border-radius: 4.3px;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	width: 25px;
+  	opacity: 0.35;
+  	mix-blend-mode: normal;
+}
+.capIcon {
+  	position: absolute;
+  	height: 31.54%;
+  	top: 36.78%;
+  	bottom: 31.68%;
+  	left: calc(50% + 12.35px);
+  	max-height: 100%;
+  	width: 1.3px;
+  	opacity: 0.4;
+  	mix-blend-mode: normal;
+}
+.capacity {
+  	position: absolute;
+  	height: 69.23%;
+  	top: 15.38%;
+  	bottom: 15.38%;
+  	left: calc(50% - 11.65px);
+  	border-radius: 2.5px;
+  	background-color: #000;
+  	width: 21px;
+}
+.rectangleParent {
+  	position: absolute;
+  	top: 734px;
+  	left: 0px;
+  	width: 390px;
+  	height: 122px;
+  	flex-shrink: 0;
+  	font-size: 14px;
+  	color: #757575;
+  	font-family: Inter;
+}
+.groupChild {
+  	position: absolute;
+  	top: 1.01px;
+  	left: 0px;
+  	background-color: #fff;
+  	width: 390px;
+  	height: 121px;
+}
+.nav {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 390px;
+  	height: 68.6px;
+}
+.navigationButtonList {
+  	position: absolute;
+  	top: 8.07px;
+  	left: 10px;
+  	width: 369px;
+  	height: 60.5px;
+  	display: flex;
+  	align-items: flex-start;
+  	flex-wrap: wrap;
+  	align-content: flex-start;
+  	gap: 12px;
+}
+.navigationButton {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 8px;
+  	gap: 8px;
+  	cursor: pointer;
+}
+.home {
+  	width: 24px;
+  	height: 24px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon {
+  	position: absolute;
+  	height: 83.33%;
+  	width: 75%;
+  	top: 8.33%;
+  	right: 12.5%;
+  	bottom: 8.33%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.label {
+  	position: relative;
+  	line-height: 100%;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.icon3 {
+  	position: absolute;
+  	height: 58.33%;
+  	width: 58.33%;
+  	top: 20.83%;
+  	right: 20.83%;
+  	bottom: 20.83%;
+  	left: 20.83%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.navigationButton4 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 8px;
+  	gap: 8px;
+  	color: #2c2c2c;
+}
+.icon4 {
+  	position: absolute;
+  	height: 75%;
+  	width: 83.33%;
+  	top: 12.5%;
+  	right: 8.33%;
+  	bottom: 12.5%;
+  	left: 8.33%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.icon5 {
+  	position: absolute;
+  	height: 75%;
+  	width: 58.33%;
+  	top: 12.5%;
+  	right: 20.83%;
+  	bottom: 12.5%;
+  	left: 20.83%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.navChild {
+  	position: absolute;
+  	top: 0.51px;
+  	left: -0.5px;
+  	border-top: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	width: 391px;
+  	height: 1px;
+  	transform:  rotate(-0.2deg);
+  	transform-origin: 0 0;
+}
+.header {
+  	position: absolute;
+  	top: 58px;
+  	left: 0px;
+  	width: 390px;
+  	height: 54px;
+  	flex-shrink: 0;
+  	font-size: 33px;
+  	color: #b3b3b3;
+  	font-family: Inter;
+}
+.ford22Icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 16px;
+  	width: 39px;
+  	height: 39px;
+  	object-fit: cover;
+}
+.foradi {
+  	position: absolute;
+  	top: 9px;
+  	left: 58px;
+  	line-height: 22px;
+  	font-weight: 300;
+}
+.headerChild {
+  	position: absolute;
+  	top: 53.5px;
+  	left: -0.5px;
+  	border-top: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	width: 391px;
+  	height: 1px;
+  	transform:  rotate(-0.2deg);
+  	transform-origin: 0 0;
+}
+.library2 {
+  	position: absolute;
+  	top: 132px;
+  	left: 26px;
+  	font-size: 17px;
+  	line-height: 22px;
+  	font-weight: 600;
+  	font-family: Inter;
+  	flex-shrink: 0;
+}
+.sliders {
+  	position: absolute;
+  	top: 131px;
+  	left: 344px;
+  	width: 22px;
+  	height: 22px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon6 {
+  	position: absolute;
+  	height: 75%;
+  	width: 91.82%;
+  	top: 12.5%;
+  	right: 4.02%;
+  	bottom: 12.5%;
+  	left: 4.17%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.user {
+  	position: absolute;
+  	top: 63px;
+  	left: 345px;
+  	width: 28px;
+  	height: 30px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon7 {
+  	position: absolute;
+  	height: 75%;
+  	width: 66.79%;
+  	top: 12.5%;
+  	right: 16.55%;
+  	bottom: 12.5%;
+  	left: 16.67%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.search {
+  	position: absolute;
+  	top: 131px;
+  	left: 262px;
+  	width: 21px;
+  	height: 21px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon8 {
+  	position: absolute;
+  	height: 75.24%;
+  	width: 75.24%;
+  	top: 12.5%;
+  	right: 12.26%;
+  	bottom: 12.26%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.libraryChild {
+  	position: absolute;
+  	top: 195px;
+  	left: 24px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07) inset;
+  	border-radius: 6px;
+  	background-color: #fe76a8;
+  	width: 162px;
+  	height: 225px;
+  	flex-shrink: 0;
+}
+.libraryItem {
+  	position: absolute;
+  	top: 195px;
+  	left: 204px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07) inset;
+  	border-radius: 6px;
+  	background-color: #5290d9;
+  	width: 162px;
+  	height: 225px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.libraryInner {
+  	position: absolute;
+  	top: 481px;
+  	left: 24px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07) inset;
+  	border-radius: 6px;
+  	background-color: #7a95b4;
+  	width: 162px;
+  	height: 225px;
+  	flex-shrink: 0;
+}
+.mat10MathematicsContainer {
+  	position: absolute;
+  	top: 428px;
+  	left: 42px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	text-align: right;
+  	flex-shrink: 0;
+}
+.mathematics {
+  	font-weight: 500;
+}
+.sci9ScienceContainer {
+  	position: absolute;
+  	top: 714px;
+  	left: 62px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	text-align: right;
+  	flex-shrink: 0;
+}
+.sci8ScienceContainer {
+  	position: absolute;
+  	top: 428px;
+  	left: 244px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.image1Icon {
+  	position: absolute;
+  	top: 254px;
+  	left: 52px;
+  	width: 111px;
+  	height: 111px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.image2Icon {
+  	position: absolute;
+  	top: 243px;
+  	left: 223px;
+  	width: 129px;
+  	height: 129px;
+  	object-fit: cover;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.image3Icon {
+  	position: absolute;
+  	top: 518px;
+  	left: 32px;
+  	width: 152px;
+  	height: 152px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.plus2 {
+  	position: absolute;
+  	top: 127px;
+  	left: 299px;
+  	width: 29px;
+  	height: 29px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon9 {
+  	position: absolute;
+  	height: 58.28%;
+  	width: 58.28%;
+  	top: 20.83%;
+  	right: 20.89%;
+  	bottom: 20.89%;
+  	left: 20.83%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.current {
+  	position: absolute;
+  	top: 164px;
+  	left: 25px;
+  	font-size: 13px;
+  	line-height: 22px;
+  	font-family: Inter;
+  	flex-shrink: 0;
+}
+.arrowDropDownIcon {
+  	position: absolute;
+  	top: 164px;
+  	left: 77px;
+  	width: 16px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.hephzibahSchoolInc2 {
+  	position: absolute;
+  	top: 443px;
+  	left: 65px;
+  	font-size: 8px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-weight: 300;
+  	text-align: right;
+  	flex-shrink: 0;
+}
+.hephzibahSchoolInc3 {
+  	position: absolute;
+  	top: 443px;
+  	left: 245px;
+  	font-size: 8px;
+  	letter-spacing: 0.4px;
+  	line-height: 16px;
+  	font-weight: 300;
+  	text-align: right;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.plus3 {
+  	position: absolute;
+  	top: 127px;
+  	left: 299px;
+  	width: 29px;
+  	height: 29px;
+  	overflow: hidden;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.libraryChild4 {
+  	position: absolute;
+  	top: 638px;
+  	left: 0px;
+  	box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.07);
+  	border-radius: 17px;
+  	background-color: #fff;
+  	width: 390px;
+  	height: 104px;
+  	flex-shrink: 0;
+}
+.libraryChild5 {
+  	position: absolute;
+  	top: 654px;
+  	left: 14px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #8ebda7;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.libraryChild6 {
+  	position: absolute;
+  	top: 654px;
+  	left: 106px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #9bd882;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.libraryChild7 {
+  	position: absolute;
+  	top: 654px;
+  	left: 200px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #7ed957;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.libraryChild8 {
+  	position: absolute;
+  	top: 654px;
+  	left: 292px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #86b472;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.subject {
+  	position: absolute;
+  	top: 694px;
+  	left: 115px;
+  	font-size: 11px;
+  	line-height: 22px;
+  	font-family: Inter;
+  	color: #43553c;
+  	display: inline-block;
+  	width: 63px;
+  	height: 22px;
+  	flex-shrink: 0;
+}
+.book {
+  	position: absolute;
+  	top: 671px;
+  	left: 136px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon13 {
+  	position: absolute;
+  	height: 83.5%;
+  	width: 66.5%;
+  	top: 8.33%;
+  	right: 16.83%;
+  	bottom: 8.17%;
+  	left: 16.67%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.notes {
+  	position: absolute;
+  	top: 694px;
+  	left: 207px;
+  	font-size: 11px;
+  	line-height: 22px;
+  	font-family: Inter;
+  	color: rgba(0, 0, 0, 0.65);
+  	display: inline-block;
+  	width: 68px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.penTool {
+  	position: absolute;
+  	top: 671px;
+  	left: 231px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon14 {
+  	position: absolute;
+  	height: 83.5%;
+  	width: 83.5%;
+  	top: 8.33%;
+  	right: 8.17%;
+  	bottom: 8.17%;
+  	left: 8.33%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.lessonplan {
+  	position: absolute;
+  	top: 694px;
+  	left: -8px;
+  	font-size: 11px;
+  	line-height: 22px;
+  	font-family: Inter;
+  	color: #3f594d;
+  	display: inline-block;
+  	width: 125px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.table {
+  	position: absolute;
+  	top: 671px;
+  	left: 45px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon15 {
+  	position: absolute;
+  	height: 75%;
+  	width: 75%;
+  	top: 12.5%;
+  	right: 12.5%;
+  	bottom: 12.5%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.activities {
+  	position: absolute;
+  	top: 694px;
+  	left: 269px;
+  	font-size: 11px;
+  	line-height: 22px;
+  	font-family: Inter;
+  	color: #3a4138;
+  	display: inline-block;
+  	width: 128px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.box {
+  	position: absolute;
+  	top: 671px;
+  	left: 323px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon16 {
+  	position: absolute;
+  	height: 83.5%;
+  	width: 75%;
+  	top: 8.34%;
+  	right: 12.5%;
+  	bottom: 8.16%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+
+global.css
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro:ital,wght@0,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,600&display=swap');
+
+body {
+  	margin: 0; line-height: normal;
+}
+
+PortalPopup.tsx
+import { CSSProperties, RefObject, FunctionComponent, ReactNode, useMemo, useCallback, useState, useRef, useEffect} from "react";
+
+import { createPortal } from "react-dom";
+import styles from './PortalPopup.module.css';
+
+type PopupProps = {
+  	overlayColor?: string;
+  	placement?:
+  	| "Centered"
+  	| "Top left"
+  	| "Top center"
+  	| "Top right"
+  	| "Bottom left"
+  	| "Bottom center"
+  	| "Bottom right";
+  	onOutsideClick?: () => void;
+  	zIndex?: number;
+  	children: ReactNode;
+  	left?: number;
+  	right?: number;
+  	top?: number;
+  	bottom?: number;
+  	relativeLayerRef?: RefObject<HTMLElement>;
+    		};
+    		
+    		const PortalPopup: FunctionComponent<PopupProps> = ({
+      			children,
+      			overlayColor,
+      			placement = "Centered",
+      			onOutsideClick,
+      			zIndex = 100,
+      			left = 0,
+      			right = 0,
+      			top = 0,
+      			bottom = 0,
+      			relativeLayerRef
+    		}) => {
+      			const relContainerRef = useRef<HTMLDivElement>(null);
+        				const [relativeStyle, setRelativeStyle] = useState<CSSProperties>({
+          					opacity: 0,
+        				});
+        				const popupStyle = useMemo(() => {
+          					const style: CSSProperties = {};
+          					style.zIndex = zIndex;
+          					
+          					if (overlayColor) {
+            						style.backgroundColor = overlayColor;
+          					}
+          					if(!relativeLayerRef?.current) {
+            						switch (placement) {
+              							case "Centered":
+                								style.alignItems = "center";
+                								style.justifyContent = "center";
+                								break;
+              							case "Top left":
+                								style.alignItems = "flex-start";
+                								break;
+              							case "Top center":
+                								style.alignItems = "center";
+                								break;
+              							case "Top right":
+                								style.alignItems = "flex-end";
+                								break;
+              							case "Bottom left":
+                								style.alignItems = "flex-start";
+                								style.justifyContent = "flex-end";
+                								break;
+              							case "Bottom center":
+                								style.alignItems = "center";
+                								style.justifyContent = "flex-end";
+                								break;
+              							case "Bottom right":
+                								style.alignItems = "flex-end";
+                								style.justifyContent = "flex-end";
+                								break;
+            						}
+          					}
+          					style.opacity = 1;
+          					return style;
+          					}, [placement, overlayColor, zIndex, relativeLayerRef?.current]);
+            						
+            						const setPosition = useCallback(()=>{
+              							const relativeItem = relativeLayerRef?.current?.getBoundingClientRect();
+              							const containerItem = relContainerRef?.current?.getBoundingClientRect();
+              							const style: CSSProperties = { opacity: 1 };
+              							if(relativeItem && containerItem) {
+                								const {x: relativeX, y: relativeY, width: relativeW, height: relativeH} = relativeItem;
+                								const {width: containerW, height: containerH} = containerItem;
+                								style.position = "absolute";
+                								switch (placement) {
+                  									case "Top left":
+                    										style.top = relativeY-containerH-top;
+                    										style.left = relativeX+left;
+                    										break;
+                  									case "Top right":
+                    										style.top = relativeY-containerH-top;
+                    										style.left = relativeX+relativeW-containerW-right;
+                    										break;
+                  									case "Bottom left":
+                    										style.top = relativeY+relativeH+bottom;
+                    										style.left = relativeX+left;
+                    										break;
+                  									case "Bottom right":
+                    										style.top = relativeY+relativeH+bottom;
+                    										style.left = relativeX+relativeW-containerW-right;
+                    										break;
+                								}
+                								
+                								setRelativeStyle(style)
+              							} else {
+                								style.maxWidth = "90%";
+                								style.maxHeight = "90%";
+                								setRelativeStyle(style)
+              							}
+            						},[left, right, top, bottom, placement, relativeLayerRef?.current, relContainerRef?.current])
+              							
+              							useEffect(() => {
+                								setPosition();
+                								
+                								window.addEventListener('resize', setPosition)
+                								window.addEventListener('scroll', setPosition, true)
+                								
+                								return () => {
+                  									window.removeEventListener('resize', setPosition)
+                  									window.removeEventListener('scroll', setPosition, true)
+                								}
+              							}, [setPosition]);
+            						
+            						
+            						const onOverlayClick = useCallback(
+              							(e: React.MouseEvent<HTMLDivElement>) => {
+                								if (onOutsideClick && (e.target as HTMLElement).classList.contains(styles.portalPopupOverlay)) {
+                  									onOutsideClick();
+                								}
+                								e.stopPropagation();
+              							},
+              							[onOutsideClick]
+              							);
+              							
+              							
+              							return (
+                								<Portal>
+                  									<div
+                    										className={styles.portalPopupOverlay}
+                    										style={popupStyle}
+                    										onClick={onOverlayClick}>
+                    										<div ref={relContainerRef} style={relativeStyle}>
+                      											{children}
+                    										</div>
+                  									</div>
+                								</Portal>
+              							);
+              							};
+              							
+              							type PortalProps = {
+                								children: ReactNode;
+                								containerId?: string;
+              							};
+              							
+              							export const Portal: FunctionComponent<PortalProps> = ({
+                								children,
+                								containerId = "portals",
+              							}) => {
+                								
+                								let portalsDiv = document.getElementById(containerId);
+                								if (!portalsDiv) {
+                  									portalsDiv = document.createElement("div");
+                  									portalsDiv.setAttribute("id", containerId);
+                  									document.body.appendChild(portalsDiv);
+                								}
+                								
+                								return createPortal(children, portalsDiv);
+              							};
+              							
+              							export default PortalPopup;
+              							
+PortalPopup.module.css
+.portalPopupOverlay {
+  	display: flex;
+  	flex-direction: column;
+  	position: fixed;
+  	inset: 0;
+}
+
+Create.tsx
+import { FunctionComponent, useCallback } from 'react';
+import styles from './Create.module.css';
+
+export type CreateType = {
+  	className?: string;
+}
+
+
+
+const Create: FunctionComponent<CreateType> = ({ className="" }) => {
+  	
+  	const onRectangleClick = useCallback(() => {
+    		// Add your code here
+  	}, []);
+  	
+  	return (
+    		<div className={[styles.create, className].join(' ')}>
+      			<div className={styles.createChild} />
+      			<div className={styles.createItem} onClick={onRectangleClick} />
+      			<div className={styles.createInner} onClick={onRectangleClick} />
+      			<div className={styles.rectangleDiv} onClick={onRectangleClick} />
+      			<div className={styles.createChild2} onClick={onRectangleClick} />
+      			<div className={styles.subject}>Subject</div>
+      			<div className={styles.book}>
+        				<img className={styles.icon} alt="" />
+      			</div>
+      			<div className={styles.notes}>Notes</div>
+      			<div className={styles.penTool}>
+        				<img className={styles.icon2} alt="" />
+      			</div>
+      			<div className={styles.lessonplan}>Lessonplan</div>
+      			<div className={styles.table}>
+        				<img className={styles.icon3} alt="" />
+      			</div>
+      			<div className={styles.activities}>Activities</div>
+      			<div className={styles.box}>
+        				<img className={styles.icon4} alt="" />
+      			</div>
+    		</div>);
+};
+
+export default Create ;
+
+
+Create.module.css
+.create {
+  	width: 390px;
+  	height: 844px;
+  	position: relative;
+  	background-color: #fff;
+  	overflow: hidden;
+  	max-width: 100%;
+  	max-height: 100%;
+  	text-align: center;
+  	font-size: 11px;
+  	color: #43553c;
+  	font-family: Inter;
+}
+.createChild {
+  	position: absolute;
+  	top: 631px;
+  	left: 1px;
+  	box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.07);
+  	border-radius: 17px;
+  	background-color: #fff;
+  	width: 390px;
+  	height: 104px;
+  	flex-shrink: 0;
+}
+.createItem {
+  	position: absolute;
+  	top: 647px;
+  	left: 15px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #8ebda7;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.createInner {
+  	position: absolute;
+  	top: 647px;
+  	left: 107px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #9bd882;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.rectangleDiv {
+  	position: absolute;
+  	top: 647px;
+  	left: 201px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #7ed957;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.createChild2 {
+  	position: absolute;
+  	top: 647px;
+  	left: 293px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.34) inset;
+  	border-radius: 16px;
+  	background-color: #86b472;
+  	width: 82px;
+  	height: 71px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.subject {
+  	position: absolute;
+  	top: 687px;
+  	left: 116px;
+  	line-height: 22px;
+  	display: inline-block;
+  	width: 63px;
+  	height: 22px;
+  	flex-shrink: 0;
+}
+.book {
+  	position: absolute;
+  	top: 664px;
+  	left: 137px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon {
+  	position: absolute;
+  	height: 83.5%;
+  	width: 66.5%;
+  	top: 8.33%;
+  	right: 16.83%;
+  	bottom: 8.17%;
+  	left: 16.67%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.notes {
+  	position: absolute;
+  	top: 687px;
+  	left: 208px;
+  	line-height: 22px;
+  	color: rgba(0, 0, 0, 0.65);
+  	display: inline-block;
+  	width: 68px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.penTool {
+  	position: absolute;
+  	top: 664px;
+  	left: 232px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon2 {
+  	position: absolute;
+  	height: 83.5%;
+  	width: 83.5%;
+  	top: 8.33%;
+  	right: 8.17%;
+  	bottom: 8.17%;
+  	left: 8.33%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.lessonplan {
+  	position: absolute;
+  	top: 687px;
+  	left: -7px;
+  	line-height: 22px;
+  	color: #3f594d;
+  	display: inline-block;
+  	width: 125px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.table {
+  	position: absolute;
+  	top: 664px;
+  	left: 46px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon3 {
+  	position: absolute;
+  	height: 75%;
+  	width: 75%;
+  	top: 12.5%;
+  	right: 12.5%;
+  	bottom: 12.5%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.activities {
+  	position: absolute;
+  	top: 687px;
+  	left: 270px;
+  	line-height: 22px;
+  	color: #3a4138;
+  	display: inline-block;
+  	width: 128px;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.box {
+  	position: absolute;
+  	top: 664px;
+  	left: 324px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon4 {
+  	position: absolute;
+  	height: 83.5%;
+  	width: 75%;
+  	top: 8.34%;
+  	right: 12.5%;
+  	bottom: 8.16%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+

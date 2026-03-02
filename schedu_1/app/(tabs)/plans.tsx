@@ -1,25 +1,15 @@
-import UserIcon from '@/assets/dashboard/icons/User.svg';
+import { SharedHeader } from '@/components/SharedHeader';
+import { PLANS_DATA, SECTIONS_DATA } from '@/constants/mockData';
 import { Ionicons } from '@expo/vector-icons';
 import React from 'react';
-import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-
-const s11 = require('@/assets/dashboard/images/S (1) 1.png');
 
 export default function PlansScreen() {
   return (
     <SafeAreaView style={styles.container}>
+      <SharedHeader />
       <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
-        {/* Header */}
-        <View style={styles.header}>
-          <Image source={s11} style={styles.logo} />
-          <Text style={styles.headerTitle}>SCHEDU</Text>
-          <View style={styles.userIconContainer}>
-            <UserIcon width={28} height={30} color="#B3B3B3" />
-          </View>
-        </View>
-
-        {/* Page Title */}
         <View style={styles.titleRow}>
             <Text style={styles.pageTitle}>Plans</Text>
             <TouchableOpacity>
@@ -27,71 +17,39 @@ export default function PlansScreen() {
             </TouchableOpacity>
         </View>
 
-        {/* Current Section */}
         <View style={styles.sectionHeader}>
             <Text style={styles.sectionHeaderText}>Current</Text>
             <Ionicons name="chevron-down" size={16} color="#000" />
         </View>
 
-        {/* Plans List */}
         <View style={styles.plansList}>
-            {/* Card 1 */}
-            <View style={[styles.planCard, { backgroundColor: '#fe76a8' }]}>
-                <Text style={styles.subjectCode}>MAT10</Text>
-                <Text style={styles.gradeSection}>Grade 10 - Einstein</Text>
-            </View>
-
-            {/* Card 2 */}
-            <View style={[styles.planCard, { backgroundColor: '#fe76a8' }]}>
-                <Text style={styles.subjectCode}>MAT10</Text>
-                <Text style={styles.gradeSection}>Grade 10 - Newton</Text>
-            </View>
-
-            {/* Card 3 */}
-            <View style={[styles.planCard, { backgroundColor: '#5290d9' }]}>
-                <Text style={styles.subjectCode}>SCI8</Text>
-                <Text style={styles.gradeSection}>Grade 8 - Tesla</Text>
-            </View>
-
-            {/* Card 4 */}
-            <View style={[styles.planCard, { backgroundColor: '#7a95b4' }]}>
-                <Text style={styles.subjectCode}>SCI9</Text>
-                <Text style={styles.gradeSection}>Grade 9 - Bohr</Text>
-            </View>
-
-            {/* Card 5 */}
-            <View style={[styles.planCard, { backgroundColor: '#5290d9' }]}>
-                <Text style={styles.subjectCode}>SCI9</Text>
-                <Text style={styles.gradeSection}>Grade 9 - Curie</Text>
-            </View>
+            {PLANS_DATA.map((plan) => (
+              <View key={plan.id} style={[styles.planCard, { backgroundColor: plan.color }]}>
+                  <Text style={styles.subjectCode}>{plan.subjectCode}</Text>
+                  <Text style={styles.gradeSection}>{plan.gradeSection}</Text>
+              </View>
+            ))}
         </View>
 
-        {/* Sections Section */}
         <View style={styles.sectionHeader}>
             <Text style={styles.sectionHeaderText}>Sections</Text>
             <View style={styles.sectionActions}>
                  <TouchableOpacity>
                     <Ionicons name="options-outline" size={20} color="#000" />
                  </TouchableOpacity>
-                 <TouchableOpacity style={styles.plusButton}>
+                 <TouchableOpacity>
                     <Ionicons name="add" size={20} color="#000" />
                  </TouchableOpacity>
             </View>
         </View>
 
-        {/* Sections List */}
         <View style={styles.sectionsList}>
-            <View style={styles.sectionItem}>
-                <Text style={styles.sectionItemText}>Grade 8 - Tesla</Text>
-            </View>
-            <View style={styles.sectionItem}>
-                <Text style={styles.sectionItemText}>Grade 9 - Bohr</Text>
-            </View>
-             <View style={styles.sectionItem}>
-                <Text style={styles.sectionItemText}>Grade 9 - Curie</Text>
-            </View>
+            {SECTIONS_DATA.map((section) => (
+              <View key={section.id} style={styles.sectionItem}>
+                  <Text style={styles.sectionItemText}>{section.name}</Text>
+              </View>
+            ))}
         </View>
-
       </ScrollView>
     </SafeAreaView>
   );
