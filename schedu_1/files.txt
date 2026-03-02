@@ -1,0 +1,475 @@
+import React, { useState } from 'react';
+import { User, ChevronLeft, Check, Plus, Home, Calendar, BookOpen, Bookmark, X } from 'lucide-react';
+
+export default function App() {
+  // --- STATE MANAGEMENT ---
+  // 1. Initial State is Unfilled
+  const [formData, setFormData] = useState({
+    academicYear: '',
+    termCategory: '',
+    durationFrom: '',
+    durationTo: '',
+    subject: '',
+    section: '',
+    writtenWork: '',
+    performanceTask: '',
+    exam: '',
+    extraRequirements: ''
+  });
+
+  // Toggles for sections
+  const [showDuration, setShowDuration] = useState(false);
+  const [showSchedule, setShowSchedule] = useState(false);
+
+  // 5 Days mapping as requested
+  const daysOfWeek = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'];
+  const fullDays = { 'Mon': 'Monday', 'Tue': 'Tuesday', 'Wed': 'Wednesday', 'Thu': 'Thursday', 'Fri': 'Friday' };
+  
+  // Selected Days State (starts empty)
+  const [selectedDays, setSelectedDays] = useState([]);
+
+  // Schedule Blocks State (starts empty)
+  const [schedules, setSchedules] = useState({});
+
+  // Which day is currently prompting for "Lecture or Laboratory?"
+  const [typePromptDay, setTypePromptDay] = useState(null);
+
+  // Active custom time picker popup
+  const [activeTimePicker, setActiveTimePicker] = useState(null);
+
+  // Special Dates State
+  const [specialDates, setSpecialDates] = useState([]);
+  const [newSpecialDate, setNewSpecialDate] = useState('');
+  const [newSpecialReason, setNewSpecialReason] = useState('');
+
+  // --- HANDLERS ---
+  const handleInputChange = (field, value) => {
+    setFormData(prev => ({ ...prev, [field]: value }));
+  };
+
+  const toggleDay = (day) => {
+    setSelectedDays(prev => {
+      if (prev.includes(day)) {
+        // Remove day and clean up its schedule
+        const newSchedules = { ...schedules };
+        delete newSchedules[day];
+        setSchedules(newSchedules);
+        return prev.filter(d => d !== day);
+      }
+      return [...prev, day];
+    });
+  };
+
+  const confirmAddBlock = (day, type) => {
+    setSchedules(prev => ({
+      ...prev,
+      [day]: [...(prev[day] || []), { id: Date.now(), start: '', end: '', type }]
+    }));
+    setTypePromptDay(null); // Close prompt
+  };
+
+  const updateScheduleBlock = (day, id, field, value) => {
+    setSchedules(prev => ({
+      ...prev,
+      [day]: prev[day].map(block => block.id === id ? { ...block, [field]: value } : block)
+    }));
+  };
+
+  const removeScheduleBlock = (day, id) => {
+    setSchedules(prev => ({
+      ...prev,
+      [day]: prev[day].filter(block => block.id !== id)
+    }));
+  };
+
+  const addSpecialDate = () => {
+    if (newSpecialDate.trim() && newSpecialReason.trim()) {
+      setSpecialDates(prev => [...prev, { id: Date.now(), date: newSpecialDate, reason: newSpecialReason }]);
+      setNewSpecialDate('');
+      setNewSpecialReason('');
+    }
+  };
+
+  const removeSpecialDate = (id) => {
+    setSpecialDates(prev => prev.filter(item => item.id !== id));
+  };
+
+  return (
+    <div className="w-full h-[100dvh] bg-white overflow-hidden flex flex-col relative font-sans">
+      
+      {/* Invisible Overlay to close dropdowns when clicking outside */}
+      {(typePromptDay || activeTimePicker) && (
+        <div className="absolute inset-0 z-40" onClick={() => { setTypePromptDay(null); setActiveTimePicker(null); }}></div>
+      )}
+
+      {/* Top Header */}
+      <header className="flex items-center justify-between px-5 py-4 border-b border-gray-100 z-10 bg-white">
+        <div className="flex items-center gap-2">
+          <div className="flex flex-col gap-[2px] w-6 h-6">
+            <div className="w-full h-1.5 bg-[#61C247] rounded-sm"></div>
+            <div className="w-4 h-1.5 bg-[#61C247] rounded-sm"></div>
+            <div className="w-2 h-3 bg-[#61C247] rounded-sm"></div>
+          </div>
+          <span className="text-[#A1A1A1] text-2xl tracking-[0.15em] font-light">FORADI</span>
+        </div>
+        <User className="text-[#A1A1A1]" size={28} strokeWidth={1.5} />
+      </header>
+
+      {/* Sub Header */}
+      <div className="flex items-center justify-between px-4 py-4 z-10 bg-white">
+        <div className="flex items-center gap-1">
+          <ChevronLeft size={20} className="text-black" strokeWidth={2.5} />
+          <h1 className="text-lg font-bold text-black ml-1">Create Lessonplan</h1>
+        </div>
+        <button onClick={() => console.log('Saved Data:', { formData, selectedDays, schedules, specialDates })}>
+          <Check size={24} className="text-black" strokeWidth={2} />
+        </button>
+      </div>
+
+      {/* Scrollable Content Area */}
+      <main className="flex-1 overflow-y-auto px-5 pb-24 relative z-0">
+        
+        {/* Overview Section */}
+        <section className="mb-6">
+          <h2 className="text-sm text-black mb-3">Overview</h2>
+          
+          <div className="flex gap-2 mb-4">
+            {/* Academic Year Input */}
+            <input 
+              placeholder="Academic Year"
+              value={formData.academicYear}
+              onChange={(e) => handleInputChange('academicYear', e.target.value)}
+              className="flex-1 bg-[#F9F9F9] text-[#A1A1A1] text-xs py-2.5 px-2 rounded-md outline-none text-center placeholder-[#C4C4C4]"
+            />
+            
+            {/* Term & Category Dropdown */}
+            <div className="flex-1 relative">
+              <select
+                value={formData.termCategory}
+                onChange={(e) => handleInputChange('termCategory', e.target.value)}
+                className="w-full bg-[#F9F9F9] text-[#A1A1A1] text-xs py-2.5 px-2 rounded-md outline-none text-center appearance-none cursor-pointer"
+              >
+                <option value="" disabled>Term & Category</option>
+                <option value="Quarter">Quarter</option>
+              </select>
+            </div>
+
+            {/* Duration Toggle Button */}
+            <button 
+              onClick={() => setShowDuration(!showDuration)}
+              className={`flex-1 text-xs py-2.5 px-2 rounded-md flex items-center justify-center font-medium transition-colors ${
+                showDuration ? 'bg-[#7A7A7A] text-white' : 'bg-[#F9F9F9] text-[#C4C4C4]'
+              }`}
+            >
+              Duration
+            </button>
+          </div>
+
+          {/* Conditional Duration Dates (Native Date Pickers) */}
+          {showDuration && (
+            <div className="flex items-center gap-3 mb-4 px-1 animate-in fade-in slide-in-from-top-2 duration-200">
+              <span className="text-[10px] text-[#A1A1A1]">from</span>
+              <input 
+                type="date" 
+                value={formData.durationFrom} 
+                onChange={(e) => handleInputChange('durationFrom', e.target.value)}
+                className="flex-1 bg-white border border-gray-200 text-[#888888] text-[10px] py-2 px-2 rounded-full outline-none text-center"
+              />
+              <span className="text-[10px] text-[#A1A1A1]">to</span>
+              <input 
+                type="date" 
+                value={formData.durationTo} 
+                onChange={(e) => handleInputChange('durationTo', e.target.value)}
+                className="flex-1 bg-white border border-gray-200 text-[#888888] text-[10px] py-2 px-2 rounded-full outline-none text-center"
+              />
+            </div>
+          )}
+
+          <div className="flex gap-2 mb-3">
+            <input 
+              type="text" 
+              placeholder="Subject" 
+              value={formData.subject}
+              onChange={(e) => handleInputChange('subject', e.target.value)}
+              className="w-1/2 bg-[#F9F9F9] text-[#888888] text-xs py-2.5 px-3 rounded-md outline-none text-center placeholder-[#C4C4C4]"
+            />
+            <input 
+              type="text" 
+              placeholder="Section" 
+              value={formData.section}
+              onChange={(e) => handleInputChange('section', e.target.value)}
+              className="w-1/2 bg-[#F9F9F9] text-[#888888] text-xs py-2.5 px-3 rounded-md outline-none text-center placeholder-[#C4C4C4]"
+            />
+          </div>
+
+          {/* Schedule Toggle Button */}
+          <button 
+            onClick={() => setShowSchedule(!showSchedule)}
+            className={`w-full text-xs py-2.5 px-3 rounded-md text-center font-medium mb-4 transition-colors ${
+              showSchedule ? 'bg-[#828282] text-white' : 'bg-[#F9F9F9] text-[#C4C4C4]'
+            }`}
+          >
+            Schedule
+          </button>
+
+          {/* Conditional Schedule Section */}
+          {showSchedule && (
+            <div className="animate-in fade-in slide-in-from-top-2 duration-200">
+              {/* 5 Days Selection */}
+              <div className="flex gap-1.5 mb-5">
+                {daysOfWeek.map((day) => {
+                  const isActive = selectedDays.includes(day);
+                  return (
+                    <button 
+                      key={day} 
+                      onClick={() => toggleDay(day)}
+                      className={`flex-1 py-1.5 rounded text-[11px] text-center border transition-colors ${
+                        isActive 
+                          ? 'bg-[#D9D9D9] text-white border-transparent' 
+                          : 'bg-white text-[#C4C4C4] border-gray-200'
+                      }`}
+                    >
+                      {day}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* Dynamic Schedule List based on selectedDays */}
+              <div className="flex flex-col gap-4">
+                {selectedDays.map(day => (
+                  <div key={day} className="flex flex-col gap-2 w-full">
+                    
+                    <div className="flex items-center gap-1.5 w-full flex-wrap relative">
+                      <span className="text-[10px] text-[#888888] w-[50px] shrink-0 text-center font-medium">{fullDays[day]}</span>
+                      
+                      {schedules[day]?.map((block, index) => {
+                        const borderColor = block.type === 'Laboratory' ? 'border-[#E37575]' : 'border-[#75A5E3]';
+
+                        return (
+                          <React.Fragment key={block.id}>
+                            {index > 0 && <span className="text-[9px] text-[#A1A1A1] mx-0.5">and</span>}
+                            
+                            {/* Colored Time Box with Custom Time Popups */}
+                            <div className={`border ${borderColor} rounded-md flex items-center gap-1 p-0.5 bg-white relative group z-50`}>
+                              
+                              {/* Start Time Popup */}
+                              <div className="relative">
+                                <input 
+                                  type="text"
+                                  readOnly
+                                  value={block.start}
+                                  onClick={() => setActiveTimePicker({ day, id: block.id, field: 'start' })}
+                                  placeholder="Start"
+                                  className="border border-gray-200 rounded-full px-1 py-1 text-[9px] text-[#888888] w-[50px] text-center outline-none bg-transparent cursor-pointer"
+                                />
+                                {activeTimePicker?.day === day && activeTimePicker?.id === block.id && activeTimePicker?.field === 'start' && (
+                                  <div className="absolute top-full left-0 mt-1 bg-white border border-gray-200 shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-md z-[60] max-h-32 overflow-y-auto w-16">
+                                    {['7AM', '8AM', '9AM', '10AM', '11AM', '12PM', '1PM', '2PM', '3PM', '4PM', '5PM', '6PM'].map(time => (
+                                      <button key={time} onClick={() => { updateScheduleBlock(day, block.id, 'start', time); setActiveTimePicker(null); }} className="block w-full text-[10px] text-[#666] text-center py-1.5 hover:bg-gray-50 border-b border-gray-50 last:border-0">
+                                        {time}
+                                      </button>
+                                    ))}
+                                  </div>
+                                )}
+                              </div>
+
+                              <span className="text-[9px] text-[#A1A1A1]">to</span>
+
+                              {/* End Time Popup */}
+                              <div className="relative">
+                                <input 
+                                  type="text"
+                                  readOnly
+                                  value={block.end}
+                                  onClick={() => setActiveTimePicker({ day, id: block.id, field: 'end' })}
+                                  placeholder="End"
+                                  className="border border-gray-200 rounded-full px-1 py-1 text-[9px] text-[#888888] w-[50px] text-center outline-none bg-transparent cursor-pointer"
+                                />
+                                {activeTimePicker?.day === day && activeTimePicker?.id === block.id && activeTimePicker?.field === 'end' && (
+                                  <div className="absolute top-full right-0 mt-1 bg-white border border-gray-200 shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-md z-[60] max-h-32 overflow-y-auto w-16">
+                                    {['7AM', '8AM', '9AM', '10AM', '11AM', '12PM', '1PM', '2PM', '3PM', '4PM', '5PM', '6PM'].map(time => (
+                                      <button key={time} onClick={() => { updateScheduleBlock(day, block.id, 'end', time); setActiveTimePicker(null); }} className="block w-full text-[10px] text-[#666] text-center py-1.5 hover:bg-gray-50 border-b border-gray-50 last:border-0">
+                                        {time}
+                                      </button>
+                                    ))}
+                                  </div>
+                                )}
+                              </div>
+                              
+                              {/* Remove block button (shows on hover/active) */}
+                              <button 
+                                onClick={() => removeScheduleBlock(day, block.id)}
+                                className="absolute -top-1.5 -right-1.5 bg-red-100 text-red-600 rounded-full p-0.5 shadow-sm opacity-0 group-hover:opacity-100 transition-opacity z-[60]"
+                              >
+                                <X size={10} strokeWidth={3} />
+                              </button>
+                            </div>
+                          </React.Fragment>
+                        );
+                      })}
+                      
+                      {/* Plus Button & Type Prompt Popup */}
+                      <div className="relative ml-auto">
+                        <button 
+                          onClick={() => setTypePromptDay(day)}
+                          className="text-[#C4C4C4] p-1 hover:text-[#828282] transition-colors"
+                        >
+                          <Plus size={16} strokeWidth={2} />
+                        </button>
+
+                        {/* Lecture / Lab Popup */}
+                        {typePromptDay === day && (
+                          <div className="absolute right-0 top-full mt-1 bg-white border border-gray-200 shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-md z-[60] flex flex-col w-28 overflow-hidden">
+                            <button 
+                              onClick={() => confirmAddBlock(day, 'Lecture')}
+                              className="text-[10px] py-2.5 text-[#666666] hover:bg-[#F0F5FF] border-b border-gray-100 text-center flex items-center justify-center gap-1"
+                            >
+                              <div className="w-2 h-2 rounded-full bg-[#75A5E3]"></div>
+                              Lecture
+                            </button>
+                            <button 
+                              onClick={() => confirmAddBlock(day, 'Laboratory')}
+                              className="text-[10px] py-2.5 text-[#666666] hover:bg-[#FFF0F0] text-center flex items-center justify-center gap-1"
+                            >
+                              <div className="w-2 h-2 rounded-full bg-[#E37575]"></div>
+                              Laboratory
+                            </button>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+                
+                {selectedDays.length === 0 && (
+                  <div className="text-center text-xs text-gray-400 italic py-2">Select days to assign schedules.</div>
+                )}
+              </div>
+            </div>
+          )}
+        </section>
+
+        <hr className="border-t border-gray-100 mb-5 mt-6" />
+
+        {/* Minimum Requirements Section */}
+        <section className="mb-6">
+          <h2 className="text-sm text-black mb-3">Minimum Requirements</h2>
+          <div className="flex gap-2">
+            <input 
+              type="text" 
+              placeholder="Written Work" 
+              value={formData.writtenWork}
+              onChange={(e) => handleInputChange('writtenWork', e.target.value)}
+              className="flex-1 bg-[#F9F9F9] text-[#888888] text-xs py-2.5 px-2 rounded-md outline-none text-center placeholder-[#C4C4C4]"
+            />
+            <input 
+              type="text" 
+              placeholder="Performance Task" 
+              value={formData.performanceTask}
+              onChange={(e) => handleInputChange('performanceTask', e.target.value)}
+              className="flex-1 bg-[#F9F9F9] text-[#888888] text-xs py-2.5 px-2 rounded-md outline-none text-center placeholder-[#C4C4C4]"
+            />
+            <input 
+              type="text" 
+              placeholder="Exam" 
+              value={formData.exam}
+              onChange={(e) => handleInputChange('exam', e.target.value)}
+              className="flex-1 bg-[#F9F9F9] text-[#888888] text-xs py-2.5 px-2 rounded-md outline-none text-center placeholder-[#C4C4C4]"
+            />
+          </div>
+        </section>
+
+        <hr className="border-t border-gray-100 mb-5" />
+
+        {/* Extra Requirements Section */}
+        <section className="mb-6">
+          <h2 className="text-sm text-black mb-3">Extra Requirements</h2>
+          <textarea 
+            placeholder="(1 Seatwork per Lesson, 1 activity per laboratory session, one long project making week, etc.)"
+            value={formData.extraRequirements}
+            onChange={(e) => handleInputChange('extraRequirements', e.target.value)}
+            className="w-full bg-[#F9F9F9] text-[#888888] text-xs italic py-3 px-4 rounded-md outline-none resize-none h-28 placeholder-[#C4C4C4]"
+          ></textarea>
+        </section>
+
+        <hr className="border-t border-gray-100 mb-5" />
+
+        {/* Special Dates Section */}
+        <section className="mb-6">
+          <h2 className="text-sm text-black mb-3">Special Dates (Optional)</h2>
+          
+          <div className="flex gap-2 items-center mb-3">
+            <input 
+              type="date" 
+              value={newSpecialDate}
+              onChange={(e) => setNewSpecialDate(e.target.value)}
+              className="w-[120px] bg-white border border-gray-200 text-[#888888] text-[10px] py-2 px-2 rounded-full outline-none text-center"
+            />
+            <input 
+              type="text" 
+              placeholder="Reason" 
+              value={newSpecialReason}
+              onChange={(e) => setNewSpecialReason(e.target.value)}
+              onKeyDown={(e) => e.key === 'Enter' && addSpecialDate()}
+              className="flex-1 bg-[#F9F9F9] text-[#888888] text-xs py-2.5 px-3 rounded-md outline-none text-center placeholder-[#C4C4C4]"
+            />
+            <button 
+              onClick={addSpecialDate}
+              disabled={!newSpecialDate || !newSpecialReason.trim()}
+              className={`p-1 pr-0 transition-colors ${(!newSpecialDate || !newSpecialReason.trim()) ? 'text-gray-200' : 'text-[#61C247]'}`}
+            >
+              <Plus size={20} strokeWidth={2.5} />
+            </button>
+          </div>
+
+          {/* Render Added Special Dates */}
+          {specialDates.length > 0 && (
+            <div className="flex flex-col gap-2 mt-4">
+              {specialDates.map((item) => (
+                <div key={item.id} className="flex gap-2 items-center bg-gray-50 p-2 rounded-md border border-gray-100">
+                  <div className="w-[110px] text-center text-[#888888] text-[10px] font-medium">{item.date}</div>
+                  <div className="flex-1 text-[#666] text-xs pl-2 border-l border-gray-200">{item.reason}</div>
+                  <button onClick={() => removeSpecialDate(item.id)} className="text-red-400 hover:text-red-600 p-1">
+                    <X size={14} strokeWidth={2} />
+                  </button>
+                </div>
+              ))}
+            </div>
+          )}
+
+        </section>
+
+      </main>
+
+      {/* Bottom Navigation */}
+      <nav className="border-t border-gray-200 bg-white flex justify-between px-6 py-3 absolute bottom-0 w-full z-20 shadow-[0_-4px_10px_rgba(0,0,0,0.02)]">
+        <button className="flex flex-col items-center gap-1 text-[#666666]">
+          <Home size={22} strokeWidth={1.5} />
+          <span className="text-[10px] font-medium">Home</span>
+        </button>
+        
+        <button className="flex flex-col items-center gap-1 text-[#666666]">
+          <Calendar size={22} strokeWidth={1.5} />
+          <span className="text-[10px] font-medium">Calendar</span>
+        </button>
+        
+        <button className="flex flex-col items-center gap-1 text-black">
+          <Plus size={24} strokeWidth={2.5} />
+          <span className="text-[10px] font-bold">Create</span>
+        </button>
+        
+        <button className="flex flex-col items-center gap-1 text-[#666666]">
+          <BookOpen size={22} strokeWidth={1.5} />
+          <span className="text-[10px] font-medium">Library</span>
+        </button>
+        
+        <button className="flex flex-col items-center gap-1 text-[#666666]">
+          <Bookmark size={22} strokeWidth={1.5} />
+          <span className="text-[10px] font-medium">Plans</span>
+        </button>
+      </nav>
+      
+    </div>
+  );
+}
