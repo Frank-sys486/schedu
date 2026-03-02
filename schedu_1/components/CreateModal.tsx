@@ -17,25 +17,25 @@ export default function CreateModal({ onClose }: { onClose?: () => void }) {
   return (
     <View style={styles.container}>
       <View style={styles.content}>
-        <TouchableOpacity style={styles.item} onPress={handlePressSubject}>
+        <TouchableOpacity style={styles.item}>
              <View style={[styles.iconBox, { backgroundColor: 'rgba(142, 189, 167, 0.3)' }]}>
+                <LessonPlanIcon width={24} height={24} color="#43553c" />
+             </View>
+             <Text style={styles.label}>Lessonplan</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.item} onPress={handlePressSubject}>
+             <View style={[styles.iconBox, { backgroundColor: 'rgba(155, 216, 130, 0.3)' }]}>
                 <SubjectIcon width={24} height={24} color="#43553c" />
              </View>
              <Text style={styles.label}>Subject</Text>
         </TouchableOpacity>
         
         <TouchableOpacity style={styles.item}>
-             <View style={[styles.iconBox, { backgroundColor: 'rgba(155, 216, 130, 0.3)' }]}>
+             <View style={[styles.iconBox, { backgroundColor: 'rgba(126, 217, 87, 0.3)' }]}>
                 <NotesIcon width={24} height={24} color="#43553c" />
              </View>
              <Text style={styles.label}>Notes</Text>
-        </TouchableOpacity>
-        
-        <TouchableOpacity style={styles.item}>
-             <View style={[styles.iconBox, { backgroundColor: 'rgba(126, 217, 87, 0.3)' }]}>
-                <LessonPlanIcon width={24} height={24} color="#43553c" />
-             </View>
-             <Text style={styles.label}>Lessonplan</Text>
         </TouchableOpacity>
         
         <TouchableOpacity style={styles.item}>

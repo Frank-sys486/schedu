@@ -1,34 +1,69 @@
 import ArrowDropDownIcon from '@/assets/icons/arrow_drop_down.svg';
+import CheckIcon from '@/assets/icons/Check.svg';
 import PlusIcon from '@/assets/icons/Plus.svg';
 import SearchIcon from '@/assets/icons/Search.svg';
 import SlidersIcon from '@/assets/icons/Sliders.svg';
 import UserIcon from '@/assets/icons/User.svg';
-import { Stack } from 'expo-router';
-import React from 'react';
-import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import ChevronsRight from '@/assets/dashboard/icons/Chevrons right.svg';
+import { useRouter, useLocalSearchParams, Stack } from 'expo-router';
+import React, { useState } from 'react';
+import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+
+const INSTITUTIONS = [
+  { id: 'hephzibah', name: 'Hephzibah School Inc.', image: require('../assets/images/hephzibah.png') },
+  { id: 'adventist', name: 'Adventist University of the Philippines', image: require('../assets/images/adventist.png') },
+];
 
 export default function ChooseInstitution() {
+  const router = useRouter();
+  const params = useLocalSearchParams();
+  const [selectedId, setSelectedId] = useState<string | null>(null);
+
+  const handleApplySelection = () => {
+    if (selectedId) {
+      const selected = INSTITUTIONS.find(i => i.id === selectedId);
+      router.push({
+        pathname: '/create-subject',
+        params: { selectedInstitution: selected?.name }
+      });
+    }
+  };
+
   return (
-    <View style={styles.container}>
-      {/* Hide the default header so we can build our custom one */}
+    <SafeAreaView style={styles.container}>
+      {/* Remove the default navigation header */}
       <Stack.Screen options={{ headerShown: false }} />
-      
-      {/* Custom Header */}
+
+      {/* Keep the Custom Header (Logo + SCHEDU) */}
       <View style={styles.header}>
-        {/* Placeholder for Ford logo */}
-        <View style={styles.logoPlaceholder} />
-        <Text style={styles.headerText}>FORADI</Text>
+        <Image source={require('../assets/images/ford-2 2.png')} style={styles.logo} />
+        <Text style={styles.headerText}>SCHEDU</Text>
+        <View style={styles.user}>
+            <UserIcon width={28} height={28} color="#B3B3B3" />
+        </View>
       </View>
       <View style={styles.divider} />
 
       <ScrollView contentContainerStyle={styles.scrollContent}>
-        {/* Title & Actions Row */}
+        {/* Title & Actions Row - with back arrow before the text */}
         <View style={styles.titleRow}>
-          <Text style={styles.pageTitle}>Choose Institution</Text>
+          <View style={styles.titleWithBack}>
+            <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
+                <View style={{ transform: [{ rotate: '180deg' }] }}>
+                    <ChevronsRight width={24} height={24} color="black" />
+                </View>
+            </TouchableOpacity>
+            <Text style={styles.pageTitle}>Choose Institution</Text>
+          </View>
+          
           <View style={styles.actions}>
-             <SearchIcon width={24} height={24} color="black" style={styles.icon} />
-             <SlidersIcon width={24} height={24} color="black" style={styles.icon} />
-             <UserIcon width={28} height={28} color="black" style={styles.icon} />
+             <SearchIcon width={21} height={21} color="black" />
+             <PlusIcon width={29} height={29} color="black" />
+             <SlidersIcon width={22} height={22} color="black" />
+             <TouchableOpacity onPress={handleApplySelection}>
+                <CheckIcon width={25} height={25} color={selectedId ? "#7ed957" : "black"} />
+             </TouchableOpacity>
           </View>
         </View>
 
@@ -36,33 +71,33 @@ export default function ChooseInstitution() {
         <View style={styles.filterBar}>
           <View style={styles.filterLeft}>
             <Text style={styles.filterText}>All</Text>
-            <ArrowDropDownIcon width={20} height={20} color="black" />
+            <ArrowDropDownIcon width={16} height={16} color="black" />
           </View>
-          <TouchableOpacity>
-            <PlusIcon width={32} height={32} color="black" />
-          </TouchableOpacity>
         </View>
 
         {/* Cards Container */}
         <View style={styles.cardContainer}>
-          {/* Card 1: Hephzibah School */}
-          <View style={styles.card}>
-            <View style={styles.imagePlaceholder}>
-                <Text style={styles.placeholderText}>Image Placeholder</Text>
-            </View>
-            <Text style={styles.cardTitle}>Hephzibah School Inc.</Text>
-          </View>
-
-          {/* Card 2: Adventist University */}
-          <View style={styles.card}>
-            <View style={styles.imagePlaceholder}>
-                <Text style={styles.placeholderText}>Image Placeholder</Text>
-            </View>
-            <Text style={styles.cardTitle}>Adventist University of the Philippines</Text>
-          </View>
+          {INSTITUTIONS.map((item) => (
+            <TouchableOpacity 
+                key={item.id} 
+                style={styles.card}
+                onPress={() => setSelectedId(item.id)}
+            >
+                <View style={[
+                    styles.imageSquare, 
+                    selectedId === item.id && styles.selectedSquare
+                ]}>
+                    <Image source={item.image} style={styles.institutionImage} />
+                </View>
+                <Text style={[
+                    styles.cardTitle,
+                    selectedId === item.id && styles.selectedText
+                ]}>{item.name}</Text>
+            </TouchableOpacity>
+          ))}
         </View>
       </ScrollView>
-    </View>
+    </SafeAreaView>
   );
 }
 
@@ -70,30 +105,29 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    paddingTop: 50, // Safe area for status bar
   },
   header: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
+    paddingHorizontal: 15,
     paddingBottom: 15,
   },
-  logoPlaceholder: {
-    width: 30,
-    height: 30,
-    backgroundColor: '#ccc',
-    borderRadius: 15,
-    marginRight: 10,
+  logo: {
+      width: 39,
+      height: 39,
   },
   headerText: {
-    fontSize: 20,
+    fontSize: 33,
     fontWeight: '300',
-    letterSpacing: 2,
     color: '#B3B3B3',
+    marginLeft: 10,
+  },
+  user: {
+    marginLeft: 'auto',
   },
   divider: {
     height: 1,
-    backgroundColor: '#E0E0E0',
+    backgroundColor: '#D9D9D9',
     width: '100%',
   },
   scrollContent: {
@@ -105,53 +139,74 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 20,
   },
+  titleWithBack: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  backButton: {
+    marginRight: 8,
+  },
   pageTitle: {
-    fontSize: 22,
+    fontSize: 17,
     fontWeight: '600',
   },
   actions: {
     flexDirection: 'row',
     alignItems: 'center',
-  },
-  icon: {
-    marginLeft: 15,
+    gap: 10,
   },
   filterBar: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
     alignItems: 'center',
     marginBottom: 20,
   },
   filterLeft: {
     flexDirection: 'row',
     alignItems: 'center',
+    gap: 5,
   },
   filterText: {
-    fontSize: 18,
-    marginRight: 5,
+    fontSize: 13,
   },
   cardContainer: {
+    flexDirection: 'row',
     gap: 20,
+    justifyContent: 'space-between',
   },
   card: {
+    flex: 1,
     alignItems: 'center',
   },
-  imagePlaceholder: {
+  imageSquare: {
     width: '100%',
-    height: 200,
-    backgroundColor: '#F0F0F0',
-    borderRadius: 15,
+    aspectRatio: 1,
+    borderRadius: 20,
+    backgroundColor: '#FFFFFF',
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 10,
+    borderWidth: 1,
+    borderColor: '#F0F0F0',
+    overflow: 'hidden',
   },
-  placeholderText: {
-    color: '#888',
+  selectedSquare: {
+    borderColor: '#7ed957',
+    borderWidth: 2,
+  },
+  institutionImage: {
+    width: '85%',
+    height: '85%',
+    resizeMode: 'contain',
   },
   cardTitle: {
-    fontSize: 16,
-    fontWeight: '400',
+    fontSize: 10,
+    fontWeight: '300',
     textAlign: 'center',
     marginTop: 10,
+    fontFamily: 'System',
+    color: '#000',
   },
+  selectedText: {
+    fontWeight: '600',
+    color: '#7ed957',
+  }
 });
